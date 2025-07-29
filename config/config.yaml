@@ -31,7 +31,7 @@ notification:
   enable_notification: true # 是否启用通知功能，false 时不发送手机通知
   message_batch_size: 4000 # 消息分批大小（字节）(这个配置别动)
   batch_send_interval: 1 # 批次发送间隔（秒）
-  feishu_message_separator: "━━━━━━━━━━━━━━━━━━━" # feishu 消息分割线
+  feishu_message_separator: "━━━━━━━━━━━━━━━" # feishu 消息分割线
 
   webhooks:
     feishu_url: "" # 飞书机器人的 webhook URL
@@ -47,25 +47,20 @@ weight:
   hotness_weight: 0.1 # 热度权重
 
 platforms:
-  - id: "toutiao"
-    name: "今日头条"
-  - id: "baidu"
-    name: "百度热搜"
+  - id: "v2ex"
+    name: "v2ex"
+  - id: "hackernews"
+    name: "HackerNews"
+  - id: "producthunt"
+    name: "ProductHunt"
+  - id: "github"
+    name: "GitHub"
+  - id: "kaopu"
+    name: "靠谱新闻"
   - id: "wallstreetcn-hot"
-    name: "华尔街见闻"
-  - id: "thepaper"
-    name: "澎湃新闻"
-  - id: "bilibili-hot-search"
-    name: "bilibili 热搜"
-  - id: "cls-hot"
-    name: "财联社热门"
-  - id: "ifeng"
-    name: "凤凰网"
-  - id: "tieba"
-    name: "贴吧"
-  - id: "weibo"
-    name: "微博"
-  - id: "douyin"
-    name: "抖音"
-  - id: "zhihu"
-    name: "知乎"
+    name: "华尔街见闻-最热"
+  - id: "wallstreetcn-news"
+    name: "华尔街见闻-最新"
+  - id: "jin10"
+    name: "金十数据"
+
