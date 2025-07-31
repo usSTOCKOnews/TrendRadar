@@ -1,0 +1,90 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2025-08-01 06:24:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump</td>
+                <td class="count">14</td>
+                <td class="percentage">7.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250801060139340800" target="_blank" class="news-link">Figma美股盘后上涨23%，隔夜最终收涨250%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时24分</font></div><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3752291" target="_blank" class="news-link">特朗普宣布与韩国达成贸易协议：15%关税和3500亿美元投资</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时24分</font><br>[靠谱新闻] <a href="https://www.dw.com/zh/巴基斯坦提名特朗普角逐诺贝尔和平奖/a-72995268" target="_blank" class="news-link">巴基斯坦提名特朗普角逐诺贝尔和平奖</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时24分</font><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3752390" target="_blank" class="news-link">60天倒计时，特朗普威胁动用&quot;一切工具&quot;逼药企降价，制药股全线下挫超4%</a> [7] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3752303" target="_blank" class="news-link">特朗普“连捅三刀”！印度人的怒火，正在熊熊燃烧</a> [8] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3752391" target="_blank" class="news-link">对等关税命运难测：美上诉法院关键审判开启庭辩，法官质疑特朗普授权</a> [8] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250801053126513800" target="_blank" class="news-link">亚马逊(AMZN.O)美股盘后跌幅扩大至5%。</a> [8] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250801052620219800" target="_blank" class="news-link">苹果(AAPL.O)美股盘后直线拉升涨超3%，公司预计三季度营收将实现中高个位数增长。</a> [14] <font color='grey'>- 06时24分</font></div><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3752383" target="_blank" class="news-link">特朗普称美墨关税协议将延长90天，墨西哥比索刷新日高、股指转涨</a> [16] <font color='grey'>- 06时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3752379" target="_blank" class="news-link">铜关税再现TACO行情，后续特朗普还会“退缩”吗？</a> [18] <font color='grey'>- 06时24分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250801051328792800" target="_blank" class="news-link">特朗普：加拿大对巴勒斯坦的立场不会影响关税协议达成</a> [20] <font color='grey'>- 06时24分</font></div><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3752378" target="_blank" class="news-link">说好的“双赢伙伴”呢？关税僵局后，特朗普痛斥印度是“死亡经济体”</a> [21] <font color='grey'>- 06时24分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250801045840566800" target="_blank" class="news-link">美国总统特朗普：中东问题特使威特科夫在访问以色列后将前往俄罗斯。</a> [29] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250801045536087800" target="_blank" class="news-link">美国总统特朗普：（谈及加沙）情况很糟糕。</a> [30] <font color='grey'>- 06时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">出海 独立开发者 赚美金</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles">[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3752374" target="_blank" class="news-link">京东斥资收购德国零售巨头，出海再迈一步</a> [26] <font color='grey'>- 06时24分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 9 条)</h3>
+        <h4>华尔街见闻-最热 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3752303" target="_blank" class="news-link">特朗普“连捅三刀”！印度人的怒火，正在熊熊燃烧</a> [8]</li></ul><h4>华尔街见闻-最新 (2 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3752390" target="_blank" class="news-link">60天倒计时，特朗普威胁动用&quot;一切工具&quot;逼药企降价，制药股全线下挫超4%</a> [7]</li><li><a href="https://wallstreetcn.com/articles/3752391" target="_blank" class="news-link">对等关税命运难测：美上诉法院关键审判开启庭辩，法官质疑特朗普授权</a> [8]</li></ul><h4>金十数据 (6 条)</h4><ul><li><a href="https://flash.jin10.com/detail/20250801060139340800" target="_blank" class="news-link">Figma美股盘后上涨23%，隔夜最终收涨250%。</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://flash.jin10.com/detail/20250801053126513800" target="_blank" class="news-link">亚马逊(AMZN.O)美股盘后跌幅扩大至5%。</a> [8]</li><li><a href="https://flash.jin10.com/detail/20250801052620219800" target="_blank" class="news-link">苹果(AAPL.O)美股盘后直线拉升涨超3%，公司预计三季度营收将实现中高个位数增长。</a> [14]</li><li><a href="https://flash.jin10.com/detail/20250801051328792800" target="_blank" class="news-link">特朗普：加拿大对巴勒斯坦的立场不会影响关税协议达成</a> [20]</li><li><a href="https://flash.jin10.com/detail/20250801045840566800" target="_blank" class="news-link">美国总统特朗普：中东问题特使威特科夫在访问以色列后将前往俄罗斯。</a> [29]</li><li><a href="https://flash.jin10.com/detail/20250801045536087800" target="_blank" class="news-link">美国总统特朗普：（谈及加沙）情况很糟糕。</a> [30]</li></ul></div>
+    </body>
+    </html>
+    
