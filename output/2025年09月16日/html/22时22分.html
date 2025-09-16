@@ -1,0 +1,82 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 174</p><p>生成时间: 2025-09-16 22:22:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump</td>
+                <td class="count">18</td>
+                <td class="percentage">10.34%</td>
+                <td class="titles">[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3755608" target="_blank" class="news-link">市场乐观迎接议息周，标普站上6600点，中概股指数接近2022年初高点，黄金新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时22分</font><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3755712" target="_blank" class="news-link">特朗普政府挖掘美联储“隐秘第三使命”，长期利率控制成新焦点</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916220113060800" target="_blank" class="news-link">特朗普：不想赚钱，想让俄乌冲突停止。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3755688" target="_blank" class="news-link">美股三大股指高开，台积电创历史新高，黄金逼近3700美元关口，美元指数跌破97</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时22分</font></div><br>[靠谱新闻] <a href="https://www.dw.com/zh/巴基斯坦提名特朗普角逐诺贝尔和平奖/a-72995268" target="_blank" class="news-link">巴基斯坦提名特朗普角逐诺贝尔和平奖</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时22分</font><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3755684" target="_blank" class="news-link">报道：阿联酋20亿美元投资“特朗普家族核心代币公司”后，白宫允许先进AI芯片销售</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916215946805800" target="_blank" class="news-link">特朗普：将与犹他州合作，该州有死刑。</a> [7] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916215445830800" target="_blank" class="news-link">特朗普：澳大利亚总理即将来访。</a> [10] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916215310772800" target="_blank" class="news-link">特朗普：三艘委内瑞拉船只被“掀翻”。</a> [12] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916215239309800" target="_blank" class="news-link">特朗普：（对委内瑞拉表示）停止将帮派成员和监狱释放人员送往我国。</a> [14] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916215150177800" target="_blank" class="news-link">特朗普：泽连斯基和普京互相憎恨。</a> [15] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916215137484800" target="_blank" class="news-link">特朗普：看来我得和泽连斯基、普京坐在一起了。</a> [16] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916214819936800" target="_blank" class="news-link">特朗普登上空军一号飞往英国进行国事访问。</a> [19] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916214743837800" target="_blank" class="news-link">特朗普否认他在15%汽车关税上做出妥协。</a> [20] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916214504758800" target="_blank" class="news-link">特朗普：（关于加沙城攻势）我不太了解这方面的情况，需要看看会发生什么。</a> [22] <font color='grey'>- 22时22分</font></div><br>[v2ex] <a href="https://www.v2ex.com/t/1159593" target="_blank" class="news-link">最近美股涨了不少，想奖励自己一台工作机，纯写代码玩的，有点挑花了眼</a> [23] <font color='grey'>- 22时22分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916214450270800" target="_blank" class="news-link">特朗普：美联储应该倾听民众的声音，但他们必须做出选择。</a> [23] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916214353339800" target="_blank" class="news-link">金十图示：2025年09月16日（周二）美股热门股票行情一览（美股盘初）</a> [25] <font color='grey'>- 22时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 15 条)</h3>
+        <h4>华尔街见闻-最新 (3 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3755712" target="_blank" class="news-link">特朗普政府挖掘美联储“隐秘第三使命”，长期利率控制成新焦点</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3755688" target="_blank" class="news-link">美股三大股指高开，台积电创历史新高，黄金逼近3700美元关口，美元指数跌破97</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3755684" target="_blank" class="news-link">报道：阿联酋20亿美元投资“特朗普家族核心代币公司”后，白宫允许先进AI芯片销售</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>金十数据 (12 条)</h4><ul><li><a href="https://flash.jin10.com/detail/20250916220113060800" target="_blank" class="news-link">特朗普：不想赚钱，想让俄乌冲突停止。</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://flash.jin10.com/detail/20250916215946805800" target="_blank" class="news-link">特朗普：将与犹他州合作，该州有死刑。</a> [7]</li><li><a href="https://flash.jin10.com/detail/20250916215445830800" target="_blank" class="news-link">特朗普：澳大利亚总理即将来访。</a> [10]</li><li><a href="https://flash.jin10.com/detail/20250916215310772800" target="_blank" class="news-link">特朗普：三艘委内瑞拉船只被“掀翻”。</a> [12]</li><li><a href="https://flash.jin10.com/detail/20250916215239309800" target="_blank" class="news-link">特朗普：（对委内瑞拉表示）停止将帮派成员和监狱释放人员送往我国。</a> [14]</li><li><a href="https://flash.jin10.com/detail/20250916215150177800" target="_blank" class="news-link">特朗普：泽连斯基和普京互相憎恨。</a> [15]</li><li><a href="https://flash.jin10.com/detail/20250916215137484800" target="_blank" class="news-link">特朗普：看来我得和泽连斯基、普京坐在一起了。</a> [16]</li><li><a href="https://flash.jin10.com/detail/20250916214819936800" target="_blank" class="news-link">特朗普登上空军一号飞往英国进行国事访问。</a> [19]</li><li><a href="https://flash.jin10.com/detail/20250916214743837800" target="_blank" class="news-link">特朗普否认他在15%汽车关税上做出妥协。</a> [20]</li><li><a href="https://flash.jin10.com/detail/20250916214504758800" target="_blank" class="news-link">特朗普：（关于加沙城攻势）我不太了解这方面的情况，需要看看会发生什么。</a> [22]</li><li><a href="https://flash.jin10.com/detail/20250916214450270800" target="_blank" class="news-link">特朗普：美联储应该倾听民众的声音，但他们必须做出选择。</a> [23]</li><li><a href="https://flash.jin10.com/detail/20250916214353339800" target="_blank" class="news-link">金十图示：2025年09月16日（周二）美股热门股票行情一览（美股盘初）</a> [25]</li></ul></div>
+    </body>
+    </html>
+    
