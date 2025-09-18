@@ -1,0 +1,82 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 173</p><p>生成时间: 2025-09-18 20:45:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump</td>
+                <td class="count">16</td>
+                <td class="percentage">9.25%</td>
+                <td class="titles">[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3755770" target="_blank" class="news-link">美联储鹰鸽参半，金融股领涨道指，科技股拖累纳指，中概强劲，黄金新高后转跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时45分</font><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3755836" target="_blank" class="news-link">美联储降息推动美股期货大涨，英特尔暴涨30%，AMD、台积电跳水，10年期美债上涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250918203149383800" target="_blank" class="news-link">美国总统特朗普：我们仍将实施监管。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时45分</font></div><br>[靠谱新闻] <a href="https://www.dw.com/zh/巴基斯坦提名特朗普角逐诺贝尔和平奖/a-72995268" target="_blank" class="news-link">巴基斯坦提名特朗普角逐诺贝尔和平奖</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时45分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3755794" target="_blank" class="news-link">美联储降息日，主要资产震荡，美股涨跌不一，美债收益率最终走高，黄金跌美元涨</a> [7] <font color='grey'>- 20时45分</font><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3755846" target="_blank" class="news-link">关税恐慌下，瑞士对美黄金出口暴跌</a> [8] <font color='grey'>- 20时45分</font></div><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3755803" target="_blank" class="news-link">意外！美联储“25基点降息”只有一人反对，是特朗普刚任命的Miran</a> [10] <font color='grey'>- 20时45分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250918203004876800" target="_blank" class="news-link">美国总统特朗普证实Centrica与X-Energy的交易。</a> [13] <font color='grey'>- 20时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250918202824224800" target="_blank" class="news-link">美国总统特朗普大肆宣扬黑石集团(BX.N)的投资。</a> [14] <font color='grey'>- 20时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250918202606628800" target="_blank" class="news-link">美国总统特朗普：在科学领域达成历史性协议后采取下一步行动。</a> [17] <font color='grey'>- 20时45分</font></div><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3755834" target="_blank" class="news-link">黄金思考：历史新高后，短期见顶了吗？</a> [18] <font color='grey'>- 20时45分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250918202555222800" target="_blank" class="news-link">美国总统特朗普：我们正在提升美国和英国的工业产能。</a> [18] <font color='grey'>- 20时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250918202319688800" target="_blank" class="news-link">美国总统特朗普：美英关系价值无可估量。</a> [20] <font color='grey'>- 20时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250918202225481800" target="_blank" class="news-link">特朗普在英国会见商界领袖和斯塔默时发表讲话。</a> [23] <font color='grey'>- 20时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250918202125827800" target="_blank" class="news-link">英国首相斯塔默：将与特朗普签署一项科技繁荣合作协议。</a> [24] <font color='grey'>- 20时45分</font></div><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=45267643" target="_blank" class="news-link">U.S. investors, Trump close in on TikTok deal with China</a> [30] <font color='grey'>- 20时45分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 10 条)</h3>
+        <h4>华尔街见闻-最新 (2 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3755836" target="_blank" class="news-link">美联储降息推动美股期货大涨，英特尔暴涨30%，AMD、台积电跳水，10年期美债上涨</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3755846" target="_blank" class="news-link">关税恐慌下，瑞士对美黄金出口暴跌</a> [8]</li></ul><h4>金十数据 (8 条)</h4><ul><li><a href="https://flash.jin10.com/detail/20250918203149383800" target="_blank" class="news-link">美国总统特朗普：我们仍将实施监管。</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://flash.jin10.com/detail/20250918203004876800" target="_blank" class="news-link">美国总统特朗普证实Centrica与X-Energy的交易。</a> [13]</li><li><a href="https://flash.jin10.com/detail/20250918202824224800" target="_blank" class="news-link">美国总统特朗普大肆宣扬黑石集团(BX.N)的投资。</a> [14]</li><li><a href="https://flash.jin10.com/detail/20250918202606628800" target="_blank" class="news-link">美国总统特朗普：在科学领域达成历史性协议后采取下一步行动。</a> [17]</li><li><a href="https://flash.jin10.com/detail/20250918202555222800" target="_blank" class="news-link">美国总统特朗普：我们正在提升美国和英国的工业产能。</a> [18]</li><li><a href="https://flash.jin10.com/detail/20250918202319688800" target="_blank" class="news-link">美国总统特朗普：美英关系价值无可估量。</a> [20]</li><li><a href="https://flash.jin10.com/detail/20250918202225481800" target="_blank" class="news-link">特朗普在英国会见商界领袖和斯塔默时发表讲话。</a> [23]</li><li><a href="https://flash.jin10.com/detail/20250918202125827800" target="_blank" class="news-link">英国首相斯塔默：将与特朗普签署一项科技繁荣合作协议。</a> [24]</li></ul></div>
+    </body>
+    </html>
+    
