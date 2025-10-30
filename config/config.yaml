@@ -63,4 +63,8 @@ platforms:
     name: "华尔街见闻-最新"
   - id: "jin10"
     name: "金十数据"
+  - id: "cls"
+    name: "财联社"
+  - id: "fastbull"
+    name: "法布财经"
 
