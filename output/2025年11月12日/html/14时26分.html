@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 143</p><p>生成时间: 2025-11-12 14:26:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前</td>
+                <td class="count">10</td>
+                <td class="percentage">6.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112140451451800" target="_blank" class="news-link">特斯拉：FSD监督版将很快落地韩国。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198157?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月12日电，特斯拉在社交平台X上表示，FSD监督版将很快扩展到韩国市场。</a> [6] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3759160" target="_blank" class="news-link">巴克莱下调甲骨文债务评级：明年11月现金或将耗尽，最终可能沦为&quot;垃圾债&quot;</a> [7] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112134900756800" target="_blank" class="news-link">土耳其电信宣布与谷歌云建立战略合作伙伴关系，并计划在土耳其设立谷歌云区域。</a> [7] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1172215" target="_blank" class="news-link">阿里/百度/抖音/华为等企业参与制定的敏感个人信息规范，不再将身份证号、网页浏览记录、通信内容等视为敏感个人信息</a> [12] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759186" target="_blank" class="news-link">云计算服务商Nebius季报亏损超预期，虽宣布与Meta合作，股价仍大跌逾7%</a> [12] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759184" target="_blank" class="news-link">清仓英伟达震动市场，这是孙正义第二次这么干</a> [18] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958005" target="_blank" class="news-link">清仓英伟达，孙正义上次这么干，结果和黄仁勋抱头痛哭</a> [21] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759174" target="_blank" class="news-link">亚洲唯一市值超万亿美元巨头！机构被迫“低配”台积电</a> [27] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45800843" target="_blank" class="news-link">Metaphors for Biology: Sizes</a> [30] <font color='grey'>- 14时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
