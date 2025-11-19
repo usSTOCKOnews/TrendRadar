@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 83</p><p>生成时间: 2025-11-20 06:16:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前</td>
+                <td class="count">23</td>
+                <td class="percentage">27.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759751" target="_blank" class="news-link">英伟达送惊喜，上季营收加速增长62%，本季指引再超预期，盘后一度涨5% | 财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120054640235800" target="_blank" class="news-link">英伟达(NVDA.O)涨势带动美股芯片股盘后行情，AMD(AMD.O)、台积电(TSM.N)和美光科技(MU.O)均涨于3%一线。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2205614?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月20日电，台积电盘后涨幅一度涨超3%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120053824579800" target="_blank" class="news-link">Meta首席人工智能科学家Yann LeCun：计划离开Meta Platforms(META.O)，Meta将成为新初创公司的合作伙伴，继续推进先进机器智能研究计划（AMI）。我将在Meta留任至年底。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2205611?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">英伟达盘后涨幅扩大至4.8%，公司第四季度营收展望超出市场预期。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2205610?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">英伟达Q3营收及Q4营收展望均超出市场预期</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45982073" target="_blank" class="news-link">Meta Segment Anything Model 3</a> [6] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120053243815800" target="_blank" class="news-link">英伟达(NVDA.O)：H20产品在第三季度销量微乎其微。</a> [6] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120053223270800" target="_blank" class="news-link">英伟达(NVDA.O)：Blackwell Ultra现已成为我们的领先架构。</a> [7] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120053140580800" target="_blank" class="news-link">英伟达(NVDA.O)：云GPUs已脱销。</a> [8] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120052528545800" target="_blank" class="news-link">英伟达(NVDA.O)：截至第三季度末，公司股票回购授权额度尚余622亿美元。</a> [11] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2205603?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">纳指收涨0.6% 谷歌、英伟达涨超2%</a> [11] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120052429386800" target="_blank" class="news-link">英伟达(NVDA.O)预计2026财年Q4营收为650亿美元，市场预期为616亿美元。</a> [12] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2205602?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月20日电，Meta首席人工智能科学家Yann Lecun据称计划在今年年底离开公司，以创建他自己的AI初创公司。</a> [12] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120052332987800" target="_blank" class="news-link">英伟达(NVDA.O)：英伟达(NVDA.O)2026财年Q3汽车业务收入5.92亿美元，同比增长32%。</a> [13] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3783189_100_1" target="_blank" class="news-link">沙特公共投资基金、沙特信息技术公司Site和微软签署谅解备忘录，以探索在沙特阿拉伯交付微软的sovereign-cloud服务。</a> [13] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120052246622800" target="_blank" class="news-link">英伟达(NVDA.O)：英伟达(NVDA.O)2026财年Q3专业可视化业务收入7.6亿美元，同比增长56%。</a> [14] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120052210015800" target="_blank" class="news-link">英伟达(NVDA.O)：英伟达(NVDA.O)2026财年Q3游戏业务收入43亿美元，同比增长30%。</a> [15] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120052202078800" target="_blank" class="news-link">英伟达(NVDA.O)2026财年Q3净利润319.1亿美元，上年同期为193.09亿美元，市场预期为294.35亿美元。</a> [16] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120052132992800" target="_blank" class="news-link">英伟达(NVDA.O)美股盘后涨超4%，其数据中心营收超预期。</a> [17] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120052053806800" target="_blank" class="news-link">英伟达(NVDA.O)2026财年Q3数据中心营收为512亿美元，同比增长66%，上年同期为307.71亿美元，市场预期为486.21亿美元。</a> [18] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120052019498800" target="_blank" class="news-link">英伟达(NVDA.O)2026财年Q3营收570亿美元，上年同期为350.82亿美元，市场预期为549.23亿美元。</a> [19] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120050112244800" target="_blank" class="news-link">美股收盘：三大股指收涨 谷歌创新高</a> [29] <font color='grey'>- 06时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
