@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 119</p><p>生成时间: 2025-11-20 22:17:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前</td>
+                <td class="count">7</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206700?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月20日电，谷歌美股盘前涨4%，西屋公司与谷歌云合作，利用双方的专用模型开发定制的人工智能平台。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3785025_101_1" target="_blank" class="news-link">谷歌母公司Alphabet旗下无人驾驶汽车部门Waymo宣布，无人驾驶汽车出行服务扩张至Minneapolis（明尼阿波利斯）、Tampa（坦帕）、新奥尔良等三个美国城市。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206399?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·洞察】谷歌Gemini 3实现断层式领先，伯克希尔重仓押注或预示谷歌AI变现进程超预期，有望率先实现商业闭环，带动谷歌/OCS产业链发展；“自由现金流”策略有效性明显增强</a> [12] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120220649421800" target="_blank" class="news-link">亚马逊：Cohesity已与亚马逊云服务签署战略合作协议。</a> [13] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120220558855800" target="_blank" class="news-link">谷歌：西屋公司与谷歌云合作，利用双方的专用模型开发定制的人工智能平台。</a> [14] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3784944_100_1" target="_blank" class="news-link">美国克利夫兰联储主席哈马克：降息或会延长高通胀。</a> [20] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20251120-%E9%81%AD%E8%A5%BF%E7%8F%AD%E7%89%99%E6%B3%95%E9%99%A2%E8%A3%81%E5%AE%9A%E6%B6%89%E4%B8%8D%E5%85%AC%E5%B9%B3%E7%AB%9E%E4%BA%89-meta%E9%A1%BB%E8%B5%94%E5%AA%92%E4%BD%93%E4%B8%9A%E8%80%85%E8%BF%915%E4%BA%BF%E6%AC%A7%E5%85%83" target="_blank" class="news-link">遭西班牙法院裁定涉不公平竞争 Meta须赔媒体业者近5亿欧元</a> [22]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
