@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 106</p><p>生成时间: 2025-11-27 22:18:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">10.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46068777" target="_blank" class="news-link">The State of GPL Propagation to AI Models</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760273" target="_blank" class="news-link">谷歌重启AI眼镜：富士康代工，三星设计，或2026Q4发布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3760258" target="_blank" class="news-link">英增税220亿稳财政降息将至，人民币或强势吸金A股跨年行情，基建+制造+AI美国经济新动力---1127宏观脱水</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760278" target="_blank" class="news-link">“双十一”手机销量同比仅增长3%，苹果iPhone 17独撑大局</a> [7] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760272" target="_blank" class="news-link">Gemini如何逆风翻盘？谷歌首席AI架构师：从承认落后开始，找回自己的节奏</a> [8] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958115" target="_blank" class="news-link">桥水CIO：AI泡沫还很远，但现在更危险了</a> [10] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760277" target="_blank" class="news-link">英伟达全员“AI化”，内部有人要求“少用AI”，黄仁勋直接发飙：“你疯了吗？”</a> [11] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2213223?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">万马科技：子公司常州智算中心与英伟达开展合作</a> [14] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://chinese.aljazeera.net/economy/2025/11/27/%e8%8b%b9%e6%9e%9c%e5%85%ac%e5%8f%b8%e5%9b%a0%e5%88%9a%e6%9e%9c%e9%87%91%e5%92%8c%e5%8d%a2%e6%97%ba%e8%be%be%e7%9f%bf%e4%ba%a7%e5%bc%80%e9%87%87%e9%9d%a2%e4%b8%b4%e8%af%89%e8%ae%bc" target="_blank" class="news-link">苹果公司因刚果（金）和卢旺达矿产开采面临诉讼</a> [16] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2213211?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">华丰股份：正推进上海松江AI云服务应用中心首批次5台数据中心用柴油发电机组的生产交付</a> [18] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2213210?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">科华数据：为腾讯提供数据中心全生命周期服务</a> [19] <font color='grey'>- 22时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
