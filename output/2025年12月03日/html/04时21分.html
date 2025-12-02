@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 86</p><p>生成时间: 2025-12-03 04:21:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">12.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760569" target="_blank" class="news-link">华尔街机构警告：经济韧性叠加AI浪潮，做空美股正变成高危交易</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760567" target="_blank" class="news-link">英伟达官宣新合作成就：Mistral开源模型提速，任意规模均提高效率和精度</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46125155" target="_blank" class="news-link">Amazon launches Trainium3</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20251202-%E8%8B%B1%E7%89%B9%E5%B0%94%E5%8A%A0%E7%A0%81%E6%8A%95%E8%B5%84%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A65%E4%BA%BF%E5%A4%9A%E5%85%83" target="_blank" class="news-link">英特尔加码投资马来西亚65亿多元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760559" target="_blank" class="news-link">英伟达CFO：5000亿美元芯片预订不含OpenAI合作，千亿美元协议仍未敲定</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2217682?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月3日电，亚马逊云服务宣布搭载全新Trainium3芯片的Trainium3超算服务器正式投入商用。</a> [6] <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46121870" target="_blank" class="news-link">OpenAI declares &#x27;code red&#x27; as Google catches up in AI race</a> [8] <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760564" target="_blank" class="news-link">亚马逊重磅发布挑战谷歌英伟达：AI芯片Trainium 3更快更节能，四款Nova 2模型，首创“开放式训练”</a> [9] <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2217674?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">微软表示，MISTRAL LARGE 3模型现已在Azure上线。</a> [13] <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2217673?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月3日电，英伟达与Mistral AI携手合作，加速新一代开放式模型研发进程。</a> [14] <font color='grey'>- 04时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251203023155647800" target="_blank" class="news-link">亚马逊云服务：搭载全新Trainium3芯片的Trainium3超服务器正式全面上线。</a> [27] <font color='grey'>- 04时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
