@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2025-12-02 16:26:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">9.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760522" target="_blank" class="news-link">明年AI主线在哪？大摩：“去瓶颈”主题将取代芯片，看好能源基础设施</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760515" target="_blank" class="news-link">枪口瞄准特斯拉！大空头称其估值荒谬、薪酬计划损害股东</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2217102?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">担心权益受损 美国民众反对兴建AI数据中心</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760513" target="_blank" class="news-link">启动红色警报！OpenAI暂停广告业务，全力优化ChatGPT，“死磕”谷歌Gemini</a> [8] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760517" target="_blank" class="news-link">中国AI大战将在2026年“全面加剧”：“流量入口”成大厂“必争之地”，AI出海也将加速</a> [9] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3760465" target="_blank" class="news-link">首销备货 50 万台，豆包 AI 手机要卖给谁？</a> [10] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2217089?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">引力传媒：目前在业务开展过程中已应用谷歌Veo3及Nano Banana模型</a> [10] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2217083?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">卓易信息：子公司为中国大陆唯一获得英特尔授权的独立BIOS供应商</a> [13] <font color='grey'>- 16时26分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E7%BC%A4%E7%BA%B7%E4%B8%96%E7%95%8C/20251202-%E8%8B%B9%E6%9E%9C%E5%BC%BA%E5%8C%96ai%E6%88%98%E5%8A%9B-%E4%BB%8E%E5%BE%AE%E8%BD%AF%E6%8C%96%E8%A7%92%E6%8B%85%E7%BA%B2ai%E4%B8%9A%E5%8A%A1" target="_blank" class="news-link">苹果强化AI战力 从微软挖角担纲AI业务</a> [21]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
