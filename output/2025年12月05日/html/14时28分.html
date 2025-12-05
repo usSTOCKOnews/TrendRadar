@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 170</p><p>生成时间: 2025-12-05 14:28:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">23</td>
+                <td class="percentage">13.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760769" target="_blank" class="news-link">AH股走高，创业板、深成指涨超1%，百度涨超5%，保险、券商领涨，CPO走强，摩尔线程上市首日大涨，有色板块上涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2220686?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】满足AI数据中心建设紧迫性的问题，海外这类产品渗透率或将进一步提升，这家公司相关产品可广泛应用于数据中心等细分市场</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760784" target="_blank" class="news-link">股价飙升近8%！百度昆仑芯被曝计划赴港IPO，估值近30亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/apple-departures-point-to-challenges-for-iphones-dominance-04f510d4" target="_blank" class="news-link">苹果公司多名高管离职凸显iPhone主导地位面临挑战</a> [6] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760776" target="_blank" class="news-link">就在下周，“谷歌链核心”博通财报要来了</a> [6] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3760706" target="_blank" class="news-link">黄仁勋万字访谈：AI竞赛无“终点线”，技术迭代才是关键，33年来每天都觉得公司要倒闭</a> [7] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3760723" target="_blank" class="news-link">迎战TPU与Trainium？英伟达再度发文“自证”：GB200 NVL72可将开源AI模型性能最高提升10倍</a> [8] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1177072" target="_blank" class="news-link">想入门 AI 辅助编程，从哪个开始</a> [9] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46154022" target="_blank" class="news-link">State of AI: An Empirical 100T Token Study with OpenRouter</a> [10] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3760742" target="_blank" class="news-link">昔日战略核心大幅收缩！扎克伯格拟削减Meta元宇宙预算最高30%</a> [10] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1177060" target="_blank" class="news-link">好像还没人分享过 TrailBase</a> [12] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46155401" target="_blank" class="news-link">The Ofcom Files, Part 4: Ofcom Rides Again</a> [12] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958179" target="_blank" class="news-link">“AI巨头”：某人“天生爱冒险”，给所有人都带来风险</a> [12] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760772" target="_blank" class="news-link">任正非最新讲话：没有网络的算力是信息孤岛，AI重在应用</a> [18] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760764" target="_blank" class="news-link">大摩“AI供电峰会”要点：美国数据中心“离网”偏好提升，储能成为标配</a> [19] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760765" target="_blank" class="news-link">豆包AI手机劲敌是小米？高盛：AI“系统级集成”面临挑战，这更验证了小米的长期竞争力</a> [20] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958177" target="_blank" class="news-link">AI一旦超过人类，大猩猩就是我们的下场</a> [21] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46156832" target="_blank" class="news-link">Rats Snatching Bats Out of the Air and Eating Them–Researchers Got It on Video</a> [22] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760759" target="_blank" class="news-link">这可能是明年最贵也最受关注的IPO：OpenAI和Anthropic</a> [22] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760762" target="_blank" class="news-link">史无前例的“烧钱”！华尔街测算：在盈利转正之前，OpenAI将累计亏损1400亿美元</a> [23] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3760743" target="_blank" class="news-link">单兵模型之战升级！未来5年是AI生态“大逃杀”</a> [25] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/singapore/story20251205-7919333" target="_blank" class="news-link">2025年本地谷歌热搜榜 黄志明居首</a> [27] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20251205-7919689" target="_blank" class="news-link">字节跳动AI手机走红 接连遭风控后调整AI操作能力</a> [29] <font color='grey'>- 14时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
