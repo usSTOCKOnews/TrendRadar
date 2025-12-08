@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 116</p><p>生成时间: 2025-12-08 16:27:57</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">9.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2222811?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国芯科技：抗量子密码金融POS机芯片新产品内部测试成功</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1177615" target="_blank" class="news-link">借助 AI 工具开发的第一个网站上线了</a> [6] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760902" target="_blank" class="news-link">美国企业AI采用率激增？来自高盛的测算说了AI下游什么现状</a> [7] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760907" target="_blank" class="news-link">摩根大通眼中的2026：经济分化、政策分化、AI采用率飙升</a> [8] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2222799?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月8日电，阿联酋能源部长表示，正努力为人工智能企业创造机会，以提升电力和水网效率。通过应用AI技术，我们已实现能耗降低30%。</a> [10] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1177602" target="_blank" class="news-link">NoxGPT - AI 游戏应用助手 🎮</a> [11] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1177599" target="_blank" class="news-link">Heygen AI 视频翻译功能的一个复刻 demo</a> [12] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2222795?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">三安光电：SiC芯片已向多家电源客户量产销售</a> [12] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3810226_100_1" target="_blank" class="news-link">中国商务部副部长：希望德国及欧洲汽车工业协会发挥积极作用，推动安世半导体尽快找到稳定全球供应链的解决方案。</a> [13] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3810218_100_1" target="_blank" class="news-link">中国商务部副部长：全球半导体供应链乱局的根源在于荷兰对安世半导体的相关出口管制。</a> [15] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/documentation-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Documentation.AI</a> [20] <font color='grey'>- 16时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
