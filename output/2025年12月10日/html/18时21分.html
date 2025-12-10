@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-12-10 18:21:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">10</td>
+                <td class="percentage">10.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1178106" target="_blank" class="news-link">用 AI 做了一个 Banana 为核心的 APP(仅限 iOS)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2225523?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构龙虎榜解读】光模块+氮化镓+光刻机，已有多款1.6T光模块产品处于用户交样阶段，性能已通过客户验证，处于小批量交付阶段，拟向中国电科十三所购买其持有的氮化镓通信基站射频芯片业务，这家公司获净买入</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://china.hani.co.kr/arti/international/16260.html" target="_blank" class="news-link">美政府为征收25%关税 英伟达需经中国台湾→美国→中国的特殊路线出口H200芯片</a> [6] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1178099" target="_blank" class="news-link">你们在等待 ai 工作的时候, 在干嘛</a> [7] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761101" target="_blank" class="news-link">“免费午餐”到头了？欧盟调查谷歌AI优势，直指其利用搜索爬虫无偿获取训练数据</a> [8] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2225518?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">阿里云发布函数计算AgentRun</a> [8] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761095" target="_blank" class="news-link">橡树资本马克斯：英伟达30倍PE“不算疯”，AI未必是互联网泡沫翻版</a> [11] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761073" target="_blank" class="news-link">资深科技投资者：如果没有Scaling Law的突破，2024年AI就崩了</a> [12] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2225483?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">太极实业：子公司海太半导体拟出售不超过8500万美元应收账款</a> [18] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2225453?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】深度绑定微软构建AI核心壁垒，这家公司凭借“云+端+平台”的全场景智能化办公生态，有望在本轮复苏与技术变革中占据优势；近期业内大厂上调报价，这个龙头受益该化工品价格中枢稳定上行</a> [20] <font color='grey'>- 18时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
