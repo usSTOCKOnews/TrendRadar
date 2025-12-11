@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 113</p><p>生成时间: 2025-12-11 18:21:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">14.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761182" target="_blank" class="news-link">台积电明年CoWoS月产冲12.7万片，英伟达包揽过半，博通AMD紧随其后</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211180950693800" target="_blank" class="news-link">据Business Insider：亚马逊(AMZN.O)计划推出一项新的“RUSH”取货服务，以进一步加大快速配送力度。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2226845?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月11日电，杰富瑞将奈飞目标价从150美元下调至134美元；将在线视频游戏平台Roblox目标价从115美元下调至100美元；将Reddit目标价从300美元上调至325美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1178315" target="_blank" class="news-link">在 AI 冲击下，我发现 [书签] 里技术分类已经失去了存在的必要</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761180" target="_blank" class="news-link">华尔街点评甲骨文财报：看似超预期，实则利润“虚胖”，投资逻辑已从“看订单”转向“看兑现”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2226841?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">恒生港股通软件及半导体指数将更名 剔除中芯国际、华虹半导体、英诺赛科等四股</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2226839?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">夸克AI眼镜已新增产线 目标明年1月充分释放产能</a> [7] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46191597" target="_blank" class="news-link">How the Brain Parses Language</a> [8] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3761174" target="_blank" class="news-link">华尔街再玩危险游戏：甲骨文引爆银行风险转移工具需求</a> [8] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761175" target="_blank" class="news-link">AI担忧压倒降息利好，美股期货盘前集体下挫，金油承压，铜挑战高位后回落</a> [10] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211175438359800" target="_blank" class="news-link">D.A.戴维森：将甲骨文(ORCL.N)目标股价从200美元下调至180美元。</a> [14] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211175011914800" target="_blank" class="news-link">杰富瑞：将奈飞(NFLX.O)目标价从150美元下调至134美元。</a> [15] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2226822?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月11日电，腾讯控股于12月11日以6.359亿港元回购110万股股份。</a> [16] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211174700763800" target="_blank" class="news-link">奈飞(NFLX.O)盘前上涨1%，此前一交易日下跌4%。</a> [19] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211174045647800" target="_blank" class="news-link">腾讯控股(00700.HK)12月11日以6.359亿港元回购110万股股份。</a> [21] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20251211-%E8%8D%B7%E5%85%B0ai%E8%80%B6%E8%AF%9E%E5%B9%BF%E5%91%8A%E8%A2%AB%E7%BD%91%E5%8F%8B%E9%AA%82%E7%BF%BB-%E9%BA%A6%E5%BD%93%E5%8A%B3%E6%80%A5%E6%92%A4" target="_blank" class="news-link">荷兰AI耶诞广告被网友骂翻 麦当劳急撤</a> [26] <font color='grey'>- 18时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
