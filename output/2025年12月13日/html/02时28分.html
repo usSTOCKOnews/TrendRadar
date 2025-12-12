@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 89</p><p>生成时间: 2025-12-13 02:28:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">14.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761271" target="_blank" class="news-link">AI担忧加剧压垮美股，纳指跌超2%，博通跌超10%，白银创新高后跳水，期银跌超5%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1178634" target="_blank" class="news-link">用 ai 帮我写了一个文本分享网站</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3761271" target="_blank" class="news-link">AI担忧加剧压垮美股，纳指跌超2%，博通跌超10%，白银创新高后跳水，期银跌超5%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251213021313071800" target="_blank" class="news-link">甲骨文(ORCL.N)：在协议签署后，与OpenAI密切协调确定了选址及交付时间表，并达成一致意见。为履行合同义务所需的所有站点均未出现延误，所有里程碑均按计划推进。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761309" target="_blank" class="news-link">OpenAI的坏消息：甲骨文部分数据中心推迟至2028年竣工</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46245731" target="_blank" class="news-link">Secondary school maths showing that AI systems don&#x27;t think</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3820435_100_1" target="_blank" class="news-link">甲骨文与OpenAI在协议签署后密切协调，已确定站点选址和交付时间表并达成一致。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2228533?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">谷歌将Gemini的翻译功能引入谷歌的文本翻译。</a> [6] <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46246031" target="_blank" class="news-link">Oracle made a $300B bet on OpenAI. It&#x27;s paying the price</a> [9] <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46245331" target="_blank" class="news-link">Framework Raises DDR5 Memory Prices by 50% for DIY Laptops</a> [11] <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2228517?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月13日电，甲骨文股价短线跳水，跌超5%。</a> [18] <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2228515?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">甲骨文部分用于OpenAI的数据中心完工时间将从2027年推迟到2028年</a> [19] <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46245763" target="_blank" class="news-link">Senator endorses discredited book that claims chemical treats autism, cancer</a> [26] <font color='grey'>- 02时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
