@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 109</p><p>生成时间: 2025-12-16 20:39:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">15.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179310" target="_blank" class="news-link">阿里巴巴 CosyVoice3-0.5b 开源了! 现邀请你来体验我做的 Windows 端本地 TTS 工具 3s 音频即可复刻音色 4gb 低显存占用!</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761492" target="_blank" class="news-link">“坚定持有AI赢家，别轮换”！摩根大通硬件团队：2026年“网络”增长将超越“算力”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251216201109083800" target="_blank" class="news-link">瑞穗银行：将特斯拉(TSLA.O)目标价从475美元上调至530美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761489" target="_blank" class="news-link">开启“全无人测试”，特斯拉的“Robotaxi故事”进入关键验证期</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2231023?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】AI+具身智能落地这家公司产品，且近期新帅上任冲击百亿级年收入，分析师看好全球市占率持续提升；多领域AI场景化落地，这家公司基于华为昇腾算力集群，全面布局智慧指挥调度产业链</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3824510_101_1" target="_blank" class="news-link">瑞穗银行：将特斯拉目标价从475美元上调至530美元。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251216200947250800" target="_blank" class="news-link">微芯科技(MCHP.O)美股盘前上涨2%。</a> [6] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2231339?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月16日电，瑞穗银行将特斯拉目标价从475美元上调至530美元。</a> [8] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2231338?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中信证券上调甲骨文至持有评级 目标价200美元</a> [9] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761481" target="_blank" class="news-link">中国大厂的 AI 战，归根结底是阿里 VS 字节</a> [10] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46286666" target="_blank" class="news-link">ArkhamMirror: Airgapped investigation platform with CIA-style hypothesis testing</a> [11] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251216195848833800" target="_blank" class="news-link">加拿大蒙特利尔银行：将谷歌(GOOG.O)目标价从340美元上调至343美元。</a> [11] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761475" target="_blank" class="news-link">避险情绪升温，美股盘前下跌，黄金回吐涨幅，布油跌破60美元，投资者静待美国就业数据指引</a> [12] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251216195806940800" target="_blank" class="news-link">加拿大蒙特利尔银行：将亚马逊(AMZN.O)目标价从300美元上调至304美元。</a> [12] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251216194943134800" target="_blank" class="news-link">辉瑞(PFE.N)美股盘前下跌约1.6%。</a> [16] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3824402_100_1" target="_blank" class="news-link">美国全国广播公司财经频道：人工智能借贷平台Slope宣布与亚马逊建立资本借贷合作关系。</a> [16] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46286383" target="_blank" class="news-link">VS Code deactivates IntelliCode in favor of the paid Copilot</a> [23] <font color='grey'>- 20时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
