@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 92</p><p>生成时间: 2025-12-18 06:18:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">12</td>
+                <td class="percentage">13.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761597" target="_blank" class="news-link">芯片需求旺盛，美光业绩与指引双双“爆表”、提高资本支出，股价盘后大涨逾6%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3761550" target="_blank" class="news-link">甲骨文重燃AI担忧压垮美股，纳指跌近2%，地缘风险下原油反弹，期银盘中涨超6%创新高</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761585" target="_blank" class="news-link">甲骨文百亿美元数据中心融资受阻，Blue Owl退出，公司称交易仍按计划进行</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761599" target="_blank" class="news-link">马斯克：xAI最早2026年实现AGI，公司挺过未来两三年将战胜对手</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3761585" target="_blank" class="news-link">甲骨文百亿美元数据中心融资受阻，Blue Owl退出，公司称交易仍按计划进行</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761550" target="_blank" class="news-link">甲骨文重燃AI担忧压垮美股，纳指跌近2%，地缘风险下原油反弹，期银盘中涨超6%创新高</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3827586_101_1" target="_blank" class="news-link">【行情】标普500指数初步收跌1.2%，科技板块跌2.1%，电信板块跌1.9%，工业板块跌1.7%，可选消费板块跌1.2%，能源板块涨2.2%。纳斯达克100指数初步收跌1.9%，成分股中，核电股Ceg跌6.9%，阿斯麦Adr、Palantir、AMD、Arm控股、拉姆研究至多跌5.6%，特斯拉跌4.4%，英伟达跌3.7%，Adobe涨1.9%，吉利德科学涨2.1%，Diamondback Energy涨3.6%。卡特彼勒初步收跌4.8%，耐克、思科跌2%，与英伟达领跌道指成分股，家得宝、Salesforce、麦当劳、宝洁、雪佛龙等则涨超1%。</a> [10 - 30] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2232816?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月18日电，据媒体报道，马斯克称xAI可能在2026年展现出超越人类智能的通用人工智能。</a> [11] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46301886" target="_blank" class="news-link">The State of AI Coding Report 2025</a> [12] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251218051441855800" target="_blank" class="news-link">营收指引远超预期，美光科技乘AI东风业绩“狂飙”</a> [13] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46305409" target="_blank" class="news-link">AI Isn&#x27;t Just Spying on You. It&#x27;s Tricking You into Spending More</a> [23] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251218050114407800" target="_blank" class="news-link">美股收盘：三大股指齐跌 英伟达跌近4%</a> [27] <font color='grey'>- 06时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
