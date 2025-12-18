@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-12-19 04:18:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">16.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46317098" target="_blank" class="news-link">We pwned X, Vercel, Cursor, and Discord through a supply-chain attack</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761667" target="_blank" class="news-link">甲骨文与OpenAI为数据中心获取电力供应的请求获美国密歇根州批准</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2234064?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月19日电，英伟达与美国政府将通过具有里程碑意义的“创世纪计划”推动人工智能基础设施及研发投资，英伟达将向美国能源部（DOE）提供服务，以整合一个汇聚美国政府、产业界与学术界的发现平台。</a> [6] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46316907" target="_blank" class="news-link">How China built its ‘Manhattan Project’ to rival the West in AI chips</a> [7] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2234063?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">OpenAI称正与美国能源部扩大在人工智能领域的合作。</a> [7] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219032029402800" target="_blank" class="news-link">美国密歇根州监管机构批准了公用事业公司DTE能源的一项申请，为甲骨文(ORCL.N)和OpenAI计划建设的大型数据中心项目供电。</a> [10] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219031932942800" target="_blank" class="news-link">OpenAI：如果我们对用户的年龄没有把握或信息不完整，将默认启用U18体验，并为成年人提供验证年龄的方式。</a> [12] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3829858_100_1" target="_blank" class="news-link">OpenAI：OpenAI与美国能源部的合作范围正在扩大。</a> [12] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219031741512800" target="_blank" class="news-link">OpenAI：正在ChatGPT个人订阅用户中初步部署年龄预测模型。</a> [15] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219031702143800" target="_blank" class="news-link">OpenAI：正在更新我们的模型规范，增加针对青少年的保护措施。U18原则指导ChatGPT如何为13至17岁青少年提供安全、适龄的使用体验。</a> [16] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219031425775800" target="_blank" class="news-link">OpenAI：协议建立在我们与能源部国家实验室的合作之上，并推进“创世纪计划”，以加速科学发现。</a> [21] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219031354040800" target="_blank" class="news-link">OpenAI：正与美国能源部扩大在人工智能领域的合作。</a> [22] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46316409" target="_blank" class="news-link">Firefox will have an option to disable all AI features</a> [26] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219030701396800" target="_blank" class="news-link">英伟达(NVDA.O)：将为美国能源部提供服务，整合一个连接美国政府、产业界和学术界的探索平台。</a> [27] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219030614228800" target="_blank" class="news-link">英伟达(NVDA.O)：与美国政府将通过具有里程碑意义的“创世纪计划”，加大对人工智能基础设施和研发投资。与美国能源部签署谅解备忘录，以明确合作重点，助力加速科学发现。</a> [29] <font color='grey'>- 04时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
