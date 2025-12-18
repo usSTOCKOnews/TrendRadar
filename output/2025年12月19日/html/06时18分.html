@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 98</p><p>生成时间: 2025-12-19 06:18:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">11.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761673" target="_blank" class="news-link">苹果宣布：大幅降低日本“苹果税”，专家：中国被区别对待，抽成比例高于美欧日韩</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2234089?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月19日电，OpenAI计划以8300亿美元估值融资高达1000亿美元。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219055259657800" target="_blank" class="news-link">Meta秘研代号Mango新模型 计划于明年上半年面世</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219055119059800" target="_blank" class="news-link">据华尔街日报：Meta正在开发代号为“Mango”的新型人工智能图像及视频模型。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761667" target="_blank" class="news-link">充满争议仍获放行：密歇根州批准为甲骨文与OpenAI超级数据中心供电</a> [8] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46294144" target="_blank" class="news-link">Show HN: Stop AI scrapers from hammering your self-hosted blog (using porn)</a> [13] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3830040_101_1" target="_blank" class="news-link">半导体Etf收涨超2.3%，领跑美股行业Etf，标普能源板块跌超1.4%</a> [14] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46292266" target="_blank" class="news-link">Meta Segment Anything Model Audio</a> [20] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3829967_101_1" target="_blank" class="news-link">【行情】中国纳斯达克金龙中国指数初步收涨0.9%。热门中概股里，小鹏涨2.7%，美团、腾讯、文远知行、蔚来、网易、百胜中国至多涨1.7%，拼多多涨0.8%，新东方、理想、阿里至少涨约0.2%。</a> [20] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46317174" target="_blank" class="news-link">The Scottish Highlands, the Appalachians, Atlas are the same mountain range</a> [21] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46313379" target="_blank" class="news-link">Using TypeScript to obtain one of the rarest license plates</a> [23] <font color='grey'>- 06时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
