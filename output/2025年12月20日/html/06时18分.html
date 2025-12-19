@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-12-20 06:18:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">15.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2235348?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月20日电，美国特拉华州最高法院恢复马斯克创下纪录的特斯拉薪酬方案。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3832338_101_1" target="_blank" class="news-link">扎克伯格旗下Meta Platforms刚刚履新八个月的董事Dina Powell Mccormick将退出。在美国总统特朗普第一任期内，Powell Mccormick曾担任副国家安全顾问。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3761711" target="_blank" class="news-link">阿联酋资本托底美股？不仅注资OpenAI，更把甲骨文从债务悬崖边拉了回来</a> [10] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3832326_101_1" target="_blank" class="news-link">美国Ftc批准英伟达投资英特尔</a> [10 - 30] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46330013" target="_blank" class="news-link">Show HN: Stickerbox, a kid-safe, AI-powered voice to sticker printer</a> [11] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2235337?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美联储拟设新账户 加密货币向支付系统再近一步</a> [11] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46306497" target="_blank" class="news-link">NOAA deploys new generation of AI-driven global weather models</a> [13] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3832287_101_1" target="_blank" class="news-link">【行情】美国标普500指数收涨59.74点，涨幅0.88%，报6834.50点；道琼斯工业平均指数收涨183.04点，涨幅0.38%，报48134.89点；纳斯达克综合指数（纳指）收涨301.26点，涨幅1.31%，报23307.62点；纳斯达克100指数收涨326.81点，涨幅1.31%，报25346.177点；纳斯达克生物科技指数收涨2.41%，报5738.03点；费城半导体指数收涨2.98%，报7067.865点；费城证交所KBW银行指数收涨1.15%，报165.36点；道琼斯KBW地区银行指数收跌0.25%，报128.17点。</a> [18] <font color='grey'>- 06时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46287626" target="_blank" class="news-link">Detailed balance in large language model-driven agents</a> [26] <font color='grey'>- 06时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
