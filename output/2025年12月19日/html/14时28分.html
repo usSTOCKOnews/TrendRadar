@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 177</p><p>生成时间: 2025-12-19 14:28:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">9.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3761635" target="_blank" class="news-link">“四巫日”前美CPI意外降温，美国股债汇齐涨，加密货币下挫，人民币再度逼近7.03</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761702" target="_blank" class="news-link">高盛大宗商品展望：AI引爆“铜与电”短缺危机，局部停电、电价飙升可能拖累美国AI进展</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46319826" target="_blank" class="news-link">History LLMs: Models trained exclusively on pre-1913 texts</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179974" target="_blank" class="news-link">朋友圈看到的主题： 2025 年要过了，让您的主力 AI 给您写个致 2026 的信，会是什么？</a> [6] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761699" target="_blank" class="news-link">字节跳动正推进与多家厂商的AI手机合作</a> [9] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761690" target="_blank" class="news-link">Altman谈OpenAI：算力成收入最大瓶颈，只要算力翻倍，收入就能翻倍</a> [10] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958263" target="_blank" class="news-link">会6–8种能力的人，才是AI时代的天选之子</a> [11] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179958" target="_blank" class="news-link">开源、轻量、自托管的 AI API 代理网关 Proxify 新增功能： IP/Token Auth + Model Map</a> [12] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761684" target="_blank" class="news-link">OpenAI的困惑：全力提升ChatGPT“深度研究”能力，但C端用户“用不上”</a> [14] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179947" target="_blank" class="news-link">[分享] AutoQA-Agent：用 Markdown 写验收用例， AI + Playwright 跑起来，跑通还能导出成 Playwright Test</a> [15] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761687" target="_blank" class="news-link">有燃气轮机、有冷却知识，油服公司进军AI数据中心</a> [15] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179946" target="_blank" class="news-link">giffgaff 流量注册了两个 gmail,基本上是注册好了就被封了</a> [16] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958262" target="_blank" class="news-link">AI教父：AI已经开始抗拒关机、勒索人类</a> [16] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761682" target="_blank" class="news-link">募资最高1000亿美元，估值或达8300亿美元，最快明年1季度完成！更多报道披露OpenAI最新融资细节</a> [17] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179917" target="_blank" class="news-link">我做了一个「浏览器增强工具」，它用 AI 帮你把网页操作「自动化」</a> [23] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761635" target="_blank" class="news-link">“四巫日”前美CPI意外降温，美国股债汇齐涨，加密货币下挫，人民币再度逼近7.03</a> [27] <font color='grey'>- 14时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761676" target="_blank" class="news-link">AI数据中心太火，美商务部长被盯上了，民主党议员发函敦促调查利益冲突</a> [29] <font color='grey'>- 14时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
