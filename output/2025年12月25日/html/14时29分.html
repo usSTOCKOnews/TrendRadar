@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 166</p><p>生成时间: 2025-12-25 14:29:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">10.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3761989" target="_blank" class="news-link">平安夜美股债汇涨，标普新高，黄金失守4500，人民币三连涨，加密货币疲软</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/icar/60848-2025-12-25-13-55-55.html" target="_blank" class="news-link">美国对特斯拉“Model 3”约18万辆进行调查</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762053" target="_blank" class="news-link">光大银行表态“稳步筹划”AIC，此前曾持续探索“投贷联动”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46380399" target="_blank" class="news-link">Asterisk AI Voice Agent</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3762030" target="_blank" class="news-link">200亿美元，英伟达“史上最大收购”？英伟达“收编”Groq，“招安”TPU创始人</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2239833?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">机构：预计2030年全球生成式AI消费支出达6990亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3762016" target="_blank" class="news-link">英特尔美股盘前大跌5%，报道：英伟达暂缓推进测试英特尔18A工艺</a> [10] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958298" target="_blank" class="news-link">方跃：AI若无法规模化落地，市场或重演2000年互联网泡沫</a> [10] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762046" target="_blank" class="news-link">200亿美元买下Groq，英伟达图啥？</a> [12] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181045" target="_blank" class="news-link">小米 mino v2 flash 套壳谷歌模型</a> [15] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46339532" target="_blank" class="news-link">Comptime – C# meta-programming with compile-time code generation and evaluation</a> [15] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46380953" target="_blank" class="news-link">The Next-Gen Mainboard Designed with AmigaOS4 and MorphOS in Mind</a> [21] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762036" target="_blank" class="news-link">OpenAI的“广告模式”已初具雏形</a> [22] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762030" target="_blank" class="news-link">200亿美元，英伟达“史上最大收购”？英伟达“收编”Groq，“招安”TPU创始人</a> [23] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958297" target="_blank" class="news-link">2026年，美国“四大AI新云”你更看好谁？</a> [26] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958296" target="_blank" class="news-link">马斯克“放话”：5年内，xAI的AI算力将超过其他公司总和</a> [27] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762034" target="_blank" class="news-link">美国结束上届政府针对中国芯片贸易调查，未来18个月不对中国芯片加征额外关税</a> [28] <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
