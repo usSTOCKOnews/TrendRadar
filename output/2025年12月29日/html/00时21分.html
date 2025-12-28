@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 227</p><p>生成时间: 2025-12-29 00:21:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">25</td>
+                <td class="percentage">11.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/cybercut/launches/cybercut-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">CyberCut AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762212" target="_blank" class="news-link">英伟达800伏电压“革命”：全球数据中心面临史上最大规模基础设施改造</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/planeat-ai-2/launches/planeat-ai-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PlanEat AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/BloopAI/vibe-kanban" target="_blank" class="news-link">BloopAI / vibe-kanban</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3762212" target="_blank" class="news-link">英伟达800伏电压“革命”：全球数据中心面临史上最大规模基础设施改造</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3838337_100_1" target="_blank" class="news-link">乌克兰国防军：Huliaipole仅部分由俄罗斯控制。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181726" target="_blank" class="news-link">快到期了， AI 写了个本地音视频管理软件，剪辑师电影剪辑方向的</a> [6] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3762207" target="_blank" class="news-link">无AI驱动的欧洲股市，能否靠银行和国防再创新高？</a> [7] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2241981?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】6G+商业航天+芯片+算力+低空经济+人工智能！公司深度参与我国低轨卫星互联网建设</a> [8] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46404848" target="_blank" class="news-link">How we lost communication to entertainment</a> [9] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3762196" target="_blank" class="news-link">为优先给AI数据中心供电，特朗普要抢美国电网监管权</a> [9] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181724" target="_blank" class="news-link">刚购买了 google ai pro，发现账号的确是 hongkong，于是申请了该地区。</a> [10] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181719" target="_blank" class="news-link">大家平时怎么用 ai 写代码的了，我用 cursor 写，总感觉不敬人意，差点意思。</a> [11] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/documentation-ai/launches/documentation-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Documentation.AI</a> [11] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46403200" target="_blank" class="news-link">Gpg.fail</a> [13] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762142" target="_blank" class="news-link">巴菲特谢幕、OpenAI搅动万亿市值、谷歌强势崛起......2025全球十大商业事件盘点</a> [14] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46404597" target="_blank" class="news-link">Rainbow Six Siege hacked as players get billions of credits and random bans</a> [17] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762198" target="_blank" class="news-link">对比互联网泡沫，AI现在走到“1998年”？</a> [21] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181680" target="_blank" class="news-link">[学习成长] 关于 aicoding 知识付费的一些思考，群体和受众匹配就不是割韭菜</a> [23] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762196" target="_blank" class="news-link">为优先给AI数据中心供电，特朗普要抢美国电网监管权</a> [23] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46400251" target="_blank" class="news-link">Show HN: Ez FFmpeg – Video editing in plain English</a> [25] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181665" target="_blank" class="news-link">研究 RAG 的时候受不了来回切 Tab，于是做了个分栏对话的 AI 助手</a> [28] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46405866" target="_blank" class="news-link">Public Domain Day 2026</a> [28] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181663" target="_blank" class="news-link">从苏州小学去年布置的 AI 做日历的作业到 AI 编程新境界： Kiro IDE 的 Spec Coding 实战记</a> [29] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181655" target="_blank" class="news-link">记录一下使用 AntiGravity 压榨 AI 开发一个 Android APP 的事情，并推广这个 APP</a> [30] <font color='grey'>- 00时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
