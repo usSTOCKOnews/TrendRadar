@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2025-12-30 14:29:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">20</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182155" target="_blank" class="news-link">[自荐]元旦之前，给自己生成 AI 礼物吧</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762295" target="_blank" class="news-link">Manus被Meta数十亿美元收购背后：创始人肖弘复盘至暗时刻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46426534" target="_blank" class="news-link">ManusAI Joins Meta</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182139" target="_blank" class="news-link">分享｜我做了个轻量的「AI 协作 Playbook」，让写代码不再跑偏（有点像自制 spec-kit）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3762279" target="_blank" class="news-link">成立不到3年，被Meta以逾20亿美元收购！Manus成为“AI时代中国创业新标杆”</a> [6] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762279" target="_blank" class="news-link">成立不到3年，被Meta以逾20亿美元收购！Manus成为“AI时代中国创业新标杆”</a> [7] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230140452495800" target="_blank" class="news-link">也门总统委员会主席阿里米：取消与阿联酋的联合防御协议。</a> [7] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230140037794800" target="_blank" class="news-link">也门总统委员会主席阿里米：在也门实施为期72小时的禁飞区、海上封锁和地面封锁。所有豁免封锁的情况必须经过沙特领导的联军授权。</a> [9] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/%E8%BF%85%E7%8C%9B%E5%A2%9E%E9%95%BF%E4%B8%80%E5%B9%B4%E5%90%8E-ai%E8%8A%AF%E7%89%87%E5%88%B6%E9%80%A0%E5%95%86%E5%87%86%E5%A4%87%E8%BF%8E%E6%8E%A5%E6%94%B6%E5%85%A5%E6%9B%B4%E9%AB%98%E7%9A%842026%E5%B9%B4-f66a2564" target="_blank" class="news-link">迅猛增长一年后，AI芯片制造商准备迎接收入更高的2026年</a> [10] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182099" target="_blank" class="news-link">能用 10 行 Bash 解决的，别折腾 AI</a> [13] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/60897-2025-12-30-13-13-27.html" target="_blank" class="news-link">Meta收购源自中国的AI公司Manus</a> [13] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762271" target="_blank" class="news-link">黄仁勋点赞的AI制药公司，英矽智能今日港股IPO</a> [13] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46384153" target="_blank" class="news-link">Incremental Backups of Gmail Takeouts</a> [14] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46424200" target="_blank" class="news-link">AI is forcing us to write good code</a> [15] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/aislop-is-taking-over-the-internet-and-its-here-to-stay-26841dc3" target="_blank" class="news-link">AI垃圾正占领互联网，且将成为常态</a> [18] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182070" target="_blank" class="news-link">看 V2EX 有人推荐了 google ai pro</a> [19] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182067" target="_blank" class="news-link">最近在研究 ai 变声 太爽了</a> [20] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958330" target="_blank" class="news-link">“全球AI顶会”NeurlPS 2025 Top 50 论文贡献者：中美“不相伯仲”</a> [23] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/the-ai-scorecard-how-the-u-s-built-a-leadand-could-lose-it-to-china-7d2d5356" target="_blank" class="news-link">若把美中AI竞争看成一场橄榄球赛，目前的比分是24比18</a> [24] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182038" target="_blank" class="news-link">整理了 AI Agent 生态的开源项目，也推一下自己的</a> [25] <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
