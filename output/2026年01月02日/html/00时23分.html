@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 231</p><p>生成时间: 2026-01-02 00:23:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">20</td>
+                <td class="percentage">8.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182628" target="_blank" class="news-link">微软 Excel 里的实时汇率功能</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/planeat-ai-2/launches/planeat-ai-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PlanEat AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2246216?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月1日电，Meta短视频平台Reels据悉正寻求向电视领域转型。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/BloopAI/vibe-kanban" target="_blank" class="news-link">BloopAI / vibe-kanban</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762433" target="_blank" class="news-link">SemiAnalysis深度报告：美国电网跟不上，AI数据中心“自建电厂”跟时间赛跑</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3762419" target="_blank" class="news-link">2天20小时、零接管横穿美国，特斯拉FSD已通过“物理图灵测试”？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2246211?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">OpenAI加码音频人工智能研发 备战首款硬件设备</a> [6] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182608" target="_blank" class="news-link">开源热榜站新增了 AI 模式，你不必看完所有新闻了</a> [7] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46453582" target="_blank" class="news-link">Meta made scam ads harder to find instead of removing them</a> [8] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260101230819093800" target="_blank" class="news-link">据The Information：OpenAI整合团队以提升音频AI模型性能，为即将推出的设备做准备。</a> [8] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260101230736481800" target="_blank" class="news-link">据The Information：OpenAI采取措施改进语音AI模型。</a> [9] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/documentation-ai/launches/documentation-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Documentation.AI</a> [10] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2246207?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">受AI热潮驱动 2025年存储芯片企业闪迪股价飙涨559%</a> [10] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/DayuanJiang/next-ai-draw-io" target="_blank" class="news-link">DayuanJiang / next-ai-draw-io</a> [12] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182558" target="_blank" class="news-link">我用 AI 写了个德扑训练器，让电脑执行随机策略，但是实际跑下来，机器的操作很理性</a> [15] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762419" target="_blank" class="news-link">2天20小时、零接管横穿美国，特斯拉FSD已通过“物理图灵测试”？</a> [16] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46448998" target="_blank" class="news-link">Resistance training load does not determine hypertrophy</a> [17] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958339" target="_blank" class="news-link">AI投资还远远比不上历史上的“生产力变革”</a> [21] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182499" target="_blank" class="news-link">Dev Container 下复用 WSL 中的 SSH Key</a> [24] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762412" target="_blank" class="news-link">点名特斯拉估值高的离谱后，“大空头”Burry澄清：目前并未做空</a> [28] <font color='grey'>- 00时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
