@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 229</p><p>生成时间: 2026-01-05 00:21:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">19</td>
+                <td class="percentage">8.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/planeat-ai-2/launches/planeat-ai-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PlanEat AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1183088" target="_blank" class="news-link">如何用 AI + OpenSpec 驱动团队迭代开发</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/openai/openai-cookbook" target="_blank" class="news-link">openai / openai-cookbook</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1183076" target="_blank" class="news-link">做了一个类似特斯拉车机 3D 模型的网站</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46486780" target="_blank" class="news-link">Maybe comments should explain &#x27;what&#x27; (2017)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/virattt/ai-hedge-fund" target="_blank" class="news-link">virattt / ai-hedge-fund</a> [6] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762504" target="_blank" class="news-link">2026年AI主线已清晰：算力打底、手机破局，四大爆点就位</a> [6] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/documentation-ai/launches/documentation-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Documentation.AI</a> [10] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2247209?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】商业航天+机器人+芯片+军工+PCB+华为昇腾！公司主打产品在商业航天有广泛应用</a> [12] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1183030" target="_blank" class="news-link">[开源自荐] AI Selector：一款通用 AI 配置组件，让你的应用快速接入 20+ LLM AI 厂商</a> [14] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46488396" target="_blank" class="news-link">AI Sycophancy Panic</a> [14] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762500" target="_blank" class="news-link">CES 2026前瞻：英伟达或重塑物理AI，中美韩机器人齐“秀肌肉”</a> [15] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762498" target="_blank" class="news-link">百度持有的昆仑芯值多少？高盛：若类比寒武纪估值，相当于百度市值的45%</a> [17] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958352" target="_blank" class="news-link">当下的AI=1997年的互联网=2008年的移动互联网</a> [18] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182996" target="_blank" class="news-link">提供个在线工具点子——在线定制特斯拉涂装</a> [21] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46487342" target="_blank" class="news-link">Nightshade: Make images unsuitable for model training</a> [23] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182921" target="_blank" class="news-link">我写了一个基于 Multi-Agent 的 AI 可视化平台，一句话生成 Draw.io/流程图/ECharts (React 19 + LangGraph)</a> [28] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182924" target="_blank" class="news-link">发现一个能真正“动手动脚”的 AI Agent 平台：自带沙箱、工具链和项目管理能力</a> [29] <font color='grey'>- 00时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1182916" target="_blank" class="news-link">2026 年了，现在开发 agent，是用 langchain+langgraph 还是模型厂家 SDK</a> [30] <font color='grey'>- 00时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
