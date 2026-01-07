@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 120</p><p>生成时间: 2026-01-07 16:27:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">9.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958374" target="_blank" class="news-link">特斯拉、SpaceX、xAI都齐了，马斯克还差一个英特尔？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762705" target="_blank" class="news-link">沪指14连阳冲击4100点，存储器、半导体全天活跃，煤炭板块爆发，“双焦”涨停，恒科指跌近2%，科网股普跌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958373" target="_blank" class="news-link">马斯克：芯片提升已边际递减，而中国有巨大能源优势，会在AI大战迎头赶上</a> [7] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2250548?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">华工科技：已推出1.6T光模块用自研硅光芯片</a> [8] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1183765" target="_blank" class="news-link">没有 ai 不敢答的</a> [9] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3762706" target="_blank" class="news-link">马斯克的2026愿景：我们已处于“技术奇点”，AI和机器人不可阻挡，短期是动荡和挑战，长期是丰盛时代</a> [10] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1183742" target="_blank" class="news-link">做了一个非 AI 的工具，用于将电子照片裁剪成护照尺寸。</a> [14] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2250535?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">利扬芯片回应存储价格飙升：部分产品线的测试产能较为紧张 有部分客户主动要求涨价获得产量</a> [15] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2250525?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">1月7日连板股分析：连板股晋级率近四成 芯片产业链全线走强</a> [17] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20260107-8064767" target="_blank" class="news-link">比亚迪去年在英德两国销量超越特斯拉</a> [20] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46470115" target="_blank" class="news-link">Show HN: Open-source AI workflows with read-only auth scopes</a> [27] <font color='grey'>- 16时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
