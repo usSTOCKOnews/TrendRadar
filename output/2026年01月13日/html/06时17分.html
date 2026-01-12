@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-01-13 06:17:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">24.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260113055928145800" target="_blank" class="news-link">据华尔街日报：台积电(TSM.N)计划在美国亚利桑那州大规模扩张。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46593395" target="_blank" class="news-link">The chess bot on Delta Air Lines will destroy you (2024) [video]</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/columnviewpoint/column/60926-2026-01-13-05-00-47.html" target="_blank" class="news-link">制裁倒逼创新？从中国半导体存储器专利看实力提升</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763121" target="_blank" class="news-link">瞄准AI加速药物研发，英伟达与礼来联合建实验室，投资10亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763118" target="_blank" class="news-link">Meta任命AI“大管家”：前特朗普顾问任总裁，扎克伯格组建高管团队统领数据中心投资</a> [6] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2255536?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月13日电，巴西反垄断机构CADE就Meta旗下WhatsApp商业解决方案的相关条款对其展开调查。</a> [6] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260113053000318800" target="_blank" class="news-link">派拉蒙起诉华纳兄弟要求披露其与奈飞交易细节</a> [9] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2255532?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月13日电，美国在线家居零售商Wayfair与谷歌合作，推动以人工智能驱动的家居购物。</a> [10] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2255531?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">纳斯达克中国金龙指数收涨4.26% 阿里巴巴涨超10%</a> [11] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2255527?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">派拉蒙起诉华纳兄弟探索 要求披露与奈飞交易关键细节</a> [14] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46592424" target="_blank" class="news-link">Superhuman AI exfiltrates emails</a> [16] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2255523?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月13日电，OpenAI表示已收购医疗保健初创公司Torch。</a> [17] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260113051006831800" target="_blank" class="news-link">声明显示，巴西反垄断机构CADE就Meta旗下WhatsApp商业解决方案的相关条款对其展开调查。</a> [18] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2255522?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月13日电，Meta据称计划于本周公布裁员计划，计划在Reality Labs裁员约10%。</a> [18] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260113050153642800" target="_blank" class="news-link">美国在线家居零售商Wayfair与谷歌合作，推动以人工智能驱动的家居购物。</a> [22] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260113050054548800" target="_blank" class="news-link">美股收盘：金龙指数涨逾4% 阿里巴巴大涨10%</a> [24] <font color='grey'>- 06时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260113044634106800" target="_blank" class="news-link">Meta拟削减元宇宙团队投入 节省资金转向VR眼镜业务</a> [30] <font color='grey'>- 06时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
