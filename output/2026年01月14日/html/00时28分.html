@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 224</p><p>生成时间: 2026-01-14 00:28:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">7.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763212" target="_blank" class="news-link">微软：愿意承担高电价，以覆盖数据中心的电力成本</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763053" target="_blank" class="news-link">美股走V新高，谷歌破4万亿，阿里暴涨10%领衔中概大涨，金银大涨创新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185369" target="_blank" class="news-link">我把零散在 GitHub 的 Claude AI skills 重新整理了一下</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763115" target="_blank" class="news-link">苹果选中Gemini，谷歌登上“4万亿”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46590280" target="_blank" class="news-link">TimeCapsuleLLM: LLM trained only on data from 1800-1875</a> [7] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185335" target="_blank" class="news-link">做了一个 AI 图片生成网站</a> [12] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46593395" target="_blank" class="news-link">The chess bot on Delta Air Lines will destroy you (2024) [video]</a> [13] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763205" target="_blank" class="news-link">大科技VS价值股！美股财报季来袭，华尔街“轮换交易”迎生死大考</a> [13] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763199" target="_blank" class="news-link">从大模型、机器人到约会APP：2026年市场给AI定价的标准，全面转向回报率！</a> [14] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185298" target="_blank" class="news-link">AI 考勤与智慧校园监控系统是如何实现的？求技术方案与模型推荐</a> [19] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46598991" target="_blank" class="news-link">FOSS in times of war, scarcity and (adversarial) AI [video]</a> [20] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/creaibo-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Creaibo</a> [20] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3856743_101_1" target="_blank" class="news-link">“末日博士”鲁比尼：AI繁荣正抵消包括美国总统和地缘政治在内的一系列风险。AI将开创“美国例外论”的新篇章。</a> [20] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763192" target="_blank" class="news-link">OpenAI的首款硬件：是AI耳机，今年销量要冲5000万</a> [23] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185275" target="_blank" class="news-link">作为一个后端，我用 AI 撸了一个让铲屎官不焦虑的小程序</a> [27] <font color='grey'>- 00时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185260" target="_blank" class="news-link">AI 写代码很牛逼了，怎么让 AI 做出好看前端 UI</a> [30] <font color='grey'>- 00时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
