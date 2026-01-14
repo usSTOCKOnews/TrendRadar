@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 175</p><p>生成时间: 2026-01-14 14:30:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">9.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61070-2026-01-14-14-03-06.html" target="_blank" class="news-link">美国附条件解禁英伟达等的AI半导体对华出口</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763239" target="_blank" class="news-link">A股午后短暂下探后迅速反弹，创业板涨超1%，AI应用大爆发、新“易中天”继续飙升，港股阿里涨超5%，沪锡涨停、沪银大涨9%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46611348" target="_blank" class="news-link">Show HN: OSS AI agent that indexes and searches the Epstein files</a> [7] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185507" target="_blank" class="news-link">写了一个 NotebookLM 转可编辑 PPT 的工具： Wipely AI - 浏览器端离线 PPT 文字擦除与还原</a> [10] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763234" target="_blank" class="news-link">AI数据中心电力供应链，高盛最偏好“燃气轮机叶片和变压器”，对这类中国企业是大机遇</a> [10] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763236" target="_blank" class="news-link">CES上的“物理AI”拐点：Robotaxi走向规模化，人形机器人供应链悄然形成</a> [11] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185485" target="_blank" class="news-link">Vibe Coding 了一个用 AI 修复本地歌曲标签的 macOS 应用</a> [15] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763228" target="_blank" class="news-link">“预见”关税退税？抢在高院裁决前，亚马逊与供应商谈“降价”</a> [16] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46610967" target="_blank" class="news-link">Sei (YC W22) Is Hiring a DevOps Engineer (India/In-Office/Chennai/Gurgaon)</a> [17] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2257237?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">阿里云2026年目标：拿下中国AI云市场增量的80%</a> [17] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763233" target="_blank" class="news-link">“医药春晚”上，英伟达详细论述“AI医疗怎么干”</a> [18] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2257129?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】先进封装+AI上游核心材料替代先锋，这家公司的半导体特种材料有望引领下一代封装技术的变革，产品需求量或加速提升</a> [19] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3763218" target="_blank" class="news-link">美国劳动报酬率历史新低：AI驱动K型经济加速分化</a> [20] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46605490" target="_blank" class="news-link">AI generated music barred from Bandcamp</a> [21] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185410" target="_blank" class="news-link">Flux: 在 iMessage 中构建你自己的 AI Agent</a> [27] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20260114-8098226" target="_blank" class="news-link">阿里千问月活突破1亿</a> [29] <font color='grey'>- 14时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46608840" target="_blank" class="news-link">We can&#x27;t have nice things because of AI scrapers</a> [30] <font color='grey'>- 14时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
