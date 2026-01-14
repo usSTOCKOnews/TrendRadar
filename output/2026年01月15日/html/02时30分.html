@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 106</p><p>生成时间: 2026-01-15 02:30:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">10</td>
+                <td class="percentage">9.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763313" target="_blank" class="news-link">Anthropic与OpenAI就IPO采取初步行动，Spacex已经为IPO面试了多家银行。（纽约时报）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763301" target="_blank" class="news-link">英伟达推理上下文内存存储对NAND意味着什么？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2258103?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月15日电，Anthropic与OpenAI据称已采取上市的早期步骤。</a> [6] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2258100?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月15日电，因AI生成不雅图像问题，加州总检察长对XAI和 GROK启动调查。</a> [9] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3858964_100_1" target="_blank" class="news-link">美国明尼阿波利斯联储主席卡什卡利：加密货币对消费者而言“基本无用”。</a> [9 - 29] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115013502708800" target="_blank" class="news-link">美联储卡什卡利：目前大多数企业的AI应用仍处于实验阶段，尚未导致裁员。</a> [14] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115013205939800" target="_blank" class="news-link">加州总检察长：我们要求xAI就其阻止深度伪造内容生成与传播的计划立即作出回应。</a> [17] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115013111465800" target="_blank" class="news-link">市场消息：美国加州总检察长对马斯克旗下xAI和Grok启动调查。</a> [19] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115013044140800" target="_blank" class="news-link">美国加州州长纽森：呼吁司法部长立即调查xAI并追究其责任。</a> [21] <font color='grey'>- 02时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46616745" target="_blank" class="news-link">FBI raids Washington Post reporter&#x27;s home</a> [26] <font color='grey'>- 02时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
