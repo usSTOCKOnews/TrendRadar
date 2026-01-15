@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 102</p><p>生成时间: 2026-01-16 02:33:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">10.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763409" target="_blank" class="news-link">OpenAI发力机器人与AI设备，被爆寻找美国供应商</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2259611?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月16日电，奈飞、索尼宣布达成扩展协议，以提供电影流媒体服务。奈飞将在索尼电影在影院上映后在全球范围内进行流媒体播放。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3861086_101_1" target="_blank" class="news-link">美联储Barkin：当前经济有两个引擎，AI和富人。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2259609?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">晨星将推GenAI 20指数 系统追踪OpenAI、xAI等未上市巨头</a> [6] <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2259608?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月16日电，OpenAI表示已参与脑机接口初创公司Merge Labs的种子轮融资。</a> [7] <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260116013602991800" target="_blank" class="news-link">OpenAI：发布提案请求，重点关注人工智能供应链关键环节中的美国本土制造业。</a> [11] <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260116013554892800" target="_blank" class="news-link">OpenAI：公司已参与脑机接口（BCI）初创公司Merge Labs的种子轮融资。</a> [12] <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46620358" target="_blank" class="news-link">Show HN: Tabstack – Browser infrastructure for AI agents (by Mozilla)</a> [20] <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260116010451484800" target="_blank" class="news-link">谷歌：推出 TranslateGemma——基于 Gemma 3 构建的全新开源翻译模型系列，助力人们以55种语言无障碍沟通。</a> [23] <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46636093" target="_blank" class="news-link">Supply Chain Vuln Compromised Core AWS GitHub Repos &amp; Threatened the AWS Console</a> [25] <font color='grey'>- 02时33分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46569640" target="_blank" class="news-link">Sinclair C5</a> [26] <font color='grey'>- 02时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
