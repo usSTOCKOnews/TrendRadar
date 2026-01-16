@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 119</p><p>生成时间: 2026-01-16 20:39:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">13.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2260697?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">先进制程争夺战升温 黄仁勋被传“抢地”锁台积电产能</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186313" target="_blank" class="news-link">perplexity 非官方 mcp/oai server（docker 一键部署）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20260116-8111899" target="_blank" class="news-link">台积电高层：扩大投资美国 最先进技术留在台湾</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/cjpais/Handy" target="_blank" class="news-link">cjpais / Handy</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186306" target="_blank" class="news-link">AI 很厉害，只是不会用罢了。我用 AI 写了个 13K 的软件，并开源了。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763470" target="_blank" class="news-link">胜宏科技2025年业绩预增260.35%-295.00%，AI算力需求推动PCB业务爆发 | 财报见闻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260116201631391800" target="_blank" class="news-link">化肥生产商MOSAIC：第四季度钾肥销量为220万吨。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763469" target="_blank" class="news-link">AI需求旺盛，澜起科技预计2025年净利增长52.29%-66.46%，互连芯片出货显著增加 | 财报见闻</a> [6] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260116201601130800" target="_blank" class="news-link">化肥生产商MOSAIC：北美化肥需求在第四季度的下滑幅度远超正常季节性疲软水平。</a> [6] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260116201541695800" target="_blank" class="news-link">化肥生产商MOSAIC：预计第四季度磷酸盐销量约为130万吨。</a> [7] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/iOfficeAI/AionUi" target="_blank" class="news-link">iOfficeAI / AionUi</a> [8]</div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763449" target="_blank" class="news-link">特朗普拟紧急干预电力市场：强压AI巨头签15年长约，为150亿美元新电厂买单</a> [8] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763432" target="_blank" class="news-link">老黄“领先一步”，当所有人都在争夺台积电产能，英伟达在“抢地”</a> [10] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2260671?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">澄天伟业：拟定增资不超过8亿元 用于液冷散热系统产业化项目、半导体封装材料扩产项目等</a> [14] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2260669?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">苹果首款折叠屏手机iPhone Fold首发A20Pro芯片 基于2nm工艺制造</a> [16] <font color='grey'>- 20时39分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46645430" target="_blank" class="news-link">Signal creator Moxie Marlinspike wants to do for AI what he did for messaging</a> [28] <font color='grey'>- 20时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
