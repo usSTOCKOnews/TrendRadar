@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 156</p><p>生成时间: 2026-01-17 14:27:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">9.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763514" target="_blank" class="news-link">CoreWeave投资者会议：AI需求“无法解决”，客户愿意签长约，且提前12个月签约</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186428" target="_blank" class="news-link">用 AI 写了一个 FFmpeg Mac 原生 App</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763510" target="_blank" class="news-link">“AI云”又杀回来了！2026年至今，CoreWeave涨超40%，Nebius涨近30%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3863171_100_1" target="_blank" class="news-link">韩国表示，美国芯片关税的短期影响有限。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3863138_100_1" target="_blank" class="news-link">微软总裁史密斯：欢迎两党共同努力扩大美国的能源发电能力，同时保护美国人民免受更高成本的影响。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260117115345531800" target="_blank" class="news-link">美商务部长：若韩企不增加对美投资，将面临100%的芯片关税</a> [7] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46652617" target="_blank" class="news-link">Releasing rainbow tables to accelerate Net-NTLMv1 protocol deprecation</a> [9] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3863123_101_1" target="_blank" class="news-link">美国总统特朗普购买100万美元奈飞和华纳兄弟探索公司的债券。此举是在宣布两家公司有望合并的消息之后。</a> [9 - 29] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763470" target="_blank" class="news-link">胜宏科技2025年业绩预增260.35%-295.00%，AI算力需求推动PCB业务爆发 | 财报见闻</a> [10] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3863117_101_1" target="_blank" class="news-link">【行情】周五（1月16日），信息科技指数收涨0.85%，报283.16点，本周累计上涨0.78%，1月13-15日呈现出U形反转。人工智能（AI）赢家指数涨0.62%，报292.01点，本周累涨0.93%，1月14日前后呈现出U形反转。AI软件先驱指数跌0.78%，报116.15点，本周累跌5.71%，1月12日微幅上扬，随后持续下挫。</a> [10 - 30] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958437" target="_blank" class="news-link">Dan Ives：微软、谷歌和亚马逊有望迎来“非常强劲”四季报，“这堪比1996年中期”</a> [16] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763502" target="_blank" class="news-link">字节跳动发布新一代折叠模型SeedFold，性能超越谷歌AlphaFold 3</a> [20] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260117093435565800" target="_blank" class="news-link">据英国《金融时报》：英伟达(NVDA.O)供应商暂停H200芯片关键组件的生产。</a> [21] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20260117-8114981" target="_blank" class="news-link">英媒：中国阻止发货后 英伟达H200零部件供应商停止生产</a> [25] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260117082311101800" target="_blank" class="news-link">美政府推动科技巨头为AI用电买单</a> [28] <font color='grey'>- 14时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
