@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 107</p><p>生成时间: 2026-01-19 16:29:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">12</td>
+                <td class="percentage">11.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186835" target="_blank" class="news-link">把以前写的饭否 iOS 客户端开饭用 AI 重写了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61124-2026-01-19-14-28-29.html" target="_blank" class="news-link">旭化成等开发出新一代半导体晶体管</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3864123_100_1" target="_blank" class="news-link">【行情】随着美国关税威胁进一步搅动地缘政治局势，法国防务公司泰雷兹集团、达索航空、Exail Technologies和Exosens股价上涨约 1.2% 至 2.6%。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186814" target="_blank" class="news-link">有了 AI 你还要啥设计啊！这不就都可以轻松的手拿把掐嘛～～</a> [6] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46673809" target="_blank" class="news-link">Show HN: I quit coding years ago. AI brought me back</a> [7] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186796" target="_blank" class="news-link">你应该试试 [Snow CLI] 一款全开源的，完成度还算高的 AI Coding CLI Agent</a> [9] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763582" target="_blank" class="news-link">抗住芯片涨价压力，苹果 iPhone Q4出货大增28%，重夺中国手机市场榜首</a> [9] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186791" target="_blank" class="news-link">AI AGENTS The Illustrated Guidebook</a> [10] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260119160303014800" target="_blank" class="news-link">意法半导体米兰上市股票下跌3%。</a> [11] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763579" target="_blank" class="news-link">美股“七巨头”神话松动，美银Hartnett：下一轮赢家必须靠AI重塑业务</a> [15] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/creaibo-3/launches/creaibo-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Creaibo</a> [20] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46643754" target="_blank" class="news-link">How to wrangle non-deterministic AI outputs into conventional software? (2025)</a> [21] <font color='grey'>- 16时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
