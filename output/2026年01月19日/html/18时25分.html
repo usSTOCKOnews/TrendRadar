@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2026-01-19 18:25:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">8.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186874" target="_blank" class="news-link">微软 365 订阅再现 bug 教育邮箱验证最长可免费 5 年到 2031</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186871" target="_blank" class="news-link">有什么 AI Agent 可以自动选择使用哪些模型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46676276" target="_blank" class="news-link">Radboud University selects Fairphone as standard smartphone for employees</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260119175018995800" target="_blank" class="news-link">IMF警告：若AI热潮带来的“顺风效应”散去 需为紧接而来的冲击做准备</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186856" target="_blank" class="news-link">AI Engineering Guidebook</a> [6] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3763456" target="_blank" class="news-link">机器人春季展望：量产时刻即将到来，特斯拉审厂完毕</a> [6] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958450" target="_blank" class="news-link">奈飞改变了电影：前五分钟必须炸，因为大家都在刷手机</a> [9] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20260119-%E5%8D%97%E9%9F%A9%E4%B8%8E%E4%B9%89%E5%A4%A7%E5%88%A9-%E5%90%8C%E6%84%8F%E6%89%A9%E5%A4%A7ai-%E5%A4%AA%E7%A9%BA%E4%B8%8E%E5%9B%BD%E9%98%B2%E4%BA%A7%E4%B8%9A%E5%90%88%E4%BD%9C" target="_blank" class="news-link">南韩与义大利 同意扩大AI、太空与国防产业合作</a> [13] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46673453" target="_blank" class="news-link">High-speed train collision in Spain kills at least 39</a> [25] <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
