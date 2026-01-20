@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 222</p><p>生成时间: 2026-01-21 00:31:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">23</td>
+                <td class="percentage">10.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187188" target="_blank" class="news-link">CC/Codex 提交 GH PR 后，如何让 AI 再去看 comments 并决定是否修改？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763743" target="_blank" class="news-link">风水轮流转！欧洲科技股开年暴涨10%碾压美股，“芯片三巨头”贡献90%涨幅</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/iOfficeAI/AionUi" target="_blank" class="news-link">iOfficeAI / AionUi</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187184" target="_blank" class="news-link">🔥「免费福利」👍兑换美区超 900 好评的 AI 修复和上色老照片的工具。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187170" target="_blank" class="news-link">一款在线可视化多媒体格式解析工具： MediaInsight</a> [6] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187173" target="_blank" class="news-link">快速上传图片到阿里云，写博客效率提升，支持 docker 部署，开源给大家用</a> [9] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260120235958397800" target="_blank" class="news-link">英伟达(NVDA.O)股价下跌约3%。</a> [9] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763730" target="_blank" class="news-link">英特尔财报前瞻：CPU缺货或提振业绩，但这可能是把“双刃剑”</a> [12] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46693456" target="_blank" class="news-link">&#x27;AI&#x27; is a dick move, redux</a> [13] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763728" target="_blank" class="news-link">微软CEO纳德拉预警：AI若不能广泛落地，终将沦为投机泡沫</a> [13] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2264204?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">康欣新材：收到上交所问询函 被要求核实并披露以3.92亿元取得宇邦半导体51%股权的交易合理性等</a> [16] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2264203?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月20日电，英特尔涨幅扩大至6%。汇丰银行将英特尔目标价从26美元大幅上调至50美元，评级由“减持”上调至“持有”。</a> [17] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187138" target="_blank" class="news-link">ai 配合 nuxt4+arco-design 开发前端和后台 行吗？</a> [19] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/creaibo-3/launches/creaibo-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Creaibo</a> [19] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260120234644478800" target="_blank" class="news-link">英特尔(INTC.O)上涨5.7%，至少两家券商上调该股评级。</a> [19] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/2-b-ai/launches/2-b-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">2-b.ai</a> [20] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3763456" target="_blank" class="news-link">机器人春季展望：量产时刻即将到来，特斯拉审厂完毕</a> [20] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2264199?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月20日电，英伟达股价跌幅扩大至3.3%，跌破180美元/股。</a> [20] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763723" target="_blank" class="news-link">砸钱死磕！奈飞“全现金”加码华纳竞购战，誓造4.5亿用户订阅帝国</a> [22] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187098" target="_blank" class="news-link">我们做了一个关于 AI Memory 的产品，并开源了，欢迎 star</a> [24] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20260120_B1/" target="_blank" class="news-link">厂商纷纷推出生成式AI与家电配套服务</a> [24] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763720" target="_blank" class="news-link">Q4业绩超预期，但投资者更关心“为什么台积电这么激进”？</a> [25] <font color='grey'>- 00时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187084" target="_blank" class="news-link">Ananke：可视化管理你的 MCP Server 和 AI Skills</a> [28] <font color='grey'>- 00时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
