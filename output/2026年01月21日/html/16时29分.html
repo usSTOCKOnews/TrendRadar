@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 107</p><p>生成时间: 2026-01-21 16:29:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">8.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187371" target="_blank" class="news-link">[独立开发] 历时半年，用 Flutter + Rust 撸了一个“带 AI 复盘”的模拟交易 App，求轻喷</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763802" target="_blank" class="news-link">抄底苹果时刻？高盛：超级换机周期+Siri重塑，iPhone仍是AI时代的首选硬件入口</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46701969" target="_blank" class="news-link">The Agentic AI Handbook: Production-Ready Patterns</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763773" target="_blank" class="news-link">沪指震荡收涨0.1%，上证50ETF成交创历史天量，AI算力产业链爆发、黄金股掀涨停潮，30年期国债大涨，碳酸锂涨超7%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187359" target="_blank" class="news-link">[送码]无需 VPN 连接 Tailscale 内网 SSH 服务器的 iOS 客户端更新啦</a> [6] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2265007?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">翱捷科技：预计2025年净亏损3.99亿元 芯片销量大幅增长</a> [7] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3867818_100_1" target="_blank" class="news-link">【行情】恒生指数收报26585点，上涨97点；恒生科技指数收报5746点，上涨62点；安踏体育下跌逾4%；百度集团-SW、港铁公司、中华电力、中国石化、智利比索持仓创下新高；市场成交额上升。</a> [7 - 27] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763769" target="_blank" class="news-link">推理成本暴降70%！谷歌TPU强势追赶，性价比已追平英伟达</a> [17] <font color='grey'>- 16时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://china.hani.co.kr/arti/economy/16405.html" target="_blank" class="news-link">三星真的“回归”了吗？……在三大存储芯片企业中营业利润率“垫底”</a> [21] <font color='grey'>- 16时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
