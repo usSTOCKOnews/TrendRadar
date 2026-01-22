@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 105</p><p>生成时间: 2026-01-22 16:28:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">10.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763892" target="_blank" class="news-link">特朗普TACO助推全球股市上涨，芯片股涨势如虹，韩股突破5000大关！黄金跌破4800</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2266436?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">方正科技：2025年净利同比预增67%-98% 拓展AI服务器、高速光模块、高端交换机等高附加值业务订单</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763916" target="_blank" class="news-link">别管Q4业绩了，特斯拉下周财报的最大看点是机器人和自动驾驶</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3869739_100_1" target="_blank" class="news-link">中国外交部：（就美国总统特朗普对加密货币的评论）中国在全球货币和金融领域开展合作，并参与了全球宏观政策协调。</a> [6 - 26] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46712678" target="_blank" class="news-link">Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant</a> [9] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958475" target="_blank" class="news-link">AI时代，什么工作最好？黄仁勋给你答案</a> [9] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763860" target="_blank" class="news-link">张坤4100点上首“发声”：消费、房价、AI和国运，究竟该怎么看？</a> [10] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2266422?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月22日电，据《Business Insider》，特斯拉CEO马斯克将于当地时间周四下午4:30在达沃斯出席一场小组讨论，与会者包括贝莱德CEO芬克。</a> [10]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2266421?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国政府只在特殊情况下批准购买H200芯片？商务部回应</a> [11] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46711574" target="_blank" class="news-link">eBay explicitly bans AI &quot;buy for me&quot; agents in user agreement update</a> [12] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/teamout?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">TeamOut AI</a> [20]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
