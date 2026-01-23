@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 93</p><p>生成时间: 2026-01-23 16:27:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">12</td>
+                <td class="percentage">12.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46729368" target="_blank" class="news-link">Proton Spam and the AI Consent Problem</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E7%BC%A4%E7%BA%B7%E4%B8%96%E7%95%8C/20260123-%E7%A0%94%E7%A9%B6-%E9%A9%AC%E6%96%AF%E5%85%8Bai%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BAgrok-%E7%94%9F%E6%88%90300%E4%B8%87%E5%BC%A0%E4%B8%8D%E9%9B%85%E7%85%A7" target="_blank" class="news-link">研究：马斯克AI聊天机器人Grok 生成300万张不雅照</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187878" target="_blank" class="news-link">业余时间撸了个 AI 绘图衍生工具：让宝宝照秒变跳舞视频，内置 72 小时自动删图隐私机制</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187863" target="_blank" class="news-link">我的新 iOS APP， Yore 发布了，你的第二 Ai 记忆。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764014" target="_blank" class="news-link">云厂商竞逐AI底座</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187861" target="_blank" class="news-link">利用腾讯云仿冒 APP 的诈骗</a> [6] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764003" target="_blank" class="news-link">现有路径不通？OpenAI、亚马逊考虑改变大模型训练方式</a> [6] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187853" target="_blank" class="news-link">做了一个用 AI 生成 git 提交日志的工具</a> [8] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764001" target="_blank" class="news-link">仅用半小时！Claude Code“终结”英伟达“最强护城河”？</a> [9] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764009" target="_blank" class="news-link">腾讯不想靠“token生意”赚快钱</a> [12] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2267745?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">亚马逊云科技上调GPU容量块价格15%</a> [14] <font color='grey'>- 16时27分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ada-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ChartGen AI</a> [16] <font color='grey'>- 16时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
