@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2026-01-26 22:26:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">15.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764192" target="_blank" class="news-link">百度发起新一轮冲锋</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1188551" target="_blank" class="news-link">大伙在没有 ai 的时候都是怎么分析开源项目的源代码</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764186" target="_blank" class="news-link">十亿级用户争夺战：除了编程，Excel才是AI真正的“杀手级”应用场景</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126220859936800" target="_blank" class="news-link">据The Information：OpenAI在早期广告推广中寻求溢价定价。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764188" target="_blank" class="news-link">英伟达向CoreWeave追加投资20亿美元，首推独立CPU芯片</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126220730931800" target="_blank" class="news-link">苹果(AAPL.O)：全新AirTag今日上市，单个AirTag售价29美元，四件装售价99美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126220711939800" target="_blank" class="news-link">英伟达(NVDA.O)：推出Earth-2系列开放模型。</a> [6] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764185" target="_blank" class="news-link">七成营收靠腾讯，毛利却倒数？燧原科技IPO背后的“豪门代价”</a> [7] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126220605779800" target="_blank" class="news-link">苹果(AAPL.O)发布全新黑色团结之花Apple Watch表带。</a> [7] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2270355?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月26日电，苹果公司推出新款AirTag。</a> [7] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2270354?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月26日电，英伟达发布人工智能“地球-2”系统，旨在提升天气预报精度。</a> [8] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126220348815800" target="_blank" class="news-link">苹果(AAPL.O)推出新款AirTag，其覆盖范围更广，查找功能更强大。</a> [10] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2270109?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】商业航天+可控核聚变+芯片+人形机器人+云计算！公司产品已应用可控核聚变试验项目（EAST）</a> [11] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2270331?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">高盛贵金属交易主管Binet-Laisne据悉将离职</a> [13] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2269778?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·洞察】Agentic Coding成为AI推理新范式，深度工作阶段下Token消耗相比Chatbot提升了3个数量级，算力硬件或迎结构化机遇；四季度基金持仓指示线索</a> [14] <font color='grey'>- 22时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
