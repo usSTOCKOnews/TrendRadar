@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 107</p><p>生成时间: 2026-01-26 18:24:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">14.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46762882" target="_blank" class="news-link">The Holy Grail of Linux Binary Compatibility: Musl and Dlopen</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126181759623800" target="_blank" class="news-link">ABRDN实物白银股票ETF美股盘前涨6.7%，Global X白银矿业ETF涨6.2%，iShares白银信托上涨6.6%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126181712395800" target="_blank" class="news-link">美股银矿股盘前上涨，SILVERCORP METALS涨 5.5%, ENDEAVOUR SILVER涨5.4%，赫拉克矿业涨6.3%, 科尔黛伦矿业涨 4.7%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2269957?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月26日电，摩根大通将苹果目标价从305美元上调至315美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2269935?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">天数智芯发布四代芯片路线图 2027年超越英伟达Rubin</a> [6] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764162" target="_blank" class="news-link">英伟达计划进军Arm PC芯片，联想、戴尔或率先采用</a> [10] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2269943?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月26日电，据报道，量子计算公司IonQ将以18亿美元收购芯片制造商SkyWater。</a> [10] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126180721642800" target="_blank" class="news-link">摩根大通(JPM.N)：将苹果(AAPL.O)目标价从305美元上调至315美元。</a> [11] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126180114441800" target="_blank" class="news-link">据华尔街日报：量子计算公司IonQ将以18亿美元收购芯片制造商SkyWater。</a> [13] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126180007441800" target="_blank" class="news-link">英特尔(INTC.O)美股盘前下跌1.8%，此前一交易日暴跌17%。</a> [16] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3874284_100_1" target="_blank" class="news-link">惠誉：预计未来一段时间内，台积电等公司将宣布进一步投资，以达到免关税门槛。</a> [17] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126175458514800" target="_blank" class="news-link">Niocorp美股盘前涨10.9%，Trilogy Metals涨11.6%。</a> [18] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2269925?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月26日电，利弗莫尔证券显示，聚辰半导体股份有限公司向港交所提交IPO申请，保荐人为中金公司。</a> [18] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764155" target="_blank" class="news-link">元宝AI春节10亿红包！马化腾：希望重现当年微信红包盛况</a> [19] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126175411590800" target="_blank" class="news-link">美股稀土矿商股价盘前上涨，MP Materials涨4.6%，United States Antimony涨10.2%，Critical Metals涨5%。</a> [19] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3874275_101_1" target="_blank" class="news-link">【行情】美股盘前，黄金股普涨，泛美白银涨近6%，科尔黛伦矿业涨超4%，哈莫尼黄金涨近3%。</a> [19] <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
