@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 80</p><p>生成时间: 2026-01-30 06:25:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">32</td>
+                <td class="percentage">40.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764518" target="_blank" class="news-link">碾压预期！苹果Q4营收和iPhone销售均创新高，在华收入劲增近40% | 财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/politicsaeconomy/commodity/61270-2026-01-30-05-00-31.html" target="_blank" class="news-link">空前的半导体存储器泡沫已经到来？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3764510" target="_blank" class="news-link">微软交出完美财报、市值却瞬间蒸发超3000亿 AI泡沫的第一道裂痕出现了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130054610900800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q1净利润420.97亿美元，市场预期393.31亿美元，去年同期363.3亿美元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46816539" target="_blank" class="news-link">Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61159-2026-01-30-05-00-51.html" target="_blank" class="news-link">中国发电增量达美国7倍，左右AI竞争</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764517" target="_blank" class="news-link">美股第二大单日市值损失！微软盘中暴跌12%、疫情以来最大日跌、蒸发4300亿</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130054448936800" target="_blank" class="news-link">Meta Platforms(META.O)：WhatsApp、其员工及其承包商无法访问人们的加密通信。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46810282" target="_blank" class="news-link">Claude Code daily benchmarks for degradation tracking</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764492" target="_blank" class="news-link">财报数据亮眼，周四却一度大跌12%，微软的市场预期差在哪？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2274911?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月30日电，苹果公司表示，本财季iPhone产品的需求达到了“空前水平”。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764516" target="_blank" class="news-link">AI推动存储需求爆棚，Sandisk业绩大超预期，股价盘后一度涨近15% | 财报见闻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2274910?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">苹果Q1营收高于预期 盘后涨超3%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053649077800" target="_blank" class="news-link">苹果(AAPL.O)第一财季服务业务净销售额为300.1亿美元，低于市场预期的300.7亿美元。</a> [6] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053632155800" target="_blank" class="news-link">苹果(AAPL.O)第一财季iPad净销售额为86亿美元，高于市场预期的81.3亿美元。</a> [7] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764513" target="_blank" class="news-link">报道：亚马逊洽谈对OpenAI投资至多500亿美元</a> [8] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053523276800" target="_blank" class="news-link">苹果公司第一季度每股派息0.26美元。</a> [8] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2274907?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月30日电，铠侠（Kioxia）与Sandisk将Yokkaichi合资协议延长至2034年。</a> [8] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053425950800" target="_blank" class="news-link">苹果(AAPL.O)CEO库克：苹果设备装机量已超过25亿台。</a> [9] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053410464800" target="_blank" class="news-link">苹果(AAPL.O)CEO库克：如果不是因为供应限制，可穿戴设备业务在第一财季本应实现增长。</a> [10] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053408045800" target="_blank" class="news-link">苹果(AAPL.O)CEO库克：AirPods Pro 3第一季度供应受限。</a> [11] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053331911800" target="_blank" class="news-link">苹果(AAPL.O)CEO库克：谷歌技术将改进Siri，今年晚些时候将推出更新。</a> [12] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053314245800" target="_blank" class="news-link">苹果(AAPL.O)CEO库克：因中国的安卓用户转投苹果阵营，iPhone 17销售实现了两位数的增长。</a> [13] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053200516800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q1可穿戴设备收入为114.93亿美元。</a> [14] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053138970800" target="_blank" class="news-link">发布财报后，苹果(AAPL.O)股价在盘后交易中上涨2%。</a> [15] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2274900?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">纳指收跌0.7% 微软市值蒸发3570亿美元</a> [15] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053125202800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q1的大中华区营收为255.26亿美元。</a> [16] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2274898?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月30日电，亚马逊据悉正洽谈对OpenAI投资至多500亿美元。</a> [16] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053108214800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q1的iPhone营收为852.69亿美元，市场预期786.5美元。</a> [17] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053023208800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q1营收1437.6亿美元，市场预期1384.2亿美元，去年同期1243亿美元。</a> [18] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46816228" target="_blank" class="news-link">Apple buys Israeli startup Q.ai</a> [22] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46813834" target="_blank" class="news-link">AI&#x27;s impact on engineering jobs may be different than expected</a> [26] <font color='grey'>- 06时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
