@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 230</p><p>生成时间: 2026-01-31 00:35:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">23</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1189657" target="_blank" class="news-link">做了个 AI 视频生成工具，文字转视频， 6 秒/10 秒</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46824877" target="_blank" class="news-link">Show HN: Amla Sandbox – WASM bash shell sandbox for AI agents</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764423" target="_blank" class="news-link">微软AI支出引发忧虑，股价重挫10%拖累美股大盘，金银新高后一度跳水，铜油走强</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/MoonshotAI/kimi-cli" target="_blank" class="news-link">MoonshotAI / kimi-cli</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1189630" target="_blank" class="news-link">AI 生成 PPT 方案请教</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/NevaMind-AI/memU" target="_blank" class="news-link">NevaMind-AI / memU</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130235532816800" target="_blank" class="news-link">特斯拉(TSLA.O)涨超5%；此前特斯拉CEO埃隆·马斯克旗下其他公司正就IPO与SpaceX进行合并谈判。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46820783" target="_blank" class="news-link">OpenClaw – Moltbot Renamed Again</a> [6] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/pandada-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Pandada AI</a> [10] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764518" target="_blank" class="news-link">碾压预期！苹果上季营收和iPhone销售均创新高，在华收入劲增近40% | 财报见闻</a> [10] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46820924" target="_blank" class="news-link">How AI assistance impacts the formation of coding skills</a> [12] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764604" target="_blank" class="news-link">受安世半导体控制权受限影响，闻泰科技2025年预亏90亿-135亿 | 财报见闻</a> [14] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764596" target="_blank" class="news-link">不卷HBM卷产能！铠侠高管：我们拥有“对的产品”，AI数据中心正处于存储饥渴期</a> [16] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2276251?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社1月30日电，特斯拉涨超4%。SpaceX正在考虑与特斯拉进行潜在的合并，同时也在评估另一种方案——与人工智能公司xAI进行整合。</a> [16] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ada-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ChartGen AI</a> [17] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46824925" target="_blank" class="news-link">Where I&#x27;m at with AI</a> [18] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20260130-ai%E6%8A%95%E8%B5%84%E6%B3%A1%E6%B2%AB%E7%96%91%E8%99%91%E4%BA%9A%E8%82%A1%E5%A4%9A%E6%94%B6%E9%BB%91-%E9%87%91%E9%93%B6%E4%BB%B7%E6%A0%BC%E9%AB%98%E7%82%B9%E5%9B%9E%E8%90%BD" target="_blank" class="news-link">AI投资泡沫疑虑亚股多收黑 金银价格高点回落</a> [18] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764592" target="_blank" class="news-link">“重金砸入”AI研发，昆仑万维2025年预亏13.5亿-19.5亿｜财报见闻</a> [18] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46821360" target="_blank" class="news-link">How AI Impacts Skill Formation</a> [19] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46816539" target="_blank" class="news-link">Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT</a> [23] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764594" target="_blank" class="news-link">华泰证券张继强：AI仍是今年最重要主题，险资是最大边际力量</a> [23] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3764468" target="_blank" class="news-link">光纤行业展望：AI时代的“数据动脉”，迎接产业新拐点</a> [24] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46816357" target="_blank" class="news-link">The WiFi only works when it&#x27;s raining (2024)</a> [28] <font color='grey'>- 00时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
