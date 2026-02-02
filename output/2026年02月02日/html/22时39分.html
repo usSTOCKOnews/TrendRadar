@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-02-02 22:39:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">14</td>
+                <td class="percentage">20.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260202221537167800" target="_blank" class="news-link">迪士尼首席执行官：仍在“梳理OpenAI交易的所有技术细节”。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2278258?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月2日电，中概股普跌，小鹏汽车跌超6%，蔚来跌超3%，百度、爱奇艺跌超2%，微博、哔哩哔哩跌超1%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764730" target="_blank" class="news-link">商品暴跌震动市场！纳指期货跌超1%，甲骨文盘前上涨4%，现货金银“V”型反转，布油跌5%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764761" target="_blank" class="news-link">谷歌财报前瞻：业绩大概率超预期，资本开支指引是最大看点</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764758" target="_blank" class="news-link">2026年AI最大的叙事变化是什么？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260202220631439800" target="_blank" class="news-link">迪士尼首席执行官：迪士尼希望与OpenAI的交易能推动其在Disney+上提供短视频的能力。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260202220614192800" target="_blank" class="news-link">Snowflake盘前上涨2.6%，此前该公司与OpenAI达成2亿美元的合作伙伴关系。</a> [6] <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2278251?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">纳指低开0.4% 甲骨文涨超3%</a> [6] <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46855527" target="_blank" class="news-link">MaliciousCorgi: AI Extensions send your code to China</a> [7] <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2278164?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】光模块+机器人+算力租赁+商业航天+AI智能体！公司参股企业产品覆盖1.6T 超速、800G 及400G系列硅光模块等</a> [11] <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2277787?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·洞察】受AI驱动的数据中心建设需求强劲，这个细分产品1月价格环比上涨79%，创下2023年以来首次大幅度持续改善，新一轮上行周期可能正在形成；春季躁动后大幅回撤概率不高</a> [12] <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2278240?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月2日电，Snowflake与OpenAI达成2亿美元合作，将企业级AI引入全球最受信赖的数据平台。</a> [13] <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46856384" target="_blank" class="news-link">Google AI helped IDF drones with targeting in 2024 breaching its own policies</a> [18] <font color='grey'>- 22时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260202212952044800" target="_blank" class="news-link">甲骨文启动美元债发行 拟筹资至多500亿美元扩建云业务</a> [22] <font color='grey'>- 22时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
