@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 227</p><p>生成时间: 2026-02-04 00:50:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">31</td>
+                <td class="percentage">13.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764730" target="_blank" class="news-link">美制造业数据托底风险偏好，美股、加密货币齐反弹、美元续涨，金银企稳，原油重挫</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/openai/skills" target="_blank" class="news-link">openai / skills</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764779" target="_blank" class="news-link">Space X收购xAI，“火箭+AI+社交平台”超级巨头成型，马斯克剑指太空数据中心</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2279633?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月4日电，达索与英伟达构建合作伙伴关系，将打造工业AI平台。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46871473" target="_blank" class="news-link">GitHub Browser Plugin for AI Contribution Blame in Pull Requests</a> [6] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764867" target="_blank" class="news-link">私募巨头阿波罗警告：“软件已死”！AI正重塑4400亿美元估值逻辑</a> [6] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/pandada-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Pandada AI</a> [7] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2279624?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月3日电，甲骨文50亿美元强制性可转债据悉获得数倍超额认购。</a> [7] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764858" target="_blank" class="news-link">120倍回报、千亿美元浮盈，SpaceX上市的隐藏大赢家——谷歌！</a> [10] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/vm0-ai/vm0" target="_blank" class="news-link">vm0-ai / vm0</a> [11] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764858" target="_blank" class="news-link">120倍回报、千亿美元浮盈，SpaceX上市的隐藏大赢家——谷歌！</a> [12] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204002233801800" target="_blank" class="news-link">Meta Platforms(META.O)与尼日利亚数据保护委员会合作，在尼日利亚启动隐私教育活动。</a> [12] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764857" target="_blank" class="news-link">AI电商走到哪了？</a> [15] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46872190" target="_blank" class="news-link">Data Brokers Can Fuel Violence Against Public Servants</a> [16] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ada-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ChartGen AI</a> [16] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20260203-%E5%8D%B0%E5%BA%A6%E5%86%9C%E6%9D%91%E6%8E%A8%E6%B3%A2%E5%8A%A9%E6%BE%9Cai%E9%9D%A9%E5%91%BD" target="_blank" class="news-link">印度农村推波助澜AI革命</a> [16] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204001329118800" target="_blank" class="news-link">市场消息：英伟达(NVDA.O)正在采用达索系统的基于模型的系统工程方法。</a> [16] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46865275" target="_blank" class="news-link">Banning lead in gas worked. The proof is in our hair</a> [17] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764854" target="_blank" class="news-link">为什么AI短期内革不了游戏引擎的命?</a> [17] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204001237926800" target="_blank" class="news-link">市场消息：达索系统与英伟达(NVDA.O)将携手打造跨行业人工智能架构。</a> [17] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2279606?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月3日电，利弗莫尔中概股龙头指数跌幅扩大至1%，成分股中，哔哩哔哩跌3.8%，阿里巴巴跌2.65%。</a> [18] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204000848202800" target="_blank" class="news-link">市场消息：达索系统与英伟达(NVDA.O)合作，打造工业人工智能平台。</a> [19] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3764843" target="_blank" class="news-link">AI债务黑箱：私募信贷裂缝加速扩大</a> [20] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46858577" target="_blank" class="news-link">Todd C. Miller – Sudo maintainer for over 30 years</a> [21] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190432" target="_blank" class="news-link">well-net 开源组网软件, tailnet 的自建版</a> [23] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190428" target="_blank" class="news-link">用 AI 接管 Java 后端的重复工作， AutoJava 求助反馈</a> [24] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190415" target="_blank" class="news-link">Google AI Mode 中文这么通俗易懂吗</a> [25] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46843805" target="_blank" class="news-link">Archive.today is directing a DDoS attack against my blog?</a> [25] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190406" target="_blank" class="news-link">做了个统计 AI 工具对代码库的真实贡献 cli : ai-credit</a> [28] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46868318" target="_blank" class="news-link">LNAI – Define AI coding tool configs once, sync to Claude, Cursor, Codex, etc.</a> [28] <font color='grey'>- 00时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46862170" target="_blank" class="news-link">xAI joins SpaceX</a> [30] <font color='grey'>- 00时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
