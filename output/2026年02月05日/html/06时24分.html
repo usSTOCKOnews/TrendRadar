@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-02-05 06:24:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">21</td>
+                <td class="percentage">30.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764994" target="_blank" class="news-link">AI支持谷歌云收入Q4猛增48%，但今年支出指引大超预期，盘后再跌 | 财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205055519813800" target="_blank" class="news-link">Alphabet(GOOG.O)CEO皮查伊：苹果(AAPL.O)选择谷歌云作为其首选云服务提供商。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2280963?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月5日电，Arm宣布将于3月24日举办芯片活动，但尚未透露太多。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205055427415800" target="_blank" class="news-link">据日本读卖新闻：台积电(TSM.N)在熊本工厂的投资将增至2.6万亿日元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205055402487800" target="_blank" class="news-link">据日本读卖新闻：台积电(TSM.N)将在日本熊本工厂生产3纳米芯片。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205054238420800" target="_blank" class="news-link">Alphabet(GOOG.O)CEO皮查伊：自AI模式推出以来，观察到每位用户的每日AI模式查询量翻倍。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46891860" target="_blank" class="news-link">We built a real-world benchmark for AI code review</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205051339983800" target="_blank" class="news-link">英伟达(NVDA.O)和AMD(AMD.O)盘后均涨超1%，谷歌(GOOG.O)大幅上调资本开支预期。</a> [10] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2280953?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">谷歌母公司ALPHABET：第四财季净利润344.55亿美元 同比增长29.8%</a> [10] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050944063800" target="_blank" class="news-link">谷歌(GOOG.O)盘后逆转6%的跌幅，现涨1%。</a> [12] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2280950?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">高通Q1营收122.5亿美元 同比增长5%</a> [12] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050807413800" target="_blank" class="news-link">Alphabet(GOOGL.O)：谷歌云收入增长48%至177亿美元，主要得益于企业对AI基础设施（GCP）及AI解决方案的需求增长，核心GCP产品亦表现强劲。</a> [13] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050719759800" target="_blank" class="news-link">Alphabet(GOOGL.O)：Q4谷歌服务营收增长了14%，达到959亿美元，主要由Google搜索及其他业务（增长17%）、订阅与平台设备业务（增长17%）及YouTube广告业务（增长9%）驱动。</a> [14] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2280947?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月5日电，据内部备忘录显示，Meta新推出的“Avocado Model”是该公司能力最强的预训练大语言模型。</a> [16] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050408864800" target="_blank" class="news-link">谷歌(GOOG.O)美股盘后跌超6%。</a> [20] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050350375800" target="_blank" class="news-link">Alphabet(GOOGL.O)2025年Q4谷歌广告收入822.84亿美元。</a> [21] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050325162800" target="_blank" class="news-link">Alphabet(GOOGL.O)2025年Q4谷歌云收入176.6亿美元。</a> [22] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050153659800" target="_blank" class="news-link">高通(QCOM.O)盘后财报发布后下跌1.6%。</a> [24] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050136423800" target="_blank" class="news-link">高通(QCOM.O)：近期手机市场前景受到全行业内存供应短缺的影响。</a> [25] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050118583800" target="_blank" class="news-link">高通(QCOM.O)2026财年第二季度营收展望为102-110亿美元，市场预期111.2亿美元。</a> [26] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205050033498800" target="_blank" class="news-link">高通(QCOM.O)2026财年Q1营收122.5亿美元，市场预期121.65亿美元，上年同期116.7亿美元。</a> [28] <font color='grey'>- 06时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
