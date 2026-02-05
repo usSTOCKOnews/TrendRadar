@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 97</p><p>生成时间: 2026-02-05 16:40:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">15.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190968" target="_blank" class="news-link">AI 时代的面试</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765033" target="_blank" class="news-link">AI研发AI--世界上最重要也最危险的技术，也是众多AI巨头的目标</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958554" target="_blank" class="news-link">蔡崇信：纯模型公司很难靠开源盈利，但阿里可以</a> [6] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765054" target="_blank" class="news-link">AI需求强劲！鸿海1月销售额7300.4亿元台币，同比增长35.5％</a> [7] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765004" target="_blank" class="news-link">谷歌电话会：1850亿支出“不得不花”，确认与苹果合作，Gemini并非SaaS的“终结者”</a> [10] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958553" target="_blank" class="news-link">蔡崇信：当下的巨额AI投资很难谈ROI，还好我不是CFO</a> [10] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765038" target="_blank" class="news-link">沃尔玛的翻身仗，不是靠变成第二个亚马逊</a> [11] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958552" target="_blank" class="news-link">黄仁勋：AI会干掉软件？完全没有逻辑</a> [16] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2281579?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月5日电，印度贸易部官员表示，印度每年需进口价值3,000亿美元的美国商品，美国将成为能源、飞机和芯片的主要供应国之一 。</a> [16] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765029" target="_blank" class="news-link">AI投资兑现，谷歌云加速腾飞</a> [18] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2281575?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月5日电，印度贸易部官员表示，印度每年将进口价值3,000亿美元的美国商品，美国将成为能源、飞机和芯片的主要供应国之一。</a> [18] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765040" target="_blank" class="news-link">首次用iPhone芯片！苹果拟推“廉价版”MacBook，售价或低于799美元</a> [19] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46895950" target="_blank" class="news-link">Study: Older Cannabis Users Have Larger Brains, Better Cognition</a> [21] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765042" target="_blank" class="news-link">“沾上OpenAI就没吸引力了！”华尔街开始“清算”OpenAI概念股，谷歌大涨36%成赢家</a> [21]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205155859096800" target="_blank" class="news-link">英伟达服务器需求持续强劲 鸿海1月营收飙升35%超预期</a> [25] <font color='grey'>- 16时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
