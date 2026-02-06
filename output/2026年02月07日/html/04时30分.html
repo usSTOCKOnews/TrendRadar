@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-02-07 04:30:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">28.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765113" target="_blank" class="news-link">逢低买盘撑美股大幅反弹，道指新高，英伟达大涨7%，金银V形反弹，比特币涨11%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765113" target="_blank" class="news-link">逢低买盘撑美股大幅反弹，道指新高，英伟达大涨7%，金银V形反弹，比特币涨11%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207040949574800" target="_blank" class="news-link">苹果计划允许第三方语音控制AI聊天机器人接入CarPlay</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207040516386800" target="_blank" class="news-link">Gravity AI：拟申请在纳斯达克资本市场上市，正提交IPO申请，拟发行375万股，每股发行价格暂定为4.00美元，处于4.00美元至5.00美元发行区间低端。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765198" target="_blank" class="news-link">巨头砸钱6500亿加剧担忧，黄仁勋“灭火”：AI需求火爆，庞大支出合理、可持续</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2283562?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月7日电，美国司法部据悉调查奈飞对华纳兄弟的收购策略。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46916586" target="_blank" class="news-link">How to effectively write quality code with AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207040250896800" target="_blank" class="news-link">据Fortune：OpenAI旗下ChatGPT应用的市场份额从2025年1月的69.1%骤降至次年的45.3%，而谷歌旗下Gemini聊天机器人应用的市场份额则从14.7%攀升至25.2%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2283561?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">景林最新美股持仓：谷歌升至第一大重仓 高位减持英伟达</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2283557?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">苹果计划允许外部语音控制型人工智能聊天机器人接入CarPlay系统。</a> [8] <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207035802693800" target="_blank" class="news-link">景林最新美股持仓曝光：谷歌升至第一大重仓 大幅减持英伟达</a> [11] <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46916609" target="_blank" class="news-link">Show HN: If you lose your memory, how to regain access to your computer?</a> [12] <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207033752450800" target="_blank" class="news-link">奈飞(NFLX.O)股价回吐部分涨幅，最新上涨0.8%。</a> [15] <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207033232175800" target="_blank" class="news-link">据华尔街日报：根据法庭传票，司法部正向业界询问，奈飞(NFLX.O)或派拉蒙收购华纳兄弟的交易可能如何影响竞争。</a> [17] <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207033205467800" target="_blank" class="news-link">据华尔街日报：根据法庭传票，美国司法部正在询问奈飞(NFLX.O)是否从事可能导致垄断的“排他性行为”。</a> [18] <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207032751728800" target="_blank" class="news-link">市场消息：苹果(AAPL.O)将允许在CarPlay AI中使用外部语音控制聊天机器人。</a> [19] <font color='grey'>- 04时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46916961" target="_blank" class="news-link">Man who videotaped himself BASE jumping in Yosemite arrested, says it was AI</a> [21] <font color='grey'>- 04时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
