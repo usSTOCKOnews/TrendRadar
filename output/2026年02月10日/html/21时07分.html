@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 102</p><p>生成时间: 2026-02-10 21:07:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">21</td>
+                <td class="percentage">20.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46958597" target="_blank" class="news-link">Show HN: Pipelock – All-in-one security harness for AI coding agents</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192079" target="_blank" class="news-link">我开发了一款真正“懂你”的 AI Markdown 编辑器，轻量却强大，让创意从灵感到发布一气呵成。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192077" target="_blank" class="news-link">[iOS 版内测邀请] 通过 @ 和多个 AI 模型聊天的 App，它们能协作！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2286305?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股AI应用软件股盘前涨幅扩大 Spotify、Datadog大涨超10%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192074" target="_blank" class="news-link">AI 中转站有大量的以次充好现象</a> [7] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765361" target="_blank" class="news-link">全球股市创历史新高，欧股奢侈品大涨，台积电夜盘涨超3%，金银下挫，美元企稳人民币走强</a> [7] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765413" target="_blank" class="news-link">春节AI大战只是表现？摩根大通：token消耗量将进入高速增长期，五年或增长370倍！</a> [7] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765409" target="_blank" class="news-link">AI狂热抹去周期记忆：当闪迪涨了12倍，谁还记得曾经的崩盘？</a> [9] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210204920773800" target="_blank" class="news-link">谷歌(GOOG.O)：将继续与英国竞争和市场管理局（CMA）进行建设性互动。</a> [9] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192071" target="_blank" class="news-link">ai 编程 swe bench 各种高分 感觉水分很大 兄弟们来分析一下</a> [10] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210204906860800" target="_blank" class="news-link">谷歌(GOOG.O)：对有机会解决英国竞争和市场管理局（CMA）的关切表示欢迎。</a> [10] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192067" target="_blank" class="news-link">做了个 AI 心理测试小站，想请大家帮我挑挑刺</a> [11] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765408" target="_blank" class="news-link">编程AI又变天？神秘模型Pony Alpha火了，被曝是智谱GLM-5，股价两日暴涨60%！</a> [11] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765402" target="_blank" class="news-link">AI需求爆发，韩企北美销售额增长14%，海力士在美销售额大增65%</a> [12] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2286002?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】前瞻布局GEO抢占AI商业化先机，这家公司收购布局AI算法+广告，依托完整商业生态、商品数据库实现AI营销全链路闭环；羊毛价格有望持续得到支撑，这家公司卡位稀缺环节有望迎量价齐升</a> [12] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2286292?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月10日电，摩根士丹利维持对特斯拉的中性评级及415美元目标价。</a> [13] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2286291?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月10日电，Robo.AI与DaBoss.AI成立合资企业，将推出分布式具身人工智能数据平台。</a> [15] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20260210-ai%E7%83%AD%E6%BD%AE%E6%8E%A8%E5%8D%87%E9%9C%80%E6%B1%82-%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%B8%8A%E4%BF%AE%E7%BB%8F%E6%B5%8E%E6%88%90%E9%95%BF%E9%A2%84%E6%B5%8B" target="_blank" class="news-link">AI热潮推升需求 新加坡上修经济成长预测</a> [16]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210202612810800" target="_blank" class="news-link">摩根士丹利：预计特斯拉(TSLA.O)太阳能业务有望为其能源板块增加200亿至500亿美元的股权价值。尽管这一投资本身不具变革性，但它可能开启长期增长空间，并缓解能源瓶颈，从而支持特斯拉更宏大的战略目标。</a> [19] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2286285?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月10日电，据报道，在谷歌各批次债券中，其百年期英镑债券认购需求最为强劲。</a> [19] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210202541427800" target="_blank" class="news-link">摩根士丹利：维持对特斯拉(TSLA.O)的中性评级及415美元目标价。</a> [20] <font color='grey'>- 21时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
