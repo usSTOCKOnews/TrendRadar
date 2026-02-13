@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2026-02-13 22:38:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">16.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192753" target="_blank" class="news-link">关于 OpenAI 后端接口加 v1 版本号这件事</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192746" target="_blank" class="news-link">遇到玩不了的 3D 游戏，只能让 AI 帮我写一个了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765701" target="_blank" class="news-link">AI需求仍强却带不动股价！英伟达四季度至今仅涨1%，市场观望情绪转浓</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765664" target="_blank" class="news-link">美国通胀降温，美股期指短线拉升，存储概念股盘前走低，阿里盘前大跌5%，原油日内跌近1%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765699" target="_blank" class="news-link">AI恐慌压垮了软件——但市场真的错了吗？</a> [8] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765693" target="_blank" class="news-link">1480亿美元的赌注：为何高盛认为市场误读了微软的资本开支？</a> [9] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2289964?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月13日电，欧盟将于4月就《数字市场法》下针对谷歌的拟议措施展开磋商。</a> [10] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47002404" target="_blank" class="news-link">I asked Claude Code to remove jQuery. It failed miserably</a> [11] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765691" target="_blank" class="news-link">腾讯被错杀了？</a> [11] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213215534534800" target="_blank" class="news-link">欧盟将在六个月内完成对谷歌(GOOG.O)的反垄断调查程序。</a> [14] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2289957?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月13日电，百度美股盘前跌近5%。</a> [14] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213215318727800" target="_blank" class="news-link">欧盟将于4月就《数字市场法》下针对谷歌(GOOG.O)的拟议措施展开磋商。</a> [16] <font color='grey'>- 22时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213214833217800" target="_blank" class="news-link">百度(BIDU.O)盘前短线下挫，现跌4.5%。</a> [21] <font color='grey'>- 22时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
