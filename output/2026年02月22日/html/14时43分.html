@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2026-02-22 14:43:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">11.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193462" target="_blank" class="news-link">AgentCut -- 开源多 Agent 协作 AI 视频生产工具，一条 Prompt 生成完整视频</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765948" target="_blank" class="news-link">欢迎来到AI智能体新时代：未来不是“为人创造”，而是“为AI服务”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193459" target="_blank" class="news-link">求助， AI 开发 APP 的成功实践路径。请问有没有推荐的相关教程？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765949" target="_blank" class="news-link">SK会长崔泰源警告：AI正在吞噬一切，今年千亿美元利润或瞬间变巨亏</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193449" target="_blank" class="news-link">用 AI 做了一个直播可爱动物的玩法 StreamPet</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193445" target="_blank" class="news-link">AI 对我这种“眼高手低”的人真的很友好</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958632" target="_blank" class="news-link">下周重磅日程：英伟达财报、特朗普国情咨文、美伊博弈、德总理访华</a> <font color='red'><strong>[5 - 6]</strong></font> <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765938" target="_blank" class="news-link">如果OpenAI估值8300亿美元，那谷歌该值多少？</a> [7] <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765945" target="_blank" class="news-link">表面风光之下，OpenAI的“四大困境”</a> [7] <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765936" target="_blank" class="news-link">传言成真？英伟达对OpenAI的“1000亿美元投资”最终“打了三折”</a> [10] <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47100935" target="_blank" class="news-link">The Human Root of Trust – public domain framework for agent accountability</a> [16] <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260222092613614800" target="_blank" class="news-link">特朗普威胁奈飞：若不解雇董事会成员赖斯，将付出代价</a> [24] <font color='grey'>- 14时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260222083921711800" target="_blank" class="news-link">美国司法部对奈飞收购华纳兄弟的交易进行“深入”调查</a> [29] <font color='grey'>- 14时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
