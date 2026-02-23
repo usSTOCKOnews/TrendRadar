@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-02-23 15:01:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">18</td>
+                <td class="percentage">14.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193542" target="_blank" class="news-link">AI-Native 一人公司架构系列开源：从 DSL 到低成本 scaling</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765955" target="_blank" class="news-link">无视海外“AI恐慌”，中国市场狂炒AI赢家</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765979" target="_blank" class="news-link">融入下一代PC生态体系，英伟达推出笔记本电脑芯片，重返消费级PC市场</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193535" target="_blank" class="news-link">代码如果不开源了 ai 编程是不是得吃屎了</a> [6] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47066446" target="_blank" class="news-link">How to train your program verifier</a> [6] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47115805" target="_blank" class="news-link">Google restricting Google AI Pro/Ultra subscribers for using OpenClaw</a> [7] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765976" target="_blank" class="news-link">来自“2028年6月的研究报告”：当AI超越预期，经济却崩了</a> [7] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2292769?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月23日电，港股半导体股午后再度走强，中芯国际涨近6%，华虹半导体涨超5%，纳芯微涨近5%，天数智芯涨超4%。</a> [7] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765976" target="_blank" class="news-link">来自“2028年6月的研究报告”：当AI超越预期，经济却崩了</a> [8] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765970" target="_blank" class="news-link">高盛评&quot;春晚机器人&quot;：硬件显著进步，推动应用普及，未来关键是底层AI</a> [9] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47117169" target="_blank" class="news-link">Aqua: A CLI message tool for AI agents</a> [10] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61494-2026-02-23-11-31-33.html" target="_blank" class="news-link">半导体拉动日本出口，1月同比增长39%</a> [12]</div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47104251" target="_blank" class="news-link">Rhythms the Compendium: Life aboard an aircraft carrier (2021)</a> [13] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765963" target="_blank" class="news-link">英伟达“滞涨”数月，本周“全球最重要财报”拉得动吗？</a> [14] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2292746?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月23日电，韩国央行表示，受芯片因素影响，GDP上行风险较11月预测略有增加。</a> [18] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260223131830284800" target="_blank" class="news-link">韩国央行：芯片热潮将显著提升GDP增速</a> [22] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47113731" target="_blank" class="news-link">NanoClaw moved from Apple Containers to Docker</a> [28] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47114235" target="_blank" class="news-link">Spain has blocked access to freedom.gov</a> [30] <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
