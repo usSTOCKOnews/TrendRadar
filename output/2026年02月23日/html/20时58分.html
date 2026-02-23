@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2026-02-23 20:58:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">12.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193586" target="_blank" class="news-link">AI 市场现在最大的空白是给设计师用的 Copilot 或是能跟 Figma 协作的 Vibe Coding</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时58分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193584" target="_blank" class="news-link">Ladybird 浏览器开发者使用 AI 将 JS 编译器用 Rust 改写了一遍</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时58分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193578" target="_blank" class="news-link">2026 年了，我从做捡钱的 Ai 套壳站，转变做了艰难的 AI 视频品牌站</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时58分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193577" target="_blank" class="news-link">这个麻将少牌问题， AI 怎么识别不出来？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765994" target="_blank" class="news-link">白宫发布会一年后仍未实质启动，OpenAI的5000亿美元&quot;星际之门&quot;计划陷入僵局</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时58分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2292935?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月23日电，谷歌官网消息，谷歌教育推出新计划，将为美国600万K-12和高等教育教师提供免费Gemini培训。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时58分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/VectifyAI/PageIndex" target="_blank" class="news-link">VectifyAI / PageIndex</a> [10]</div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/NevaMind-AI/memU" target="_blank" class="news-link">NevaMind-AI / memU</a> [13]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2292919?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月23日电，富国银行将谷歌评级从&quot;平配&quot;上调至&quot;超配&quot;，目标价从354美元上调至387美元。</a> [14] <font color='grey'>- 20时58分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2292909?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社2月23日电，Arcellx美股盘前涨超76%，吉利德科学将以每股115美元的价格收购Arcellx。</a> [19] <font color='grey'>- 20时58分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47119871" target="_blank" class="news-link">Show HN: AI Timeline – 171 LLMs from Transformer (2017) to GPT-5.3 (2026)</a> [21] <font color='grey'>- 20时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
