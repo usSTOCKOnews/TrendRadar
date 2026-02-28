@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 214</p><p>生成时间: 2026-03-01 00:23:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">27</td>
+                <td class="percentage">12.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/moeru-ai/airi" target="_blank" class="news-link">moeru-ai / airi</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3766407" target="_blank" class="news-link">AI冲击之下，新一轮“次贷危机”来了？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194908" target="_blank" class="news-link">Skill、MCP 等等 AI 外围工具，本质是 markdown 小作文吗</a> [6] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/lovon/launches/lovon-ai-therapy?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Lovon AI Therapy</a> [6] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47194611" target="_blank" class="news-link">Don&#x27;t trust AI agents</a> [8] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/pandada-ai/launches/pandada-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Pandada AI</a> [10] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/moonshine-ai/moonshine" target="_blank" class="news-link">moonshine-ai / moonshine</a> [10] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194563" target="_blank" class="news-link">别再折腾 Ollama 了！我把 Mac 内置的 Apple Intelligence 变成了标准 OpenAI 接口，支持任何客户端</a> [11] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47195317" target="_blank" class="news-link">OpenAI Fires an Employee for Prediction Market Insider Trading</a> [11] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766425" target="_blank" class="news-link">投资大佬德鲁肯米勒：我的优势不是智商，而是果断扣动扳机，卖飞英伟达“肠子都悔青了”</a> [14] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194870" target="_blank" class="news-link">Cutia: 运行在浏览器中的视频编辑器， Capcut 在线替代品， AI 原生，</a> [15] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20260228-openai%E4%B8%8E%E7%BE%8E%E5%9B%BD%E6%88%98%E4%BA%89%E9%83%A8%E8%BE%BE%E5%8D%8F%E8%AE%AE-ai%E6%A8%A1%E5%9E%8B%E8%BF%9B%E9%A9%BB%E6%9C%BA%E5%AF%86%E7%BD%91%E8%B7%AF" target="_blank" class="news-link">OpenAI与美国战争部达协议 AI模型进驻机密网路</a> [16] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47189650" target="_blank" class="news-link">OpenAI agrees with Dept. of War to deploy models in their classified network</a> [17] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20260227_11/" target="_blank" class="news-link">OpenAI称有中国人士求ChatGPT支招抹黑高市</a> [18] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766420" target="_blank" class="news-link">美国五角大楼“拉黑”AI巨头Anthropic，双方争议焦点：核战争</a> [18] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194860" target="_blank" class="news-link">图片用 AI 指哪改哪，我们又做了个 Lovart 的平替，把改图的成本降下来！</a> [19] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47191232" target="_blank" class="news-link">US and Israel launch strikes on Iran, as Trump says ‘massive’ campaign underway</a> [19] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766419" target="_blank" class="news-link">“AI音乐”明星初创公司SUNO付费用户3个月翻倍，达到2百万，年度ARR收入达3亿美元</a> [19] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766417" target="_blank" class="news-link">报道：英伟达在下月GTC大会推出“新推理芯片”，融入Groq LPU设计</a> [20] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47181211" target="_blank" class="news-link">OpenAI raises $110B on $730B pre-money valuation</a> [21] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3766357" target="_blank" class="news-link">“J.A.R.V.I.S.”时刻倒计时：科技巨头竞相入局智能硬件，“对话式AI”才是人工智能的终局？</a> [21] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47193478" target="_blank" class="news-link">OpenAI – How to delete your account</a> [22] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766407" target="_blank" class="news-link">AI冲击之下，新一轮“次贷危机”来了？</a> [22] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47194847" target="_blank" class="news-link">What AI coding costs you</a> [25] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194825" target="_blank" class="news-link">一个小切口,观察 AI 对经济的影响.</a> [28] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766406" target="_blank" class="news-link">AI冲击之下“铁索连环”，美国杠杆贷款遭重创，高达1500亿美元CLO证券面临冲击</a> [28] <font color='grey'>- 00时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47194994" target="_blank" class="news-link">Show HN: Reclaim Flowers – A 2D physics-based &quot;Digital Altar&quot; protocol</a> [29] <font color='grey'>- 00时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
