@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 113</p><p>生成时间: 2026-03-01 14:42:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">7.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194970" target="_blank" class="news-link">用 AI 做了个开源剪贴板工具 Pastry</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时42分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47200420" target="_blank" class="news-link">We do not think Anthropic should be designated as a supply chain risk</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时42分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194966" target="_blank" class="news-link">[Win/Mac/Android] DeepStudent——开源免费的 AI 原生学习 Agent 平台</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时42分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194953" target="_blank" class="news-link">Openframe 更新：角色服装工作流上线（分镜联动 + AI 换装）</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2298534?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【电报解读】多家功率半导体龙头企业集体宣布涨价，机构看好当前半导体产业已呈现“景气拉动+成本传导+供给收缩”三线并进的系统性涨价趋势，这家公司是长江存储的重要供应商</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时42分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194938" target="_blank" class="news-link">我们正在计划设计一款全新的 AI 智能剪辑工具，含早期福利</a> [9] <font color='grey'>- 14时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260301141148179800" target="_blank" class="news-link">马斯克：我一点也不信任OpenAI。</a> [9] <font color='grey'>- 14时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2298818?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">阿联酋迪拜杰贝阿里港冒出黑色浓烟</a> [10] <font color='grey'>- 14时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2296750?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【研选】油运市场延续强势，VLCC即期运价创近六年新高，造船市场景气度拐点已显；公司以“光棒-光纤-光缆”等网络基础通信产品为根基，精准卡位AI算力光芯片与可控核聚变超导材料赛道</a> [19] <font color='grey'>- 14时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
