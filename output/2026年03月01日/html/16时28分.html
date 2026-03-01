@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-03-01 16:28:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">12.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194990" target="_blank" class="news-link">做了一个 AI 搜索引擎可见度检测工具，免费用，求反馈</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766456" target="_blank" class="news-link">“AI编程明星”Cursor CEO：AI软件开发的“第三时代”已经到来</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766458" target="_blank" class="news-link">硅谷全面“龙虾化”！Anthropic微软Meta和Notion等集体交卷自己的Claw</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194981" target="_blank" class="news-link">我的 AI 辅助软著申请材料上线了，新注册即送无门槛 20 积分，邀请新用户积分赠送，欢迎大佬试用、激情开喷</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47204559" target="_blank" class="news-link">10-202: Introduction to Modern AI (CMU)</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2298862?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">5天3板泰嘉股份：2025年度数据中心电源业务营收占比较小 且不涉及AI芯片业务</a> [16] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/lunair/launches/lunair?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Lunair</a> [20] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260301151640591800" target="_blank" class="news-link">英伟达与多家电信企业就6G网络建设达成承诺</a> [20] <font color='grey'>- 16时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260301150043079800" target="_blank" class="news-link">市场消息：英伟达(NVDA.O)与全球电信业领袖承诺基于开放且安全的原生人工智能平台打造6G。</a> [26] <font color='grey'>- 16时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
