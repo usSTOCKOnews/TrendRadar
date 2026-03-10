@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 72</p><p>生成时间: 2026-03-11 06:25:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">18.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3767177" target="_blank" class="news-link">AI订单强劲，甲骨文上季营收盈利均超预期增超20%、上调下财年指引，盘后跳涨 | 财报见闻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47323017" target="_blank" class="news-link">After outages, Amazon to make senior engineers sign off on AI-assisted changes</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61692-2026-03-11-05-00-05.html" target="_blank" class="news-link">美国或以AI半导体为筹码要求对美投资</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311053050745800" target="_blank" class="news-link">甲骨文(ORCL.N)高管：公司去年制造基地数量翻三番，机架产量提升四倍。</a> [12] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311053047724800" target="_blank" class="news-link">微软(MSFT.O)宣布每股季度派息0.91美元。</a> [13] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2309057?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月11日电，甲骨文美股盘后涨幅扩大至10%，该公司正在举行分析师电话会议。</a> [14] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311052452006800" target="_blank" class="news-link">甲骨文(ORCL.N)高管：10吉瓦数据中心约90%的产能已通过合作伙伴获得资金支持，剩余部分预计将于本月完成。</a> [16] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2309055?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月11日电，甲骨文高管表示，10吉瓦数据中心容量中约 90%已通过合作伙伴获得资金，剩余部分预计在本月完成融资。</a> [16] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311052410904800" target="_blank" class="news-link">甲骨文(ORCL.N)高管：通过合作伙伴，甲骨文已获得10吉瓦的电力和数据容量，这些设施将在未来三年内投入使用。</a> [17] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2309051?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月11日电，据报道，OpenAI的ChatGPT、谷歌公司Gemini、微软Copilot等多家公司的机器人聊天工具获准在美国参议院使用。</a> [20] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311051752234800" target="_blank" class="news-link">据CNBC：微软(MSFT.O)表示，法院应暂时阻止五角大楼对Anthropic公司的“黑名单”认定。</a> [21] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311050854133800" target="_blank" class="news-link">OpenAI的ChatGPT、谷歌公司Gemini、微软Copilot在内，多家公司的机器人聊天工具获准在美国参议院使用。</a> [25] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311045212068800" target="_blank" class="news-link">甲骨文公布乐观的长期营收预期 盘后涨近8%</a> [27] <font color='grey'>- 06时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
