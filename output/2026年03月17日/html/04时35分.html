@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 59</p><p>生成时间: 2026-03-17 04:35:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">26</td>
+                <td class="percentage">44.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47402640" target="_blank" class="news-link">Meta’s Renewed Commitment to jemalloc</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3767656" target="_blank" class="news-link">Xeon 6将作为英伟达DGX Rubin主CPU，英特尔股价涨3.3%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314836?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达CEO黄仁勋表示，数据中心正在进入（被部署到）太空；英伟达推出太空计算。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317041641194800" target="_blank" class="news-link">英伟达(NVDA.O)扩展开源模型系列，以支持下一波基于智能体、实体世界和医疗保健人工智能的发展。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3767655" target="_blank" class="news-link">黄仁勋放豪言：到2027年Blackwell和Rubin芯片至少创收1万亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317041556173800" target="_blank" class="news-link">英伟达首席执行官发布基于OpenCLAW AI代理的企业级安全工具NeMoCLAW。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3767654" target="_blank" class="news-link">英伟达发布DLSS 5，黄仁勋高呼图形学的GPT时刻来了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317041450613800" target="_blank" class="news-link">英伟达(NVDA.O)宣布为OpenCLAW社区推出NeMoCLAW。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314832?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达CEO黄仁勋表示，Feynman架构将采用定制高带宽内存（HBM）。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314831?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达CEO黄仁勋表示，Groq芯片由三星代工生产；基于Groq芯片的系统将于下半年推出。</a> [6] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314829?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达CEO黄仁勋展示全新Rubin Ultra系统；Vera Rubin Ultra服务器将搭载 144 颗 GPU。</a> [7] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317041011627800" target="_blank" class="news-link">英伟达CEO黄仁勋：太空计算这一最终前沿已经到来。</a> [8] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314828?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达CEO黄仁勋表示，公司已与台积电全面量产用于 Spectrum X 芯片的共封装光学芯片。</a> [8] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314827?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达推出Vera CPU，专为智能体AI（Agentic AI）量身打造；Vera的性能是任何其他CPU的两倍。</a> [9] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317040907601800" target="_blank" class="news-link">英伟达(NVDA.O)：推出空间计算，将人工智能引入轨道数据中心。行业领导者Aetherflux、Axiom Space、Kepler Communications、Planet、Sophia Space、Starcloud正使用英伟达加速计算平台，为下一代太空任务提供算力支持。</a> [10] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314826?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达表示，七款全新的Vera Rubin芯片现已进入全面量产阶段；全新 Vera 处理器采用 LPDDR5 内存。</a> [10] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314825?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达发布了基于BlueField-4的STX（存储技术扩展） 存储架构，并获得了业界的广泛采用。</a> [11] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314824?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达宣布推出全新GROQ LPU产品。</a> [12] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47404074" target="_blank" class="news-link">Nvidia Launches Vera CPU, Purpose-Built for Agentic AI</a> [15] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314820?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达CEO黄仁勋表示，60% 的业务将来自超大规模云服务商。</a> [15] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314819?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达涨幅扩大至4.7%，刷新日内新高。</a> [16] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317040132511800" target="_blank" class="news-link">美股收盘：三大股指集体收涨 部分芯片股走强</a> [17] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314818?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达CEO表示，公司目标是2025年至2027年实现1万亿美元营收。</a> [17] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314816?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，英伟达首席执行官黄仁勋表示，需求持续增长。</a> [19] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317035220954800" target="_blank" class="news-link">英伟达CEO黄仁勋：三星正在量产英伟达GROQ 3芯片。</a> [20] <font color='grey'>- 04时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2314815?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月17日电，由英伟达支持的人工智能初创公司 Reflection AI 计划斥资数十亿美元在韩国建设数据中心。</a> [20] <font color='grey'>- 04时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
