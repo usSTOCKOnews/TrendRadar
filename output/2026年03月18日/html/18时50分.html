@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 105</p><p>生成时间: 2026-03-18 18:50:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">8.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1199307" target="_blank" class="news-link">给 AI 用的 React 调试小工具：选中节点即可精准定位源码行号复制给 AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3767831" target="_blank" class="news-link">腾讯Q4营收同比增长13%，调整后净利增17%，云业务全年实现规模化盈利 | 财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时50分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20260317_20/" target="_blank" class="news-link">英伟达宣布开发出可增强AI“推理”计算能力的半导体</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3767807" target="_blank" class="news-link">静待美联储决议，美股期货上涨，芯片股大涨，韩股涨超5%，原油震荡下挫</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3767836" target="_blank" class="news-link">腾讯媒体电话会：计划减少股票回购，将资金用于人工智能投资</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1199269" target="_blank" class="news-link">一些 ai 中转站 Sora 2 api 接口价格能做到官网的十分之一，怎么做到的？</a> [11] <font color='grey'>- 18时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1199262" target="_blank" class="news-link">[开源] NowenReader - Go 写的自托管漫画 &amp; 小说管理平台，单二进制部署，支持 17+ AI 模型</a> [12] <font color='grey'>- 18时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3767798" target="_blank" class="news-link">AH股午后拉升，创业板大涨超2%，AI算力产业链全线爆发，阿里涨超2%，“AI大模型股”智谱涨20%</a> [15] <font color='grey'>- 18时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318180048395800" target="_blank" class="news-link">腾讯混元新模型即将发布</a> [26] <font color='grey'>- 18时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
