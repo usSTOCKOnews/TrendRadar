@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-03-26 23:01:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">12.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1201448" target="_blank" class="news-link"># 2026 免费 AI 额度全攻略： 15 个平台，手把手教你领</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260326225656520800" target="_blank" class="news-link">王兴：美团不会盲目追求成为“Token（词元）工厂”，而是将AI视为战略机遇</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2326129?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">华虹半导体拟更名为“华虹宏力”，统一沪港两地证券简称</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1201445" target="_blank" class="news-link">用 AI 做了个很有意思的工具，心理咨询模式的择偶需求洞察</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768483" target="_blank" class="news-link">81倍市盈率的ARM豪赌AI芯片：华尔街已将&quot;完美执行&quot;定价入内，容错空间几乎为零</a> [6] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768486" target="_blank" class="news-link">AI浪潮下的就业寒冬，会是下一场大萧条的潜在导火索？</a> [7] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2326118?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">加密货币通过符合房利美标准的贷款进入抵押贷款市场</a> [11] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2326073?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】CPO+锂电池+AI芯片+储能！公司参股企业独创数据中心1.6T/3.2T集成高性能光模块和光电共封装CPO的核心技术</a> [17] <font color='grey'>- 23时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2326096?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社3月26日电，Meta股价触及2025年5月以来最低水平，最新下跌2.6%，该公司与谷歌因社交媒体对青少年伤害案败诉。</a> [20] <font color='grey'>- 23时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
