@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 86</p><p>生成时间: 2026-04-08 21:15:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">15.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769443" target="_blank" class="news-link">报复性反弹！美伊“停火两周”，美股盘前存储芯片股普涨，现货钯金涨超9%，油价创近六年最大跌幅</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3769443" target="_blank" class="news-link">报复性反弹！美伊“停火两周”，美股盘前存储芯片股普涨，现货钯金涨超9%，油价创近六年最大跌幅</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769490" target="_blank" class="news-link">神秘“欢乐马”空降屠榜，碾压Seedance 2.0，视频AI又变天了？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2338326?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股盘前要闻一览：特朗普威胁对向伊朗供武国家征收50%关税；苹果测试先进玻璃基板；美能源署预计电力需求今明两年续创新高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769494" target="_blank" class="news-link">美国AI，无法摸着中国过河</a> [7] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769475" target="_blank" class="news-link">AI颠覆中国网游？摩根大通：市场忽视了真正的护城河</a> [8] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47689174" target="_blank" class="news-link">MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU</a> [9] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/virattt/ai-hedge-fund" target="_blank" class="news-link">virattt / ai-hedge-fund</a> [10]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769498" target="_blank" class="news-link">阿里AI再次变阵</a> [10] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769496" target="_blank" class="news-link">对话耀速科技谢鑫：当器官芯片走向商业化，药企为“降低研发不确定性与失败风险”付费</a> [12] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2338303?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">Unity与Meta延长多年VR体验合作协议</a> [17] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2337754?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】错过了电子布不能再错过它，同为AI算力驱动厂商转产高端造成的全面涨价，公司提前布局高端应用且已切入头部厂商，手握竞争优势和涨价弹性；一文看懂足球主题在涨什么</a> [20] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47687755" target="_blank" class="news-link">Struggle Against the Gods</a> [21] <font color='grey'>- 21时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
