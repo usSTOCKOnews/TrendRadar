@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 88</p><p>生成时间: 2026-04-14 21:19:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1205884" target="_blank" class="news-link">折腾了一圈“AI 个人助理”，从 OpenClaw 到路由器跑 Agent，有些话不吐不快</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1205877" target="_blank" class="news-link">NaïveChat: 更好的 Raycast AI，更效率的 AI 聊天</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3769895" target="_blank" class="news-link">被抢光的产能！谁是AI未来发展的八大核心瓶颈？</a> [9] <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769942" target="_blank" class="news-link">钻石是终极芯片？</a> [12] <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2343970?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股盘前要闻一览：美财长称美联储当前宜“观望”；亚马逊收购Globalstar以期与星链展开竞争；SK海力士拟将HBM4出货量减少至多30%</a> [14] <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769939" target="_blank" class="news-link">全球AI芯片被一家味精厂卡脖子？份额超95%，英伟达也得排队抢产能</a> [15] <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47724408" target="_blank" class="news-link">The Great Majority: Body Snatching and Burial Reform in 19th-Century Britain</a> [16] <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2343623?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】这家锂电公司深度布局储能行业，下游客户覆盖固德威、德业等主流客户，且横向拓展固态电池+钠电池领域，今明年业绩有望迎来高增；光模块共晶机+锂电设备+AI服务器，这家公司积极拓展新领域</a> [16] <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2343967?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">北京君正：预计计算芯片和存储芯片平均单价均会有所提高</a> [17] <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47764164" target="_blank" class="news-link">The Case Against Gameplay Loops</a> [19] <font color='grey'>- 21时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414203637875800" target="_blank" class="news-link">大和证券：将腾讯控股(00700.HK)目标价由725港元下调至710港元。</a> [26] <font color='grey'>- 21时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
