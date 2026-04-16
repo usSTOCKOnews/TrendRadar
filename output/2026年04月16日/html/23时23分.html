@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 78</p><p>生成时间: 2026-04-16 23:23:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">14.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47792593" target="_blank" class="news-link">Cloudflare Email Service</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770171" target="_blank" class="news-link">内存芯片成本飙升，Meta官宣全线上调Quest VR头显价格，最高涨价100美元！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206452" target="_blank" class="news-link">OpenAI 最新图片模型 GPT-image-2 已经发布，快来 gptimage-2.co 免费体验吧</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770169" target="_blank" class="news-link">一周两度发债！AI算力巨头CoreWeave追售10亿垃圾债，华尔街贪婪吞下“高息入场券”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3770109" target="_blank" class="news-link">停火延长预期提振市场，美股高开，台积电跌超1%，布油涨2%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206444" target="_blank" class="news-link">我用 AI 写代码，但终端管理反而成了累赘——于是我做了 codux</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47792538" target="_blank" class="news-link">Cloudflare&#x27;s AI Platform: an inference layer designed for agents</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770109" target="_blank" class="news-link">停火延长预期提振市场，美股高开，台积电跌超1%，布油涨2%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770165" target="_blank" class="news-link">悄然填补Anthropic空缺，谷歌据报道与五角大楼洽谈使用Gemini模型</a> [6] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47793926" target="_blank" class="news-link">Laravel raised money and now injects ads directly into your agent</a> [8] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47793522" target="_blank" class="news-link">There&#x27;s yet another study about how bad AI is for our brains</a> [22] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
