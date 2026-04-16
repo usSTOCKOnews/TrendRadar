@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-04-16 15:27:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">29</td>
+                <td class="percentage">22.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3770007" target="_blank" class="news-link">谈判曙光与强劲财报双重提振市场，标普历史新高，纳指十一连涨，特斯拉大涨近8%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47788424" target="_blank" class="news-link">FSF trying to contact Google about spammer sending 10k+ mails from Gmail account</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770125" target="_blank" class="news-link">谷歌机器人大脑又进化了：成功率飙3倍，还能看表干活、保护自己</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770120" target="_blank" class="news-link">台积电法说会：今年资本支出瞄准520亿-560亿美元区间高端，中东危机或影响盈利能力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206317" target="_blank" class="news-link">[程序员求职插件] CodeNote Helper v1.1.0：算法刷题笔记 + 间隔复习 + 深度学习复盘 + AI 对话时间轴，让刷过的每道题成为长期记忆</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3770049" target="_blank" class="news-link">特斯拉AI芯片里程碑！马斯克官宣AI5成功流片，双芯性能对标Blackwell</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770119" target="_blank" class="news-link">CoreWeave vs Nebius——“AI云”新势力哪家强？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206319" target="_blank" class="news-link">阿里百炼平台上 glm5.1 了</a> [6] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47789607" target="_blank" class="news-link">RamAIn (YC W26) Is Hiring</a> [6] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770108" target="_blank" class="news-link">创业板指刷新近11年新高、电池、算力走强，宁德时代市值突破2万亿，恒科指涨3%、百度大涨7%</a> [6] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260416151128566800" target="_blank" class="news-link">荣旗科技在互动平台表示，公司参与了苹果折叠屏手机中VC散热的外观缺陷检测。</a> [6] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770115" target="_blank" class="news-link">储能翻倍、商用车提速、AIDC卡位：宁德时代的第二增长曲线正在成形</a> [7] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2346031?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">《科创板日报》16日讯，OpenAI正与韩国三星接洽，以获取HBM4内存，推进其Titan芯片战略。</a> [7]</div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206306" target="_blank" class="news-link">在浏览器里做内容创作，让多个 AI 角色同时帮你打工</a> [8] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2346030?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月16日电，台积电表示，先进封装产能非常紧张。</a> [8] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770116" target="_blank" class="news-link">台积电Q1净利润同比增58%，毛利率历史性突破66%，资本支出111亿美元 | 财报见闻</a> [9] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47788845" target="_blank" class="news-link">Sal Khan&#x27;s AI revolution hasn&#x27;t happened yet</a> [11] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770088" target="_blank" class="news-link">市场依旧挺AI：谷歌数据中心建造商要发57亿美元垃圾债，创历史记录！</a> [11] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206299" target="_blank" class="news-link">AI 赛事通 - 2026 年 4 月中国区新增 AI 竞赛和黑客松汇总</a> [12] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260416150701144800" target="_blank" class="news-link">台积电(TSM.N)：在人工智能数据中心中，CPU变得越来越重要。</a> [14] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2346006?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月16日电，台积电表示，努力加快美国亚利桑那州工厂建设进度，希望在亚利桑那州兴建更多晶圆厂。</a> [14] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958904" target="_blank" class="news-link">黄仁勋：AI需求永远大于供应，瓶颈2-3年就能解决</a> [15] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2345995?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月16日电，台积电表示，内存涨价对个人电脑、智能手机市场造成一定影响。</a> [15] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206249" target="_blank" class="news-link">创建你的 AI Agent，让它们互相对话、加好友、组队协作。</a> [18] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770107" target="_blank" class="news-link">第一条产线目标月产3000片，马斯克“超级芯片工厂”要求供应商“光速供货”</a> [19] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2345971?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月16日电，台积电表示，坚信人工智能大趋势，未来3年资本支出将显著高于过去3年。</a> [19] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2345970?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月16日电，台积电表示，正在搭建COPOS封装技术的试点产线。</a> [20] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3770012" target="_blank" class="news-link">甲骨文引爆SOFC产业：2.8GW大订单落地，AI数据中心自发电的超级“刚需”</a> [23] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958903" target="_blank" class="news-link">黄仁勋：AI不是只看芯片，能源+芯片+研究人员，中国全都有</a> [26] <font color='grey'>- 15时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
