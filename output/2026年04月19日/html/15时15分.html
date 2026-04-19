@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 103</p><p>生成时间: 2026-04-19 15:15:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">14</td>
+                <td class="percentage">13.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2348466?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">乾照光电：10G/25GVCSEL产品预计2026年交付 开发多款专用Micro LED光通信芯片并进入送样验证阶段</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206970" target="_blank" class="news-link">谷歌商店的 Mi Fitness 似乎不能连接国行的小米手环了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958912" target="_blank" class="news-link">下周重磅日程：沃什听证会，美伊停火到期，特斯拉、茅台、新易盛一季报</a> <font color='red'><strong>[4 - 5]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206962" target="_blank" class="news-link">说说新款 M5 MacBook Air 使用感受，把 MacBook 键盘换成了机械键盘。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3770323" target="_blank" class="news-link">CPO量产引爆AI算力底层革命，硅光与互连成最大赢家？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2348460?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月19日电，特斯拉在社交平台发布消息称，该公司正将其自动驾驶出租车服务扩展至达拉斯和休斯顿。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47793161" target="_blank" class="news-link">Game Devs Explain the Tricks Involved with Letting You Pause a Game</a> [7] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3770324" target="_blank" class="news-link">AIDC供电，短期靠燃机“救火”，长期靠这三条路线</a> [7] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2348397?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【电报解读】国产光纤全球爆单！价格暴涨650%，产销量暴增500%，分析师强Call随着AI算力网络、6G预研等需求的持续释放，全球光纤光缆市场有望进入2～3年的高景气周期，这家公司持有长飞光纤股权</a> [8] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47783890" target="_blank" class="news-link">Metatextual Literacy</a> [10] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2348032?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【研选】商业航天产业有望迎来快速发展期，这家公司目前合作的客户包括中国星网、中国卫星等；MLCC粉体材料龙头，AI算力、新能源汽车等新场景新应用的快速发展催化下带动MLCC需求高速增长</a> [11] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958911" target="_blank" class="news-link">资金疯狂回补美国芯片股</a> [12] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206939" target="_blank" class="news-link">Aniu——利用 AI 进行全自动操作模拟仓炒股的程序</a> [13] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47794299" target="_blank" class="news-link">Dizzying Spiral Staircase with Single Guardrail Once Led to Top of Eiffel Tower</a> [17] <font color='grey'>- 15时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
