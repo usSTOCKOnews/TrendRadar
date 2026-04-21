@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 88</p><p>生成时间: 2026-04-21 21:20:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">10</td>
+                <td class="percentage">11.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770463" target="_blank" class="news-link">中东局势缓和叠加沃什听证会预期，美股期指回暖，半导体股普涨，油价续跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1207572" target="_blank" class="news-link">我们把给不同产品单独写的 AI 客服，做成了一个通用产品</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3770514" target="_blank" class="news-link">美债关注油价中枢与AI通缩交易，伊朗战后重建提振中游中间品，4月EPMI超季节性需求改善价格上行---0421宏观脱水</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770517" target="_blank" class="news-link">台积电豪掷560亿美元扩产，CEO却坦言芯片短缺将延续至2027年以后</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/microsoft/ai-agents-for-beginners" target="_blank" class="news-link">microsoft / ai-agents-for-beginners</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421211330666800" target="_blank" class="news-link">OpenAI推出Codex实验室（Codex Labs）。</a> [6] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770508" target="_blank" class="news-link">背靠英伟达，胜宏科技港股首秀暴涨50%！中投、挪威主权基金领衔全球巨头入局</a> [13] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770509" target="_blank" class="news-link">苹果为什么在AI时代，选了一个造芯片的人当CEO？</a> [15] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770501" target="_blank" class="news-link">新帅特努斯的苹果哲学：AI服务于体验，低价非低质，极致藏于细节</a> [18] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421210831563800" target="_blank" class="news-link">C大普微：已通过马斯克xAI测试导入 后续有望逐步放量</a> [21] <font color='grey'>- 21时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
