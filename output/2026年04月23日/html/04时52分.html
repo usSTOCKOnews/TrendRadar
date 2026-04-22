@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-04-23 04:52:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">21</td>
+                <td class="percentage">35.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770644" target="_blank" class="news-link">太贵了！台积电：2029年前暂不部署阿斯麦最新光刻机</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770645" target="_blank" class="news-link">特斯拉Q1营收创近两年最高增速，盈利大超预期，盘后拉升丨财报见闻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423041028780800" target="_blank" class="news-link">特斯拉(TSLA.O)：正在为得州超级工厂准备第二代生产线，设计年产能为1000万台机器人。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040852965800" target="_blank" class="news-link">特斯拉(TSLA.O)：预计未来芯片需求将超过现有和计划中的行业产能。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2352854?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月23日电，特斯拉表示，Optimus第一代生产线设计年产100万台机器人，将取代位于弗里蒙特的Model S和Model X生产线；正在为得州超级工厂准备第二代生产线，设计年产能为1000万台机器人。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040838460800" target="_blank" class="news-link">特斯拉(TSLA.O)：Optimus第一代生产线设计年产100万台机器人，将取代位于弗里蒙特的Model S和Model X生产线。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040735598800" target="_blank" class="news-link">特斯拉(TSLA.O)：正在扩大制造范围，包括在人工智能推理计算中进行半导体制造。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2352852?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特斯拉第一季度营收223.9亿美元，预估221.9亿美元；第一季度调整后每股收益0.41美元，预估0.34美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040644986800" target="_blank" class="news-link">特斯拉(TSLA.O)：计划在今年将服务中心数量翻倍，并扩大在日本的超级充电桩覆盖范围。</a> [6] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47867755" target="_blank" class="news-link">Scores decline again for 13-year-old students in reading and mathematics</a> [7] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040622317800" target="_blank" class="news-link">特斯拉(TSLA.O)：一旦开始生产，Cybercab预计将逐步取代现有的Model Y车队，并将在未来成为车队中最大的量产车型。</a> [7] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040551930800" target="_blank" class="news-link">特斯拉(TSLA.O)：第一季度毛利率为21.1%。</a> [8] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040545741800" target="_blank" class="news-link">特斯拉(TSLA.O)：正在安装首代Optimus生产线，以期实现大规模生产。</a> [10] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040535260800" target="_blank" class="news-link">特斯拉(TSLA.O)：Cybercab、Tesla Semi及Megapack 3计划于2026年开始大规模生产。</a> [11] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040449197800" target="_blank" class="news-link">特斯拉(TSLA.O)第一季度调整后每股收益0.41美元。</a> [14] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2352841?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月23日电，台积电表示，阿斯麦的最新设备价格过高，将推迟至2029年前部署最新的ASML设备。</a> [14] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040446915800" target="_blank" class="news-link">特斯拉(TSLA.O)第一季度资本支出为24.93亿美元。</a> [15] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040428719800" target="_blank" class="news-link">特斯拉(TSLA.O)美股盘后涨3%。</a> [16] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423040335549800" target="_blank" class="news-link">特斯拉(TSLA.O)2026年Q1营收223.87亿美元，上年同期193.35亿美元，市场预期227.92亿美元。</a> [17] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47868832" target="_blank" class="news-link">The Illuminated Man: an unconventional portrait of JG Ballard</a> [21] <font color='grey'>- 04时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423033837315800" target="_blank" class="news-link">美国国务院批准向立陶宛潜在出售AIM-9X“响尾蛇”Block II导弹，金额为2.14亿美元。</a> [23] <font color='grey'>- 04时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
