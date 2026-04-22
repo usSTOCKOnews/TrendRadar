@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 87</p><p>生成时间: 2026-04-22 17:17:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">14.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422171502504800" target="_blank" class="news-link">意大利能源服务公司Saipem首席执行官：中东局势可能会增加旨在多元化供应的基础设施需求。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770609" target="_blank" class="news-link">爱奇艺“掀桌”背后：平台为什么总想让我们看AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770606" target="_blank" class="news-link">AI下一个风口——游戏创作！</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422171112836800" target="_blank" class="news-link">意大利能源服务公司Saipem首席执行官：集团将在6月和7月为卡塔尔的两个项目运输物资，并需穿越霍尔木兹海峡。</a> [6] <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770587" target="_blank" class="news-link">美伊僵局出现转机，美股盘前跌幅收窄，半导体股普涨，油价跌近2%、黄金攀升超1%</a> [10] <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770591" target="_blank" class="news-link">又到特斯拉财报夜，市场最关心这三件事</a> [14] <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770588" target="_blank" class="news-link">OpenAI出资15亿美元成立合资公司，专攻企业AI部署</a> [16] <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770559" target="_blank" class="news-link">CPU严重供不应求，英特尔、AMD下半年或再涨价8%-17%</a> [17] <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422170328232800" target="_blank" class="news-link">据AXIOS：OpenAI已就一款新的网络安全产品向美国联邦政府及“五眼联盟”进行了简报。</a> [17] <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770589" target="_blank" class="news-link">5万亿美元机会！AI不只吞电，水资源、金属全面告急</a> [20] <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2352145?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">英伟达接洽韩国电力设备企业 讨论800V直流系统合作</a> [20] <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770594" target="_blank" class="news-link">市场的隐含共识：AI逻辑胜过伊朗纷争</a> [22] <font color='grey'>- 17时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422165555471800" target="_blank" class="news-link">据日经新闻：三星电子及其工会正因薪酬问题走向对峙，一场大规模员工集会计划于周四在平泽半导体园区举行，该园区生产该公司用于人工智能的先进存储芯片。三星电子三大工会计划联合举行此次集会，并表示预计约有3.7万名成员参与。</a> [30] <font color='grey'>- 17时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
