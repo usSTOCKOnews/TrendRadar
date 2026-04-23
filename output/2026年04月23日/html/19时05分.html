@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 87</p><p>生成时间: 2026-04-23 19:05:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">19.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1208088" target="_blank" class="news-link">今天摸鱼给 NanaAI 也接入了 GPT-Image-2</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1208082" target="_blank" class="news-link">今日乐子：天星银行（AirStar）改名象象银行（Elebank）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770666" target="_blank" class="news-link">美伊僵局拖累全球股债，美股盘前特斯拉跌约2%，金、银下跌，油价涨超1%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770710" target="_blank" class="news-link">刚刚，姚顺雨首次交卷！腾讯混元3 Preview大模型发布</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1208077" target="_blank" class="news-link">AI 时代，做产品简单了，把产品推广出去却变的更难了~</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2353701?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">阶跃与腾讯云合作打造新一代 AI 座舱解决方案</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Anil-matcha/Open-Generative-AI" target="_blank" class="news-link">Anil-matcha / Open-Generative-AI</a> [6]</div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47872452" target="_blank" class="news-link">Our newsroom AI policy</a> [8] <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1208069" target="_blank" class="news-link">vibe coding 一个 ai 生成壁纸的网站</a> [9] <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/microsoft/ai-agents-for-beginners" target="_blank" class="news-link">microsoft / ai-agents-for-beginners</a> [9]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770707" target="_blank" class="news-link">腾讯Hy3 preview上线，姚顺雨加入后的成绩单出炉</a> [9] <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770706" target="_blank" class="news-link">特斯拉、SpaceX终将合并？投资者买的不是具体公司，而是马斯克</a> [10] <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423184729977800" target="_blank" class="news-link">蒙特利尔银行：将亚马逊(AMZN.O)目标价从310美元上调至315美元。</a> [12] <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/coreyhaines31/marketingskills" target="_blank" class="news-link">coreyhaines31 / marketingskills</a> [14]</div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/chiphuyen/aie-book" target="_blank" class="news-link">chiphuyen / aie-book</a> [15]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2353693?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月23日电，特斯拉据悉计划至6月在德国的超级工厂新增1000个工作岗位。</a> [15] <font color='grey'>- 19时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423183733380800" target="_blank" class="news-link">瑞穗银行：将特斯拉(TSLA.O)目标价从540美元下调至480美元。</a> [28] <font color='grey'>- 19时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
