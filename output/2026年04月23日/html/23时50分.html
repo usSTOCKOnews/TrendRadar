@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 74</p><p>生成时间: 2026-04-23 23:50:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">17.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1208128" target="_blank" class="news-link">做了一个 AI 头像生成器，可以免费生成 2 次</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47876043" target="_blank" class="news-link">Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2354065?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">微软将向7%的美国员工提供自愿退休方案</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1208124" target="_blank" class="news-link">一个将苹果健康 APP 数据导出的工具，然后把你的数据喂给 AI 分析</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423232310736800" target="_blank" class="news-link">据CNBC：微软(MSFT.O)计划在公司51年历史中首次推出自愿员工买断方案。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1208119" target="_blank" class="news-link">Google AI Ultra 又搞事情， AI credits 直接砍半</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3770666" target="_blank" class="news-link">美伊局势升温，美股低开，特斯拉跌4%，金银下跌，油价涨超1%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47874814" target="_blank" class="news-link">Investigation uncovers two sophisticated telecom surveillance campaigns</a> [6] <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770728" target="_blank" class="news-link">特斯拉正式进入“烧钱基建期”！</a> [6] <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770666" target="_blank" class="news-link">美伊局势升温，美股低开，特斯拉跌4%，金银下跌，油价涨超1%</a> [9] <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2354055?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月23日电，美股加密矿企概念走强，Applied Digital大涨12%，此前宣布敲定75亿美元租约，出租300兆瓦AI产业园；IREN涨近9%，TeraWulf、Cipher Digital涨超4%。</a> [10] <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2354054?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">芯片制造商股价延续史上最长涨势 受德州仪器强劲业绩提振</a> [11] <font color='grey'>- 23时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423230613854800" target="_blank" class="news-link">米兰上市的意法半导体股票在暂停交易后恢复交易，涨幅14.3%。</a> [18] <font color='grey'>- 23时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
