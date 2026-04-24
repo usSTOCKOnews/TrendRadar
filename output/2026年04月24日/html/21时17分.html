@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 78</p><p>生成时间: 2026-04-24 21:17:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">10</td>
+                <td class="percentage">12.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47888557" target="_blank" class="news-link">UK Biobank leak: Health details of 500 000 people are offered for sale</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770839" target="_blank" class="news-link">英伟达深陷8年“挖矿误导”诉讼，正面临集体起诉关键时刻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1208378" target="_blank" class="news-link">AI 辅助英语学习，无推广，讨论一下</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2355316?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股盘前要闻一览：白宫延长航运豁免期限；英特尔股价有望开盘即创新高；马斯克称特斯拉已开始生产Cybercab</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770842" target="_blank" class="news-link">被忽视的关键原料危机，正在拖垮设备与芯片厂商</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770838" target="_blank" class="news-link">中东断供危机蔓延至半导体：光刻胶关键溶剂PGME与PGMEA告急 ，日本芯片材料巨头拉响警报</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1208364" target="_blank" class="news-link">chrome dev tools console 里这个 AI 有啥场景用</a> [7] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424211036339800" target="_blank" class="news-link">AI风向标！核心龙头1.6T产品确认量产 | 盘后公告精选</a> [12] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2355297?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月24日电，奥本海默将亚马逊目标价从260美元上调至275美元。</a> [12] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424210449258800" target="_blank" class="news-link">据The Information：微软等云服务提供商正将更多GPU资源留用于内部项目及大型客户。</a> [30] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
