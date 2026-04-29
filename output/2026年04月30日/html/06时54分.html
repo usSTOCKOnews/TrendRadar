@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 72</p><p>生成时间: 2026-04-30 06:54:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">25</td>
+                <td class="percentage">34.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771312" target="_blank" class="news-link">微软上季营收超预期增长，Azure云收入增40%，资本支出意外放缓 | 财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430062207215800" target="_blank" class="news-link">特朗普称赞英特尔(INTC.O)股价上涨。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771310" target="_blank" class="news-link">云业务力挺亚马逊Q1营收提速，AWS收入增速近两年最高，资本支出超预期 | 财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430062037400800" target="_blank" class="news-link">Meta Platforms(META.O)CEO：相信用户会为“高端或高算力版本”的目标导向AI功能付费。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771317" target="_blank" class="news-link">微软电话会预计2026年资本开支1900亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430061412017800" target="_blank" class="news-link">Anthropic估值或升至逾9000亿美元超过OpenAI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2360300?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月30日电，亚马逊盘后涨幅扩大至5%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771311" target="_blank" class="news-link">谷歌母公司Q1营收超预期增长22%，AI驱动多板块业务增长，云业务大增63%</a> [6] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771308" target="_blank" class="news-link">高通Q2手机芯片跌13%，但CEO&quot;看到底部&quot;，数据中心成新救命稻草｜财报见闻</a> [7] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771314" target="_blank" class="news-link">谷歌母公司电话会：算力严重受限，上调全年资本开支至1800亿-1900亿美元</a> [9] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2360295?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月30日电，微软2026年资本支出预期约为1900亿美元。</a> [10] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771309" target="_blank" class="news-link">Meta Q1营收增长33%小幅超预期，上调全年资本开支至最高1450亿美元</a> [11] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430060546601800" target="_blank" class="news-link">微软(MSFT.O)：预计2026年下半年Azure收入增长将较2026年上半年温和加速。</a> [11] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430060330966800" target="_blank" class="news-link">亚马逊(AMZN.O)CEO：未更新资本支出，我们的计划基本保持不变。</a> [12] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430060303768800" target="_blank" class="news-link">微软(MSFT.O)：预计第四财季资本支出将超过400亿美元。</a> [13] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430060150417800" target="_blank" class="news-link">微软(MSFT.O)：以固定汇率计算，预计第四财季Azure及其他云服务收入增速在39%-40%之间。</a> [14] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430060104631800" target="_blank" class="news-link">微软(MSFT.O)：预计2027年总收入将实现两位数增长。</a> [15] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430060052273800" target="_blank" class="news-link">微软(MSFT.O)第四财季智能云收入预期为379.5亿美元至382.5亿美元，市场预期为374亿美元。</a> [16] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2360288?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社4月30日电，Meta Platforms首席执行官表示，Meta已经在训练比SPARK更先进的模型。</a> [16] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Plurai</a> [17] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430060035322800" target="_blank" class="news-link">微软(MSFT.O)：2026年资本支出预期约为1900亿美元。</a> [17] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430060013466800" target="_blank" class="news-link">微软(MSFT.O)第四财季营收预期为867亿美元至878亿美元，市场预估为875亿美元。</a> [19] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430060007937800" target="_blank" class="news-link">Meta Platforms(META.O)CFO：公司计划在五月减少员工规模，我们相信这将帮助我们更快行动，并抵消大量基础设施投资。</a> [20] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430054348916800" target="_blank" class="news-link">亚马逊(AMZN.O)CEO：AWS目前的年化营收为1500亿美元。</a> [29] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430054236745800" target="_blank" class="news-link">Meta Platforms(META.O)CEO：公司专注于精简团队、扩大产品规模，并奖励人工智能创新。</a> [30] <font color='grey'>- 06时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
