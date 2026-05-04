@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2026-05-04 16:25:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">14.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1210188" target="_blank" class="news-link">专注非标制造业 AI Agent 开发，寻找技术合伙人，已有行业资源和种子客户方向</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3771519" target="_blank" class="news-link">AI狂潮继续！全球存储芯片大涨，SK海力士市值首破1000万亿韩元，布油涨2%，黄金失守4580美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771519" target="_blank" class="news-link">AI狂潮继续！亚太股市创盘中纪录新高，韩股暴涨5%，SK海力士市值首破1000万亿韩元，恒科指大涨近3%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1210177" target="_blank" class="news-link">因为炒币合约亏太多了，用 ai 做了一个裸 K 实盘训练的网页，不用登陆欢迎大家来玩</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2362527?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">港股恒指收涨1.2% 大模型、芯片、光通信等板块领涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771528" target="_blank" class="news-link">谷歌新TPU订单会流向英特尔吗？郭明錤：谷歌连联发科的利润也想省，台积电良率优势显著</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771530" target="_blank" class="news-link">达里欧：未来两年“风险极高”，“AI、美债和地缘”合成风暴，投资者择时不会成功</a> [6] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3771526" target="_blank" class="news-link">十年来第一次！苹果讨论“涨价”，iPhone 18或将涨价</a> [8] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3771530" target="_blank" class="news-link">达里欧：未来两年“风险极高”，“AI、美债和地缘”合成风暴，投资者择时不会成功</a> [9] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771527" target="_blank" class="news-link">Anthropic联手华尔街成立AI合资公司，黑石、高盛集体入局</a> [9] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260504160856400800" target="_blank" class="news-link">港股收盘，恒指收涨1.24%，科指收涨2.16%。光通信、芯片股全天走强，剑桥科技(06166.HK)涨约16%，天数智芯(09903.HK)涨约20%，小米集团(01810.HK)涨超6%。</a> [9] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47991981" target="_blank" class="news-link">OpenAI&#x27;s O1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors</a> [10] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771526" target="_blank" class="news-link">十年来第一次！苹果讨论“涨价”，iPhone 18或将涨价</a> [10] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3771514" target="_blank" class="news-link">四万亿IPO敲钟前 这批美股早已骑着SpaceX、OpenAI和Anthropic升天</a> [21] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260504160233181800" target="_blank" class="news-link">美股中概股盘前普涨，蔚来汽车(NIO.N)涨3%，阿里巴巴(BABA.N)涨2%，理想汽车(LI.O)涨1%。</a> [26] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48002777" target="_blank" class="news-link">Let&#x27;s Buy Spirit Air</a> [29] <font color='grey'>- 16时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
