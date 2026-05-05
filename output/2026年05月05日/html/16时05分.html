@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 103</p><p>生成时间: 2026-05-05 16:05:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">18</td>
+                <td class="percentage">17.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48017948" target="_blank" class="news-link">Train Your Own LLM from Scratch</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2362880?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月5日电，百威英博美股盘前涨超6%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959004" target="_blank" class="news-link">ClaudeCode之父：“老公司”转型难，现在是“AI原生公司”最好的机会</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505154538750800" target="_blank" class="news-link">挪威主权财富基金首席执行官：即将有三次重要的首次公开募股——SpaceX、Anthropic和OpenAI。我们会买入这些公司的股份。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2362879?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月5日电，英特尔盘前涨超3%，有报道称苹果正考虑与英特尔和三星合作，为其设备制造处理器。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1210284" target="_blank" class="news-link">让 AI Agent 控制你家所有米家设备 — mijia-control</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771563" target="_blank" class="news-link">恒指、恒科指跌超1%，科网股集体下挫，百度、比亚迪逆势上涨，长和涨超4%</a> [6] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1210266" target="_blank" class="news-link">做了一个在线 AI Vocal Remover，想听听预览流程是否够顺</a> [7] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48017813" target="_blank" class="news-link">CVE-2026-31431: Copy Fail vs. rootless containers</a> [7] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1210263" target="_blank" class="news-link">[接单]全栈开发 | 创业者软件定制 | 官网 / 小程序 / App / 管理后台 / AI 集成</a> [8] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3771568" target="_blank" class="news-link">上调寒武纪、下调浪潮信息！高盛预言了“国产AI芯片的崛起”场景</a> [8] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3771556" target="_blank" class="news-link">AI驱动增长全面爆发，Palantir Q1营收激增85%、上调全年指引远超预期 | 财报见闻</a> [9] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771570" target="_blank" class="news-link">苹果正考虑与英特尔和三星合作，为其生产主要设备芯片</a> [9] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771568" target="_blank" class="news-link">上调寒武纪、下调浪潮信息！高盛预言了“国产AI芯片的崛起”场景</a> [11] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771569" target="_blank" class="news-link">马斯克“秘密求和”被拒，OpenAI总裁300亿财富曝光，投资Cerebras、CoreWeave等关联公司</a> [12] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3771554" target="_blank" class="news-link">5月5日会员早报：美军发动“自由行动”击沉伊朗快艇 亚马逊要卷死美国快递业</a> [23] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48016534" target="_blank" class="news-link">Y Combinator&#x27;s Stake in OpenAI (0.6%?)</a> [24] <font color='grey'>- 16时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771519" target="_blank" class="news-link">中东局势再吃紧，标普盘中转跌，道指跌超1%，存储芯片股逆市走高，布油一度涨超6%</a> [24] <font color='grey'>- 16时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
