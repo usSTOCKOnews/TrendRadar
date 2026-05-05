@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 89</p><p>生成时间: 2026-05-05 23:53:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">19.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48022742" target="_blank" class="news-link">AI didn&#x27;t delete your database, you did</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1210354" target="_blank" class="news-link">本地 API Proxy： Anthropic / OpenAI Chat / Responses 互转，支持 DeepSeek</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2363119?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月5日电，Anthropic首席执行官称，美国其他主要AI实验室的能力可能落后于公司1到3个月。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48022596" target="_blank" class="news-link">Simple Meta-Harness on Islo.dev</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3770773" target="_blank" class="news-link">英特尔大涨背后：季报明确三大趋势拐点，产业为何进入加速循环？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1210348" target="_blank" class="news-link">发现一个挺离谱便宜的 AI Coding 套餐，轻量使用可以考虑</a> [6] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3771589" target="_blank" class="news-link">美伊局势暂趋缓和，美股期指齐涨，半导体股走强，英特尔涨超4%，WTI油价跌超2%</a> [6] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771589" target="_blank" class="news-link">美伊局势暂趋缓和，美股期指齐涨，半导体股走强，英特尔涨超4%，WTI油价跌超2%</a> [6] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48021968" target="_blank" class="news-link">AI Product Graveyard</a> [7] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771586" target="_blank" class="news-link">Meta 的低价正在成为一个陷阱</a> [8] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2363112?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">Anthropic发布面向金融服务公司的新型AI智能体</a> [8] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1210341" target="_blank" class="news-link">做了一个更垂直的 AI 图片清理工具，想听听大家对产品定位的建议</a> [11] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2363103?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月5日电，微软公司声明称，与英国人工智能安全研究所签署人工智能测试协议。</a> [14] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3771581" target="_blank" class="news-link">中信证券：AI与能化构成当前全球动荡视角下的新杠铃结构</a> [15] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2363100?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">英特尔股价上涨超15% 今年以来的涨幅接近200%</a> [16] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505230747397800" target="_blank" class="news-link">美国各州呼吁参与AI模型测试 强化网络安全协作</a> [23] <font color='grey'>- 23时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505230237105800" target="_blank" class="news-link">消息人士：OpenAI合资公司正洽谈收购三家AI服务公司。</a> [27] <font color='grey'>- 23时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
