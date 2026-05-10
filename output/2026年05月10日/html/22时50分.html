@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2026-05-10 22:50:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">10</td>
+                <td class="percentage">23.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1211698" target="_blank" class="news-link">[commit-hook] 给 git commit 加了个 AI 质检员，开源求参与</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1211693" target="_blank" class="news-link">ai-diving:让 LLM 替我盯着 Docker 镜像&quot;是不是又胖了&quot;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2367311?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月10日电，苹果将在macOS 27中进行设计调整，以修复Tahoe系统的各类异常问题。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2367308?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】人形机器人+算力+光通信+PCB+芯片+数据中心！公司1.6T光模块PCB已实现产业化作业且AI服务器PCB供货英伟达</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1211685" target="_blank" class="news-link">YeeroAI 更新：对话分支可视化 + 消息大纲导航</a> [6] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2367225?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·洞察】SpaceX计划6月完成定价与纳斯达克上市，分析师看好空天产业链呈现出与英伟达（NV）链高度相似特征，相关公司有望通过出口切入SpaceX与特斯拉供应链；除了算力，还能买什么</a> [6] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2367307?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">下周资本市场大事提醒：鲍威尔交棒；中美4月通胀数据揭晓；阿里、腾讯、中芯等财报轮番登场</a> [7] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1211679" target="_blank" class="news-link">写了一个 Beancount iOS 客户端，可能是 AI 时代下记账类应用的终点</a> [8] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260510213825805800" target="_blank" class="news-link">市场消息：微软(MSFT.O)在东非的数据中心选址因与肯尼亚政府就公司要求的保证付款存在分歧而延迟。</a> [8] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2367304?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月10日电，微软在东非的数据中心项目据悉被推迟，由于与肯尼亚政府就公司提出的担保付款请求存在分歧。</a> [9] <font color='grey'>- 22时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
