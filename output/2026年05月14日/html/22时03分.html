@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 86</p><p>生成时间: 2026-05-14 22:03:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">18.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48134993" target="_blank" class="news-link">USDA Projects Smallest US Wheat Harvest Since 1972 Due to Plains Drought</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772295" target="_blank" class="news-link">亚马逊AI押注见成果，市值悄然逼近3万亿</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772269" target="_blank" class="news-link">AI热潮推动美股涨势，美股三大股指小幅高开，英伟达涨超2%，思科飙升15%，债市承压</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1212788" target="_blank" class="news-link">[发码] 想躺着吸 AI, 试了一圈工具都不爽, 自己搓了个</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3771594" target="_blank" class="news-link">巨兽出笼！Cerebras400亿美元IPO能否颠覆英伟达垄断霸权？</a> [7] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3772237" target="_blank" class="news-link">沪指失守4200点、工业气体、碳化硅逆势走强，小金属领跌，恒科指涨幅回落，阿里涨4%</a> [8] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772294" target="_blank" class="news-link">Anthropic凭什么超越OpenAI？</a> [8] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48134014" target="_blank" class="news-link">The European Union backs Italy&#x27;s right to make Meta pay for news</a> [11] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772292" target="_blank" class="news-link">AI概念持续发酵，周四上市的Cerebras能否成为资本市场下一个宠儿</a> [11] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2371696?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">英伟达股价连涨7日续刷记录新高 总市值达5.63万亿美元</a> [11] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2371689?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月14日电，高通、英特尔股价跌幅均扩大至5%以上。</a> [15] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2371687?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月14日电，美股AI光互联龙头POET开盘大涨超30%。消息面上，公司和光互连基础设施平台Lumilens合作，推动晶圆级光子集成。</a> [17] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2371681?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【电报解读】“产能锁定”+“龙头绑定”，形成需求端双重确定性，光通信核心器件及上游材料供应瓶颈显现，业内预计供需缺口短期内难以弥合，这家公司已形成四大类光通信芯片产品矩阵</a> [20] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260514213551002800" target="_blank" class="news-link">纳斯达克中国金龙指数跌幅扩大至3%，金山云(KC.O)跌9.1%，哔哩哔哩(BILI.O)跌6.15%，小鹏汽车(XPEV.N)、百度(BIDU.O)跌超5%。</a> [21] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48134429" target="_blank" class="news-link">Sam Altman&#x27;s Business Dealings Under GOP Scrutiny Ahead of OpenAI&#x27;s IPO</a> [23] <font color='grey'>- 22时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260514213022478800" target="_blank" class="news-link">美股开盘，道指涨0.8%、标普500指数涨0.21%、纳指涨0.09%。明星科技股涨跌分化，思科(CSCO.O)大涨超15%，英伟达(NVDA.O)涨1.8%，股价均续创历史新高；英特尔(INTC.O)跌4.5%，阿里巴巴(BABA.N)跌3.5%，高通(QCOM.O)跌超2%。</a> [28] <font color='grey'>- 22时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
