@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 86</p><p>生成时间: 2026-05-14 19:49:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">12.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2371575?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月14日电，AI光互联龙头POET美股盘前涨超16%。消息面上，公司和Lumilens推动晶圆级光子集成技术，助力下一代人工智能光学网络发展。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1212753" target="_blank" class="news-link">腾讯云函数调境外 API，偶发回程延迟 28s+，有什么优化网络链路的方案？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772283" target="_blank" class="news-link">邢自强：AI 2.0会催生全球超级投资周期，中国特别受益，从喝汤到吃肉转变，人形机器人会像当时新能源一样爆发</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2371549?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">Anthropic高管：公司90%代码已由AI完成</a> [7] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1212732" target="_blank" class="news-link">我做了个 AI 投研 Agent，现在已经比我强了</a> [8] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization" target="_blank" class="news-link">NVIDIA-AI-Blueprints / video-search-and-summarization</a> [11]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772276" target="_blank" class="news-link">华虹半导体Q1营收6.6亿美元，归母净利暴增513%，Q2收入指引6.9亿-7亿美元 | 财报见闻</a> [12] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772275" target="_blank" class="news-link">微信的Agent近期不会上线了——关于腾讯财报电话会的10条观察与思考</a> [15] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2371525?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构龙虎榜解读】光模块+碳化硅+商业航天，进入多家全球顶尖光模块厂商的供应链，面向光通信器件的陶瓷封装产品已实现批量供货，正在积极拓展第三代半导体功率模块封装市场，机构大额净买入这家公司</a> [19] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260514185059941800" target="_blank" class="news-link">汇丰：阿里云业务盈利能力未来两个季度或显著改善</a> [24] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260514184718803800" target="_blank" class="news-link">美格智能：将密切关注存储芯片市场行情 调整存储芯片库存</a> [27] <font color='grey'>- 19时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
