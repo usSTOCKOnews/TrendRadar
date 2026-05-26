@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 138</p><p>生成时间: 2026-05-26 17:50:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">24</td>
+                <td class="percentage">17.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526172431866800" target="_blank" class="news-link">两连板科瑞技术：目前海外半导体和光模块业务收入规模及营收占比较小</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48272984" target="_blank" class="news-link">Using AI to write better code more slowly</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773152" target="_blank" class="news-link">Altman改口：AI不太可能导致“就业末日”，人际关系是难以被取代的“护城河”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773150" target="_blank" class="news-link">华为 “韬定律”：国产芯片的DeepSeek 时刻！</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773113" target="_blank" class="news-link">A股尾盘拉升，沪指险翻红，有色金属拉升，芯片半导体集体下挫，恒科指涨超1%，智谱再创新高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2381842?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">工信部：推进控制芯片、计算芯片、车内通信芯片、安全芯片、功率芯片等标准审查报批</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773113" target="_blank" class="news-link">A股尾盘拉升，沪指险翻红，有色金属拉升，芯片半导体集体下挫，恒科指涨超1%，智谱再创新高</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773146" target="_blank" class="news-link">台积电股价飙升，台股超越印度成为全球第五大股市</a> [6] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48270812" target="_blank" class="news-link">A successful Japanese trial of a ramjet engine designed for Mach‑5 aircraft</a> [7] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773084" target="_blank" class="news-link">AI繁荣的隐秘真相：数万亿云收入背后的“循环计账游戏”</a> [8] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526171944672800" target="_blank" class="news-link">禾赛费米C500成为首个通过ISO26262功能安全认证的RISC-V激光雷达主控芯片</a> [8] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773108" target="_blank" class="news-link">华为提出“韬定律”，关注半导体工艺发展新方向</a> [10] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773139" target="_blank" class="news-link">三星内部薪酬鸿沟激化！法院驳回阻止投票申请，芯片与非芯片员工奖金差距逾80倍</a> [10] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2381828?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">科瑞技术：目前海外半导体和光模块业务收入规模及营收占比较小</a> [12] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773130" target="_blank" class="news-link">专家详解CPO：AI算力极限引爆“铜退光进”，CPO量产瓶颈在测试端，玻璃基板时代悄然开启</a> [14] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1215613" target="_blank" class="news-link">AI 文本拟人化（humanization）技术揭秘</a> [15] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773144" target="_blank" class="news-link">华为τ定律冲击波：芯片的赛点正在迁移</a> [17] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1215601" target="_blank" class="news-link">做了一个 Codex Skill：把 AI 生成的脚本/配置直接放进剪贴板，避免 TUI 复制格式污染</a> [19] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1215597" target="_blank" class="news-link">如何去除 AI 写作里的 AI 味儿？</a> [20] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1215585" target="_blank" class="news-link">给我的 AI 加了作息、心情、做梦,顺便让她管自己的个人站</a> [21] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773134" target="_blank" class="news-link">华为“韬定律”重塑半导体叙事，先进封装、代工与成熟制程迎景气度新窗口</a> [22] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773131" target="_blank" class="news-link">玻璃基板竞赛升温，英特尔争夺全球首个量产席位</a> [23] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3773006" target="_blank" class="news-link">AI驱动韩国出口与股市暴涨，为何韩元依旧疲软？</a> [24] <font color='grey'>- 17时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48275508" target="_blank" class="news-link">Ask HN: Is anyone working at least 4 hours daily on an Apple Vision Pro?</a> [29] <font color='grey'>- 17时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
