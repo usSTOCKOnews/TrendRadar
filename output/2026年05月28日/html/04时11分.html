@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 67</p><p>生成时间: 2026-05-28 04:11:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">25.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48296794" target="_blank" class="news-link">I think Anthropic and OpenAI have found product-market fit</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2383487?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月28日电，META股价涨幅扩大至4.3%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773280" target="_blank" class="news-link">Meta要靠订阅“回血”？推出AI聊天机器人付费服务，股价盘中拉升超3%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48299753" target="_blank" class="news-link">YouTube to automatically label AI-generated videos</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773276" target="_blank" class="news-link">SpaceX早期投资人：SpaceX与特斯拉合并&quot;只是时间问题&quot;</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773274" target="_blank" class="news-link">社交媒体帖子引爆散户热情，这只小众芯片股单日暴涨逾70%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528031145485800" target="_blank" class="news-link">Meta Platforms(META.O)涨幅扩大至超4%。</a> [7] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2383481?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月28日电，Meta股价涨幅扩大至2.7%，公司将推出AI聊天机器人订阅服务。</a> [7] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48266323" target="_blank" class="news-link">In-Browser Container Builds</a> [8] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2383480?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">Meta将推出AI聊天机器人订阅服务 月费最低7.99美元</a> [8] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2383478?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月28日电，电力公司Avangrid与微软签约，将供应华盛顿州Bluebird太阳能项目140兆瓦电力，预计该项目将于2028年实现商业运营。</a> [9] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48297976" target="_blank" class="news-link">Valve raises Steam Deck prices by more than $200</a> [10] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2383477?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月28日电，Meta短线拉升由跌转涨，最新上涨近1%，此前传出公司推出订阅服务。</a> [10] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528025401053800" target="_blank" class="news-link">Meta推出AI聊天机器人订阅服务，以试图抵消相关支出</a> [11] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2383475?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社5月28日电，Meta据悉推出Instagram、Facebook和WhatsApp订阅服务，未来还将推出更多方案，包括AI套餐。</a> [11] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48296359" target="_blank" class="news-link">Training our own AI models</a> [18] <font color='grey'>- 04时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528022918907800" target="_blank" class="news-link">Meta Platforms(META.O)股价涨超2%。</a> [21] <font color='grey'>- 04时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
