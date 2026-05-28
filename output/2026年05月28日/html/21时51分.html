@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 87</p><p>生成时间: 2026-05-28 21:51:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">17.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48307887" target="_blank" class="news-link">Five frontier LLMs disagree on 67% of 1k real-world fact-check claims</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773371" target="_blank" class="news-link">比亚迪发布首款4nm智驾芯片，已开始量产，承诺主动承担L2阶段的L3、L4安全责任</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216273" target="_blank" class="news-link">周末撸了个赛博斗蛐蛐：让 AI 写 JS 心法去打武侠擂台</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216271" target="_blank" class="news-link">用 AI 写生成长期运行的软件</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48307231" target="_blank" class="news-link">AMD pulls a bait-and-switch on Linux users with Vivado licensing changes</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216269" target="_blank" class="news-link">做了一个 AI 内容分享工具：把 ChatGPT / Claude 对话变成可公开访问网页</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773322" target="_blank" class="news-link">高盛重磅预测：AI下半场将从芯片转向人形机器人</a> [6] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3773367" target="_blank" class="news-link">美债利率上行或扰动全球出口，战略矿产定价转向战略、国防与地缘溢价， 国内或聚焦AI技术与安全产业---0528宏观脱水</a> [7] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773368" target="_blank" class="news-link">伯恩斯坦：汽车半导体正式进入上行周期</a> [8] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216257" target="_blank" class="news-link">探讨：测试驱动开发（TDD）是否是目前提高 AI 编程准确率的唯一解？</a> [10] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216254" target="_blank" class="news-link">做了一个开源 SSH/SFTP 桌面工具，想解决人和 AI 共用远程上下文的问题</a> [12] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/unclecode/crawl4ai" target="_blank" class="news-link">unclecode / crawl4ai</a> [13]</div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216247" target="_blank" class="news-link">我开源了一个项目：把任何资料，安全的变成 AI 的上下文</a> [14] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216246" target="_blank" class="news-link">我做了一个给超级个体 / OPC 用的 AI 智能体商业化平台</a> [15] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773360" target="_blank" class="news-link">英伟达Computex前瞻：黄仁勋将带来哪些AI算力&quot;核弹&quot;？</a> [16] <font color='grey'>- 21时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
