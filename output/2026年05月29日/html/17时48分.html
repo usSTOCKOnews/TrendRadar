@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 118</p><p>生成时间: 2026-05-29 17:48:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">26</td>
+                <td class="percentage">22.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216527" target="_blank" class="news-link">享受 AI 时代的变化</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216522" target="_blank" class="news-link">发现了一个不错的 AI 编程工作台</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773437" target="_blank" class="news-link">美伊停火预期提振全球股市，美股盘前戴尔涨40%，油价承压，金涨银跌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773407" target="_blank" class="news-link">“我们在赢”！戴尔电话会：业绩炸裂，但炸的不只是AI服务器，四大业务全赢麻了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773412" target="_blank" class="news-link">创业板跌超2%，科创50重挫逾5%，电力、消费拉升，芯片半导体集体下挫，恒指涨近1%，联想集团再涨超20%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216510" target="_blank" class="news-link">做了一个文档记忆与检索工具，辅助给传统行业做 AI 落地的老哥</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773393" target="_blank" class="news-link">戴尔绩后暴涨！Q1营收增长88%，AI收入暴增757%，全年指引大幅上调｜财报见闻</a> [6] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773371" target="_blank" class="news-link">比亚迪发布首款4nm智驾芯片，已开始量产，承诺主动承担L2阶段的L3、L4安全责任</a> [7] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773435" target="_blank" class="news-link">英伟达密集投资光子技术：三个月出手至少65亿美元</a> [7] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216511" target="_blank" class="news-link">改了个好玩的：✨ 把生活里的随手拍，做成了一个懂我情绪的 AI 自然语言相册。</a> [8] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773387" target="_blank" class="news-link">与主席沃什看法相左！美联储官员穆萨莱姆称不能指望AI降低通胀</a> [8] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773440" target="_blank" class="news-link">三星或拿下Anthropic芯片订单，晶圆代工业务迎来“翻身仗”？</a> [8] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773389" target="_blank" class="news-link">18倍PS？Anthropic最新估值达9650亿美元，首超OpenAI！</a> [9] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260529173112090800" target="_blank" class="news-link">南向资金今日净买入18.84亿元。港股通（沪）方面，腾讯控股、泡泡玛特分别获净买入9.81亿港元、8.35亿港元；盈富基金净卖出额居首，金额为23.66亿港元；港股通（深）方面，长飞光纤光缆、舜宇光学科技分别获净买入3.02亿港元、1.83亿港元；阿里巴巴-W净卖出额居首，金额为4.64亿港元。</a> [9] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773412" target="_blank" class="news-link">创业板跌超2%，科创50重挫逾5%，电力、消费拉升，芯片半导体集体下挫，恒指涨近1%，联想集团再涨超20%</a> [10] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216468" target="_blank" class="news-link">开发了一个 品牌或关键词 在 AI 回复分析表现的项目，支持国内的主流 AI 产品</a> [15] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773430" target="_blank" class="news-link">“亚洲最大AI科技展”ComputeX下周开幕，黄仁勋领衔AI巨头轮番登台</a> [16] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216458" target="_blank" class="news-link">做了个 skillx，想解决 AI skills 到处散落、更新靠手拷的问题</a> [18] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/fere-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Fere AI</a> [19] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773429" target="_blank" class="news-link">新一轮大模型要来了！Blackwell加持下，AI能力更强了？</a> [20] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773409" target="_blank" class="news-link">“AI独涨”何时逆转？野村给出三大催化剂：美伊谈崩了，美伊谈的太好，看涨期权买不动了</a> [23] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48317093" target="_blank" class="news-link">SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims</a> [24] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773424" target="_blank" class="news-link">AI视频进入「生产线」调研</a> [26] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1216413" target="_blank" class="news-link">世界杯 AI 智能体预测大赛了解一下？</a> [29] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48319968" target="_blank" class="news-link">Undisclosed addition in jqwik instructed AI coding agents to delete app output</a> [29] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773413" target="_blank" class="news-link">传奇对冲基金经理Dan Loeb：拒绝进化的“死硬价值派”都死了，不学AI注定灭绝</a> [29] <font color='grey'>- 17时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
