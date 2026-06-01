@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2026-06-02 05:29:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">12</td>
+                <td class="percentage">23.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602050120532800" target="_blank" class="news-link">Alphabet(GOOG.O)：AI需求已超出公司现有供应能力。公司正面临来自企业和消费者对人工智能解决方案的强劲需求。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48358667" target="_blank" class="news-link">Florida sues OpenAI and Sam Altman over AI risks</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773604" target="_blank" class="news-link">美国芝商所启动加密货币期货与期权全天候交易，首周末名义成交额5000万美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48362515" target="_blank" class="news-link">Alphabet Announces $80B Equity Capital Raise to Expand AI Infra and Compute</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3773549" target="_blank" class="news-link">主线拥挤后的十字路口：AI抱团松动与全市场再平衡？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773602" target="_blank" class="news-link">奥特曼：AI将从&quot;被动问答&quot;到&quot;后台常驻&quot;，否认IPO竞速，不急于建设太空算力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602044727050800" target="_blank" class="news-link">谷歌(GOOG.O)美股盘后跌1.7%。</a> [9] <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602044358873800" target="_blank" class="news-link">Alphabet(GOOG.O)募资以扩建AI基础设施及算力。</a> [10] <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48361064" target="_blank" class="news-link">GitHub and the crime against software</a> [14] <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602040856545800" target="_blank" class="news-link">据美国财经媒体Semafor：Luma AI正在筹建一个机器人实验室，将允许任何人利用其软件来训练机器人。</a> [23] <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48335704" target="_blank" class="news-link">Handmade Hawaiian Islands Map</a> [29] <font color='grey'>- 05时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48360933" target="_blank" class="news-link">Florida AG files lawsuit against OpenAI, CEO Sam Altman for deceptive practices</a> [30] <font color='grey'>- 05时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
