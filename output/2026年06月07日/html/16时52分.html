@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 187</p><p>生成时间: 2026-06-07 16:52:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">19</td>
+                <td class="percentage">10.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218551" target="_blank" class="news-link">阿里的 Qwen3.7-Max 比我想象中差</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774032" target="_blank" class="news-link">&quot;聊天已死&quot;！ChatGPT最大改版来了，OpenAI要造&quot;超级应用&quot;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/youcal-ai-calorie-tracker?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">YouCal: AI Calorie Tracker</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/nutrithrive-ai-nutrition-coach?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">NutriThrive AI Nutrition Coach</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3774032" target="_blank" class="news-link">&quot;聊天已死&quot;！ChatGPT最大改版来了，OpenAI要造&quot;超级应用&quot;</a> [8] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3774027" target="_blank" class="news-link">债券巨头买入债券，为AI泡沫破裂做准备</a> [9] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218526" target="_blank" class="news-link">做了一个 AI 转盘网站，除了经典转盘还有组合和多米诺玩法</a> [10] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48430539" target="_blank" class="news-link">Public Domain Image Archive</a> [10] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3773936" target="_blank" class="news-link">下周重磅日程：SpaceX上市、苹果WWDC大会、中美通胀数据</a> [10] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773936" target="_blank" class="news-link">下周重磅日程：SpaceX上市、苹果WWDC大会、中美通胀数据</a> [10] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959190" target="_blank" class="news-link">下周重磅日程：SpaceX正式上市、苹果WWDC大会、中美通胀数据</a> [11] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774027" target="_blank" class="news-link">债券巨头买入债券，为AI泡沫破裂做准备</a> [12] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218514" target="_blank" class="news-link">分享一个自用的 AI 生成文档即时预览工具—即页 jpage</a> [13] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218511" target="_blank" class="news-link">Wolf RBAC 五年来最重要的更新： 40 刀 vibe coding，给开源权限系统接了个 AI Agent</a> [15] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/make-4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Maia by Make</a> [20] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48417490" target="_blank" class="news-link">Google to pay SpaceX $920M a month for compute capacity at xAI data centers</a> [22] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2392820?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">陈茂波：香港AI+与产业发展策略委员会顺利组成</a> [22] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260607145850352800" target="_blank" class="news-link">陈茂波：香港AI+与产业发展策略委员会顺利组成</a> [24] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2392818?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">黄仁勋会见韩国两大游戏商代表共商游戏AI合作方案</a> [24] <font color='grey'>- 16时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
