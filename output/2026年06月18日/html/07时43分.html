@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 108</p><p>生成时间: 2026-06-18 07:43:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">12</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774947" target="_blank" class="news-link">苹果放风涨价，二代iPhone Air或明年春面世，iPhone发布节奏迎重大调整</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-17/%E9%98%BF%E9%87%8C%E5%8F%91%E5%B8%83%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E5%A4%A7%E6%A8%A1%E5%9E%8Bqwen-robot%E7%B3%BB%E5%88%97-84b7a2" target="_blank" class="news-link">阿里发布具身智能大模型Qwen-Robot系列</a> [6] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2401904?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【研选•研报数据】建滔2026年内第五次调价，宣告PCB上游核心材料进入全面高通胀周期；公司紧握算力、电力两大高景气下游，迎来快速发展阶段</a> [6] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2403007?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">超高效芯片液冷技术冷却性能达此前纪录10倍</a> [8] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3774870" target="_blank" class="news-link">吴清陆家嘴论坛讲话：扩大第五套标准适用范围至AI领域，支持港股公司境内上市</a> [10] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2403004?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">下半年投资亮点纷呈 公募策略会看好AI投资范式生变</a> [10] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2402999?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周四你需要知道的隔夜全球要闻：沃什首秀美联储转鹰，市场预计明年一季度前加息两次，美股、黄金下挫；库克透露苹果将涨价；美伊已签署谅解备忘录</a> [11] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-17/%E5%90%B4%E6%B8%85%E9%99%86%E5%AE%B6%E5%98%B4%E8%AE%BA%E5%9D%9B%E5%AE%A3%E5%B8%83%E7%A7%91%E5%88%9B%E6%9D%BF%E7%AC%AC%E4%BA%94%E5%A5%97%E6%A0%87%E5%87%86%E6%89%A9%E8%87%B3ai%E5%A4%A7%E6%A8%A1%E5%9E%8B-93e937" target="_blank" class="news-link">吴清陆家嘴论坛宣布科创板第五套标准扩至AI大模型</a> [16] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-17/%E8%A6%86%E9%93%9C%E6%9D%BF%E6%A6%82%E5%BF%B5%E8%82%A1%E9%9B%86%E4%BD%93%E6%B6%A8%E5%81%9C-ai%E9%9C%80%E6%B1%82%E6%8E%A8%E5%8D%87%E6%B6%A8%E4%BB%B7%E5%91%A8%E6%9C%9F-81c03a" target="_blank" class="news-link">覆铜板概念股集体涨停 AI需求推升涨价周期</a> [20] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4126627_212_1" target="_blank" class="news-link">俄罗斯副外长阿里莫夫表示，莫斯科和德黑兰正在联合国协调行动，以期彻底解除对伊朗的制裁。</a> [20] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-17/a%E8%82%A1%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%BA%A7%E4%B8%9A%E9%93%BE%E9%A2%86%E6%B6%A8%E7%A7%91%E5%88%9B50%E6%8C%87%E6%95%B0%E5%A4%A7%E6%B6%A8469-a81f9d" target="_blank" class="news-link">A股半导体产业链领涨科创50指数大涨4.69%</a> [21] <font color='grey'>- 07时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-17/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%8A%A0%E9%87%8F%E9%87%87%E8%B4%AD%E5%9B%BD%E4%BA%A7%E8%8A%AF%E7%89%87-%E5%A4%A7%E5%8E%82%E7%AB%9E%E9%80%9F%E6%90%AD%E5%BB%BA%E7%AE%97%E5%8A%9B%E6%8A%A4%E5%9F%8E%E6%B2%B3-8e4056" target="_blank" class="news-link">字节跳动加量采购国产芯片 大厂竞速搭建算力护城河</a> [22] <font color='grey'>- 07时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
