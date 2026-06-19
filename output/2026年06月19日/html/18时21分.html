@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 204</p><p>生成时间: 2026-06-19 18:21:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">18</td>
+                <td class="percentage">8.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48595511" target="_blank" class="news-link">Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3774963" target="_blank" class="news-link">霍尔木兹海峡重开提振股债，半导体指数收创新高，原油走V，美元两连涨，黄金承压</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1221537" target="_blank" class="news-link">分享最近 AI 做的儿童启蒙产品：拍照学拼音（附兑换码）</a> [6] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3775077" target="_blank" class="news-link">陈立武接手英特尔后首次播客访谈：我们的目标是“5-10年10倍”，押注先进封装、玻璃基板和人工钻石</a> [6] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3775047" target="_blank" class="news-link">剑指英伟达！报道：亚马逊洽谈向其他公司出售自研AI芯片</a> [10] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1221512" target="_blank" class="news-link">做了个争对欧美用户的 AI 图片视频生成 特点是你想生成啥都行 你懂的 问题是咋推广出去 找投放或者擅长推广的小伙伴合作</a> [11] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48570730" target="_blank" class="news-link">How Japan&#x27;s railways stayed one while splitting apart</a> [12] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775077" target="_blank" class="news-link">陈立武接手英特尔后首次播客访谈：我们的目标是“5-10年10倍”，押注先进封装、玻璃基板和人工钻石</a> [12] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48592832" target="_blank" class="news-link">The AirPods Effect</a> [13] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959266" target="_blank" class="news-link">英特尔CEO陈立武谈AI芯片“三大瓶颈”：电力、氦气和最严重的内存</a> [13] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2404409?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社6月19日电，印度信实Jio董事长表示，Jio正评估为印度开发主权低地球轨道卫星；正在启动首批英伟达GB 300图形处理器（GPU）的投用部署。</a> [14] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-19/%E8%8B%B9%E6%9E%9C%E4%BA%A7%E5%93%81%E5%B0%86%E6%B6%A8%E4%BB%B7-%E5%BA%93%E5%85%8B%E8%AF%81%E5%AE%9E%E8%AE%B0%E5%BF%86%E4%BD%93%E6%88%90%E6%9C%AC%E4%B8%8A%E5%8D%87-ee96ee" target="_blank" class="news-link">苹果产品将涨价 库克证实记忆体成本上升</a> [15] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959265" target="_blank" class="news-link">“投资奇才”陈立武：我给英特尔的目标是“未来5-10年10倍”</a> [15] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775070" target="_blank" class="news-link">高通胀利好“折扣超市”！奥乐齐高歌猛进，美国市场份额增速堪比沃尔玛和Costco</a> [20] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775063" target="_blank" class="news-link">埃森哲股价暴跌18%创近十年新低，AI冲击与中东动荡双重施压</a> [22] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48593694" target="_blank" class="news-link">Flexport (YC W14) Is Hiring in Indonesia, India, and Thailand</a> [23] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775067" target="_blank" class="news-link">“不是你想投，梁文锋就会要你的钱”，DeepSeek融资510亿元，他为何选了腾讯、宁德时代、网易、京东？</a> [25] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2404390?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">深圳打造生物医药特殊物品通关AI服务平台</a> [27] <font color='grey'>- 18时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
