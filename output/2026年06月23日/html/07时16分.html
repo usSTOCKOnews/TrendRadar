@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-06-23 07:16:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">7.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48635954" target="_blank" class="news-link">Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3775156" target="_blank" class="news-link">科技巨头下挫拖累美股大盘，芯片股指、小盘股指逆市新高，原油高开走跌，美债收益率“补涨”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775156" target="_blank" class="news-link">科技巨头下挫拖累美股大盘，芯片股指、小盘股指逆市新高，原油高开走跌，美债收益率“补涨”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2405202?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【研选•研报数据】全球算力服务继续通胀，价格端持续验证算力紧俏，算力租赁的商业逻辑更加清晰；国内少数的民营IDM模式的综合型半导体产品企业，受益于功率类、模拟类产品价格的提升</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775228" target="_blank" class="news-link">算力不再稀缺？AI服务器租赁成本走低，日本推出前沿级&quot;编排&quot;新模型</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4133707_103_1" target="_blank" class="news-link">甲骨文刊发年度财务监管报告，称在过去12个月裁员2.1万，人工智能（AI）已经取代了部分人力。</a> [9] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-22/ai%E7%AE%97%E5%8A%9B%E9%9C%80%E6%B1%82%E6%8E%A8%E9%AB%98%E5%85%89%E7%BA%A4%E4%BA%A7%E4%B8%9A%E9%93%BE-%E5%85%89%E6%A3%92%E4%BB%B7%E6%A0%BC%E5%8D%8A%E5%B9%B4%E6%B6%A8%E9%80%BE%E4%BA%94%E5%80%8D-83cccb" target="_blank" class="news-link">AI算力需求推高光纤产业链 光棒价格半年涨逾五倍</a> [15] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2406189?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社6月23日电，高通据称接近与人工智能芯片初创公司Modular达成收购交易。</a> [22] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2406187?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">特斯拉致命车祸引发美国汽车安全监管机构调查</a> [24] <font color='grey'>- 07时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
