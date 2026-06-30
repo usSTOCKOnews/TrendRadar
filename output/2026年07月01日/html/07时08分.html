@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2026-07-01 07:08:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">18</td>
+                <td class="percentage">20.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701070002377800" target="_blank" class="news-link">澳大利亚6月AIG/PWC制造业表现指数 -16.8，前值-22.4。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775893" target="_blank" class="news-link">“炒币”高手特朗普！官方披露2025年加密货币业务斩获超10亿美元，重仓美股科技巨头</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701070002368800" target="_blank" class="news-link">澳大利亚6月AIG建筑业表现指数 -38.1，前值-9.9。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2413607?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月1日电，据报道，苹果库克与欧盟科技主管就“Siri AI”展开建设性的对话。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48739466" target="_blank" class="news-link">From brain waves to words: a new path to communication without surgery</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3775797" target="_blank" class="news-link">AI热情驱动，标普、纳指创2020年来最佳单季表现，原油承压</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775797" target="_blank" class="news-link">AI热情驱动，标普、纳指创2020年来最佳单季表现，原油承压</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701065240508800" target="_blank" class="news-link">特朗普927页财报曝光：三度加仓苹果、微软、英伟达，金条持仓同步现身</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2413604?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月1日电，据报道，美国商务部预计将于当地时间今晚解除对Anthropic AI模型Fable的出口管制。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701065200498800" target="_blank" class="news-link">英媒：苹果CEO与欧盟技术主管就“Siri AI”举行建设性会谈</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2413603?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">A股已有35家公司预告上半年业绩 AI、锂电、化工三大板块领衔高增长</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2413601?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周三你需要知道的隔夜全球要闻：美股三大指数齐涨道指新高 AI热潮带动存储概念半年涨超3倍</a> [6] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701063003352800" target="_blank" class="news-link">据英国金融时报：苹果(AAPL.O)CEO库克与欧盟科技主管就“Siri AI”展开建设性的对话。</a> [13] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2413594?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美国AI芯片初创公司Etched宣布累计完成8亿美元融资 估值达50亿美元</a> [13] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2413588?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">新兴市场股市创2009年以来最佳季度表现 AI热潮提供动力</a> [19] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2413587?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">芯片股创历史最佳季度表现 AI需求可持续性受关注</a> [20] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4148516_212_1" target="_blank" class="news-link">美国总统特朗普2025年度的财务报告称，特朗普持有至少500万美元英伟达股票，持有至少100万美元PALANTIR股票。</a> [20] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4148511_212_1" target="_blank" class="news-link">披露信息显示，特朗普至少持有价值500万美元的苹果股票。</a> [22] <font color='grey'>- 07时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
