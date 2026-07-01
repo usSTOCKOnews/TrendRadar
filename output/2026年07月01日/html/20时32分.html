@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 172</p><p>生成时间: 2026-07-01 20:32:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">22</td>
+                <td class="percentage">12.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2414526?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月1日电，Together AI宣布完成8亿美元融资轮，最新估值达83亿美元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1224304" target="_blank" class="news-link">PicGo 3.0.0 发布，官方图床，云相册， AI Skills 都有了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775976" target="_blank" class="news-link">甲骨文的AI焦虑：建了数千亿数据中心，但就怕OpenAI付不起账单</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775972" target="_blank" class="news-link">当华尔街策略师依赖同一套AI：交易更拥挤、风险更集中、错误传播更快</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-01/%E8%8B%B9%E6%9E%9C%E5%8D%B0%E5%BA%A6%E4%BE%9B%E5%BA%94%E5%95%86%E9%81%AD%E5%8B%92%E7%B4%A2-iphone-18-pro%E8%B5%84%E6%96%99%E5%A4%96%E6%B3%84-b2ea44" target="_blank" class="news-link">苹果印度供应商遭勒索 iPhone 18 Pro资料外泄</a> [6] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775973" target="_blank" class="news-link">松下：未来两年，将向AI基础设施投资5000亿日元</a> [6] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/mailadept-by-mailwarm-yc-s20?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MailAdept by mailwarm</a> [7] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/allenai/olmocr" target="_blank" class="news-link">allenai / olmocr</a> [7]</div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3775932" target="_blank" class="news-link">市场等待沃什讲话与非农数据，美股盘前存储芯片股走低，康宁跌超4%，黄金再跌1%</a> [7] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775975" target="_blank" class="news-link">美光CEO再度“暗讽”苹果：曾疯狂压价到三分之一，导致行业无力扩产</a> [7] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1224276" target="_blank" class="news-link">做了一个新的字幕站， subrain.tv，欢迎广大字幕制作者和爱好者使用</a> [8] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/airtop?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Mark by Airtop</a> [8] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-01/%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%977%E6%9C%88%E8%AE%BF%E5%8D%B0-%E6%97%A5%E5%8D%B0%E6%8B%9F%E7%AD%BE%E7%BD%B2%E7%BB%8F%E6%B5%8E%E5%AE%89%E5%85%A8%E4%B8%8Eai%E5%8D%8F%E8%AE%AE-b2ede0" target="_blank" class="news-link">高市早苗7月访印 日印拟签署经济安全与AI协议</a> [8] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2414505?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">2连板新迅达：鑫兴光电华东区域半导体激光器芯片项目处于刚开工状态 建设完成并投产尚需较长时间</a> [11] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/stigg?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Usage, Under Control</a> [14] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775966" target="_blank" class="news-link">持续打通腾讯生态，元宝开启调用微信政务民生小程序能力</a> [17] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/metal-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Metal</a> [18] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701201235308800" target="_blank" class="news-link">野村证券团队：断言芯片股见顶还为时过早</a> [19] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2414494?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">金宏气体：公司高纯二氧化碳产品主要供应国内半导体企业 无海外出口</a> [19] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/yikart/AiToEarn" target="_blank" class="news-link">yikart / AiToEarn</a> [20]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2414487?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【机构调研】芯片电感受益ASIC需求有望加速放量，这家公司预计年内TLVR电感出货量大幅增加</a> [22] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2414483?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">8天4板多氟多：半导体级氢氟酸营收占比不足2% 目前没有六氟化钨生产线</a> [26] <font color='grey'>- 20时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
