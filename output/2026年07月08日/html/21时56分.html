@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 135</p><p>生成时间: 2026-07-08 21:56:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">12.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225944" target="_blank" class="news-link">我做了一个 FastAPI + Vue Vben Admin 的全栈后台模板，主要解决“AI 写不出好看后台”的问题</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708214015006800" target="_blank" class="news-link">市场消息：美国银行近日向OpenAI提供了一笔5.2亿美元的授信额度。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776425" target="_blank" class="news-link">中东战火再燃，美股低开，存储股延续跌势，阿里涨9%，油价大涨5%，金银走低</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225935" target="_blank" class="news-link">AI 时代的数字分身：我用几十块钱的小模块，无感记录了自己一整年的物理定位轨迹</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776484" target="_blank" class="news-link">&quot;颠覆&quot;HBM？英特尔XBM专利曝光：主打低封装成本</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225928" target="_blank" class="news-link">明后天阿里就全面禁用 Claude 了，那他们用啥啊？</a> [6] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-08/%E5%89%8Dopenai%E7%A0%94%E7%A9%B6%E5%91%98%E7%94%B0%E6%B0%B8%E9%BE%99%E5%8A%A0%E5%85%A5%E8%85%BE%E8%AE%AF%E5%8F%82%E4%B8%8Evlm%E7%A0%94%E5%8F%91-1ca88c" target="_blank" class="news-link">前OpenAI研究员田永龙加入腾讯参与VLM研发</a> [6] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776488" target="_blank" class="news-link">AI繁荣背后的结构性分化加剧：59%标普科技股已跌入熊市区间</a> [7] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708213744387800" target="_blank" class="news-link">博通股价上涨2.7%，因与苹果达成协议，将生产数十亿颗芯片。</a> [7] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776482" target="_blank" class="news-link">阿里Q2业绩前瞻：云业务继续狂奔，价格战收缩，电商广告承压</a> [9] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2420842?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月8日电，美股芯片股在低开后走强，截至目前，西部数据涨超3%，博通、闪迪、希捷科技涨超2%，应用材料、ARM涨超1%。</a> [10] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776480" target="_blank" class="news-link">万亿美元市值蒸发后，英伟达成&quot;价值洼地&quot;，市盈率比标普500还低</a> [12] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2420839?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月8日电，利弗莫尔中概股龙头指数涨幅扩大至3%，报9286.73点。成分股中，金山云涨11.92%，阿里巴巴涨9.54%，麦思智能涨8.31%，百度涨5.96%，联电涨5.01%。</a> [13] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776477" target="_blank" class="news-link">韩股大跌、港股大涨，AI交易风向变了？</a> [14] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2420838?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股三大指数集体低开 阿里巴巴大涨9%</a> [14] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4161461_212_1" target="_blank" class="news-link">美国银行向OpenAI提供5.2亿美元信贷额度，助力其筹备上市。</a> [17] <font color='grey'>- 21时56分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2420832?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月8日电，美国银行向OpenAI提供5.2亿美元信贷额度，以争取其首次公开募股（IPO）席位。</a> [20] <font color='grey'>- 21时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
