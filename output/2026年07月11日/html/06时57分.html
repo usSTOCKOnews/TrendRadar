@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2026-07-11 06:57:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">14.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776623" target="_blank" class="news-link">AI叙事助美股三连阳，SK海力士ADR首日大涨13%，布油冲高转跌，黄金走V仍收跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776688" target="_blank" class="news-link">硅谷巨头反目！苹果起诉OpenAI窃取商业机密，要求销毁涉密资料并重设计AI硬件</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423439?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周六你需要知道的隔夜全球要闻：伊朗外交部称从未提出与美谈判诉求；SK海力士美股上市首日收涨近13%；苹果起诉OpenAI窃取商业机密‌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776689" target="_blank" class="news-link">AI加剧美国通胀？高盛：内存、电力和软件涨价年底或推高核心PCE 0.5个百分点</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423437?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月11日电，OpenAI称，我们对其他公司的商业秘密不感兴趣。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776623" target="_blank" class="news-link">AI叙事助美股三连阳，SK海力士ADR首日大涨13%，布油冲高转跌，黄金走V仍收跌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776680" target="_blank" class="news-link">AI狂欢持续！SK海力士创海外赴美最大IPO，美股首秀收涨13%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48865019" target="_blank" class="news-link">Apple sues OpenAI, accuses ex-employees of stealing trade secrets</a> [10] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776680" target="_blank" class="news-link">AI狂欢持续！SK海力士创海外赴美最大IPO，美股首秀收涨13%</a> [10] <font color='grey'>- 06时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
