@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2026-07-11 03:22:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">13.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226512" target="_blank" class="news-link">分享一下我自己在用的基于 tmux 弄的 AI agent 终端工作台</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226507" target="_blank" class="news-link">分享一个免费的在线 Tier List 制作工具，带 AI 排名，每天送 10 个 AI 积分</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48862252" target="_blank" class="news-link">Snails&#x27; Teeth Beats Spider Silk as Nature&#x27;s Strongest Material (2015)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776674" target="_blank" class="news-link">Meta内部“K型分裂”加剧：精英拿千万年薪，普通员工沦为“AI饲料”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776678" target="_blank" class="news-link">美联储半年度报告：通胀今春进一步升温，AI基建成推高通胀新因素，重申稳定价格承诺</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776679" target="_blank" class="news-link">AI基金经理更厉害？摩根大通回测：年化跑赢经典投资组合，波动更低</a> [7] <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48863707" target="_blank" class="news-link">How the Terrorist Group Boko Haram Uses Frontier AI</a> [8] <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776623" target="_blank" class="news-link">SK海力士首日开盘价170美元，美股指盘中涨跌互现，英伟达涨超3%，布油跌超1%</a> [8] <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423394?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">SK海力士CEO预计存储芯片短缺将延续至下一个十年</a> [14] <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48861833" target="_blank" class="news-link">Hands-On with the AMD Ryzen AI Halo</a> [15] <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260711015631376800" target="_blank" class="news-link">SK海力士CEO：内存芯片短缺可能持续到2030年以后</a> [21] <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4166604_4_1" target="_blank" class="news-link">欧盟对Meta发出警告，要求其整改被指存在于Facebook和Instagram中的“成瘾性设计”，若未达标或将面临巨额罚金。欧洲监管部门指出，无限滑动加载内容、视频自动播放、高度定制化的内容推送流等功能，容易引导用户无节制使用平台，其中儿童和弱势用户群体受到的影响格外严重。欧盟委员会的初步调查结果显示，Meta没有对上述风险开展充分评估，也未能有效降低相关负面影响。欧盟要求Meta拿出对应的整改方案，具体包括上线定时休屏提示、升级家长管控相关功能、对内容推荐算法进行调整。Meta方面表示对该调查结论不认可，但会继续和欧盟监管机构保持沟通、共同协商。</a> [21] <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423383?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">SK海力士考虑“内存即服务”模式 或允许客户租赁而非购买芯片</a> [24] <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423381?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月11日电，亚马逊云科技被列为英国金融业关键第三方服务商。</a> [26] <font color='grey'>- 03时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423380?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">亚马逊与InterDigital的诉讼因视频专利授权协议暂停审理‌</a> [27] <font color='grey'>- 03时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
