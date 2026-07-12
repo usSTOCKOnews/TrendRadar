@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 186</p><p>生成时间: 2026-07-12 16:11:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">19</td>
+                <td class="percentage">10.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48876505" target="_blank" class="news-link">Mesh LLM: distributed AI computing on iroh</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-text-detector-4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI text Detector</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776721" target="_blank" class="news-link">强力施压苹果、英伟达，为了扶持英特尔，白宫“手段尽出”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776720" target="_blank" class="news-link">苹果起诉OpenAI，马斯克“他就是个大骗子”，Altman“你才是吹太空数据中心的那个人”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226712" target="_blank" class="news-link">做了个 App：把 AI 生成的 HTML 小工具直接放进手机运行，求拍砖</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776716" target="_blank" class="news-link">机构实地调研：台积电赢了现在的CPO，三星在押注下一场</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226702" target="_blank" class="news-link">[分享] AI 编程把网站搭出来以后，我又做了个让 Logo 动起来的工具</a> [6] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776704" target="_blank" class="news-link">成也 Seedance 2.0，败也 Seedance 2.0！AI漫剧行业已经没有了？</a> [6] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776714" target="_blank" class="news-link">全球存储扩产+海外设备供应告急，国产半导体设备迎“超级时代”</a> [7] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959383" target="_blank" class="news-link">下周重磅日程：中国GDP与美国CPI、沃什听证会、WAIC大会、长鑫科技打新与台积电财报</a> [6 - 14] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776714" target="_blank" class="news-link">全球存储扩产+海外设备供应告急，国产半导体设备迎“超级时代”</a> [8] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776715" target="_blank" class="news-link">三星电子将龙仁首座芯片厂投产提前至2029年，比原计划早1-2年</a> [10] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776715" target="_blank" class="news-link">三星电子将龙仁首座芯片厂投产提前至2029年，比原计划早1-2年</a> [11] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226671" target="_blank" class="news-link">[分享] 做了个班级游戏化积分系统（扫码遥控、AI 周报、班会语音总结，还有免费额度）</a> [13] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260712150627108800" target="_blank" class="news-link">机构：HBM4价格今年下半年或涨至4-5美元/千比特 AI需求与产能瓶颈致全球DRAM半数产能被大厂锁定</a> [14] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423773?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">机构：HBM4价格今年下半年或涨至4-5美元/千比特 AI需求与产能瓶颈致全球DRAM半数产能被大厂锁定</a> [15] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3776711" target="_blank" class="news-link">不是稀土，却胜似稀土：中国为何开始管控氦气出口？一场半导体供应链保卫战正在展开</a> [16] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48878126" target="_blank" class="news-link">Under federal rule, colleges must leave grads better off or lose financial aid</a> [17] <font color='grey'>- 16时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48876619" target="_blank" class="news-link">Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio</a> [20] <font color='grey'>- 16时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
