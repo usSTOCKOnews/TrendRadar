@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 61</p><p>生成时间: 2026-07-12 22:53:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">14.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226775" target="_blank" class="news-link">有哪些词让你一看到就觉得是 AI 写的？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423878?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【公告全知道】商业航天+卫星导航+芯片+低空经济！公司深度参与国网星座和千帆星座</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48881043" target="_blank" class="news-link">AI Boosts Research Careers but Flattens Scientific Discovery</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226765" target="_blank" class="news-link">各位大佬每月在 AI 工具上的支出都是多少？多少是因为工作支出？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423797?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【风口研报·洞察】特斯拉发布Model S&amp;X产线退役视频，原有区域将用于Optimus机器人生产线搭建，7月供应链SOP、8-9月特斯拉产线SOP或成为板块密集催化窗口；当前中报业绩预告中的线索</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423889?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">下周资本市场大事提醒：长鑫科技周四打新；阿斯麦与台积电公布二季报；韩国央行或时隔五年重启加息</a> [7] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423880?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【季报高增长】先进封装+AI PC，上半年净利润同比暴增15倍！这家公司布局2.5D、3D封装等前沿技术，重点发力AI PC等产品线，构建了从低功耗边缘计算到高性能服务器的全场景AI算力产品矩阵</a> [8] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2423887?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">近20家A股上市公司本周披露并购重组最新公告 拓荆科技拟收购无锡尚积半导体控股权股票复牌</a> [9] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48880564" target="_blank" class="news-link">Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?</a> [29] <font color='grey'>- 22时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
