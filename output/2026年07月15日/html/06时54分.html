@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2026-07-15 06:54:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">10</td>
+                <td class="percentage">10.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48910545" target="_blank" class="news-link">Bonsai 27B: A 27B-Class model that runs on a phone</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776859" target="_blank" class="news-link">美国通胀降温，美股指全线反弹，存储芯片股大涨，IBM暴跌25%，油金齐涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776947" target="_blank" class="news-link">沃什听证首秀释放新政信号，“新美联储通讯社”：强调高通胀零容忍但未暗示利率路径</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48913443" target="_blank" class="news-link">Financing the AI boom: from cash flows to debt [pdf]</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776859" target="_blank" class="news-link">美国通胀降温，美股指全线反弹，存储芯片股大涨，IBM暴跌25%，油金齐涨</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776939" target="_blank" class="news-link">破产传闻一度引发55%暴跌！特斯拉昔日挑战者Lucid紧急辟谣：传言完全不实</a> [6] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2426558?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周三你需要知道的隔夜全球要闻：‌美军对伊朗发动新一轮打击；美国6月CPI环比下降超预期 加息预期推迟；美股三大指数集体收涨 存储概念股大涨；OpenAI计划推出首款硬件产品家用智能音箱</a> [8] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776946" target="_blank" class="news-link">OpenAI首款硬件产品曝光，计划明年发售智能音箱，但苹果诉讼或干扰发售时间</a> [9] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4173440_103_1" target="_blank" class="news-link">沃什听证首秀释放新政信号，“新美联储通讯社”：强调高通胀零容忍但未暗示利率路径。</a> [20] <font color='grey'>- 06时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2426539?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">OpenAI计划推出家用智能音箱 作为其首款硬件产品</a> [23] <font color='grey'>- 06时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
