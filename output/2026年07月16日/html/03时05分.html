@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2026-07-16 03:05:57</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">11.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4175928_214_1" target="_blank" class="news-link">微软安全部门裁员数百人。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2427795?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月16日电，为推动公司安全体系和人工智能转型，微软新任安全负责人海耶特·加洛特已替换至少8名曾向前任安全负责人查理·贝尔汇报的高管。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777047" target="_blank" class="news-link">破发！SpaceX股价首次跌穿135美元的IPO发行价，AI降温叠加解禁来袭</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2427793?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月16日电，苹果上调AppleCare+服务价格，Mac和iPad月度套餐费用上涨0.5美分，年度套餐上涨5美元，仅影响新用户。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716023727073800" target="_blank" class="news-link">据The Information：为推动公司安全体系和人工智能转型，微软(MSFT.O)新任安全负责人海耶特·加洛特已替换至少8名曾向前任安全负责人查理·贝尔汇报的高管。</a> [6] <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4175915_1_1" target="_blank" class="news-link">市场消息：苹果上调AppleCare+服务价格，Mac和iPad月度套餐费用上涨50美分，年度套餐上涨5美元，仅影响新用户。</a> [6] <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716023335900800" target="_blank" class="news-link">市场消息：苹果(AAPL.O)上调AppleCare+服务价格，Mac和iPad月度套餐费用上涨50美分，年度套餐上涨5美元，仅影响新用户。</a> [9] <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777042" target="_blank" class="news-link">沃什：AI推高价格但未必推升通胀，任何通胀指标都不精确，特朗普没试图干预美联储</a> [16] <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48919869" target="_blank" class="news-link">Briar is in maintenance mode</a> [20] <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2427771?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英伟达首席执行官黄仁勋否认产品延期论称维拉鲁宾将按计划向客户交付</a> [22] <font color='grey'>- 03时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4175877_1_1" target="_blank" class="news-link">美联储理事库克：我对高通胀带来的风险感到担忧。</a> [24] <font color='grey'>- 03时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
