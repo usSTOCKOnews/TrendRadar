@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 138</p><p>生成时间: 2026-07-17 21:20:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">10.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1228106" target="_blank" class="news-link">AI + garlic 自动化逆向 Android App</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48946010" target="_blank" class="news-link">Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/pebbles-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Pebbles Ai</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777230" target="_blank" class="news-link">Kimi K3再掀“DeepSeek时刻”？美股芯片盘前普跌，高盛警告&quot;算力扩张时代&quot;或已走到尽头</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777229" target="_blank" class="news-link">从Token到DAA，百度重算Agent这笔账</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2429869?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">上海市副市长陈杰：加快前沿模型、具身智能、智算芯片等关键领域技术全链突破</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-17/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E9%A6%96%E6%AC%A1%E5%87%BA%E5%B8%AD2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F-9ccbe5" target="_blank" class="news-link">习近平出席世界人工智能大会宣布成立WAICO</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48946303" target="_blank" class="news-link">Apple targets dozens of OpenAI employees with legal letters</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2429873?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股盘前要闻一览：SK海力士抹去盘前跌幅；美光与高通等签署长协锁定AI汽车存储需求；Meta拟聘请AWS高管加速布局云计算</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777225" target="_blank" class="news-link">再向韩国芯片巨头伸手：SK海力士与三星&quot;超额利润&quot;或需与美国分享</a> [6] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2429866?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月17日电，亚马逊公司（Amazon）旗下ZooX部门召回其自主驾驶车辆，原因是这些车辆可能无法侦测并应对浓重烟雾情况。</a> [8] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/isvisible-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">isvisible.ai?</a> [14] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ph-daily-top-50?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PH Daily Top 50</a> [15] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-image-editor-12?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Dream Pixel AI</a> [17] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2429848?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月17日电，奥本海默将奈飞公司目标股价从100美元下调至85美元。</a> [23] <font color='grey'>- 21时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
