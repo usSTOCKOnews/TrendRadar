@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2026-07-17 19:19:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">23</td>
+                <td class="percentage">12.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/HenryNdubuaku/maths-cs-ai-compendium" target="_blank" class="news-link">HenryNdubuaku / maths-cs-ai-compendium</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777219" target="_blank" class="news-link">目标价翻倍至2581元！高盛：英伟达推动3.2T光模块需求加速，中际旭创迎来估值重塑</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777216" target="_blank" class="news-link">紧盯AI交易最重要的风向标——美光！</a> [7] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777205" target="_blank" class="news-link">面对崩溃论，Altman承认：过去12个月OpenAI表现不佳，“主要是我的错”</a> [8] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2429690?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【机构龙虎榜解读】端侧+物理AI+人形机器人，高算力模组可为终端设备提供77TOPS的终端侧计算能力，为物理AI应用提供底层计算能力，应用于人形机器人的高速率通信模组已经小批量发货，这家公司获净买入</a> [8] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-17/%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B8%8E%E6%97%A5%E4%BC%81%E5%90%88%E4%BD%9C%E5%BB%BA%E8%AE%BE%E5%9B%BD%E5%AE%B6%E7%BA%A7%E5%AE%9E%E4%BD%93ai%E7%AE%97%E5%8A%9B%E5%B7%A5%E5%8E%82-d788b7" target="_blank" class="news-link">英伟达携日企建设国家级AI算力工厂</a> [9] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3777165" target="_blank" class="news-link">沪指失守3800点，电力银行逆势拉升，创业板、科创50跌逾7%，医药芯片深度回调，港股AI大模型股智谱跌近30%</a> [9] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959417" target="_blank" class="news-link">中国开源AI，第一次逼近最强闭源模型</a> [10] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/RyanCodrai/turbovec" target="_blank" class="news-link">RyanCodrai / turbovec</a> [12]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777208" target="_blank" class="news-link">林园：现在投AI，风险99.8%甚至100%；芯片过热，至少在半山腰上</a> [12] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260717190731582800" target="_blank" class="news-link">国科微：拟定增募资不超50.61亿元，投向新一代AI视觉处理芯片及解决方案研发与产业化项目等</a> [12] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2429758?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月17日电，富国银行将奈飞公司目标股价从105美元下调至80美元。</a> [12] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777165" target="_blank" class="news-link">沪指失守3800点，电力银行逆势拉升，创业板、科创50跌逾7%，医药芯片深度回调，港股AI大模型股智谱跌近30%</a> [13] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1228053" target="_blank" class="news-link">小波纹 Riplora 更新:继续探索一种非聊天式 AI 交互</a> [15] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777197" target="_blank" class="news-link">美股芯片股，距熊市仅一步之遥</a> [15] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1228052" target="_blank" class="news-link">用 AI“抄”了一个网站来当个人主页，大佬们评价一下～</a> [16] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777199" target="_blank" class="news-link">OpenAI 的大模型价格战，历史早已写过结局</a> [16] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/arivaanai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ArivaanAI</a> [18] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1228049" target="_blank" class="news-link">〖开源自荐〗OpenTypeless：跨平台的开源 AI 语音输入工具，虽然竞品多，但是 issue 我真的会去认真解决</a> [19] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777196" target="_blank" class="news-link">突发叫停！Gemini 3.5 Pro难产，谷歌跌入失望陷阱</a> [20] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260717190058998800" target="_blank" class="news-link">花旗：台积电毛利率前景依然坚韧</a> [22] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2429725?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美格智能：端侧AI、机器人等领域是公司产品重要的应用方向 是否能取得预期效益存在不确定性</a> [24] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2429717?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月17日电，美国银行全球研究将奈飞目标价位从125美元下调至105美元。</a> [28] <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
