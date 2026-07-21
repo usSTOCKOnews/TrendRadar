@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2026-07-22 03:16:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">10</td>
+                <td class="percentage">11.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48995213" target="_blank" class="news-link">Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3777518" target="_blank" class="news-link">全球科技股反弹！纳指涨2%，美股存储芯片指数涨超10%，布油重回90美元上方</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777518" target="_blank" class="news-link">全球科技股反弹！纳指涨2%，美股存储芯片指数涨超10%，布油重回90美元上方</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时16分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48995074" target="_blank" class="news-link">Meta&#x27;s AI Models Are Powering the First Wave of Genesis Mission Projects</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2433192?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">CoreWeave首席执行官：公司正在大规模部署AI基础设施</a> [6] <font color='grey'>- 03时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777594" target="_blank" class="news-link">谷歌Gemini三箭齐发，Flash降价提效、网络安全模型直指Anthropic，旗舰3.5 Pro仍难产</a> [8] <font color='grey'>- 03时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2433184?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月22日电，亚马逊云服务(AWS)称，自2026年7月21日起，所有新创建的亚马逊简单邮件服务账户将默认采用基础版套餐。</a> [11] <font color='grey'>- 03时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722015437812800" target="_blank" class="news-link">据华尔街日报：CoreWeave首席执行官称，公司正在大规模部署AI基础设施，公司在构建AI原生云方面走在正确的道路上，此外，随着AI云收入增长，折旧的会计影响将减小。</a> [17] <font color='grey'>- 03时16分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48996236" target="_blank" class="news-link">AI Agent – TRMNL</a> [19] <font color='grey'>- 03时16分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48995409" target="_blank" class="news-link">Firefox Containers Preview</a> [29] <font color='grey'>- 03时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
