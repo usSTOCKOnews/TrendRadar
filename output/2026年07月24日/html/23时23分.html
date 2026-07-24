@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 112</p><p>生成时间: 2026-07-24 23:23:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">24</td>
+                <td class="percentage">21.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2436802?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股三大指数集体转涨 苹果涨超3%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4192848_214_1" target="_blank" class="news-link">三大指数系数转涨，现货金银短线走高，油价下挫；科技股中苹果涨超3%，微软、谷歌涨超1%，存储股跌幅收窄；消息面上，巴基斯坦正探索重启美伊谈判的途径。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777833" target="_blank" class="news-link">AI烧钱担忧叠加中东局势，纳斯达克100指数跌幅扩大至1.2%，存储芯片板块重挫逾6%，SK海力士跌7%，油价跌超2%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777879" target="_blank" class="news-link">苏姿丰坚定“看多”AI算力</a> [6] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3777849" target="_blank" class="news-link">大摩警告：AI存储狂欢接近拐点，内存价格或于四季度见顶</a> [9] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2436790?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月24日电，谷歌签署欧盟人工智能行为准则以保障透明度。</a> [9] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49034868" target="_blank" class="news-link">Half-Life 2 running natively on HaikuOS</a> [10] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3777833" target="_blank" class="news-link">AI烧钱担忧叠加中东局势，纳斯达克100指数跌幅扩大至1.2%，存储芯片板块重挫逾6%，SK海力士跌7%，油价跌超2%</a> [10] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3776830" target="_blank" class="news-link">正在老去的美国 已经进入全面梭哈AI状态</a> [10] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724230153672800" target="_blank" class="news-link">美股财报季陷入尴尬：企业利润大涨，股价却不涨</a> [10] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2436788?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">费城半导体指数跌幅扩大至4%</a> [11] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724225323034800" target="_blank" class="news-link">谷歌(GOOG.O)：欧盟关于人工智能生成内容透明度的法规，是基于2025年签署通用人工智能（GPAI）行为准则的延续。</a> [14] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49035751" target="_blank" class="news-link">Open Weights and American AI Leadership [pdf]</a> [15] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724225207706800" target="_blank" class="news-link">谷歌(GOOG.O)签署欧盟人工智能法案透明度行为准则。</a> [15] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724224925524800" target="_blank" class="news-link">25家科技巨头联名施压特朗普：切勿全面限制开放权重AI模型</a> [16] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48994440" target="_blank" class="news-link">Latest Airbus Single Aisle Aircraft Innovations</a> [19] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49035550" target="_blank" class="news-link">Kaizen #4: Overhauled Homelab</a> [20] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2436759?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">微软、英伟达等科技巨头联合发声：开放权重有助于扩大AI应用与保持竞争力</a> [22] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49035656" target="_blank" class="news-link">Interview with a Maintainer</a> [23] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2436757?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月24日电，甲骨文公司股价最新跌幅达2.4%，触及两年低点。</a> [23] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4192801_1_1" target="_blank" class="news-link">谷歌签署欧盟人工智能法案透明度行为准则。</a> [24] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4192800_212_1" target="_blank" class="news-link">哥斯达黎加当局表示，该国已抓获被美国以毒品罪名通缉、绰号为“恶魔”的在逃人员亚历杭德罗·阿里亚斯·德尔加多。</a> [25] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2436750?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">费城半导体指数跌幅扩大至3% SK海力士、闪迪跌7%</a> [29] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2436749?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月24日电，英特尔早盘跌幅扩大至约4%。</a> [30] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
