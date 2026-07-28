@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 158</p><p>生成时间: 2026-07-28 19:54:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">28</td>
+                <td class="percentage">17.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778135" target="_blank" class="news-link">康宁美股盘前大跌超15%，三季度收入指引不及预期</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778131" target="_blank" class="news-link">AI泡沫的金丝雀，刚刚死去.....</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2439270?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月28日电，加密货币交易所LUNO将裁减全球20%的员工。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49081644" target="_blank" class="news-link">Google&#x27;s Beyond Zero: Enterprise Security for the AI Era</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/andrewyng/aisuite" target="_blank" class="news-link">andrewyng / aisuite</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778080" target="_blank" class="news-link">芯片抛售蔓延全球，韩股大近11%、三星跌超13%，美光盘前跌近5%，美油跌破80关口</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778129" target="_blank" class="news-link">芯片股跌出“机会”了吗？机构泼冷水：AI交易仍拥挤，抄底时刻未到</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2439268?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月28日电，据报道，特斯拉将从KKR支持的亚利桑那州太阳能及电池储能项目购电。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778088" target="_blank" class="news-link">创业板跌超7%，光刻机、大消费逆势活跃，芯片、算力硬件齐跌，港股AI大模型双雄下挫、智谱跌近20%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/leaping-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Leaping AI</a> [6] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778106" target="_blank" class="news-link">黑色星期二！全球芯片股遭血洗，SK海力士重挫13%，AI回报成市场最大担心</a> [6] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4197825_103_1" target="_blank" class="news-link">康宁美股盘前大跌超15%，公司预计第三季度核心销售额49亿至50亿美元，市场预估50亿美元。</a> [6] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ycode?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Ycode AI Agents</a> [8] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3777986" target="_blank" class="news-link">危险的信号？5000亿美元数据中心担保融资，英伟达开始押上自己的信用换芯片订单</a> [8] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1230460" target="_blank" class="news-link">如何让 AI 安全可控地查询生产库数据？</a> [9] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778049" target="_blank" class="news-link">绑定SK集团与OpenAI！英伟达卷入7500亿美元豪赌，AI“循环融资”警报再响</a> [10] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778120" target="_blank" class="news-link">AI的免费午餐吃完了？</a> [11] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778123" target="_blank" class="news-link">算力资源有限，亚马逊砍掉多款自研AI，All in“旗舰大模型”</a> [14] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778122" target="_blank" class="news-link">7.1级接6.1级，日本连发强震，震源深度极浅！日官方发布海啸预警，台积电工厂人员疏散！华东多地网友称有震感</a> [16] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778080" target="_blank" class="news-link">芯片抛售蔓延全球，韩股大近11%、三星跌超13%，美光盘前跌近5%，美油跌破80关口</a> [17] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2439248?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月28日电，康宁美股盘前跌超15%，公司Q2核心销售额47.4亿美元，同比增长17%；核心每股收益0.78美元，同比增长30%。</a> [17] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778119" target="_blank" class="news-link">如何识别AI周期的泡沫化顶部？</a> [18] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778113" target="_blank" class="news-link">宋雪涛：地缘、宏观、产业交织，如何给AI估值？</a> [19] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778088" target="_blank" class="news-link">创业板跌超7%，光刻机、大消费逆势活跃，芯片、算力硬件齐跌，港股AI大模型双雄下挫、智谱跌近20%</a> [20] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2439244?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月28日电，SK海力士美股盘前跌超6%。</a> [20] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2439240?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月28日电，台积电美股盘前跌超4%。</a> [23] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2439231?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月28日电，全球芯片LOF(501225)将于2026年7月29日开市起停牌，自2026年7月29日10:30起复牌，停牌期间赎回业务照常办理。</a> [28] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2439230?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月28日电，中韩半导体ETF华泰柏瑞(513310)将于2026年7月29日开市起至当日10:30停牌。</a> [29] <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
