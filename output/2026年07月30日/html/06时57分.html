@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 109</p><p>生成时间: 2026-07-30 06:57:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">32</td>
+                <td class="percentage">29.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778264" target="_blank" class="news-link">微软上季云+AI强劲答卷：Azure收入增超40%，资本支出低于预期，新增数据中心租约超1300亿｜财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2440765?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，消息人士称，英特尔已向由联合投资人运营的新创公司RosaicLabs提供部分技术访问权限。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49103285" target="_blank" class="news-link">AI&#x27;s top startups are barely publishing their research</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778268" target="_blank" class="news-link">微软下调2026年资本开支指引，盘后拉涨</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778263" target="_blank" class="news-link">Meta大跌！营收超预期难掩AI投入焦虑，Q3指引逊色、自由现金流创四年新低｜财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2440759?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周四你需要知道的隔夜全球要闻：美联储今年连续第5次维持利率不变；Meta上调全年资本开支预估下限至1300亿美元；微软股价盘后大涨8%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778265" target="_blank" class="news-link">Meta电话会：开源AI模型并没有前沿模型那么强大</a> [7] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778262" target="_blank" class="news-link">高通Q3财季净利润同比下滑25%，上调产品售价并给出疲软业绩指引｜财报见闻</a> [8] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778258" target="_blank" class="news-link">沃什：2%通胀目标不动摇，保持独立性，关注AI变革（附全文）</a> [9] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060949630800" target="_blank" class="news-link">微软(MSFT.O)：预计第一财季运营费用将在168亿美元至169亿美元之间；Azure及其他云服务收入按固定汇率计算增长约45%。</a> [9] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060919721800" target="_blank" class="news-link">微软(MSFT.O)：预计2026日历年的资本支出将约为1750亿美元。</a> [10] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060759487800" target="_blank" class="news-link">微软(MSFT.O)公布一系列财务指引，美股盘后涨幅扩大至8%。</a> [11] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060657779800" target="_blank" class="news-link">微软(MSFT.O)：预计第一季度个人计算业务收入将在122亿美元至127亿美元之间。</a> [12] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49103089" target="_blank" class="news-link">The Cold Email</a> [13] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060631964800" target="_blank" class="news-link">微软(MSFT.O)：预计2027财年运营费用增长将实现中高个位数增长。</a> [13] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060622535800" target="_blank" class="news-link">微软(MSFT.O)：预计2027财年总收入将实现两位数增长。</a> [14] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060601461800" target="_blank" class="news-link">微软(MSFT.O)：预计第一财季资本支出将超过500亿美元。</a> [15] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060547633800" target="_blank" class="news-link">微软(MSFT.O)：与2026财年下半年相比，预计2027财年上半年Azure及其他云服务收入增长将加速。</a> [16] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2440745?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">微软股价涨幅在财报电话会议期间扩大至8%</a> [16] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060511955800" target="_blank" class="news-link">微软(MSFT.O)：预计第一财季智能云收入将在409.5亿美元至412.5亿美元之间。</a> [17] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2440744?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">微软预计2027财年资本支出将达1750亿美元 此前估计为1900亿美元</a> [17] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060454502800" target="_blank" class="news-link">微软预计第一财季营收约900亿美元，新财年保持正自由现金流</a> [18] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060243962800" target="_blank" class="news-link">微软(MSFT.O)首席财务官：自2027财年开始，我们将数据中心和办公楼的预计使用寿命从15年延长至25年。资产使用寿命的变化仅影响未来折旧的时间，预计对2027财年营业收入的影响微乎其微。</a> [19] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060058650800" target="_blank" class="news-link">微软(MSFT.O)首席财务官：在云业务方面，客户需求持续超过可用容量。</a> [21] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730060055866800" target="_blank" class="news-link">微软(MSFT.O)首席财务官：云业务收入增长得益于新算力的提前交付；新增算力容量已迅速实现货币化。</a> [22] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2440740?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，微软首席财务官称，第四季度合同积压在不包括OpenAI的情况下增加了25%。</a> [22] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730055924156800" target="_blank" class="news-link">微软(MSFT.O)首席财务官：2026财年全年云收入超过2140亿美元，近90%来自非前沿模式公司的客户。</a> [24] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2440738?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">微软CEO：Copilot收入环比增长超过60%</a> [24] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730055730100800" target="_blank" class="news-link">微软(MSFT.O)首席财务官：第四季度合同积压在不包括OpenAI的情况下增加了25%。</a> [25] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2440736?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，强生获得以25.8亿美元收购Sail的独家选择权。</a> [25] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2440735?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，Meta首席执行官表示，未来计划同时采用开源和闭源AI模型。</a> [26] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4201379_103_1" target="_blank" class="news-link">高盛为微软关联数据中心推介54亿美元债务融资。</a> [27] <font color='grey'>- 06时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
