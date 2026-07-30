@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2026-07-30 19:49:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">25</td>
+                <td class="percentage">15.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-search-console?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Search Console</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/microsoft/AI-For-Beginners" target="_blank" class="news-link">microsoft / AI-For-Beginners</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1231054" target="_blank" class="news-link">分享一个我用下来最省事的 AI 物体消除工具： PixImagen Remove Object</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441695?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">台积电泄密案：两名涉案前工程师分别被判刑10年、6年</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1231049" target="_blank" class="news-link">用 AI 重做一遍：一个收集用户反馈的网页挂件</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/WhiskeySockets/Baileys" target="_blank" class="news-link">WhiskeySockets / Baileys</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959488" target="_blank" class="news-link">美股半导体崩了但市场没崩，这是好消息</a> [7] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1231030" target="_blank" class="news-link">为什么我讨厌 AI 文</a> [8] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778323" target="_blank" class="news-link">特斯拉全球第1000万辆电动车下线，上海超级工厂上半年产量创新高</a> [8] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49107713" target="_blank" class="news-link">Carolina Cloud pays SOFR on unused prepaid credits</a> [9] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778268" target="_blank" class="news-link">微软电话会：2026年资本开支“变相”下降，Azure需求持续超越可用容量，AI变现进入加速轨道</a> [10] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778298" target="_blank" class="news-link">从年内盈利439%到紧急找钱，OpenAI前员工这只All in AI的基金撑不住了</a> [11] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/caimera-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Caimera</a> [13] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778320" target="_blank" class="news-link">刘煜辉：阿里仅亚马逊十分之一，港股科技迟早重新定价，波动释放即为买点</a> [13] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441681?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，瑞穗将微软目标股价从490美元上调至510美元；将高通公司目标股价从210美元下调至170美元；将Meta目标价格从835美元下调至750美元。</a> [13] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3778316" target="_blank" class="news-link">META财报点评：自由现金流持续漏油，AI反成“阿克琉斯之踵”</a> [14] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778317" target="_blank" class="news-link">AI办公大战升级，腾讯WorkBuddy上线“人机双写”</a> [16] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730191411935800" target="_blank" class="news-link">瑞穗银行：将Meta Platforms(META.O)目标价从835美元下调至750美元。</a> [16] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730191339696800" target="_blank" class="news-link">瑞穗银行：将微软(MSFT.O)目标价从490美元上调至510美元。</a> [17] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49107441" target="_blank" class="news-link">Tailscale with Mullvad leaks your DNS</a> [18] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778287" target="_blank" class="news-link">微软财报提振市场情绪，美股期指走高，存储概念股盘前续跌，长期美债走低，油价小幅上涨</a> [18] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441672?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，中韩半导体ETF华泰柏瑞(513310)将于2026年7月31日开市起至当日10:30停牌。</a> [19] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/sorinai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Sorinai</a> [20] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778314" target="_blank" class="news-link">对话OiiOii国内业务负责人周爽：短漫剧只是AI视频工业化的第一站</a> [20] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441668?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，全球芯片LOF(501225)将于2026年7月31日开市起停牌，自2026年7月31日10:30起复牌，停牌期间赎回业务照常办理。</a> [23] <font color='grey'>- 19时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
