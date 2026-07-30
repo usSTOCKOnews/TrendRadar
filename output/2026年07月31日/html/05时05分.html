@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 107</p><p>生成时间: 2026-07-31 05:05:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">34</td>
+                <td class="percentage">31.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731044802288800" target="_blank" class="news-link">苹果总营收略超预期，大中华区营收逊色盘后跌4%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441984?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">亚马逊云业务营收连续第五个季度增长 AI服务需求旺盛</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778368" target="_blank" class="news-link">苹果上季营收超预期增14%、iPhone收入更强，但中国市场业绩逊色 | 财报见闻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778360" target="_blank" class="news-link">对标英特尔EMIB，台积电被曝开发同类封装技术，股价盘中大涨8%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731043546572800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q3服务营收为307.4亿美元，低于市场预期的312.2亿美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778363" target="_blank" class="news-link">OpenAI推出GPT-5.6“促销”：Luna降价80%，Sol首推2.5倍速“反向加价”模式</a> [6] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731043348456800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q3毛利率为50.1%，高于市场预期的47.92%。</a> [6] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441979?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月31日电，苹果美股盘后跌超4%。</a> [6] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778366" target="_blank" class="news-link">亚马逊大涨！Q2云业务增长超预期，AI投入开始兑现｜财报见闻</a> [7] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731043243783800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q3大中华区营收为188.2亿美元，市场预期为196.7亿美元。</a> [7] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731043111025800" target="_blank" class="news-link">财报公布后，苹果(AAPL.O)盘后下挫，现跌2%。</a> [8] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778268" target="_blank" class="news-link">微软电话会：2026年资本开支“变相”下降，Azure需求持续超越可用容量，AI变现进入加速轨道</a> [9] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441976?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月31日电，苹果美股盘后跌超2%。</a> [9] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778358" target="_blank" class="news-link">微软Meta财报“修复”AI信仰，芯片指数盘中创4月来最大涨幅，数据中心产业链爆发</a> [10] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731043055960800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q3 iPhone销售业务收入为542.5亿美元，市场预期538.57亿美元。</a> [10] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441975?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">苹果第三财季营收1094.2亿美元 同比增长16%</a> [10] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778356" target="_blank" class="news-link">AI“神童”折戟华尔街：OpenAI前研究员旗下基金据称爆仓、Citadel接盘160亿美元股票资产</a> [11] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731043024065800" target="_blank" class="news-link">苹果(AAPL.O)2026财年Q3营收1094.2亿美元，去年同期940.36亿美元，市场预期1085.78亿美元。</a> [11] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441974?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月31日电，亚马逊表示，其云业务AWS年化营收（ARR）达到1690亿美元。</a> [11] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778361" target="_blank" class="news-link">甲骨文涨超8%，宣布扩大与谷歌Gemini AI合作</a> [12] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441973?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月31日电，据报道，英伟达支持的AI基础设施公司Nscale最早可能于今年秋季进行IPO。</a> [12] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731041344585800" target="_blank" class="news-link">亚马逊Q2云业务营收超预期 盘后涨8%</a> [14] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441970?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">加密货币交易所Coinbase二季度总收入12.2亿美元 环比下降14%</a> [15] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441969?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">亚马逊美股盘后涨超6%</a> [16] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441967?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">亚马逊二季度净销售2006亿美元 同比增长20%</a> [18] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441966?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股收盘：微软创近18年以来最大单日涨幅、市值单日增加额创股市之最 Roundhill存储ETF暴涨超16%光通信、存储板块集体大涨</a> [19] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731040526807800" target="_blank" class="news-link">亚马逊(AMZN.O)：过去十二个月的自由现金流降至净流出76亿美元。</a> [21] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441963?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月31日电，高通成交量激增，股价最新下跌3.2%。</a> [21] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49108685" target="_blank" class="news-link">GCC steering committee announces AI policy</a> [22] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731040350891800" target="_blank" class="news-link">亚马逊(AMZN.O)预计Q3营收为1,970亿至2,020亿美元，而市场预估为2,040.72亿美元。</a> [23] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731040217404800" target="_blank" class="news-link">财报公布后，亚马逊(AMZN.O)盘后拉升，现涨超5%。</a> [24] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731040214168800" target="_blank" class="news-link">亚马逊(AMZN.O)2026年Q2AWS云业务收入为422亿美元，市场预期404.81亿美元。</a> [25] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731040133726800" target="_blank" class="news-link">亚马逊(AMZN.O)2026年Q2营收2006亿美元，去年同期1677.02亿美元，市场预期1964.22亿美元。</a> [26] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441956?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">Meta报告称未来支出承诺接近7000亿美元 涉及AI数据中心和云计算</a> [28] <font color='grey'>- 05时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
