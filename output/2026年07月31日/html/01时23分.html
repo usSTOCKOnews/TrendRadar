@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 244</p><p>生成时间: 2026-07-31 01:23:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">31</td>
+                <td class="percentage">12.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778264" target="_blank" class="news-link">微软上季云+AI强劲答卷：Azure收入增超40%，资本支出低于预期，新增数据中心租约超1300亿｜财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441939?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">OpenAI将GPT-5.6Luna的价格下调80% GPT-5.6Terra的价格下调20%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/microsoft/AI-For-Beginners" target="_blank" class="news-link">microsoft / AI-For-Beginners</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1231104" target="_blank" class="news-link">用 ai 做了个国家发展模拟器：从 1949 年起按月经营中国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-search-console?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Search Console</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/different-ai/openwork" target="_blank" class="news-link">different-ai / openwork</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778348" target="_blank" class="news-link">谷歌发布新一代机器人AI模型，实现人形机器人全身控制</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/WhiskeySockets/Baileys" target="_blank" class="news-link">WhiskeySockets / Baileys</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E9%A6%96%E6%AC%A1%E5%87%BA%E5%B8%AD2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F-9ccbe5" target="_blank" class="news-link">习近平出席世界人工智能大会宣布成立WAICO</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778258" target="_blank" class="news-link">沃什：2%通胀目标不动摇，保持独立性，关注AI变革（附全文）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778287" target="_blank" class="news-link">逢低买盘推动美股走高，费城半导体指数涨超7%，微软涨超14%，油价转跌</a> [6] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778345" target="_blank" class="news-link">AI战略或将转向，报道：中国AI崛起下，微软考虑支持“开放权重”AI模型</a> [6] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49110655" target="_blank" class="news-link">SDL_GPU minimal, single-header, high-performance 2D graphics painting library</a> [7] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778263" target="_blank" class="news-link">Meta大跌！营收超预期难掩AI投入焦虑，Q3指引逊色、自由现金流创四年新低｜财报见闻</a> [10] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778287" target="_blank" class="news-link">逢低买盘推动美股走高，费城半导体指数涨超7%，微软涨超14%，油价转跌</a> [10] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731010243690800" target="_blank" class="news-link">OpenAI：GPT-5.6 SOL快速模式取代了API中的优先级处理。</a> [13] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49111019" target="_blank" class="news-link">Show HN: Claude-account – switch Claude Code accounts without logging in again</a> [14] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/caimera-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Caimera</a> [14] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731010231604800" target="_blank" class="news-link">OpenAI：SOL定价、ChatGPT和Codex订阅价格及配额预算保持不变；Terra和Luna的使用消耗的积分更少。</a> [14] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731010209118800" target="_blank" class="news-link">OpenAI：Terra API定价为每百万输入Token2美元，每百万输出Token12美元。</a> [15] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1231054" target="_blank" class="news-link">分享一个我用下来最省事的 AI 物体消除工具： PixImagen Remove Object</a> [16] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731010107492800" target="_blank" class="news-link">OpenAI：LUNA API定价为每百万个输入Token0.20美元，每百万个输出Token1.20美元。</a> [16] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1231049" target="_blank" class="news-link">用 AI 重做一遍：一个收集用户反馈的网页挂件</a> [17] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731010053226800" target="_blank" class="news-link">OpenAI将GPT-5.6Luna的价格下调80%，GPT-5.6Terra的价格下调20%。</a> [17] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441905?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，高通公司首席执行官表示，存储芯片价格涨幅“非常显著”，价格上涨正改变消费者行为。公司未来增长将主要依靠汽车业务的需求拉动。智能手机市场将继续“受到抑制”。</a> [19] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1231030" target="_blank" class="news-link">为什么我讨厌 AI 文</a> [20] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/sorinai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Sorinai</a> [20] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731005724982800" target="_blank" class="news-link">苹果(AAPL.O)公司首席执行官蒂姆·库克：我们牵挂着所有正在承受熊本地震及其余震影响的人们。苹果公司已捐款支持救灾工作。</a> [20] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49108778" target="_blank" class="news-link">Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)</a> [25] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441893?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，英能源监管机构Ofgem拟对AI数据中心开发商收每兆瓦23.75万至71.25万英镑可退还保证金，项目退出排队则没收，旨在清退投机性、停滞的电网接入申请。</a> [26] <font color='grey'>- 01时23分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2441886?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社7月30日电，谷歌DeepMind发布了一款名为Gemini Robotics 2的新型机器人人工智能模型，该模型使类人机器能够协调全身运动。</a> [30] <font color='grey'>- 01时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
