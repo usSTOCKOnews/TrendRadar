@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 161</p><p>生成时间: 2026-08-04 20:01:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">23</td>
+                <td class="percentage">14.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2445485?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股AI硬件个股盘前走强：英特尔AMD均涨超5% Lumentum涨14%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2445484?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月4日电，英特尔美股盘前涨超5%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232085" target="_blank" class="news-link">当我们在和 AI 谈人天时，我们在谈什么</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778653" target="_blank" class="news-link">软银Q1营业利润3023亿日元超预期、净利润承压，AI与云业务预计维持30%增长 | 财报见闻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778628" target="_blank" class="news-link">创业板暴涨超5.6%，算力硬件全线反攻、光通信&quot;满屏涨停&quot;，医药股爆发、药明康德涨停，半导体强劲反弹</a> [7] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778647" target="_blank" class="news-link">知名科技博主Dwarkesh Patel：AI模型越智能、算力越值钱，普通用户将被“价格挤出”</a> [7] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232075" target="_blank" class="news-link">用 ai 写了个模拟炒股的 4399 网页游戏</a> [8] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/video-ai-me?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">VIDEO AI ME</a> [8] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2445471?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【机构龙虎榜解读】算力租赁+液冷+中报预增，AI算力业务采用TaaS模式，提供GPU算力集群租赁与弹性推理算力服务，在手算力、存储类3-5年期长期框架订单规模超150亿元，这家公司获净买入</a> [8] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778657" target="_blank" class="news-link">机构：英伟达评估下调Rubin Ultra HBM配置，或将不限于12Hi HBM4E</a> [9] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778654" target="_blank" class="news-link">医药为什么是最佳非AI赛道？</a> [10] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232054" target="_blank" class="news-link">做了一个类似 cloudflare temp mail 的 iCloud 临时工具，</a> [12] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2445472?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">台积电1.4纳米工厂建设进度超前</a> [12] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232052" target="_blank" class="news-link">Linkly AI Note：极简的卡片笔记，用 Markdown 存储在本地</a> [13] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2445473?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">CoWoS封装产能告急 台积电进一步扩大外包产能</a> [13] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/tailwindlabs/tailwindcss" target="_blank" class="news-link">tailwindlabs / tailwindcss</a> [15]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3778562" target="_blank" class="news-link">从一颗GPU的“供电阀门”到40亿元市场：DrMOS为何成为AI算力新焦点？</a> [15] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2445466?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">3连板德龙汇能：控股股东、实际控制人不存在向公司注入所持有资产的计划 无半导体业务</a> [15] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778628" target="_blank" class="news-link">创业板暴涨超5.6%，算力硬件全线反攻、光通信&quot;满屏涨停&quot;，医药股爆发、药明康德涨停，半导体强劲反弹</a> [16] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778643" target="_blank" class="news-link">过去一个月，整个美股AI板块跌了多少？</a> [17] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2445454?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月4日电，全球芯片LOF(501225)将于2026年8月5日开市起停牌，自2026年8月5日10:30起复牌，停牌期间赎回业务照常办理。</a> [20] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2445452?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月4日电，中韩半导体ETF华泰柏瑞(513310)将于2026年8月5日开市起至当日10:30停牌。</a> [22] <font color='grey'>- 20时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2445448?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">中信建投：半导体设备全球景气周期持续确认 关注涨价+出海</a> [26] <font color='grey'>- 20时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
