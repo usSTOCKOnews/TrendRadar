@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 193</p><p>生成时间: 2026-08-05 16:30:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">34</td>
+                <td class="percentage">17.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778734" target="_blank" class="news-link">鸿海7月销售额同比大增54％，预计Q3AI机架出货续增</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232251" target="_blank" class="news-link">突然觉得薅 AI 中转站没意思了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778731" target="_blank" class="news-link">报道：三星、SK海力士在华工厂测试中国芯片制造设备，防范美国管制升级</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778691" target="_blank" class="news-link">SpaceX上市后首份财报营收增92%大超预期，星链独撑利润，AI亏损收窄但支出高于预期｜财报见闻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959521" target="_blank" class="news-link">AI时代的“权力游戏”：谁得罪内存厂商，谁就可能出局</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232240" target="_blank" class="news-link">HackerNews 页面用不惯， vibe 了个扩展，改造成了百度贴吧的体验</a> [6] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778711" target="_blank" class="news-link">沪指涨超1%，科创50暴涨逾5%，半导体大爆发，“易中天”集体回应美国光模块禁令，港股科网股盘中反弹</a> [7] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778729" target="_blank" class="news-link">台积电扩大AI芯片CoW封装外包，产能瓶颈有望缓解</a> [7] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778730" target="_blank" class="news-link">中信证券：AI驱动光模块升级，测试设备高速成长</a> [8] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778694" target="_blank" class="news-link">SpaceX电话会：剑指美国“第四大运营商”，或提前实现万亿收入目标，芯片锁定英伟达</a> [9] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805162028507800" target="_blank" class="news-link">SpaceX(SPCX.O)盘前跌超10%，其AI支出激增引发担忧。</a> [9] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/piklum-ai-photo-seo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Piklum — AI Photo + SEO</a> [11] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778725" target="_blank" class="news-link">SpaceX业绩炸裂、股价却暴跌！高盛力挺：AI业务颠覆估值逻辑，花旗长期看到900美元</a> [12] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4212433_1_1" target="_blank" class="news-link">微软将在雷德蒙德裁员605人，生效日期为2026年9月4日。</a> [12] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49176830" target="_blank" class="news-link">Eight Myths on Software Engineering and GenAI</a> [13] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446304?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月5日电，SpaceX美股盘前跌近8%，庞大的资本支出引发市场担忧。</a> [13] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AdAnt AI</a> [15] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49175826" target="_blank" class="news-link">AI fuels more than half of cybercrime in Africa as scams surge – Interpol</a> [16] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/train-my-player2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Train My Player2</a> [16] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959517" target="_blank" class="news-link">美股AI一月暴跌60%，但所有基本面指标都在加速</a> [16] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3778644" target="_blank" class="news-link">62.8%！韩国7月出口放缓之后：AI繁荣的结构性红利还是周期性狂欢？</a> [17] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446296?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">“估值院长”发出警告：美股AI热潮已见顶 相关股票将面临更多回调</a> [17] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232194" target="_blank" class="news-link">赛博菩萨 Cloudflare 给 AI 配钱包！羊毛党，赶紧去申领！</a> [18] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778711" target="_blank" class="news-link">沪指涨超1%，科创50暴涨逾5%，半导体大爆发，“易中天”集体回应美国光模块禁令，港股科网股盘中反弹</a> [18] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778720" target="_blank" class="news-link">SpaceX的AB面：星链日赚1800万，AI日烧1.7亿</a> [21] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805160939799800" target="_blank" class="news-link">港股收盘，恒指收涨0.24%，科指收涨0.97%。黄金股、半导体股表现亮眼，MINIMAX-W(00100.HK)涨约10%，洛阳钼业(03993.HK)涨约9%，华虹宏力(01347.HK)涨约5%。</a> [22] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778719" target="_blank" class="news-link">知名科技投资人Gavin Baker谈AI暴跌：市场很恐慌，但基本面很好</a> [23] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805160919228800" target="_blank" class="news-link">惠誉：俄罗斯经济增长缓慢、高通胀和高实际利率的情况可能会持续。</a> [23] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49178464" target="_blank" class="news-link">An SLM trained on $8 ESP32-S3</a> [24] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959516" target="_blank" class="news-link">“AI股神”爆仓真相，空头：没有什么围猎，我们只是推了一把</a> [24] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3778562" target="_blank" class="news-link">从一颗GPU的“供电阀门”到40亿元市场：DrMOS为何成为AI算力新焦点？</a> [26] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446275?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">鸿海：预计第三季度AI机柜出货量将维持增长</a> [26] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232162" target="_blank" class="news-link">Cloudflare Wallets AI 支付钱包发布</a> [27] <font color='grey'>- 16时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959515" target="_blank" class="news-link">当投资者都用AI解读新闻，3年行情6周就走完了</a> [28] <font color='grey'>- 16时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
