@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 109</p><p>生成时间: 2026-08-05 22:09:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">12</td>
+                <td class="percentage">11.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778704" target="_blank" class="news-link">美伊谈判悬而未决，经济数据与AI需求驱动美股走高，SpaceX跌12%、AMD跌7%，黄金涨3%突破4200，布油涨1%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49181519" target="_blank" class="news-link">Why the Legendary Erdős Problems Are Falling to AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778765" target="_blank" class="news-link">Anthropic确认组建自研AI芯片团队，采用“多芯片”策略支撑Claude扩张</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232305" target="_blank" class="news-link">Imference Desktop — 开源的本地优先 AI 绘图桌面应用,一键安装免配置(作者不会中文)</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446686?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英伟达股价上涨4.5%创2个月新高 连续5日上涨</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49182041" target="_blank" class="news-link">TIME Is Serving AI Bots a Different Website, with Ads Built In</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778704" target="_blank" class="news-link">美伊谈判悬而未决，经济数据与AI需求驱动美股走高，SpaceX跌12%、AMD跌7%，黄金涨3%突破4200，布油涨1%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446683?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月5日电，英伟达股价上涨3%，报218.2美元/股，创6月4日以来新高，总市值报5.28万亿美元。</a> [7] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446664?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月5日电，网络安全公司CrowdStrike宣布设立10万美元的国际AI安全挑战赛。</a> [18] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49182052" target="_blank" class="news-link">Iowa-led states ask OpenAI to keep their bots on a leash</a> [22] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49181773" target="_blank" class="news-link">Anthropic AI created fake profiles and impersonated people in attempted hack</a> [26] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446636?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">Anthropic确认正在为Claude组建一支内部芯片团队</a> [26] <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
