@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2026-08-06 03:24:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">15.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232331" target="_blank" class="news-link">[分享创造] PickZ（chrome 插件） —— 选中即翻译/总结/改写/解释的轻量 AI 悬浮助手</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778781" target="_blank" class="news-link">Meta推出首款AI编程智能体，正面挑战Anthropic与OpenAI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446793?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月6日电，侧重于AI投资的Altimeter资产管理规模在7月份缩水11%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49184755" target="_blank" class="news-link">Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49187061" target="_blank" class="news-link">Born Against, or why hobby programming communities are against LLM usage</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446786?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月6日电，微软的最新披露显示其人工智能销售主要来自OpenAI。</a> [8] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2446782?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">META市值已超过SpaceX</a> [10] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806023915349800" target="_blank" class="news-link">据The Information：阿波罗任命里德·雷曼（Reed Rayman）负责其芯片领域覆盖业务。</a> [11] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49185370" target="_blank" class="news-link">Why I&#x27;m leaving OpenAI to build telepathy</a> [13] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49186720" target="_blank" class="news-link">Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence</a> [14] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806021844852800" target="_blank" class="news-link">微软AI收入过半来自OpenAI 显示对合作伙伴依赖仍较高</a> [19] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806021109138800" target="_blank" class="news-link">据微软(MSFT.O)披露的信息，OpenAI约占其人工智能销售额的70%，OpenAI在2026财年的收入达到241亿美元。</a> [23] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49186766" target="_blank" class="news-link">Microsoft&#x27;s AI Sales Mostly Come from OpenAI, Disclosures Show</a> [26] <font color='grey'>- 03时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
