@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 112</p><p>生成时间: 2026-08-06 22:29:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">20</td>
+                <td class="percentage">17.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778821" target="_blank" class="news-link">非农与美伊协议落地前市场谨慎，美股涨跌互现，存储芯片股延续跌势，西部数据跌20%，布油涨2%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49195468" target="_blank" class="news-link">Humans missed 1 in 3 threats approving AI agent commands across 40k game runs</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447783?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月6日电，特斯拉宣布，Terafab项目将落户得克萨斯州的格莱姆斯县。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232571" target="_blank" class="news-link">吐槽！ AI 带来的恶果。。。。。。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806220413767800" target="_blank" class="news-link">特斯拉(TSLA.O)：TeraFab的目标是每年生产超过1太瓦的算力。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778864" target="_blank" class="news-link">无视AI资本支出担忧！Alphabet拟启动250亿美元发债，长端美债收益率急升</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806220255809800" target="_blank" class="news-link">特斯拉(TSLA.O)：TeraFab将在得州格赖姆斯县建设。特斯拉和SpaceX所需的芯片数量将远超当前及未来全球生产能力。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232568" target="_blank" class="news-link">让 AI 写了一首关于 Vibe Coding 的歌，《我没说要，你也没问过》</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232567" target="_blank" class="news-link">写了一款原生 macOS 围棋 App (Qi： AI Go Review)：内置零配置 KataGo、Metal GPU 加速与 Finder SGF 预览</a> [6] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778862" target="_blank" class="news-link">AI行情的“金丝雀”仍在苦苦挣扎.....</a> [6] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778821" target="_blank" class="news-link">非农与美伊协议落地前市场谨慎，美股涨跌互现，存储芯片股延续跌势，西部数据跌20%，布油涨2%</a> [7] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778856" target="_blank" class="news-link">DeepSeek刚宣布涨价，小扎立马“拼命”：Meta新模型打出更低骨折价，但要一点“数据税”</a> [7] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232563" target="_blank" class="news-link">大家平时都从哪些渠道获取最新的 AI 资讯和动态？</a> [8] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447776?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">纳斯达克指数和费城半导体指数转涨</a> [9] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778845" target="_blank" class="news-link">报道：苹果紧急抢购DRAM内存，距iPhone 18发布仅剩几周</a> [10] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447390?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【风口研报·洞察】头部CSP财报已落地，AI不利因素影响逐步消化，分析师看好AI电源架构升级重塑价值分布，细分龙头迈入放量验证阶段；战略看多港股互联网的逻辑</a> [11] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447761?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月6日电，费城半导体指数跌2%，报11760.04点。</a> [21] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447758?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">费城半导体指数开盘下跌1.5%</a> [24] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447678?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【电报解读】AI大模型能力持续迭代，正推动网络安全行业逻辑从“AI颠覆安全”转向“AI放大安全需求”，这家公司拥有自研的垂直领域大模型安全GPT</a> [29] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447749?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">IBM推出AI支出分析工具 帮助企业追踪AI成本与实际效益</a> [30] <font color='grey'>- 22时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
