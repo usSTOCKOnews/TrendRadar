@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 149</p><p>生成时间: 2026-08-06 20:00:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">25</td>
+                <td class="percentage">16.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778857" target="_blank" class="news-link">宇树科技IPO定价150.8元，DeepSeek、腾讯等获战略配售</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806193943232800" target="_blank" class="news-link">智微智能：与英伟达合作2026年上半年销售额占营收不足1%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/rippling?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Spend Console by Rippling</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778847" target="_blank" class="news-link">国产算力新战场、AI光互联新主线，NPO凭什么？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447647?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">4天3板通宇通讯澄清：拟收购标的佳贤通信与英伟达不存在研发合作关系</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232546" target="_blank" class="news-link">关于那个强迫女友学 AI 的贴，我的观点是 AI 确实有用</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806193023172800" target="_blank" class="news-link">DeepSeek、腾讯等获宇树科技战略配售</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447630?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【机构龙虎榜解读】算力租赁+LPU推理芯片+机器人，精准布局LPU推理芯片，智算业务已成为利润增长的核心来源，成为智元首批“A链”供应商，在机器人“大小脑”控制器领域已有客户订单落地，这家公司获净买入</a> [6] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778842" target="_blank" class="news-link">投资英特尔大赚85亿美元救场！软银净利大超预期，但愿景基金利润骤降99%</a> [7] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4214765_214_1" target="_blank" class="news-link">英国央行：AI正在提升英国的生产率，但也对就业造成负面影响。</a> [7] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447643?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美银抛出激进预测：美联储将连续加息三次 AI支出周期不会脱轨</a> [8] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232525" target="_blank" class="news-link">脑机接口 + AI = 缸中之脑？</a> [9] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806192847115800" target="_blank" class="news-link">金安国纪：股价异动三日偏离值达20%，澄清未与英伟达华为接触或合作</a> [9] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806192836492800" target="_blank" class="news-link">通宇通讯：佳贤通信与英伟达不存在研发合作关系</a> [10] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ticketdesk-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Ticketdesk AI</a> [12] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778821" target="_blank" class="news-link">存储芯片股延续跌势，美股盘前SK海力士跌超5%、闪迪跌超8%，金价升至近两月高位，油价走低</a> [13] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1232501" target="_blank" class="news-link">用自然语言操作 adb shell，我写了 nl2sh 这个单文件 Android AI Agent</a> [15] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49193173" target="_blank" class="news-link">On non-rooted Android 17, ADB uninstall of system apps fails</a> [16] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447625?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月6日电，Fiserv美股盘前下跌6.9%，此前公司发布的2026年调整后每股收益展望低于市场预期。</a> [16] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/superbrain?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Superbrain For macOS</a> [19] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806190605543800" target="_blank" class="news-link">全球芯片LOF：本基金将于2026年8月7日开市起停牌，自2026年8月7日10:30起复牌，停牌期间本基金赎回业务照常办理。</a> [19] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447617?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月6日电，中韩半导体ETF华泰柏瑞(513310)将于2026年8月7日开市起至当日10:30停牌。</a> [20] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447614?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月6日电，全球芯片LOF(501225)将于2026年8月7日开市起停牌，自2026年8月7日10:30起复牌，停牌期间赎回业务照常办理。</a> [22] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260806185551254800" target="_blank" class="news-link">英国央行：AI正在提升英国的生产率，但也对就业造成负面影响</a> [25] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2447600?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月6日电，西部数据美股盘前跌超16%。</a> [30] <font color='grey'>- 20时00分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
