@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 137</p><p>生成时间: 2026-08-10 19:04:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">22</td>
+                <td class="percentage">16.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779083" target="_blank" class="news-link">摩根大通两月内第二次上调标普500目标价，称AI投资开始产生回报</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779073" target="_blank" class="news-link">索尼台积电拟投1万亿日元在熊本建合资厂，拟量产下一代图像传感器供苹果</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2450278?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月10日电，苹果公司美股盘前跌1.5%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779081" target="_blank" class="news-link">Meta发布小型AI模型，一块显卡即可本地运行，扎克伯格喊话美国政府：降低对开源AI的准入门槛</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2450277?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月10日电，杰富瑞将苹果公司评级从“持有”下调至“跑输大盘”；同时将目标股价从285.56美元下调至263.66美元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49209132" target="_blank" class="news-link">Tail-Call Interpreters in Rust – Jimmy Ostler</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1233322" target="_blank" class="news-link">工信部投诉阿里云乱收费</a> [6] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779078" target="_blank" class="news-link">阿里云计划将全球数据中心产能提升两倍以上</a> [7] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779070" target="_blank" class="news-link">拐点已至！高盛：AI开始真正改写SaaS业绩，赢家与输家名单浮现</a> [10]</div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/prisca-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Prisca AI</a> [12] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1233313" target="_blank" class="news-link">搜罗了几个近期还能参加的 AI 模型活动，感兴趣可以看看</a> [13] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260810181031960800" target="_blank" class="news-link">Meta Platforms CEO扎克伯格：（关于AI）最常见的担忧被夸大了，未能考虑到人工智能能够取得的所有积极成果。</a> [15] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260810180754454800" target="_blank" class="news-link">韩国砸5万亿韩元补半导体短板，军用机场将为芯片项目让路</a> [17] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260810180534505800" target="_blank" class="news-link">Meta Platforms(META.O)：将为个人智能体构建完全私密模式，连META自身也无法访问用户信息。</a> [19] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260810180520837800" target="_blank" class="news-link">市场消息：Meta Platforms CEO扎克伯格在一篇6500字的文章中阐述了新的人工智能愿景。</a> [20] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260810180349737800" target="_blank" class="news-link">Meta推轻量级AI模型 扎克伯格呼吁美国重审开源政策</a> [22] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779052" target="_blank" class="news-link">科技股延续涨势，美股盘前光模块集体走高，霍尔木兹谈判僵局推升油价，黄金维持高位</a> [23] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260810180213559800" target="_blank" class="news-link">Meta Platforms CEO扎克伯格：我们将很快恢复发布一些开源模型。</a> [23] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260810180154831800" target="_blank" class="news-link">Meta Platforms(META.O)：推出Muse Glimmer，一款可在Mac或PC上运行的开源智能体模型。</a> [25] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2450239?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月10日电，据报道，META公司不久将恢复发布部分开源模型。</a> [25] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2450238?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">芯联集成：上半年净利润2.78亿元同比扭亏 在AI基建和光互连领域布局技术平台和产品矩阵</a> [26] <font color='grey'>- 19时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260810175848930800" target="_blank" class="news-link">美联储面临AI转型阵痛，短期仍得靠传统利率工具控通胀</a> [27] <font color='grey'>- 19时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
