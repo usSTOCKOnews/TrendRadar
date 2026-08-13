@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 135</p><p>生成时间: 2026-08-13 17:08:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3779350" target="_blank" class="news-link">PTFE进入AI高速PCB核心验证期：一块背板为何牵动新材料链？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779335" target="_blank" class="news-link">A股午后回落，三大股指集体收跌，医药股逆势大涨，港股腾讯跌超4%，联想集团午后暴涨20%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1234136" target="_blank" class="news-link">XiaoyaoClaw V2EX 内测邀请｜把 AI 助手装进自己的电脑</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/bswa-mouse-enhancer?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">mouse movement and aiming feel better</a> [6] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779358" target="_blank" class="news-link">代理AI时代，CPU要和GPU“1:1”？</a> [6] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-project-health-check?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Project Health Check</a> [8] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453511?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">联想杨元庆：AI业务目前在ISG业务中占比仍是“小头”</a> [8] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779364" target="_blank" class="news-link">韩国股市10天涨22%进入技术性牛市，AI芯片行情强势回归？</a> [11] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779359" target="_blank" class="news-link">“大空头”再炮轰：英伟达AI扩张有“安然的影子”、危害“高出几个数量级”</a> [12] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260813164636491800" target="_blank" class="news-link">华虹宏力(01347.HK)：2026年Q2来自于中国的销售收入5.637亿美元，占销售收入总额的78.6%，同比增长20.0%，主要得益于MCU、闪存、通用MOSFET、逻辑及智能卡芯片的需求增加。</a> [16] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260813164613033800" target="_blank" class="news-link">华虹宏力(01347.HK)：2026年二季度96.5%的销售收入来源于半导体晶圆的直接销售，来自于8吋晶圆和12吋晶圆的销售收入分别为2.718亿美元及4.457亿美元。</a> [17] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453491?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月13日电，AI服务器制造商慧与科技（HPE）和戴尔科技盘前延续涨势，均涨超3%。</a> [17] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453481?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月13日电，摩根士丹利将人工智能芯片制造商Cerebras Systems的目标价从273美元上调至279美元。</a> [23] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453472?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月13日电，阿布扎比证券交易所（ADX）成为中东及北非地区首家以“实时”方式向ChatGPT、Claude及其他AI平台直接提供市场数据的交易所。</a> [25] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453465?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">长鑫科技市值今日超越腾讯控股</a> [28] <font color='grey'>- 17时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
