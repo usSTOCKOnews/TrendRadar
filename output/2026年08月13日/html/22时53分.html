@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-08-13 22:53:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779395" target="_blank" class="news-link">从房产抵押债券到GPU抵押债券，英伟达正在效仿AIG？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49285604" target="_blank" class="news-link">AI agents lie, cheat and steal. That is putting off users</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49286270" target="_blank" class="news-link">Heart Aerospace Completes First Flight of Largest Electric Aircraft</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49285718" target="_blank" class="news-link">I Built a 500k-Domain Search Engine for Makers in a Weekend for $10</a> [6] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779388" target="_blank" class="news-link">AI算力驱动，协创数据上半年营收同比增156%，归母净利润狂增331%｜财报见闻</a> [7] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453801?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【公告全知道】超节点+算力+液冷+量子科技！公司首个全国产十万卡AI超集群正式落成</a> [7] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453519?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【风口研报·洞察】AI制药显著提升创新药研发效率，有望直接拉动上游试剂、耗材、实验服务等生命科学供应链的消耗强度，分析师认为需求传导链条清晰且具有不可逆性；下半年聚焦AI+红利+黄金</a> [8] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453835?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月13日电，流媒体巨头奈飞盘初走高，涨近4%。</a> [9] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779389" target="_blank" class="news-link">从PC巨头到服务器玩家，联想AI转型迎来收获期</a> [10] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453824?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英特尔日内涨幅扩大至5%</a> [18] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49286424" target="_blank" class="news-link">Graduate Student Proves a Quantum Uncertainty Principle for Fractals</a> [19] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453821?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">费城半导体指数涨1%</a> [20] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49285327" target="_blank" class="news-link">Choosing an AI model: one prompt, 11 models, different results</a> [22] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260813221846988800" target="_blank" class="news-link">苹果白捡22亿，科技基金一周吸金156亿——但美联储有人喊“必须加息” | Plus日报</a> [24] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453815?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月13日电，美股AI算力租赁商盘初走强，CoreWeave涨超7%，Nebius涨超3%，甲骨文涨超2%。</a> [25] <font color='grey'>- 22时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2453811?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股三大指数集体高开 AI芯片公司Cerebras跌超16%</a> [29] <font color='grey'>- 22时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
