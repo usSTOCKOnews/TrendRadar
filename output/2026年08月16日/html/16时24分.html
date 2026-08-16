@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 84</p><p>生成时间: 2026-08-16 16:24:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">15.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260816155301812800" target="_blank" class="news-link">盛科通信：签订超1亿元以太网交换芯片销售合同</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49317546" target="_blank" class="news-link">Show HN: Laptop is the last place your secrets are still in plaintext</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779536" target="_blank" class="news-link">中微半导体：上半年净利润1.72亿元同比增98.48%，1.66亿押注NOR Flash存储芯片｜财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2455306?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【风口研报·公司】AI服务器电容+半导体靶材+高温合金，这家公司已实现从上游粉材、高纯锭到加工材料的全流程贯通，定增扩产化解产能瓶颈；另有一家公司出海业务量价齐升，叠加低估值与高股息强现金流</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779531" target="_blank" class="news-link">AI“芯片通胀”席卷英国经济</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/articulate-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">articulate AI</a> [6] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/entertainment-owl?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Entertainment Owl</a> [7] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2455330?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">盛科通信：签订以太网交换芯片重大合同 金额超过去年营收50%以上</a> [8] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49317279" target="_blank" class="news-link">Health benefits of Tai Chi</a> [9] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3779527" target="_blank" class="news-link">段永平二季度减持英伟达、谷歌，新建阿里巴巴仓位</a> [9] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260816151639180800" target="_blank" class="news-link">法巴银行：欧洲汽车股被低估，AI受益逻辑需等待市场共识形成</a> [9] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4227832_212_1" target="_blank" class="news-link">伊朗最高领袖穆杰塔巴・哈梅内伊办公室周日宣布，伊朗前最高领袖阿里・哈梅内伊及其家属的四十日悼念仪式将在德黑兰、库姆与马什哈德举办。相关活动是为纪念阿里・哈梅内伊下葬满四十天。</a> [10] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260816142707893800" target="_blank" class="news-link">固德威与深算院达成战略合作 共建AI+智慧能源联合创新中心</a> [16] <font color='grey'>- 16时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
