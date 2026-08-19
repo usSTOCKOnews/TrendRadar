@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-08-19 20:38:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">18</td>
+                <td class="percentage">14.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1235696" target="_blank" class="news-link">用 AI 做了像素艺术和动画编辑器,可以和 AI agents 共同创作和编辑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49359425" target="_blank" class="news-link">Air Theremin – a browser theremin you play by waving at your webcam</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2458621?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">昆仑万维：上半年净利润10.88亿元 天工AI业务收入规模逐季抬升</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49360242" target="_blank" class="news-link">GrapheneOS in 2027 available on high-end Motorola phones</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3779750" target="_blank" class="news-link">股债市场短暂喘息，美股盘前存储芯片股普涨，SK海力士涨约6%，Moderna涨超80%，油价四连涨</a> [6] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819201737953800" target="_blank" class="news-link">苹果拟修改欧盟开发者条款，游说组织：收费仍然过高</a> [6] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/fairphone?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Fairphone Gen 6+</a> [7] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779750" target="_blank" class="news-link">股债市场短暂喘息，美股盘前存储芯片股普涨，SK海力士涨约6%，Moderna涨超80%，油价四连涨</a> [8] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779799" target="_blank" class="news-link">金山云Q2营收同比增长30.8%创历史新高，AI驱动盈利能力显著改善 | 财报见闻</a> [13] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2458606?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月19日电，甲骨文健康公司拓展了其临床人工智能代理的功能范围。</a> [13] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779791" target="_blank" class="news-link">关于Robotaxi规模化部署和Optimus机器人上市节奏，这是摩根大通特斯拉工厂的最新调研</a> [14] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2458604?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月19日电，Moderna美股盘前涨超110%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。</a> [14] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ressearch-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Ressearch AI</a> [16] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2458598?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">Moderna美股盘前涨超100%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。</a> [17] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2458581?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【电报解读】华尔街实测8款全球主流Agent，千问办公综合排名第一！机构称桌面端原生AI办公智能体产品是AI应用探索的主流热门赛道，这家公司的移动办公解决方案可以通过阿里钉钉进行手机端的应用集成</a> [22] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2458584?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">特斯拉上线豆包大模型 车机已陆续推送</a> [23] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819200153883800" target="_blank" class="news-link">Network Bio与英伟达(NVDA.O)共同构建通用医疗智能模型。</a> [24] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2458583?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月19日电，AI算力租赁商Nebius拟发行45亿美元可转换优先票据。</a> [24] <font color='grey'>- 20时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
