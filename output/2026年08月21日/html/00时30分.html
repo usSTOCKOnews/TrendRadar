@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 248</p><p>生成时间: 2026-08-21 00:30:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">32</td>
+                <td class="percentage">12.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3779750" target="_blank" class="news-link">美国财政部出手救长债！美股终结三连跌，Moderna暴涨177%，黄金、加密货币大涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779931" target="_blank" class="news-link">AI算力驱动业绩爆发，大族激光上半年营收同比增76%，扣非净利大增440%｜财报见闻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49373456" target="_blank" class="news-link">Show HN: I trained a 125M model to autocomplete piano on-device</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/checksum-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Checksum AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236000" target="_blank" class="news-link">把 AI Image Prompt 做成 Recipe， ImageBaker 这个方向会不会更有意思？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/meetstream-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MeetStream AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E9%A6%96%E6%AC%A1%E5%87%BA%E5%B8%AD2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F-9ccbe5" target="_blank" class="news-link">习近平出席世界人工智能大会宣布成立WAICO</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3779834" target="_blank" class="news-link">美联储会议纪要偏鹰：7月加息阵营不止三人，多人认为若通胀不降需行动，部分料AI推升通胀</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2460021?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">云意电气：拟发行不超15.47亿元可转债 用于车规级大功率半导体器件制造项目等</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/akitaonrails/ai-memory" target="_blank" class="news-link">akitaonrails / ai-memory</a> [7] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779925" target="_blank" class="news-link">阿里AI，增长曲线变陡</a> [7] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2460016?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美财长贝森特：AI使得许多企业发债时“对收益率近乎不敏感”</a> [7] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2460015?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">浪潮信息：成功开发高压直流瞬稳技术，突破AI超节点整机柜800V供电难题</a> [8] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1235990" target="_blank" class="news-link">AI SaaS 最难的不是接 API：我做 AI Video 的一些真实感受</a> [9] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3779898" target="_blank" class="news-link">阿里Q2营收同比增9%略超预期，AI基础设施投入推高资本开支，自由现金流净流出扩大至447亿元｜财报见闻</a> [9] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779910" target="_blank" class="news-link">阿里电话会：AI相关产品ARR突破495亿，平头哥芯片下半年将持续放量，Capex投入预计三年内回本</a> [9] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/chaitanyagiri/munder-difflin" target="_blank" class="news-link">chaitanyagiri / munder-difflin</a> [10] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4235673_103_1" target="_blank" class="news-link">纳指跌1%，标普500指数跌超0.4%，道指跌0.8%。生物科技指数跌1.8%，半导体指数跌0.1%，银行指数跌0.9%。</a> [12] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3779877" target="_blank" class="news-link">谷歌与海力士双双加码，光学为何再次引爆全场？</a> [13] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/bitdrift?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">bitdrift.ai</a> [14] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/hermai-brand-api?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Hermai Brand API</a> [16] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Tencent/AI-Infra-Guard" target="_blank" class="news-link">Tencent / AI-Infra-Guard</a> [16] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/RyanCodrai/turbovec" target="_blank" class="news-link">RyanCodrai / turbovec</a> [17] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49375719" target="_blank" class="news-link">Anti-AI fonts are useless and harmful</a> [18] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1235939" target="_blank" class="news-link">AI 工作台，纯血的 GPT5.5、5.6、Claude， V 站注册用户已过百，留贴即送 20 刀积分</a> [21] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2459993?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月20日电，费城半导体指数涨幅扩大至1%，报11861.35点。</a> [22] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49375237" target="_blank" class="news-link">Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours</a> [23] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779913" target="_blank" class="news-link">大族数控上半年营收同比增长109.29%、净利润增263.45%，AI算力PCB需求爆发驱动业绩飞跃 | 财报见闻</a> [24] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820233940393800" target="_blank" class="news-link">美债干预效果为何“一日游”？阿里巴巴净利润大跌</a> [24] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779911" target="_blank" class="news-link">歌尔股份半年营收超400亿元，收入恢复增长后加码AI硬件</a> [25] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1235920" target="_blank" class="news-link">「听记」v1.3.0 版本更新，新增“速记”功能 - 好看好用的 AI 录音软件</a> [27] <font color='grey'>- 00时30分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49321515" target="_blank" class="news-link">An American Mosaic (interactive map of ancestry census data)</a> [29] <font color='grey'>- 00时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
