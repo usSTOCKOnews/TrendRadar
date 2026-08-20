@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 135</p><p>生成时间: 2026-08-20 18:25:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49371857" target="_blank" class="news-link">Don&#x27;t Paste the AI, please</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4234772_103_1" target="_blank" class="news-link">阿里巴巴第一季度营收2,689.5亿元人民币，预估2,685.2亿元人民币。第一季度调整后每ADS收益8.52元人民币，预估11.28元人民币。第一季度调整后息税折旧及摊销前利润391.4亿元人民币，预估369.2亿元人民币。第一季度调整后净利润207.2亿元人民币，预估255.8亿元人民币。第一季度其他收入288.0亿元人民币，预估611.5亿元人民币。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779898" target="_blank" class="news-link">阿里Q2营收同比增9%略超预期，AI基础设施投入推高资本开支，自由现金流净流出扩大至447亿元｜财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820181333082800" target="_blank" class="news-link">阿里巴巴(BABA.N)美股盘前扭转跌势，上涨0.5%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1235939" target="_blank" class="news-link">AI 工作台，纯血的 GPT5.5、5.6、Claude， V 站注册用户已过百，留贴即送 20 刀积分</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2459689?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月20日电，阿里巴巴ADR抹去早些时候的跌幅，上涨0.5%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1235920" target="_blank" class="news-link">「听记」v1.3.0 版本更新，新增“速记”功能 - 好看好用的 AI 录音软件</a> [10] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779853" target="_blank" class="news-link">韩国存储双雄“巨额回购”！美股盘前存储芯片股普涨，SK海力士涨约5%，全球债市风暴暂歇，黄金小幅下跌</a> [12] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4234672_214_1" target="_blank" class="news-link">凯投宏观：瑞士法郎或将在AI泡沫破裂时走强。</a> [12] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820180837991800" target="_blank" class="news-link">金十整理：存储巨头纷纷“撒钱”回购，AI超级周期进入新阶段？</a> [13] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779888" target="_blank" class="news-link">专为AI高性能计算设计，台积电1.6nm级A16工艺目标Q4量产</a> [14] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2459641?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">阿里财报：AI商业化全面加速，云增速45%创22个季度新高</a> [23] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2459634?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">阿里巴巴：本季度阿里云的外部商业化收入加速增长至45%</a> [26] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820180215338800" target="_blank" class="news-link">国际铝业协会（IAI）：7月全球原铝产量为616万吨。</a> [29] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2459626?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月20日电，富途控股美股盘前上涨10%。</a> [30]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
