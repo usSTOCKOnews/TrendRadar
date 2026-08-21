@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 137</p><p>生成时间: 2026-08-21 18:25:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">17</td>
+                <td class="percentage">12.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236256" target="_blank" class="news-link">多年后回想起来，人们可能会发现，让程序员指挥 AI 写代码，可能是我们人类走过的一段弯路。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236250" target="_blank" class="news-link">阿里发布了 Qwen-UI-Agent，号称让模型真正“会用”每一块屏幕</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/curiosity-an-ai-sci-fi-film-trailer?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">CURIOSITY | An AI Sci-Fi Film Trailer</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779993" target="_blank" class="news-link">神秘AI模型编程测试超越GPT-5.6和Claude，技术特征指向智谱未发布新模型</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236240" target="_blank" class="news-link">在这个独属于 ai 的时代，我终究是被裁员了。</a> [6] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49320866" target="_blank" class="news-link">The case against a C alternative (2022)</a> [7] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3779961" target="_blank" class="news-link">大手笔！OpenAI全面开源Codex Harness</a> [7] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779981" target="_blank" class="news-link">英伟达拟入股AI数据供应商Mercor，后者估值达200亿美元</a> [7] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236236" target="_blank" class="news-link">AI 优化代码以后一定要测试啊</a> [8] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/livecrew?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">LiveCrew AI</a> [11] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236216" target="_blank" class="news-link">小红书大模型开源， API 限时免费，登录 dots.ai 开放平台，即可注册 API，限时免费调用 dots3-note preview 模型。</a> [14] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49331084" target="_blank" class="news-link">Flat Chair by Sara Paculdo</a> [14] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260821181120182800" target="_blank" class="news-link">特斯拉（上海）有限公司、特斯拉汽车（北京）有限公司召回部分国产及进口纯电动汽车</a> [15] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2460887?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">特斯拉（上海）有限公司、特斯拉汽车（北京）有限公司召回部分国产及进口纯电动汽车</a> [17] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260821180728368800" target="_blank" class="news-link">SK海力士(SKHY.O)：尚未决定在日本建设工厂，将在今日起一个月内进一步披露相关信息。（此前有报道称，SK海力士将在日本宫城县建设存储芯片工厂。）</a> [22] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260821180500908800" target="_blank" class="news-link">贝壳(BEKE.N)美股盘前上涨5.5%。</a> [28] <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2460858?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月21日电，摩根士丹利表示，AI基础设施投资持续升温，全球云资本开支2027年或增长38%。</a> [28] <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
