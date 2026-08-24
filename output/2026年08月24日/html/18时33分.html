@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 132</p><p>生成时间: 2026-08-24 18:33:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">19</td>
+                <td class="percentage">14.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236875" target="_blank" class="news-link">AI 用得越多，我好像越失去挖掘需求的能力了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824181600860800" target="_blank" class="news-link">小鹏汽车(XPEV.N)：小鹏AI机器人IRON预计将在2026年底前实现大规模生产。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2462550?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》：支持“长期耐心”资本投向产业创新 鼓励CVC、AIC等各类创投资本、产业基金支持先进制造</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49417313" target="_blank" class="news-link">We never use AI. For anything</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780114" target="_blank" class="news-link">科技股拖累全球股市，纳指100期货跌超0.5%，存储芯片、光通信股下挫，金涨油跌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780116" target="_blank" class="news-link">创业板跌超3%，煤炭逆势爆发，算力硬件下挫、“易中天”齐跌，恒科指跌逾3%，阿里大跌超9%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780116" target="_blank" class="news-link">创业板跌超3%，煤炭逆势爆发，算力硬件下挫、“易中天”齐跌，恒科指跌逾3%，阿里大跌超9%</a> [6] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236848" target="_blank" class="news-link">Git Agent——一款 git 可视客户端的缝合怪，另外加上了 AI 合并建议的功能</a> [7] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236847" target="_blank" class="news-link">AI coding 真的提高效率了吗？</a> [8] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/lucid-train?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Lucid Train</a> [8] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/rainlane?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Rainlane</a> [9] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959666" target="_blank" class="news-link">OpenAI不会做所有生意，更不会“吞掉整个经济”</a> [9] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49417394" target="_blank" class="news-link">Woman stranded in Spain after UK&#x27;s eVisa system mistakes her for twin sister</a> [12] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2462528?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》：支持微型发光二极管、硅基有机发光二极管、柔性显示等技术发展 突破光波导、驱动芯片、核心装备、关键材料等环节</a> [13] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2462524?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》：全面提升智能计算能力 攻关高性能、低功耗、高效率的智算芯片</a> [15] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/land-claim?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Land Claim</a> [16] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2462522?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》：推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平</a> [16] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2462520?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">佰维存储：上半年净利润71.66亿元同比扭亏 AI新兴端侧存储产品收入同比增长4.34倍</a> [18] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2462501?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">蔡崇信、吴泳铭各增持8000万、4000万港元阿里股票</a> [30] <font color='grey'>- 18时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
