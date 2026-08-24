@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 166</p><p>生成时间: 2026-08-24 14:51:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">26</td>
+                <td class="percentage">15.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780140" target="_blank" class="news-link">阿里配股后股价下跌，野村：稀释不足4%维持买入，债市太贵是选择配股主因</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236788" target="_blank" class="news-link">申请 OpenAI 免费 6 个月 ChatGPT 的，来晒项目互关一波</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236779" target="_blank" class="news-link">做了个把 Qoder 的额度用于对外提供 OpenAI 兼容 API 的项目</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49411717" target="_blank" class="news-link">Google Workspace thinks my domain is an email provider (2025)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2462193?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">阿里配售获近3倍超额认购 主权和长线基金最终认购比例超40%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49413561" target="_blank" class="news-link">I built a low-latency AI companion that plays Skyrim with me</a> [6] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780116" target="_blank" class="news-link">AH股齐跌：创业板跌超4%，煤炭爆发，算力硬件下挫，恒科指跌逾3%，阿里大跌近10%</a> [6] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780093" target="_blank" class="news-link">周末集体跳水！伊朗最新警告！加密货币，17.92万人爆仓</a> [7] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780136" target="_blank" class="news-link">Hot Chips深度：HBM走向定制化与三维堆叠，三星、英伟达、美光各亮路线图</a> [7] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824143119838800" target="_blank" class="news-link">阿里配售获近3倍超额认购 主权和长线基金最终认购比例超40%</a> [8] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780117" target="_blank" class="news-link">美银：如果共和党中选输掉参议院，美股将跌超10%，德州选战决定“AI政策”</a> [9] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2462188?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">小米公布玄戒O3芯片架构 采用3nm制程工艺</a> [9] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780116" target="_blank" class="news-link">AH股齐跌：创业板跌超4%，煤炭爆发，算力硬件下挫，恒科指跌逾3%，阿里大跌近10%</a> [10] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49412328" target="_blank" class="news-link">Rural Village in Spain Is Welcoming Digital Nomads with Open Arms</a> [11] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236726" target="_blank" class="news-link">AI 到底是好还是坏</a> [14] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3780099" target="_blank" class="news-link">英伟达涨价15%：再来一次“苹果式”涨价血洗市场，还是硬件链的又一次狂欢？</a> [16] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1236705" target="_blank" class="news-link">AI 原生的 Kubernetes 云操作环境：体验一句话部署 Grafana</a> [19] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780131" target="_blank" class="news-link">企业AI最后一公里：三路人马在此交锋</a> [19] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780121" target="_blank" class="news-link">三星制定“三阶段HBM路线图”：迈向真正的3D ZHBM，将DRAM直接堆叠在计算芯片上</a> [20] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824140944451800" target="_blank" class="news-link">小米玄戒芯片完成三个方向演进迭代</a> [22] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780118" target="_blank" class="news-link">高盛：AI动能衰退，欧日银行股与黄金股等硬资产成下一轮交易主线</a> [23] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780119" target="_blank" class="news-link">AI开发者平台Hugging Face寻求出售，估值或超130亿美元</a> [24] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959661" target="_blank" class="news-link">Altman“认错”：AI发展时间表没有那么快，经济惯性太大了</a> [25] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3779983" target="_blank" class="news-link">阿里再投800亿港元，中国CSP的黄金周期才刚开始，还是泡沫前夜？</a> [27] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49415621" target="_blank" class="news-link">New EU-wide product repair rules come into force</a> [28] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/premium/articles/3779686?layout=wscn-layout" target="_blank" class="news-link">对话付鹏：Coding爆发不等于AI应用落地？市场正迎来关键窗口期！</a> [30] <font color='grey'>- 14时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
