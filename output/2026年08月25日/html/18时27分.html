@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 126</p><p>生成时间: 2026-08-25 18:27:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">10.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1237139" target="_blank" class="news-link">AI 创业浪潮出现了很多一人公司，所以做了一个 AI 产品 的外链工具和网站</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825181608727800" target="_blank" class="news-link">金辰股份：拟投资10亿元建设半导体装备研发及制造项目</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780246" target="_blank" class="news-link">任少卿做机器人，蔚来留下一个AI入口</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2463725?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【机构龙虎榜解读】液冷+数据中心+英伟达，在算力行业应用的液冷全链条解决方案已有成熟、完整布局，作为基础设施提供商在英伟达Blackwell平台上进行构建和创新，这家公司获净买入</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2463762?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">金辰股份：拟投资10亿元建设半导体装备研发及制造项目</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780215" target="_blank" class="news-link">市场情绪谨慎回暖，美股盘前存储芯片股小幅走高，SK海力士涨2％，比特币上破8万美元，美债高位震荡</a> [6] <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1237107" target="_blank" class="news-link">有没有感觉自从用 ai coding 后几乎不会进入心流状态了</a> [7] <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780242" target="_blank" class="news-link">硬件最高涨价60%，亚马逊也扛不住内存短缺压力</a> [8] <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/plainly-5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Plainly</a> [14] <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/mrigashira-ai-engine?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Mrigashira AI engine</a> [17] <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2463721?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">澳大利亚音乐榜单封杀AI歌曲</a> [25] <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2463718?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">纳斯达克100指数期货涨幅扩大至1% 芯片半导体板块盘前走强</a> [28] <font color='grey'>- 18时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825175536118800" target="_blank" class="news-link">印度AI基础设施公司订购9000套英伟达Vera Rubin系统</a> [29] <font color='grey'>- 18时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
