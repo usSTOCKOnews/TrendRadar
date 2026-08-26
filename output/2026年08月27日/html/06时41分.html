@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2026-08-27 06:41:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">51</td>
+                <td class="percentage">45.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49452990" target="_blank" class="news-link">Tailcat – Like netcat, but over Tailscale’s data plane</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780378" target="_blank" class="news-link">英伟达上季营收超预期翻倍大增，本季料首破千亿大关，下财年增长指引碾压预期 | 财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465597?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">AI算力需求快速增长 光模块企业上半年业绩亮眼</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1237500" target="_blank" class="news-link">公司搞 AI 案例大赛，有什么灵感嘛兄弟们</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827060345440800" target="_blank" class="news-link">纳指期货周四盘初涨约1%，受英伟达(NVDA.O)盘后上涨4.5%提振。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465591?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周四你需要知道的隔夜全球要闻：英伟达给出2028财年乐观展望，盘后涨超5%；苹果首款折叠屏iPhone定档9月9日；美股小幅收跌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780381" target="_blank" class="news-link">英伟达在电话会上表示，亚马逊将额外部署200万块GPUs。英伟达盘后涨3%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465594?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">781份创业板半年报扫描 超七成公司盈利 AI产业链高景气度持续验证</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780379" target="_blank" class="news-link">OpenAI发布技术报告：详解AI模型如何突破Hugging Face安全防线</a> [6] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465592?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英伟达强劲业绩展望提振纳指期货高开近1% 存储、光通信等板块盘后普涨</a> [7] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49454764" target="_blank" class="news-link">Serve Markdown to AI Agents with Accept Headers</a> [8] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780376" target="_blank" class="news-link">Anthropic上市前加速“囤算力”，再砸450亿美元接手微软退出的园区</a> [8] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827054838378800" target="_blank" class="news-link">英伟达CEO黄仁勋：世界将同时需要封闭模型和开放模型。</a> [8] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465589?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达CEO黄仁勋表示，如果没有供应限制，公司2028财年的业绩展望将“高得多”。</a> [8] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827054831371800" target="_blank" class="news-link">英伟达CEO黄仁勋：尽管行业正在转向开发定制芯片，但前沿AI实验室仍将是英伟达的长期客户。</a> [9] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465588?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达CEO黄仁勋表示，我们以前从未提前一年给出业绩指引。</a> [9] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780378" target="_blank" class="news-link">英伟达上季营收超预期翻倍大增，本季料首破千亿大关，下财年增长指引碾压预期 | 财报见闻</a> [10] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780374" target="_blank" class="news-link">谷歌推出迄今“最精准”语音转文本模型，从“逐字记录”迈向“理解式转写”</a> [10] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827054827954800" target="_blank" class="news-link">英伟达CEO黄仁勋暗示OpenAI和Anthropic将很快上市。</a> [10] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465586?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达首席财务官表示，预计第三财季毛利率为74%，上下浮动50个基点；预计第四财季毛利率将在71%至72%之间触底；2028财年毛利率应稳定在72%至73%。</a> [10] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827054717796800" target="_blank" class="news-link">大超预期 英伟达罕见提前给出财年业绩指引</a> [11] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465584?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达首席财务官表示，预计Vera Rubin将在第三季度贡献约20%的数据中心业务营收。</a> [11] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827053957691800" target="_blank" class="news-link">英伟达CEO黄仁勋：如果没有供应限制，公司2028财年的业绩展望将“高得多”。</a> [12] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465583?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达首席财务官表示，预计至少到2028财年，供应仍将是制约增长的瓶颈。英伟达正面临内存价格极端高企的局面。</a> [12] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827053558425800" target="_blank" class="news-link">英伟达CEO黄仁勋：现有供应能力使公司有信心在2028财年实现70%的增长。</a> [14] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465581?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达首席财务官表示，公司已向人工智能实验室投入超过500亿美元。</a> [14] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827053534164800" target="_blank" class="news-link">英伟达CEO黄仁勋：未来非超大规模云计算市场的规模可能会超过目前的云计算总容量。</a> [15] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827053346124800" target="_blank" class="news-link">英伟达CEO黄仁勋：我们以前从未提前一年给出业绩指引。</a> [16] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465579?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达首席财务官表示，预计将在本季度晚些时候开始向早期客户大规模出货Groq 3 LPX，首批客户包括Nebius。Nebius盘后拉升涨超6%。</a> [16] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827053043961800" target="_blank" class="news-link">英伟达(NVDA.O)首席财务官：2028财年毛利率应稳定在72%至73%。</a> [17] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465578?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达首席财务官表示，本月早些时候已开始发货Vera Rubin。Vera Rubin每部署1吉瓦算力，对应约400亿美元的营收机会。</a> [17] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827053003994800" target="_blank" class="news-link">英伟达(NVDA.O)首席财务官：预计第三财季毛利率为74%，上下浮动50个基点。预计第四财季毛利率将在71%至72%之间触底。</a> [18] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465577?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英伟达CFO表示2028财年营收将增长约70% 盘后涨幅扩大至4%</a> [18] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827052750459800" target="_blank" class="news-link">英伟达(NVDA.O)首席财务官：预计至少到2028财年，供应仍将是制约增长的瓶颈。我们正面临内存价格极端高企的局面。</a> [19] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827052650819800" target="_blank" class="news-link">英伟达(NVDA.O)首席财务官：预计Vera Rubin将在第三季度贡献约20%的数据中心业务营收。</a> [20] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465575?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达称亚马逊将额外部署200万块GPU。</a> [20] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827052646972800" target="_blank" class="news-link">亚马逊将购买200万颗英伟达芯片用于数据中心扩建</a> [21] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465574?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英伟达财报速览：Q2营收962亿美元，调整后EPS 2.22美元，毛利率75%；Vera Rubin已全面投产；2028财年营收展望大超市场预估</a> [21] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827052619855800" target="_blank" class="news-link">英伟达(NVDA.O)首席财务官：未来公司计划增加向股东返还扣除战略用途后的剩余自由现金流。</a> [22] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465572?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达表示，未来将同时交付Blackwell与Rubin系统，目前正面临部分供应限制。</a> [22] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827052538540800" target="_blank" class="news-link">英伟达(NVDA.O)首席财务官：向中国客户出货的H200产品营收占数据中心总营收不到1%。向中国客户的出货均符合美国政府颁发的出口许可证要求。公司业绩展望中未计入任何来自中国的数据中心计算业务营收。</a> [23] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465571?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达股价盘后转涨，此前最多曾下跌约3%。</a> [23] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827052517680800" target="_blank" class="news-link">英伟达(NVDA.O)首席财务官：预计明年来自AI实验室的需求将贡献公司整体业务约四分之一。</a> [24] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465570?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达表示，上半年总营收的44%来自三家直接客户。</a> [24] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260827052420636800" target="_blank" class="news-link">英伟达(NVDA.O)首席财务官：有些人会把这称为“循环融资”，但我们的看法不同。</a> [25] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465567?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达将于10月1日支付每股0.25美元的现金股息。</a> [25] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465566?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达表示，签署了为期约15年的数据中心租赁协议，预计将这些数据中心租赁权转让（转租）给第三方。</a> [26] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465565?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英伟达：Vera Rubin 现已全面投入生产</a> [27] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465564?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社8月27日电，英伟达盘后一度跌约3%，现跌幅收窄至0.6%。</a> [28] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2465563?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英伟达第二财季营收同比增长106% 各项业绩指标均超市场预期</a> [29] <font color='grey'>- 06时41分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49455557" target="_blank" class="news-link">Show HN: We built the smallest dual-band aircraft tracker</a> [30] <font color='grey'>- 06时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
