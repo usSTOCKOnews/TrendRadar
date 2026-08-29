@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 154</p><p>生成时间: 2026-08-29 20:14:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">11</td>
+                <td class="percentage">7.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780638" target="_blank" class="news-link">英特尔14A传来重大进展：缺陷下降速度创22纳米以来最佳</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780634" target="_blank" class="news-link">井英科技吴高明：AI视频，终局是编剧中心制</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780632" target="_blank" class="news-link">AI利润格局：模型公司每100美元收入，35-40美元流向云厂，为其带来10-20美元营业利润</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959718" target="_blank" class="news-link">聊天、编程、白领、机器人...AI需求一层层爆发</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238049" target="_blank" class="news-link">libcr 项目组 crRequest 1.9.6 上架微软应用商店， 免费版的 postman，无需登录</a> [6] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238044" target="_blank" class="news-link">刚哥开发新的编程语言 TypePHP，周三放到 Github ， 3 天 star 就快 900 个了,https://github.com/swoole/typephp，大家用 AI 体验下编程</a> [7] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238037" target="_blank" class="news-link">B 站推荐 AI 视频泛滥，似乎没什么选择了，不想看屎啊</a> [9] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238026" target="_blank" class="news-link">[送码] 耗时两个月制作的 ai 生图网站，帮忙看看方向</a> [11] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959715" target="_blank" class="news-link">一个大模型，未来可能配一颗专属芯片</a> [15] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3780487" target="_blank" class="news-link">连续两次加息！AI繁荣逼韩国央行抢跑，10月步伐是否放缓？</a> [18] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2468550?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">AI赋能重塑养蜂产业链 实现一年两茬取蜜</a> [30] <font color='grey'>- 20时14分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
