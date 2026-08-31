@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 118</p><p>生成时间: 2026-09-01 07:36:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">12</td>
+                <td class="percentage">10.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2470225?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">基金经理展望下半年科技股：AI仍是核心主线 押注赛道转向验证业绩</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780770" target="_blank" class="news-link">苹果诉OpenAI挖出新证据：前工程师窃电路图并令同事销毁证据</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780768" target="_blank" class="news-link">亚马逊遭FTC联合22州起诉：被指操纵广告竞价，5年多收广告主超200亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49503521" target="_blank" class="news-link">Terence Tao explains 6 essential mathematical concepts [video]</a> [7] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780762" target="_blank" class="news-link">库克卸任苹果CEO：致全员信告别15年掌舵岁月，称将怀念这份工作</a> [8] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2469197?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【研选•研报数据】传统纺服旺季备库周期将至，纺服链价差有望继续走扩，头部企业盈利弹性值得期待；作为数字创意行业领军企业，公司逐步拓展能力边界，卡位物理AI等</a> [9] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780733" target="_blank" class="news-link">Kimi向微软、亚马逊、谷歌要30%分成，开源模型开始“海外收租”了</a> [10] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4253601_103_1" target="_blank" class="news-link">特朗普再与九家制药商达成药品补助协议，百济神州位列其中。</a> [16] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2470192?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周二你需要知道的隔夜全球要闻：受美伊局势影响，布伦特油价站上每桶90美元；黄仁勋称VeraRubin可为英伟达带来每吉瓦超400亿美元的营收</a> [17] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49514895" target="_blank" class="news-link">How we configured OpenTelemetry logs in Rails</a> [18] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49512856" target="_blank" class="news-link">The safest job from AI may be writing</a> [24] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2470185?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月1日电，法律文件显示，苹果称在针对OpenAI的商业秘密案件中，被告利用苹果专有信息训练人工智能智能体。</a> [24] <font color='grey'>- 07时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
