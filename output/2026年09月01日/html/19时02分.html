@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2026-09-01 19:02:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">25</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780702" target="_blank" class="news-link">美伊局势升级叠加鹰派预期，原油大涨，美股8月收官两连跌，芯片指数逆市反弹</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238722" target="_blank" class="news-link">为什么 AI 在 win 平台天天都在肘击 powershell？🫪</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2471024?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">2连板欢瑞世纪：AIGC相关业务收入占比低 对短期经营业绩不构成重大影响</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49493468" target="_blank" class="news-link">American Airlines&#x27; Legendary Mechanic Passes Away at 100 After 80-Year Career</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780822" target="_blank" class="news-link">高盛坚定看好阿里：算力投入或在3年内回本，云业务加速，2030年外部云收入剑指千亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2471014?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">针对“海外AI黄果短剧”“国外月利润1亿美金”等不实信息 华是科技发布澄清声明</a> [7] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238685" target="_blank" class="news-link">joplin 切到 obsidian, ai code 撸了一个 todo note</a> [9] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/agentrec-flight-recorder-for-ai-agents?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">agentrec : Flight recorder for AI agents</a> [9] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238678" target="_blank" class="news-link">AI 半天自动实现的主流网站视图无水印提取</a> [10] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3780769" target="_blank" class="news-link">印度在AI冲击下成功“逆势搏击” 这是未来的新范式还是昙花一现？</a> [10] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260901183743038800" target="_blank" class="news-link">软银支持的SB Energy申请IPO，瞄准AI数据中心电力需求</a> [13] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238662" target="_blank" class="news-link">上线了一个：全球 AI 动态简报网站，消息来自 X 一手，支持 TG 频道订阅</a> [14] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/unclecode/crawl4ai" target="_blank" class="news-link">unclecode / crawl4ai</a> [15]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2470997?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">ANFAC：西班牙1月至8月特斯拉新车注册量同比增长4.6%</a> [16] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238643" target="_blank" class="news-link">有人试过反代出来阿里云内网才可以用的 docker 镜像吗</a> [17] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/edsbargains?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">EdsBargains</a> [18] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959737" target="_blank" class="news-link">OpenAI出现三代神秘AI文明：人类第一次完整记录AI大规模失控</a> [18] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780806" target="_blank" class="news-link">今年苹果发布会最大的悬念，不是折叠屏</a> [22] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4254660_212_1" target="_blank" class="news-link">英国零售联盟（BRC）亚洲业务：潜在机遇包括数据中心、先进半导体、云计算与数据处理能力及其他领域。</a> [22] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238629" target="_blank" class="news-link">EdgeEver：开源、原生支持 AI/MCP 的自托管「印象笔记」替代方案（支持全平台客户端 + 浏览器剪藏）</a> [23] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238564" target="_blank" class="news-link">最近自己做了一个 AI 产品推广网站，主要是给独立开发者用的。</a> [24] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3780704" target="_blank" class="news-link">敢为天下先！AI长剧首次上星湖南卫视：全AI影视内容工业化的关键一跃？</a> [24] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1238624" target="_blank" class="news-link">做了一个内置 AI 的电子书阅读器 Quill：划词划句直接问 AI，可复用你的 ChatGPT 订阅，无需 API Key</a> [26] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959736" target="_blank" class="news-link">AI云不到一年回本，需求端还在极早期</a> [27] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2470957?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">南向资金今日净买入超77亿港元 腾讯获买入居前</a> [28] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
