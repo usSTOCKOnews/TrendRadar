@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 115</p><p>生成时间: 2026-09-03 06:19:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">30</td>
+                <td class="percentage">26.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780939" target="_blank" class="news-link">博通上季营收增86%，AI芯片收入增两倍，本季指引“瑕疵”但AI收入料三年高增，盘后巨震 | 财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780943" target="_blank" class="news-link">博通电话会：AI业务营收指引从560亿美元上调至580亿美元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903055310139800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：我们相信在未来两年内将向这些客户交付约3500亿美元的人工智能半导体。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472565?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月3日电，博通CEO表示，预计未来两年将向客户交付价值约3500亿美元的人工智能半导体产品。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49541754" target="_blank" class="news-link">Altair Basic Interpreter Source Code (1975) [pdf]</a> [6] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780938" target="_blank" class="news-link">Meta发布更强大AI模型，声称进一步缩小了与竞争对手差距</a> [6] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780930" target="_blank" class="news-link">韩国万亿美元主权 AI 投资：英伟达胜出，海力士承压</a> [8] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472560?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月3日电，博通CFO表示，因加大半导体产能投资，预计第四财季资本支出为14亿美元；预计第四财季综合毛利率约为73%，低于去年同期的78%。</a> [8] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49535284" target="_blank" class="news-link">Can I opt out of my input or output data being used for training?</a> [9] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3780909" target="_blank" class="news-link">中国出口三季度高位但渐进回落，中债独立行情与银行补负债信号，韩国AI拉动8月出口---0902宏观脱水</a> [9] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780941" target="_blank" class="news-link">Snowflake上季营收超预期增35%，AI收入“显著跃升”，上调全年指引，盘后拉涨 | 财报见闻</a> [10] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49540565" target="_blank" class="news-link">Qantas Airbus A380 engine failure in 2010 (2023)</a> [11] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903052915201800" target="_blank" class="news-link">博通(AVGO.O)首席财务官：预计第四财季资本支出为14亿美元，用于投资半导体产能。</a> [11] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472555?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月3日电，博通CEO表示，到2027年公司已确保供应将人工智能营收翻倍至约1150亿美元；预计2028财年人工智能半导体营收将再次翻倍，达到2300亿美元。</a> [12] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472552?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月3日电，博通CEO表示，预计第四季度将加快向Anthropic交付Ironwood芯片；预计第四季度将大规模量产交付Meta定制版MTIA加速器。</a> [15] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051826668800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：预计2028财年人工智能半导体营收将再次翻倍，达到2300亿美元。</a> [16] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472551?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月3日电，博通CEO表示，本季度已开始向谷歌量产交付下一代TPU 8I版本产品；全新谷歌TPU性能与英伟达Vera Rubin持平或更优。</a> [16] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051726354800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：从现在到2027年底，公司将向Meta Platforms(META.O)交付三代MTIA加速器。</a> [18] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051643087800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：我们正在与OpenAI合作开发第三代XPU。</a> [19] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051619620800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：到2028年，我们预计OpenAI将部署超过5吉瓦的Jelapeno及其后续一代XPU。</a> [20] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472547?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月3日电，微软调整2027财年第一季度展望，预计微软365商业云营收按固定汇率计算同比增长约17%。</a> [20] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49542443" target="_blank" class="news-link">Mamdani Bans AI in NYC Schools</a> [21] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051542623800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：OpenAI的Jalapeno项目正按计划推进，预计将在2027年部署1.3吉瓦。</a> [21] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472546?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月3日电，微软调整后27财年第一财季Azure按固定汇率口径营收增速预期为44%‑45%；27财年第一财季智能代理与基础设施板块营收预期为751.5亿‑757.5亿美元；调整后27财年第一财季设备与消费业务营收预期为147亿‑152亿美元。</a> [21] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472545?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月3日电，据美国证券交易委员会（SEC）文件显示，微软将在2027财年报告两个业务部门，包括智能体与基础设施、设备与消费者。</a> [22] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051341249800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：预计Anthropic将在2027年部署另外5GW的谷歌TPU版本8I。</a> [24] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49528174" target="_blank" class="news-link">A docs page is a search query to find AI agents and route them to your company</a> [25] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051121940800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：预计第四季度将开始大规模量产交付Meta Platforms(META.O)定制的MTIA加速器。</a> [25] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051118704800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：将2026财年AI业务营收指引从560亿美元上调至580亿美元，同比增长186%。</a> [26] <font color='grey'>- 06时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472539?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">C3.ai维持全年营收预期在2.10亿-2.40亿美元不变</a> [27] <font color='grey'>- 06时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
