@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 183</p><p>生成时间: 2026-09-02 23:55:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">26</td>
+                <td class="percentage">14.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780931" target="_blank" class="news-link">黄仁勋将AI比作水电等公用事业，呼吁G20加快应用促进增长</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1239048" target="_blank" class="news-link">受不了在多个工具之间复制 skill，做了个软链接管理器，一个目录管住 32+ 个 AI 编程工具的 skills，附带一个本地风险扫描</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49536375" target="_blank" class="news-link">Three sites made 215,128 “best software” pages for AI. Perplexity cites them</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/DietrichGebert/ponytail" target="_blank" class="news-link">DietrichGebert / ponytail</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49535284" target="_blank" class="news-link">Mistral now trains on user input by default, except on enterprise tier</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/sngyai/Sequoia-X" target="_blank" class="news-link">sngyai / Sequoia-X</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472463?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月2日电，英伟达股价涨幅扩大至4.19%，报226.550美元/股，总市值报5.46万亿美元。</a> [7] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780917" target="_blank" class="news-link">伯克希尔CEO：巴菲特参与对Alphabet投资，AI数据中心成能源业务重大机遇</a> [8] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49535548" target="_blank" class="news-link">Aging Brains Blend Memories Together Instead of Just Forgetting Them</a> [11] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/stitch-ai-by-dynamic-mockups?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Stitch AI by Dynamic Mockups</a> [11] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49536114" target="_blank" class="news-link">Six curl CVEs after OpenAI and Anthropic came back with zero</a> [12] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780922" target="_blank" class="news-link">“SaaS末日”幸存者数量惊人！AI冲击七个月后，大量软件公司正在强势复苏</a> [12] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2471971?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【金牌纪要库】首部AI长剧进入卫视黄金档，制作工业化与经典IP商业价值进入验证期</a> [13] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49536201" target="_blank" class="news-link">A third of Perplexity&#x27;s citations don&#x27;t contain the number they&#x27;re cited for</a> [14] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780921" target="_blank" class="news-link">两种小金属卡了AI脖子，中国供应链占主导</a> [14] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780918" target="_blank" class="news-link">一颗完全由AI设计的芯片，全球首款！</a> [15] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472447?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【电报解读】谷歌加快TPU迭代至每年两款以应对AI竞赛！机构称谷歌TPU持续迭代与产能扩张，有望拉动光模块、高端PCB等供应链企业迎来发展新机遇，这家公司依托ADI渠道对接谷歌算力电源</a> [16] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Basedash AI Sources</a> [17] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780919" target="_blank" class="news-link">报道：SK海力士拟深化与铠侠合作，考虑在日本建NAND芯片厂</a> [17] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472449?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月2日电，谷歌广告技术案法官驳回Alphabet出售谷歌广告交易平台（AdX）要求，但要求部分行为进行整改。</a> [17] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472448?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">宏达电子：单层陶瓷芯片电容、陶瓷薄膜电路、异形陶瓷结构件等产品成为多家头部光模块厂商合格供应商</a> [18] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902230748769800" target="_blank" class="news-link">&lt;a href=&quot;https://cdn.jin10.com/vip_column/index.html#/detail?id=850611&amp;skuID=1671010697886&amp;type=article&amp;courseID=225&amp;from=flash&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.jin10.com/misc/26/09/IpjSGVAmm_lI3MigSWOtd.jpg/lite&quot; height=&quot;120&quot;/&gt;&lt;/a&gt;</a> [20] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780901" target="_blank" class="news-link">70%增长目标还是保守了？英伟达投资者会议“摊牌”：FY28若不受供应限制，业务规模或翻倍！</a> [22] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49534132" target="_blank" class="news-link">Quasar 438B: Europe&#x27;s Leading AI Model</a> [26] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2472414?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【公告全知道】CPO+液冷+英伟达+光纤！公司224G液冷技术获英伟达认证</a> [26] <font color='grey'>- 23时55分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4258051_1_1" target="_blank" class="news-link">加拿大央行行长麦克勒姆：央行对高通胀的容忍度是有限的。</a> [29] <font color='grey'>- 23时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
