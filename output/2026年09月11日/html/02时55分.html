@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 246</p><p>生成时间: 2026-09-11 02:55:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">26</td>
+                <td class="percentage">10.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1241189" target="_blank" class="news-link">AI 私人宠物医生</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49575515" target="_blank" class="news-link">Trusting-Trust Attack against an Entire Linux Distribution</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/openobserve?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Observability by OpenObserve</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781517" target="_blank" class="news-link">OpenAI推出数据智能体，一句话把企业数据变成分析和Dashboard，但未公布准确率基准</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260911022723924800" target="_blank" class="news-link">消息人士：OpenAI首席执行官奥尔特曼会见了顶级电力公用事业公司，讨论保护电网的方法。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781481" target="_blank" class="news-link">通胀忧虑重燃，美股低开，存储芯片股普跌，布油涨破105美元，30年期美债收益率升至2007年6月以来最高</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4271450_212_1" target="_blank" class="news-link">以色列媒体称，军方正准备炸毁黎巴嫩南部阿里·塔赫尔山脊的隧道。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1241180" target="_blank" class="news-link">PicLocation - 上传照片， AI 告诉你它在哪拍的</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/apple?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AirPods 5</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Tencent/teamai-cli" target="_blank" class="news-link">Tencent / teamai-cli</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E9%A6%96%E6%AC%A1%E5%87%BA%E5%B8%AD2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F-9ccbe5" target="_blank" class="news-link">习近平出席世界人工智能大会宣布成立WAICO</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781389" target="_blank" class="news-link">油价破百叠加通胀数据前夕，美股指三连跌，Meta逆势大涨6%，美债全线走低</a> [6] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1241173" target="_blank" class="news-link">AI 时代程序员怎么转型</a> [8] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260911021509925800" target="_blank" class="news-link">以色列总理办公室：以色列军方摧毁黎巴嫩真主党在南黎巴嫩阿里·塔赫尔山脊的地下基础设施。</a> [8] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260911021450886800" target="_blank" class="news-link">据以色列媒体：以色列国防军正准备在南黎巴嫩的阿里·塔赫尔山脊炸毁隧道。</a> [9] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1241161" target="_blank" class="news-link">介绍一个我开发的免费 AirPods 小工具</a> [10] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/armory3d/armorpaint" target="_blank" class="news-link">armory3d / armorpaint</a> [10] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781481" target="_blank" class="news-link">通胀忧虑重燃，美股低开，存储芯片股普跌，布油涨破105美元，30年期美债收益率升至2007年6月以来最高</a> [11] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3781263" target="_blank" class="news-link">沃什，AI喊你来加息了</a> [12] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/THU-MAIC/OpenMAIC" target="_blank" class="news-link">THU-MAIC / OpenMAIC</a> [13] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/athenic-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Athenic AI</a> [14] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2480076?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月11日电，OpenAI推出针对金融服务的ChatGPT，采用GPT-6 Astra推理技术。</a> [14] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781502" target="_blank" class="news-link">AI灵魂之问：景气还在，那行情呢？</a> [21] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260911015034838800" target="_blank" class="news-link">OpenAI加码企业市场 推出面向金融机构的AI助手</a> [21] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1241121" target="_blank" class="news-link">还能用的两根羊毛， b.ai 很稳很慢，商汤反复 429</a> [24] <font color='grey'>- 02时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781499" target="_blank" class="news-link">高盛警告：AI债务市场进入“风暴眼”，短暂喘息之后将迎来更大冲击</a> [25] <font color='grey'>- 02时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
