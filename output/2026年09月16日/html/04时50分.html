@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 104</p><p>生成时间: 2026-09-16 04:50:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">19</td>
+                <td class="percentage">18.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781825" target="_blank" class="news-link">OpenAI瞄准加拿大数据中心，高管盛赞卡尼计划</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2484224?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股收盘：标普500指数创8月份以来收盘新低 加密货币概念股普跌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781824" target="_blank" class="news-link">黄仁勋：AI安全无需新立法，市场力量已足够</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2484223?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">研究显示AI智能体在模拟实验中撒谎、偷窃 投票“杀死”同类</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2484221?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月16日电，OpenAI首席财务官莎拉·弗里尔谈及人工智能风险时强调，“必须认真对待安全问题”。</a> [6] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781817" target="_blank" class="news-link">哈塞特：特朗普尊重沃什决定，AI风险应由私营部门解决</a> [7] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916040200228800" target="_blank" class="news-link">据Politico：OpenAI正在为《生物数据网络法案》、《人工智能就绪生物数据标准法案》以及《规模化生物学法案》提供新的支持。</a> [8] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2484217?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月16日电，美国参议院未能推进具有里程碑意义的加密货币法案。</a> [9] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781794" target="_blank" class="news-link">马斯克提出AI安全新思路：与其等政府出手，不如让竞争对手互相&quot;找茬&quot;</a> [10] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781819" target="_blank" class="news-link">谷歌推出最先进实时音频模型：Gemini 3.8 Live边聊边办事，Extended Thinking主打复杂推理</a> [10] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916035124560800" target="_blank" class="news-link">黄仁勋：AI行业不需要新的安全监管法规</a> [11] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2484215?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">黄仁勋：AI安全至关重要 但无需制定新的法律</a> [11] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781815" target="_blank" class="news-link">研发作用有限？台积电高管：AI只是&quot;三岁超人&quot;，强大却不辨是非</a> [13] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2484213?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月16日电，美国参议院多数党领袖图恩表示，必须降低AI带来的风险。</a> [13] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781813" target="_blank" class="news-link">AI服务器迎来新变量，美光推出全球首款超高密度内存模块</a> [14] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916034335104800" target="_blank" class="news-link">OpenAI首席财务官莎拉·弗里尔表示，我们会控制前沿AI发展的节奏，如果有必要，我们会放慢速度。</a> [17] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916034300288800" target="_blank" class="news-link">据CNBC：OpenAI首席财务官莎拉·弗里尔谈及人工智能风险时强调，“必须认真对待安全问题”。</a> [18] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2484207?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">谷歌公司发布Gemini 3.8实时对话模型</a> [18] <font color='grey'>- 04时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916032524142800" target="_blank" class="news-link">达里奥称企业AI应用仍处早期 需要更多支持</a> [24] <font color='grey'>- 04时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
