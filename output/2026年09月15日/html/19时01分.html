@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 179</p><p>生成时间: 2026-09-15 19:01:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">25</td>
+                <td class="percentage">13.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781728" target="_blank" class="news-link">美国政坛激辩“AI放缓”：“左右翼”领袖班农、桑德斯都支持，特朗普称“不能踩刹车，美国有“高智商总统”就足够”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781794" target="_blank" class="news-link">马斯克提出AI安全新思路：与其等政府出手，不如让竞争对手互相&quot;找茬&quot;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781756" target="_blank" class="news-link">黄仁勋发声：“AI末日论”是“不讲科学的哗众取宠”，RSI绝非“失控黑魔法”，特朗普“中途插入”：末日论全是骗局</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242185" target="_blank" class="news-link">做了一个图片翻译的网站——Image Translate AI</a> [6] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2483926?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">信用卡被盗用于订购苹果手机 香港金管局回应“应尽快通知发卡银行”</a> [6] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242180" target="_blank" class="news-link">忍不住吐槽一下阿里云网盘</a> [7] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781780" target="_blank" class="news-link">字节AI办公大重组：豆包、飞书、火山引擎合三为一，AI办公大战正式打响</a> [7] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781766" target="_blank" class="news-link">创业板午后跌超1%，科创50逆势涨超1%，半导体设备大涨，宁德时代、赛力斯AH股均大跌，恒指、恒科指双双收跌</a> [8] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2483920?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">瑞银策略师认为AI相关股票有广泛上涨的空间</a> [9] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242174" target="_blank" class="news-link">MWCA 微博插件&amp;脚本 Make Weibo Clean Again !</a> [10] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2483919?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月15日电，亚马逊云服务(AWS)计划在未来几个月内更新阿联酋业务恢复进展，巴林业务更新则预计在2027年初。</a> [10] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260915182746963800" target="_blank" class="news-link">亚马逊云服务(AWS)：无法恢复巴林地区和阿联酋某区域的数据访问。巴林的损害超出了其区域服务的设计承受能力。计划在未来几个月更新阿联酋的恢复情况，并预计在2027年初更新巴林的情况。大多数客户已在其他地区重新恢复运营。</a> [11] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4277969_103_1" target="_blank" class="news-link">瑞银策略师认为AI相关股票有广泛上涨的空间。</a> [12] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3781651" target="_blank" class="news-link">AI巨头们突然发现：最强模型，不发布反而更值钱</a> [13] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4277959_212_1" target="_blank" class="news-link">亚马逊AWS无法恢复巴林区域及阿联酋一个可用区的数据访问。</a> [15] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/metabox?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MetaBox</a> [16] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781784" target="_blank" class="news-link">AI交易失速！高盛警告动量交易出现5年来最大分化，资金从芯片转向软件</a> [16]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2483908?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">WTO：预计到2040年AI推动全球GDP增长13.2%</a> [16] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242145" target="_blank" class="news-link">我发现了苹果 iOS 27 一个 BUG，所以拦截猫有了来电自动识别了</a> [19] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959837" target="_blank" class="news-link">特朗普：谁赢下AI，谁就赢下世界</a> [21] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3781552" target="_blank" class="news-link">SEMICON TW2026：AI基建产业链的瓶颈与焦虑，在哪里？</a> [22] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260915181933549800" target="_blank" class="news-link">WTO：预计到2040年AI推动全球GDP增长13.2%</a> [24] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781769" target="_blank" class="news-link">知名PE合伙人斯坦福授课：AI 时代的钱到底流向了哪里？</a> [25] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2483891?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">黄仁勋：在中国 没人谈“AI末日论”</a> [25] <font color='grey'>- 19时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781773" target="_blank" class="news-link">关掉“古法研究型”后，他用AI Agent做了一家“AI时代对冲基金”</a> [26] <font color='grey'>- 19时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
