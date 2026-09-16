@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 231</p><p>生成时间: 2026-09-16 18:48:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">44</td>
+                <td class="percentage">19.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781895" target="_blank" class="news-link">OpenAI AI智能体5月就疑似“探测”Hugging Face！研究人员：这本是后来黑客事件的“预警信号”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2485160?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【机构龙虎榜解读】光通信+AI算力+MPO，并购企业DPU产品用于阿里智算中心，并打造了基于鲲鹏/昇腾处理器及自有DPU处理器的解决方案，将形成“光+算”一体化解决方案，机构大额净买入这家公司</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49723408" target="_blank" class="news-link">Mistral X Mozilla: Private, Multilingual AI Browsing</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242488" target="_blank" class="news-link">灵机一动：一个让用户免费用 AI，但是厂商又能赚到钱的方案</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/karam-ai-studio?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Karam AI Studio</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781889" target="_blank" class="news-link">OpenAI IPO年内无望，软银变现窗口或再延后，五年期CDS飙至三年新高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242481" target="_blank" class="news-link">老哥们，熬夜两周做了个特斯拉数字车衣编辑器，还没正式推广就有人付费了！</a> [6] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781871" target="_blank" class="news-link">美联储决议倒计时，美股盘前走高，10年期美债收益率持稳5%，油价涨势暂歇</a> [7] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2485151?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">超声电子：目前公司无产品供货给英伟达</a> [7] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781805" target="_blank" class="news-link">华为高层内部万字长文：对于ICT业务及计算领域，华为的目标是成为英伟达</a> [9] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781878" target="_blank" class="news-link">AI价格战愈演愈烈，入场壁垒也在下降：高额资本开支还能撑多久？</a> [9]</div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-16/huang-ai-safety-innovation-trump-xi-dinner-f202a3" target="_blank" class="news-link">黄仁勋在Dreamforce大会反对AI政府监管</a> [10] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781844" target="_blank" class="news-link">字节跳动上半年营收1200亿美元直追Meta，但受AI投入拖累，利润降至200亿</a> [10] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2485147?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月16日电，英特尔美股盘前涨幅现已收窄至3%。</a> [10] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49718928" target="_blank" class="news-link">German Rheinmetall open-sources its Battlesuite connected weapon system protcol</a> [11] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916180911631800" target="_blank" class="news-link">SK海力士(SKHY.O)美股盘前涨幅收窄至不足3%。</a> [11] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242466" target="_blank" class="news-link">做了一个能直接搜索视频帧的本地 AI 素材工具，还支持 MCP｜抽永久激活码</a> [12] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242462" target="_blank" class="news-link">创业 4 个月，做了个 AI 交易工具但一直没流量，想请大家帮忙看看</a> [13] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3781854" target="_blank" class="news-link">AI巨头不敢踩刹车：1.2万亿美元算力投资，谁先扛不住？</a> [13] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916180637893800" target="_blank" class="news-link">英特尔(INTC.O)盘前加速下挫，涨幅现已收窄至3%。</a> [13] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242461" target="_blank" class="news-link">[完全开源] IP 纯净度检测 AI 服务区状态检测 可一键部署到自己的 CF</a> [14] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916180604847800" target="_blank" class="news-link">OpenAI智能体被曝在入侵Hugging Face前两个月曾测试其弱点</a> [14] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2485141?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月16日电，SK海力士表示，目前尚未确认有关SK海力士与英特尔就美国内存芯片生产进行谈判的报道所涉及的任何计划；正在探索多种选项以增强其全球竞争力，但尚未确定具体计划或安排。</a> [14] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781856" target="_blank" class="news-link">科创50大涨超4%：算力硬件、半导体全线反攻，光通信CPO掀涨停潮，宁德时代再下挫，恒科指一度涨1%</a> [15] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2485139?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月16日电，研究人员称，OpenAI的失控智能体在一次重大黑客攻击发生前两个月，曾探测Hugging Face的漏洞。</a> [15] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242459" target="_blank" class="news-link">个人小程序支持虚拟支付了！从注册到落地我只用了 5 天 —— 旧手机变 AI 看门狗， 24 小时盯门口，异常秒推微信带截图。限时体验：一分钱永久会员，就当给旧手机安排个新工作。</a> [16] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/agent-teams-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Agent Teams AI</a> [16] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916180300082800" target="_blank" class="news-link">英特尔(INTC.O)盘前短线下挫，涨幅收窄至4.3%。</a> [16] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916180219808800" target="_blank" class="news-link">SK海力士(SKHY.O)：目前尚未确认有关SK海力士与英特尔就美国内存芯片生产进行谈判的报道所涉及的任何计划。正在探索多种选项以增强全球竞争力，但尚未确定具体计划或安排。</a> [17] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2485134?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月16日电，港交所文件显示，腾讯于9月16日回购23.1万股，耗资约1亿港元。</a> [17] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242454" target="_blank" class="news-link">继续做 xopc：把零散想法存成笔记，再和 AI 整理成文章提纲</a> [18] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-15/gates-foundation-invests-1-billion-ai-equity-72e127" target="_blank" class="news-link">盖茨基金会宣布投入10亿美元推动AI公平普及</a> [19] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916175625501800" target="_blank" class="news-link">半导体主题ETF领涨 公募基金热议背后机会</a> [19] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781880" target="_blank" class="news-link">边喊“AI放缓”边扩张算力？Anthropic签下澳洲首个数据中心租约</a> [20] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242446" target="_blank" class="news-link">自建 AI 网关，聚合免费算力做执行任务</a> [21] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49710253" target="_blank" class="news-link">Suspected sabotage causes major Netherlands rail disruption</a> [23] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781846" target="_blank" class="news-link">电商巨头：绝大部分企业都用错了AI</a> [23] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242435" target="_blank" class="news-link">做了一个 macOS 的 LaunchPad! 帮大家把苹果卡顿的 Apps 替换掉！非常好用！</a> [24] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49710109" target="_blank" class="news-link">Let&#x27;s make quality the norm again</a> [24] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781872" target="_blank" class="news-link">AI真的会毁灭人类吗？“AI教父们”接连发声</a> [24] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3781748" target="_blank" class="news-link">TLVR芯片电感：MLCC 定价权的接管者，AI算力真正的咽喉？</a> [25] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1242428" target="_blank" class="news-link">Boss 说要全面拥抱 AI 之后，我怎么感觉工作量变大了，省下来的时间进了谁口袋？？</a> [26] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49694035" target="_blank" class="news-link">Intelligence per Watt: Measuring Intelligence Efficiency of Local AI</a> [26] <font color='grey'>- 18时48分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-14/huang-trump-call-reject-ai-doom-34f06b" target="_blank" class="news-link">特朗普与黄仁勋共同驳斥AI末日论并反对加强监管</a> [29] <font color='grey'>- 18时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
