@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-09-17 08:03:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">9</td>
+                <td class="percentage">7.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49734264" target="_blank" class="news-link">OpenSpec – A lightweight and configurable AI spec framework</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781871" target="_blank" class="news-link">美联储加息并暗示更多紧缩，美国股债齐跌，AI板块相对抗跌，美元拉升，黄金日内跳水</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49732270" target="_blank" class="news-link">Xiaomi Mimo 2.6 live post-training dashboard</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260917073255052800" target="_blank" class="news-link">美国司法部表示，其再次在对谷歌(GOOG.O)的诉讼中赢得重大救济。</a> [7] <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781871" target="_blank" class="news-link">美联储加息并暗示更多紧缩，美国股债齐跌，AI板块相对抗跌，美元拉升，黄金日内跳水</a> [8] <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2485423?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【点金互动易】半导体材料+HBM，这家公司多种靶材均已批量供货并通过国内外头部半导体企业认证，应用于HBM及先进存储芯片制造，同步推进关键零部件扩产</a> [8] <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2485645?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月17日电，美国司法部表示，再次在对谷歌的诉讼中赢得重大救济。</a> [10] <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49729816" target="_blank" class="news-link">Training Text-to-Image Models 3.6× Faster</a> [12] <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49700598" target="_blank" class="news-link">Destroy After Reading: photocopiers,cheap paper and DIY gave metal it&#x27;s look</a> [26] <font color='grey'>- 08时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
