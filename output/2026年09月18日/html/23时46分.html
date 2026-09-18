@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 188</p><p>生成时间: 2026-09-18 23:46:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">21</td>
+                <td class="percentage">11.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782093" target="_blank" class="news-link">中国AI价值链的微笑曲线：硬件与云平台“拿大头”，AI服务等中间层利润承压</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49755095" target="_blank" class="news-link">Mathematicians Build Long-Awaited Graph Sandwich</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ami-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Ami AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959878" target="_blank" class="news-link">AI的资本开支陷阱：几万亿美元砸下去，赚钱的却是别人</a> [6] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260918233340753800" target="_blank" class="news-link">美联储施密德：高通胀是供需失衡的迹象。除了通胀，经济表现良好。</a> [7] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Fission-AI/OpenSpec" target="_blank" class="news-link">Fission-AI / OpenSpec</a> [8]</div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782067" target="_blank" class="news-link">日本央行行长：不排除连续加息选项，要先发制人地遏制通胀，中东、AI、汇率是关键变量</a> [8] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782066" target="_blank" class="news-link">88小时抵一个人思考4000年！OpenAI核心研究员：除了自我进化，更可怕的是AI正学会“隐藏自己”</a> [9] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782057" target="_blank" class="news-link">桥水基金：AI基建交易大多已被定价，仅持有“很小仓位”</a> [10] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4285451_212_1" target="_blank" class="news-link">亚马逊因涉嫌对卖家进行价格管制而成为欧盟的调查对象。</a> [10] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/supermemoryai/supermemory" target="_blank" class="news-link">supermemoryai / supermemory</a> [11]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782082" target="_blank" class="news-link">OpenAI、Anthropic开始“抢小单”！AI算力争夺转向20–30MW小型数据中心</a> [11] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1243045" target="_blank" class="news-link">最近爆火的 JEV 模型，将重塑整个 AI 产品领域</a> [12] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49752614" target="_blank" class="news-link">Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him</a> [14] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782086" target="_blank" class="news-link">Anthropic悄悄建起生物实验室！Claude指挥机器人做实验，AI制药再进一步</a> [14] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-18/former-assehi-employee-arrested-for-leaking-secrets-5e0430" target="_blank" class="news-link">旭化成前员工涉嫌向中国企业泄露半导体机密被捕</a> [17] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782081" target="_blank" class="news-link">用魔法打败魔法，OpenAI被Claude“黑了”......</a> [17] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2487595?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月18日电，亚马逊在欧盟因涉嫌对卖家施加价格限制而成为关注目标。</a> [17] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260918232108581800" target="_blank" class="news-link">美联储论文：要想释放AI经济效应，光推广使用不够，得降价！</a> [18] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2487590?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月18日电，部分中概股走强，阿里巴巴、哔哩哔哩、金山云涨超4%，拼多多涨超2%。</a> [21] <font color='grey'>- 23时46分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4285423_214_1" target="_blank" class="news-link">中国央行副行长陆磊：AI技术带来了算法黑箱、模型幻觉等新型风险。</a> [22] <font color='grey'>- 23时46分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
