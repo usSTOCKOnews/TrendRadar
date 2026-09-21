@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 228</p><p>生成时间: 2026-09-21 19:55:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">24</td>
+                <td class="percentage">10.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49785397" target="_blank" class="news-link">ZuckOff Is a Free App That Sees Meta Glasses Before They See You</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/simular?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Sai</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/akitaonrails/ai-memory" target="_blank" class="news-link">akitaonrails / ai-memory</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/tristan-benozer?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Hyrax AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2489237?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【电报解读】微软在台数据中心拟扩建至4座，机构看好该细分领域正处于“算力需求扩张+外资产能缺口+国产技术突破”三重共振的黄金成长期，这家公司在该领域掌握5大核心技术</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49783133" target="_blank" class="news-link">Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM</a> [8] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/decode-by-entropik?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Creative Insights by Decode</a> [8] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782219" target="_blank" class="news-link">内存价格在燃烧，芯片战争又打起来了</a> [8] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782211" target="_blank" class="news-link">市场聚焦中美对话，纳指期货盘前涨幅扩大至1%，Meta涨超2%，欧洲半导体板块上涨3%，油价四连跌</a> [9] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782218" target="_blank" class="news-link">我们用190次财报任务实测了Jev：当AI判断被卖成零件</a> [10] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49781436" target="_blank" class="news-link">Amiga Unix, Again</a> [11] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782214" target="_blank" class="news-link">软银寻求超110亿美元垃圾债融资，OpenAI押注与Arm抵押贷款推高杠杆风险</a> [12] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2489228?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月21日电，全球芯片LOF(501225)将于2026年9月22日开市起停牌，自2026年9月22日10:30起复牌，停牌期间赎回业务照常办理。</a> [12] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782211" target="_blank" class="news-link">市场聚焦中美对话，纳指期货盘前涨幅扩大至1%，Meta涨超2%，欧洲半导体板块上涨3%，油价四连跌</a> [15] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782207" target="_blank" class="news-link">&quot;2030年AI毁灭人类的概率是0%&quot;！黄仁勋：应尽可能快推进AI，我只怕穷，不怕税</a> [17] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/milliseconds-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Milliseconds.ai</a> [19] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3782076" target="_blank" class="news-link">功率半导体又涨价了：新周期、新革命，AI供电的隐藏红利受益者？</a> [19] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2489203?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月21日电，富国银行将META股票目标价从640美元上调至796美元。</a> [22] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-15/bessent-to-meet-he-lifeng-this-weekend-f2198d" target="_blank" class="news-link">贝森特与何立峰纽约会谈宣布建立美中AI对话机制</a> [23] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1243633" target="_blank" class="news-link">突然想到 AI 一个很可怕的点，以后会没有程序员了，而这是我们自己造成的！</a> [25] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782200" target="_blank" class="news-link">AI狂飙背后的“债务黑洞”：未来5年或需1.2万亿美元外部融资</a> [26] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4287569_204_1" target="_blank" class="news-link">富国银行将META股票目标价从640美元上调至796美元。</a> [26] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49772961" target="_blank" class="news-link">Spain orders blocks on Archive.today and its mirrors</a> [27] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1243610" target="_blank" class="news-link">开源了一个 Ai 3D 通用快速建模平台 aigccat 希望大家点评一下</a> [29] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
