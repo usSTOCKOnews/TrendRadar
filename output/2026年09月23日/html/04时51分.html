@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 135</p><p>生成时间: 2026-09-23 04:51:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">11.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782323" target="_blank" class="news-link">报道：苹果开发新型健身追踪器原型机，目标直指Whoop</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2490597?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美国证交会拟削弱散户提案权 微软承诺维持现行门槛一年</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-15/bessent-to-meet-he-lifeng-this-weekend-f2198d" target="_blank" class="news-link">何立峰与贝森特纽约会谈同意建立中美AI对话机制</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49806430" target="_blank" class="news-link">Overreliance on AI contributed to missile strike on Iran school – Pentagon</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782320" target="_blank" class="news-link">OpenAI再推两款GPT-6模型：Sol、Luna定价降50%，Astra能力加速下沉</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49806376" target="_blank" class="news-link">Explaining to business people why building software is still hard</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1244084" target="_blank" class="news-link">开源了一个 Liquid Glass 效果的 AI 语音输入法</a> [6] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1244083" target="_blank" class="news-link">Muse AI 还在排队？一个完全不挑 IP 的注册方式，</a> [7] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782314" target="_blank" class="news-link">大摩详解“AI时代的广告业”：从注意力争夺到交易闭环</a> [7] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2490591?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月23日电，高通推出骁龙8 Elite Extreme第六代和骁龙8 Elite第六代。</a> [7] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782313" target="_blank" class="news-link">特朗普联大讲话：美国中选后或与伊朗达成协议、油价或大跌，对AI“只鼓励、不限制”</a> [9] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782313" target="_blank" class="news-link">特朗普联大讲话：美国中选后或与伊朗达成协议、油价或大跌，对AI“只鼓励、不限制”</a> [10] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49803683" target="_blank" class="news-link">Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why</a> [14] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49802161" target="_blank" class="news-link">OpenAI is well positioned to fast-follow Jev</a> [17] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260923042029675800" target="_blank" class="news-link">美国证交会拟削弱散户提案权，微软承诺维持现行门槛一年</a> [17] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2490573?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">OpenAI推出GPT-6 SOL与GPT-6 LUNA</a> [23] <font color='grey'>- 04时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
