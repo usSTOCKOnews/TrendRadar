@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 117</p><p>生成时间: 2026-09-23 07:58:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">14</td>
+                <td class="percentage">11.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-21/bessent-proposes-us-china-ai-safety-mechanism-d5dfe6" target="_blank" class="news-link">美提议建立中美AI事故通报机制将提交峰会讨论</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782289" target="_blank" class="news-link">AI热情叠加中东局势缓和预期，纳指四连涨新高，美金融股下挫，原油五连跌，黄金走V</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782324" target="_blank" class="news-link">特朗普7月披露逾千笔证券交易：抛售微软、亚马逊，买入英伟达、Marvell与Salesforce</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49806430" target="_blank" class="news-link">Pentagon says overreliance on AI contributed to missile strike on Iran school</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2490625?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">骁龙峰会2026：高通发布双旗舰移动平台 定义AI智能体全新体验</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4290610_204_1" target="_blank" class="news-link">AI“末日论”被联合国专家驳斥。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782289" target="_blank" class="news-link">AI热情叠加中东局势缓和预期，纳指四连涨新高，美金融股下挫，原油五连跌，黄金走V</a> [6] <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2489704?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【研选•研报数据】Meta智能体Muse登上美国谷歌和苹果免费应用榜首位，消费级AI迈向跨应用自主执行；公司实施“PCB+元器件+解决方案”上下游一体化发展战略，打造差异化竞争的护城河</a> [7] <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2490624?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">AI“末日论”被联合国专家驳斥</a> [8] <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782320" target="_blank" class="news-link">OpenAI再推两款GPT-6模型：Sol、Luna定价腰斩，Astra能力加速下沉</a> [9] <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782301" target="_blank" class="news-link">估值跌至十年低点！黄仁勋称英伟达是&quot;全球首只成长价值股&quot;，但投资者似乎并不买账</a> [10] <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49800566" target="_blank" class="news-link">Show HN: Training a model to identify AI web content from structure alone</a> [21] <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49795260" target="_blank" class="news-link">Did OpenAI solve the wrong Navier-Stokes problem?</a> [23] <font color='grey'>- 07时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260923063137860800" target="_blank" class="news-link">亚马逊云服务(AWS)：Amazon CloudWatch Omni现已正式可用；IDE扩展免费。</a> [28] <font color='grey'>- 07时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
