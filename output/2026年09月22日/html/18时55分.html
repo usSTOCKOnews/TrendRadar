@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 225</p><p>生成时间: 2026-09-22 18:55:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">34</td>
+                <td class="percentage">15.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49798451" target="_blank" class="news-link">Study: Young users (9 to 18Y) ditch Google for AI, with unknown consequences</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782289" target="_blank" class="news-link">AI热情叠加中东局势缓和预期，美股期指盘前拉升，美油跌破90美元，黄金走低</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922183609769800" target="_blank" class="news-link">投行：AI驱动中芯国际下半年增长，2Q26营收增速领跑全球前十</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49797982" target="_blank" class="news-link">I said no and Apple said yes</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782298" target="_blank" class="news-link">OpenAI内部曝光：AI开始自己造AI！奥特曼急发全球暂停令</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782272" target="_blank" class="news-link">最强国产AI芯片、10万亿参数模型、20GW数据中心、千问手机来了—阿里云栖大会“火力全开”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782293" target="_blank" class="news-link">韩国对美投资协议首单确认：拟在得州建200亿美元燃气电厂，供电AI数据中心</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922183337737800" target="_blank" class="news-link">奥本海默：将微软(MSFT.O)目标价从515美元上调至570美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/collision-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">COLLISION AI</a> [6] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782258" target="_blank" class="news-link">AI新的&quot;杀手级应用&quot;出现了？Meta Muse有多火？</a> [6] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3782267" target="_blank" class="news-link">Meta 的超级阳线：单日暴涨 11%，智能体Muse 神话引爆 AI 应用？</a> [6] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782295" target="_blank" class="news-link">业内首个企业级Agent产品！千问办公发布“企业上下文”，同步推出AI硬件QwenNote A2</a> [7] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782294" target="_blank" class="news-link">Meta Muse爆红，杰富瑞：服务器CPU重回焦点，PCB、ABF基板或迎重估</a> [8] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782269" target="_blank" class="news-link">A股三大股指尾盘一度转跌，算力芯片掀涨停潮，AI应用拉升，恒指、恒科指小幅收涨，腾讯阿里集体反弹</a> [9] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1244012" target="_blank" class="news-link">openai 今天是不是不正常？</a> [10] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/mainlayer?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MainLayer</a> [10] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-21/amd-market-cap-tops-1-trillion-fec9aa" target="_blank" class="news-link">Meta智能体Muse登顶应用商店带动AMD市值突破万亿美元</a> [10] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782263" target="_blank" class="news-link">黑石：我们正处在“1870 年的拂晓时刻”，抓住“AI时代”的“牛肉”</a> [10] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782282" target="_blank" class="news-link">腾讯港股收涨5%！Meta Muse走红，腾讯C端Agent生态被重估</a> [10] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1244005" target="_blank" class="news-link">Windows 程序 UI 设计，与 AI 沟通设计，用什么软件做 UI 界面草图? 喂给 AI 转为程序语言实现？</a> [11] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/aethra-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Aethra AI</a> [13] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1243993" target="_blank" class="news-link">给极空间 NAS 写了个零配置 CLI + MCP：不用密码/SSH/DDNS， AI 直接管你的 NAS</a> [14] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-22/alibaba-launches-zhenwu-v900-ai-chip-6443dd" target="_blank" class="news-link">阿里巴巴发布新一代AI芯片并提前半年量产</a> [14] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3782277" target="_blank" class="news-link">GPU、ASIC之后，CPU又来抢产能：ABF为何成为AI的新瓶颈？</a> [14] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1243971" target="_blank" class="news-link">个人 AI 日报网站</a> [19] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1243969" target="_blank" class="news-link">meta muse 应该不是一阵风</a> [20] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782281" target="_blank" class="news-link">抖音从AIGC里狠抓机会：先于影视公司发现IP</a> [20] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959899" target="_blank" class="news-link">百亿风投掌门人：AI电力瓶颈已经传到燃气轮机，交期排到5年</a> [23] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2490248?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">分析师：个人智能体护城河远超聊天机器人 OpenAI和Anthropic恐承压</a> [23] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3782076" target="_blank" class="news-link">功率半导体又涨价了：新周期、新革命，AI供电的隐藏红利受益者？</a> [24] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782276" target="_blank" class="news-link">“芯片网红”：AI算力瓶颈早已不是算力芯片，而是先进封装、互连延迟与存储层级</a> [25] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782272" target="_blank" class="news-link">最强国产AI芯片、10万亿参数模型、20GW数据中心、千问手机来了—阿里云栖大会“火力全开”</a> [26] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2490242?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月22日电，阿里巴巴美股盘前涨超3%。公司CEO吴泳铭在云栖大会表示，当前客户AI需求非常强劲，将全力投入AI基础设施建设，目标到2032年阿里云运营的全球数据中心规模超过20GW。</a> [26] <font color='grey'>- 18时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782278" target="_blank" class="news-link">当模型开始“够用”，AI的下一场战争打什么？</a> [27] <font color='grey'>- 18时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
