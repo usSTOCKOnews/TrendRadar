@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 120</p><p>生成时间: 2026-09-24 08:13:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">20</td>
+                <td class="percentage">16.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49824268" target="_blank" class="news-link">Meta VR Glasses</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-15/bessent-to-meet-he-lifeng-this-weekend-f2198d" target="_blank" class="news-link">中美高层纽约磋商延长贸易休战并建立AI对话机制</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782413" target="_blank" class="news-link">警示AI信用风险，穆迪：美国五大巨头表外义务3年翻至8倍，飙升至2.8万亿美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2491767?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">Meta推出无摄像头版智能眼镜 引入Muse助手功能</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782411" target="_blank" class="news-link">OpenAI与Anthropic联袂呼吁AI放缓与国际协调，与特朗普立场分歧</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260924080058636800" target="_blank" class="news-link">软银集团：将在海外证券市场发行债券。发行债券所得资金将用于为其对OpenAI的100亿美元投资提供资金，并用于一般企业用途。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2491760?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月24日电，Meta首席执行官扎克伯格表示，公司预计将通过从每笔交易中收取少量手续费来从Muse获得收益。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260924080050914800" target="_blank" class="news-link">Meta Platforms(META.O)：推出搭载Muse助手的便携式AI设备，这款名为Muse Charm的便携式AI设备将于12月假期季开始发货。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2491758?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月24日电，Meta Platforms高管称，公司正在为Muse增加计算机操作功能。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2490828?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【研选•研报数据】Jev类决策模型带来了新的训练范式，将为AI办公等智能体提供更快决策速度以及更低成本；这家公司卡位陶瓷混压PCB蓝海，需求爆发在即</a> [6] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260924075313403800" target="_blank" class="news-link">Meta推出轻量化VR眼镜，目标推动Reality Labs业务盈利</a> [8] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260924074541641800" target="_blank" class="news-link">Meta Platforms(META.O)：推出Meta VR眼镜，将于2027年春季上市，起售价1299.99美元。</a> [10] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2491747?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">AI算力与新硬件布局落地 消费电子业绩持续兑现</a> [12] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49819880" target="_blank" class="news-link">Making Tailscale Faster</a> [14] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782399" target="_blank" class="news-link">谷歌将文本转语音并入Gemini模型家族：Flash TTS主打创意场景，轻量版瞄准实时语音</a> [15] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260924072945767800" target="_blank" class="news-link">Meta推出无摄像头版智能眼镜，引入Muse助手功能</a> [17] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2491737?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周四你需要知道的隔夜全球要闻：美联储10月加息预期增强，欧美股市全线下跌，联合国安理会召开人工智能相关会议，台积电将上调晶圆代工价格3%至6%</a> [18] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260924071943722800" target="_blank" class="news-link">Meta Platforms(META.O)：将把Muse整合至公司所有的智能眼镜产品中。</a> [21] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260924071425103800" target="_blank" class="news-link">Meta Platforms(META.O)高管：公司正在为Muse增加计算机操作功能。</a> [26] <font color='grey'>- 08时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2491729?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月24日电，据报道，OpenAI智能体访问了澳大利亚联邦医疗保险统计数据，这起事件发生于6月。</a> [28] <font color='grey'>- 08时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
