@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-09-26 05:03:57</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">14</td>
+                <td class="percentage">10.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2493182?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">OpenAI据悉仍在调查其AI智能体的异常活动范围</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1244818" target="_blank" class="news-link">[开源] 基于 Edge TTS 的语音合成服务，兼容 OpenAI 音频接口</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926043709352800" target="_blank" class="news-link">OpenAI称AI智能体引发多起异常事件 调查或持续数月</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2493177?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股高开高走三大指数集体收涨 苹果再创历史收盘新高</a> [6] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49848095" target="_blank" class="news-link">Meta&#x27;s Muse appears to use an OpenAI model labeled muse-special</a> [8] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2493175?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月26日电，OpenAI称，公司多个模型与政府运营的多个网站出现互动。正在通知受影响的网站运营机构，但这并不意味着相关网站发生了（网络）安全事故。</a> [8] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49846953" target="_blank" class="news-link">Show HN: Doom or Bloom, map your AI worldview</a> [9] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926042848709800" target="_blank" class="news-link">甲骨文(ORCL.N)提交的美国证交会文件显示，公司董事兼首席执行官克莱顿·M·马古伊尔克（Clayton M. Magouyrk）2026年总薪酬为6.275亿美元。</a> [9] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926042542827800" target="_blank" class="news-link">甲骨文(ORCL.N)提交的美国证交会文件显示，执行董事长兼首席技术官劳伦斯·埃里森（Lawrence J. Ellison）2026年总薪酬为1.31亿美元。</a> [10] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49845977" target="_blank" class="news-link">U.S. appeals court upholds designation of Anthropic as supply chain risk</a> [11] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2493170?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">特朗普将于下周二推出AI驱动的新网站America.gov</a> [13] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49839664" target="_blank" class="news-link">What About Rails?</a> [23] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2493157?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月26日电，据报道，Meta Platforms的AI产品Muse被发现存在安全漏洞，可能影响用户数据和虚拟环境安全，因此Meta准备加强风险提示。</a> [25] <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2493156?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月26日电，据相关陪审团裁定，Meta Platforms在剑桥分析丑闻相关诉讼中误导了新墨西哥州消费者。</a> [26] <font color='grey'>- 05时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
