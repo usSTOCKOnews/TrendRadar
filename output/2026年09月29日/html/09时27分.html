@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 143</p><p>生成时间: 2026-09-29 09:27:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">27</td>
+                <td class="percentage">18.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49886416" target="_blank" class="news-link">OpenAI Says It Will Not Release Newest A.I. Model Over Safety Concerns</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4299191_1_1" target="_blank" class="news-link">OpenAI：8月中旬的一次审查发现，有相关活动影响了澳大利亚服务局、新南威尔士州犯罪统计与研究局、维多利亚州卫生部等机构。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2494775?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【盘中宝】AI浪潮驱动需求增加，该行业有望成为企业部署AI刚性投入，AI赋能下细分产品或重新进入替换周期，这家公司相关订单额超亿元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2494774?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月29日电，OpenAi将成立澳大利亚Ai网络风险工作组。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1245397" target="_blank" class="news-link">Muse AI 完美注册方法，已经验证</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782695" target="_blank" class="news-link">挖来MongoDB CEO震惊华尔街，Meta高调进军企业AI业务</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49883844" target="_blank" class="news-link">Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1245396" target="_blank" class="news-link">做一个 AI 辅助写邮件的邮件客户端怎么样？</a> [6] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959943" target="_blank" class="news-link">Anthropic首席经济学家：AI或让劳动收入占比暴跌，未来要征“Token税”？</a> [6] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929090743178800" target="_blank" class="news-link">OpenAI将成立澳大利亚AI网络风险工作组。</a> [6] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4299174_212_1" target="_blank" class="news-link">OpenAI：正在与澳大利亚政府机构紧密合作，正对模型活动进行全面审查。</a> [6] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49883471" target="_blank" class="news-link">It&#x27;s Time to Investigate the AI Labs</a> [9] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782663" target="_blank" class="news-link">真金白银表达信心！英伟达追加1500亿美元回购，规模创美企历史纪录</a> [10] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2494742?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社9月29日电，三星电子高管表示，HBM明年将占DRAM芯片制造商总晶圆产能的近30%，而目前约为20%。</a> [13] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782688" target="_blank" class="news-link">开发者大会前夜，OpenAI取消原定发布的GPT-6.1 Astra</a> [15] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2494581?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【九点特供】长鑫科技拟斥资108‬亿元投建新项目，分析师认为完善IDM模式测试是DRAM生产中不可或缺的环节，存在较大的本土替代空间；100分钟的AI院线电影来了，《三星堆：未来往事》定档</a> [15] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4299141_1_1" target="_blank" class="news-link">特朗普将于北京时间周三00:30出席人工智能（AI）主题午餐会。</a> [15] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2494730?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">澜起科技成功量产DDR5-9200 CKD芯片</a> [17] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782683" target="_blank" class="news-link">AI从“降息理由”变“加息论据”：库克称2万亿美元资本开支仅花一小部分，电价水价已涨约5%</a> [19] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782685" target="_blank" class="news-link">英伟达联手Anthropic发布AI Agent安全工具，称可阻止Hugging Face式攻击</a> [20] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929084123748800" target="_blank" class="news-link">特朗普将于北京时间周三00:30出席人工智能（AI）主题午餐会。</a> [21] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3782684" target="_blank" class="news-link">9月29日会员早报：英伟达把“AI安全”做成硬件 Anthropic 发布 Sonnet 5.5</a> [22] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929083805716800" target="_blank" class="news-link">三星电子高管：HBM明年将占DRAM芯片制造商总晶圆产能的近30%，而目前约为20%。</a> [25] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4299096_212_1" target="_blank" class="news-link">英伟达CEO黄仁勋将于周二出席特朗普的人工智能会议。</a> [26] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49861755" target="_blank" class="news-link">What reversing, modernising old games tells us about the economic impact of AI</a> [27] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2494708?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">中信建投：Meta Muse加速智能体商业化 云栖大会强化全栈AI布局</a> [27] <font color='grey'>- 09时27分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49855059" target="_blank" class="news-link">12,000-year-old Göbeklitepe burials explain scattered bones</a> [30] <font color='grey'>- 09时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
