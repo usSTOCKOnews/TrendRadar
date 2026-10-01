@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 193</p><p>生成时间: 2026-10-01 20:23:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">25</td>
+                <td class="percentage">12.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782859" target="_blank" class="news-link">AI热潮顶住债市风暴！美股指数期货重拾涨势，欧股跌幅收窄，美元触及三个月高点</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/yedric-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Yedric.ai</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/dots-by-openai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Dots by OpenAI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246036" target="_blank" class="news-link">[分享] 为什么用 AI 自动归类书签是个伪命题？一次 400+ 收藏夹的确定性排坑实录</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782858" target="_blank" class="news-link">美光电话会：2027年产能已售75%，看不到供需平衡拐点，物理AI将成下一个爆发点</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261001201208238800" target="_blank" class="news-link">摩根士丹利：将苹果(AAPL.O)目标价从360.00美元下调至355.00美元；将惠普(HPQ.N)目标价从67.00美元上调至72.00美元。</a> [6] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782853" target="_blank" class="news-link">谷歌Gemini 4 Argon多指标SOTA！输出上限破百万token，推广期价格仅竞品1/5</a> [7] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246030" target="_blank" class="news-link">做了一个免费 AI 图片工作台：一句话生图、修图、做海报，可以对话式修改</a> [8] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3782866" target="_blank" class="news-link">体验了Muse后，我清仓了Airbnb</a> [8] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782882" target="_blank" class="news-link">报道：博通同意向Anthropic提供最高420亿美元贷款，用于租赁自家的芯片</a> [8] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782876" target="_blank" class="news-link">一场改变AI格局的决裂！OpenAI与Anthropic的隐秘恩怨往事</a> [10] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/tile-ai/tilelang" target="_blank" class="news-link">tile-ai / tilelang</a> [11]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782878" target="_blank" class="news-link">华为发布Mate90系列手机，搭载基于韬定律打造的τ芯片，支持四卡三待，售价5999元起</a> [13] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246010" target="_blank" class="news-link">做了一个 AI 视频、图片和音频 API 比价站 Vidily，把参数和计费条件一起看</a> [14] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959966" target="_blank" class="news-link">OpenAI芯片负责人：最大瓶颈是“人的认知”，低估AI指数级增长的需求</a> [15] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1245999" target="_blank" class="news-link">表情厨房更新： AI 做整套微信表情包之外，加了动态表情和三个免费 GIF 工具</a> [16] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1245989" target="_blank" class="news-link">为什么 AI 写代码的功能老是在变？</a> [19] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/vitra-ai-agentic-content-platform?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Vitra.ai</a> [20]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959964" target="_blank" class="news-link">Ackman警告AI初创：现在抓紧融资、谨慎烧钱，一场“爆雷”就会重置市场</a> [21] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4304318_1_1" target="_blank" class="news-link">甲骨文：甲骨文与费萨尔国王专科医院及研究中心将推进沙特阿拉伯的医疗创新。</a> [21] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782868" target="_blank" class="news-link">AI估值分歧加剧！Anthropic IPO：狂热的硅谷喊价2万亿美元，冷静的华尔街只认1.5万亿</a> [22] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1245981" target="_blank" class="news-link">ssh railway.new 可以直接获得一个虚拟机</a> [23] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1245980" target="_blank" class="news-link">ChatGPT 有了 Space，用不同 AI 工具做出来的东西，你们怎么集中管理？</a> [24] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782866" target="_blank" class="news-link">体验了Muse后，我清仓了Airbnb</a> [28] <font color='grey'>- 20时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1245966" target="_blank" class="news-link">最近在玩 Muse，然后突然想买一个 Meta 智能眼镜。</a> [29] <font color='grey'>- 20时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
