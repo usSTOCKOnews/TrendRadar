@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 214</p><p>生成时间: 2026-10-07 03:17:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">27</td>
+                <td class="percentage">12.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49980715" target="_blank" class="news-link">AI is now capable of developing its own inference hardware</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783055" target="_blank" class="news-link">报道：DeepSeek融资规模超预期冲击800亿人民币，腾讯和宁德时代领投</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/fuseai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Fuse AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783082" target="_blank" class="news-link">共和党斥AI危险论，民主党质疑“大厂”影响特朗普AI政策，要求披露监管框架修改过程</a> [6] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783080" target="_blank" class="news-link">谷歌发布EmbeddingGemma 2：7.4亿参数多模态嵌入模型，主打端侧隐私搜索</a> [7] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498373?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月7日电，Sierra与 Meta Platforms联合沃尔玛百货等公司开发智能体协议。</a> [7] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246676" target="_blank" class="news-link">做了个小工具：两张照片生成 Hotel Lobby 风格的 AI 短视频</a> [8] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246666" target="_blank" class="news-link">你是支持 AI 工具化 还是 主体化？</a> [9] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/deepseek-ai/DeepGEMM" target="_blank" class="news-link">deepseek-ai / DeepGEMM</a> [9] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49977588" target="_blank" class="news-link">Meta&#x27;s Muse Is an Adorable Privacy and Security Dumpster Fire</a> [11] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261007022353171800" target="_blank" class="news-link">Sierra与 Meta Platforms(META.O)联合沃尔玛百货(WMT.N)等公司开发智能体协议。</a> [11] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261007022247548800" target="_blank" class="news-link">Sierra创始人：人工智能初创公司Sierra与Meta Platforms(META.O)宣布推出个人代理协议，该协议将帮助定义代理如何与企业互动。</a> [12] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959984" target="_blank" class="news-link">“AI风险吹哨人”：AI巨头“极度无视风险”，AI失控概率超五成</a> [14] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498366?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月7日电，OpenAI与Ironclad开展合作，针对复杂合同工作流开展人工智能智能体研究。</a> [14] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/cosmic?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Cosmic AI Support Agent</a> [15] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783071" target="_blank" class="news-link">高盛上调台积电2028年资本开支至980亿美元，AI扩产周期拉长到2032年后</a> [15] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498363?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月7日电，谷歌(GOOG.O)与美国最大核电运营商Constellation Energy达成一项为期20年的核电协议。</a> [16] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246619" target="_blank" class="news-link">做了个 AI 学习小站，把 RAG 学习路线和面试题整理到了一起</a> [18] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783059" target="_blank" class="news-link">“AI风险吹哨人”作证：AI巨头“极度无视风险”，AI接管人类文明的可能性约1/3</a> [19] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783066" target="_blank" class="news-link">华为徐直军：昇腾中国市场份额已超英伟达，中国芯片自主化是必然之路</a> [20] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49970871" target="_blank" class="news-link">Dust: Pretraining Transformers Without Backpropagation</a> [22] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783065" target="_blank" class="news-link">AI生态如何应对“天价存储”？降规、分离负载和CXL内存池化</a> [22] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498357?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月7日电，AI新云厂商Lambda拟融资40亿美元，计划在IPO前完成这轮最终融资，本轮融资前估值定为145亿美元，该公司目标2027年上市。</a> [22] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498355?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月7日电，美国西南航空与OpenAI和亚马逊云科技（AWS）展开合作，美国西南航空上线ChatGPT插件，可直接在ChatGPT内查询、选购西南航空航班。</a> [24] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246567" target="_blank" class="news-link">做了一个 AI Zombie Video 小工具：如果变成丧尸，他还会记得你吗？</a> [26] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498353?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月7日电，Atlassian与OpenAI正在深化合作，将GPT-6系列前沿模型接入Atlassian全平台，打造AI体验，助力团队完成工作的规划、搭建与交付。</a> [26] <font color='grey'>- 03时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49944369" target="_blank" class="news-link">Direct retinal projection display for smart glasses using a meta-optic mirror</a> [29] <font color='grey'>- 03时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
