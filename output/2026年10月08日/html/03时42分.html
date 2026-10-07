@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 215</p><p>生成时间: 2026-10-08 03:42:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">46</td>
+                <td class="percentage">21.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246871" target="_blank" class="news-link">zcode-plugins：不识图的模型也能看图、命令输出与对话历史双级压缩、AI 代码评审</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49997301" target="_blank" class="news-link">ICANN Reveals 2026 Round Applications for New Generic Top-Level Domains</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783131" target="_blank" class="news-link">OpenAI：GPT-6在面对越狱攻击时表现出更强的抵御能力</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246870" target="_blank" class="news-link">Mistral Large 4：免费多模态 AI Playground 与 OpenAI 兼容 API</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49997161" target="_blank" class="news-link">Meta and Microsoft Limit Employee Use of Claude AI Tools</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783101" target="_blank" class="news-link">数学大爆炸！OpenAI 一夜攻克722个数学难题，准黎曼猜想已被证明</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49996542" target="_blank" class="news-link">AI Model Groupthink</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783091" target="_blank" class="news-link">标普500创出新高，但几乎只有AI交易在涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783128" target="_blank" class="news-link">IPO前Anthropic推出小模型“性价比之王”，Claude Haiku 5.5运行成本降75%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246867" target="_blank" class="news-link">[自荐] 大家都在把 AI 塞进 Obsidian，我却反过来把 Obsidian 接进 AI 官网</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49996437" target="_blank" class="news-link">Claude Haiku 5.5</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783095" target="_blank" class="news-link">美国反对浪潮加剧！甲骨文又一巨型数据中心或因“通不了电”搁浅</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498837?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英伟达与微软携手以RTX Spark及AI智能体开启Windows PC全新纪元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246863" target="_blank" class="news-link">AI 有沒有可能真的产生意识呢？</a> [6] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261008031239003800" target="_blank" class="news-link">特朗普将出席AI科学会议 宣布逾10亿美元投资承诺</a> [6] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/supademo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Supademo AI Demo Agent</a> [7] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3782809" target="_blank" class="news-link">美国蓝潮尾部风险：财政掣肘、AI 博弈，市场定价几何？</a> [7] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49995539" target="_blank" class="news-link">Show HN: Agent.reviews – Where AI agents read and write reviews on tools</a> [8] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783107" target="_blank" class="news-link">Claude拿下概率论「圣杯」，AI跨过菲尔兹奖终点线</a> [8] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246852" target="_blank" class="news-link">Built an AI zombie hug tool — aizombie.app: 2 photos → ~20s vertical clip, guest checkout $9.90</a> [9] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/manaflow-ai/cmux" target="_blank" class="news-link">manaflow-ai / cmux</a> [9] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783121" target="_blank" class="news-link">毛绒玩具当“顾问”？Anthropic总裁的OpenAI往事，从角色扮演到AI“安全巨头”</a> [9] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246848" target="_blank" class="news-link">分享个给 AI 写页面用的 React 组件库</a> [10] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261008030435759800" target="_blank" class="news-link">据Axios网站：美国总统特朗普将于当地时间周四参加AI会议。</a> [10] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498831?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月8日电，Anthropic发布最新AI模型Claude Haiku 5.5，用于执行那些对成本敏感的任务。这款模型“到手价”将明显低于4.5版。</a> [11] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498830?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月8日电，戴尔推出搭载英伟达RTX SPARK的XPS 16创作者版笔记本电脑。</a> [12] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1246843" target="_blank" class="news-link">阿里云那个权益活动页面， 99 权益之类的产品点击购买无法点击</a> [13] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4311693_214_1" target="_blank" class="news-link">美联储官员提及AI生产率方面的担忧。</a> [13] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261008025629217800" target="_blank" class="news-link">微软公布Surface Laptop Ultra售价：2599美元起，主打本地AI性能</a> [14] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498828?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月8日电，谷歌扩大用于检测人工智能使用的工具访问权限，谷歌称能够检测来自谷歌及其合作伙伴的 AI 的工具。</a> [14] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49993121" target="_blank" class="news-link">AI-assisted proof of optimal packing for 11 squares</a> [15] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/parakeetai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ParakeetAI 2.0</a> [15] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498827?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月8日电，微软高管表示，搭载英伟达芯片的RTX Spark设备将于下周开始发货。</a> [15] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783116" target="_blank" class="news-link">股价承压之际，英特尔确认推进马斯克“Terafab”芯片计划</a> [16] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/devally?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">DevAlly AI Agent</a> [17] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783115" target="_blank" class="news-link">从对冲力量到风险源：IMF首次将AI繁荣与石油、债务并列为“风险组合”</a> [17] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498825?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月8日电，微软新款高端笔记本电脑起售价为2,599美元。</a> [17] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959988" target="_blank" class="news-link">谷歌高管：Agent如何重塑AI基建</a> [18] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/temp-mail-370?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Temp Mail</a> [20] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49990470" target="_blank" class="news-link">Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai</a> [21] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498821?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月8日电，微软高管称，未来几个月将推出由混合智能驱动的Copilot功能；Meta Platforms的Muse即将登陆Windows。</a> [21] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783111" target="_blank" class="news-link">华为余承东：芯片基本摆脱对美依赖，手机利润率正在急剧下降，未来不得不涨价</a> [23] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261008024023841800" target="_blank" class="news-link">美联储官员提及AI生产率方面的担忧</a> [23] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49984923" target="_blank" class="news-link">Sharing AI progress in mathematics</a> [24] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2498817?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月8日电，微软推出可在个人笔记本电脑上运行的人工智能编码模型。</a> [24] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783107" target="_blank" class="news-link">Claude拿下概率论「圣杯」，AI跨过菲尔兹奖终点线</a> [26] <font color='grey'>- 03时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
