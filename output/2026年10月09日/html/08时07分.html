@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 125</p><p>生成时间: 2026-10-09 08:07:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">23</td>
+                <td class="percentage">18.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50013902" target="_blank" class="news-link">OpenAI, the Partition Principle, and Mathematics</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50011999" target="_blank" class="news-link">AI-ready biological data: $1.8B global commitment</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783173" target="_blank" class="news-link">中东局势升级叠加OpenAI收入预警，标普、纳指两连跌，芯片指数跌超3%，光通信股重挫</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783225" target="_blank" class="news-link">为交付算力，甲骨文用卡车运天然气为数据中心供电</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783224" target="_blank" class="news-link">英伟达支持的Firmus取消IPO，AI数据中心融资遇冷</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783173" target="_blank" class="news-link">中东局势升级叠加OpenAI收入预警，标普、纳指两连跌，芯片指数跌超3%，光通信股重挫</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783221" target="_blank" class="news-link">报道：苹果10月底将发布首款触屏MacBook及新款iPad mini</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2499860?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【点金互动易】机器人+智能驾驶，这家公司产品可应用于车端AI计算、机器人及其他推理计算场景，机器人域控已向上海头部机器人企业出货并与多家头部企业达成战略合作</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783220" target="_blank" class="news-link">相差200亿！OpenAI营收被爆巨大预期差，AI板块遭重创，甲骨文跌逾5%，应用光电跌超10%</a> [6] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2500010?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">机构预测A股半导体公司2026年营收有望突破1万亿元</a> [6] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4314389_204_1" target="_blank" class="news-link">新AI模型在视频对话中的表现几可乱真。</a> [6] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4314376_214_1" target="_blank" class="news-link">美政府暂停微软等多家科企外籍员工绿卡申请。</a> [8] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783215" target="_blank" class="news-link">美签证风暴来袭！微软等多家科技公司H-1B绿卡通道被封，哈佛等9所名校遭欺诈调查</a> [9] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2500004?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月9日电，据报道，英伟达将投资D-Matrix。</a> [9] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2500001?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">新AI模型在视频对话中的表现几可乱真</a> [11] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4314366_1_1" target="_blank" class="news-link">据CNN：OpenAI周四表示，伊朗的特工利用OpenAI模型和虚假身份，在多家美国媒体上发布批评美国对伊战争的新闻报道。</a> [11] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261009072740898800" target="_blank" class="news-link">据The Information：英伟达(NVDA.O)将投资芯片竞争对手D-Matrix。</a> [13] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261009070101948800" target="_blank" class="news-link">OpenAI安全研究员称遭突然解雇 指责公司文化将受“寒蝉效应”影响</a> [21] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2499982?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周五你需要知道的隔夜全球要闻：OpenAI年化营收较之前报道少200亿美元；特朗普称不会在中期选举之前攻击伊朗；纳指收跌超1% 存储、半导体板块下挫</a> [22] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261009062744729800" target="_blank" class="news-link">美政府暂停微软等多家科企外籍员工绿卡申请</a> [26] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2499978?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月9日电，Pilot Corp与特斯拉在美国佐治亚州成立第一个超级充电中心（MegaCharger）。</a> [26] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49986740" target="_blank" class="news-link">Show HN: TerrainSR – fast, realistic heightmap upscaling model</a> [27] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261009060548496800" target="_blank" class="news-link">市场消息：澳大利亚AI基础设施公司Firmus撤回IPO计划。</a> [28] <font color='grey'>- 08时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
