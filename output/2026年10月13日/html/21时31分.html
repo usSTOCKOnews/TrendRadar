@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 229</p><p>生成时间: 2026-10-13 21:31:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">50</td>
+                <td class="percentage">21.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960021" target="_blank" class="news-link">AI自我进化，不是取代人类，是把人类也纳入Agent</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50069971" target="_blank" class="news-link">An hour of audio transcribed in about 13s on MacBook Air</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013212005604800" target="_blank" class="news-link">苹果将举行智能家居发布会！要和亚马逊、谷歌正面抢客厅？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2503793?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月13日电，摩根大通CFO称，其AI相关敞口依然不大，但若市场情绪转向，该行也难以完全不受影响。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50069942" target="_blank" class="news-link">Character.ai Files for Bankruptcy</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248511" target="_blank" class="news-link">做了个 AI 用浏览器上网的 cli 工具，装个插件可以让 AI 控制日常已登录账号的浏览器</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/hirekai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Kai</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-13/goldman-china-ai-stocks-add-five-trillion-market-cap-58fe4c?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">高盛称中国AI公司创造近5万亿美元市值</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783492" target="_blank" class="news-link">全球AI交易再重挫，美股盘前存储普跌、SK海力士跌约5%，韩股收跌5.47%，现货黄金突破4200</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960020" target="_blank" class="news-link">AI不是被发明的，是被发现的，从沙子和电力中</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013211739528800" target="_blank" class="news-link">苹果正式进军智能家居市场 发布299美元AI智能显示屏HomeView</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50069337" target="_blank" class="news-link">Show HN: Use your OpenAI subscription to create audiobooks</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248504" target="_blank" class="news-link">神念补了三篇上手教程：手机联系电脑 AI、资料索引、本机与 Docker 选择</a> [7] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2503785?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">苹果发布新一代HomePod mini 支持Siri AI 售价149美元</a> [7] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783487" target="_blank" class="news-link">英特尔和博通CEO同日警告：资本已成AI最大瓶颈，ROI比芯片更短缺！马斯克回应：在赌场就别哭</a> [8] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2503764?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月13日电，Workday将把Sana AI与Claude进行整合，推出Work Intelligence，用于AI任务映射。</a> [8] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248494" target="_blank" class="news-link">神念的新用法：把客服 AI 链接交给自己的 AI，让它代问并带回答案</a> [9] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783469" target="_blank" class="news-link">押注个人智能体赶超劲敌！Meta推出新模型Muse Wonder，扎克伯格称跻身AI前沿</a> [9] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783540" target="_blank" class="news-link">摩根大通Q3调整后营收509亿美元不及预期，固收交易收入意外下滑4%，美股盘前跌逾2%｜财报见闻</a> [9] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783541" target="_blank" class="news-link">千问三款AI硬件开售，眼镜、耳机“物理助攻”Personal Agent</a> [10] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2503760?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">苹果推出HomeView智能家居管理设备 售价299美元 11月13日开售</a> [10] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248487" target="_blank" class="news-link">Java 开发的未来在哪里？想聊聊 AI 冲击、行业现状以及 Agent 转型的真实情况</a> [11] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50068036" target="_blank" class="news-link">Character.ai files for Chapter 11 bankruptcy</a> [11] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-13/anthropic-warns-small-ai-self-replication-25ef77?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">Anthropic警告小型AI年底或能自主复制</a> [12] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50065932" target="_blank" class="news-link">A look at the math that OpenAI claims computes faster Fourier transforms</a> [13] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013210125962800" target="_blank" class="news-link">苹果(AAPL.O)：在美国推出的HomePod mini 2定价为149美元。</a> [13] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50065692" target="_blank" class="news-link">AI models can provably hide arbitrary capabilities</a> [14] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248475" target="_blank" class="news-link">分享一个自用的 AI 知识视频工作台，主要做科普视频，也可以做讲题视频和音乐 MV</a> [15] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/gotemail?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">GotEmail</a> [15] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783534" target="_blank" class="news-link">苹果智能家居新品今晚登场：HomeView领衔，Siri AI成最大看点</a> [15] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248473" target="_blank" class="news-link">NanaAI 网站更新了</a> [16] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-13/nvidia-china-ai-accelerator-share-falls-a21055?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">英伟达上半年在华AI加速器份额降至34%</a> [16] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783535" target="_blank" class="news-link">美银基金经理调查：科技股超配比例创六年新高，半导体成最拥挤交易</a> [16] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013205933232800" target="_blank" class="news-link">苹果(AAPL.O)：家居系列将于12月上市，部分配件预计在2027年初推出。</a> [16] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50063427" target="_blank" class="news-link">AI is a tool and using it well takes skill</a> [17] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013205927455800" target="_blank" class="news-link">AI泡沫破裂警报再响？本周财报季将给出关键线索</a> [17] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2503699?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【电报解读】技术、政策与需求共振下，AI安全的商业化落地趋势明确，IDC最新报告预计到2030年中国AI安全市场规模将达到340亿元，这家公司的安全产品已在政府单位得到应用部署</a> [17] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50063365" target="_blank" class="news-link">Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X</a> [18] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013205827781800" target="_blank" class="news-link">AI芯片黑马业绩预增超6倍，出货量与单价齐飞！| 盘后公告精选</a> [18] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783524" target="_blank" class="news-link">AI模型遭遇消费降级：顶级模型使用占比从55%降至14%，用户转向性价比</a> [19] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013205805042800" target="_blank" class="news-link">苹果(AAPL.O)：第四代Apple TV 4K今日开始接受预订；将于11月13日上市。</a> [19] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2503744?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股盘前要闻一览：美最大半导体设备制造商称未来几年营收将翻倍；英伟达推出全新可插拔光模块；奈飞拿下2030年世界杯部分转播权</a> [19] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783529" target="_blank" class="news-link">硅谷AI现状：谁有算力谁是爹</a> [20] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013205738910800" target="_blank" class="news-link">苹果(AAPL.O)宣布推出新款Apple TV 4K，搭载由苹果智能驱动的Siri人工智能。</a> [20] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248455" target="_blank" class="news-link">ai 写的代码太多，感觉控制不住项目了怎么办</a> [22] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3783525" target="_blank" class="news-link">微软发布全新2nm芯片Maia300：如何改变明年AI算力格局？</a> [22] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013205640526800" target="_blank" class="news-link">苹果(AAPL.O)：苹果推出HomeView，今日开始接受预订，预计于11月13日上市。</a> [22] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248451" target="_blank" class="news-link">想咨询一下大家，都在在哪管理 ai 资讯的</a> [24] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248449" target="_blank" class="news-link">给照片和视频素材做了个完全离线的 AI 搜索：一句话跳到视频里的那一秒， v0.4.1 加了全局快捷键</a> [26] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-13/nytimes-afp-economist-join-spur-ai-standards-cdcb75?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">纽约时报等加入SPUR推动规范AI使用新闻内容</a> [27] <font color='grey'>- 21时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
