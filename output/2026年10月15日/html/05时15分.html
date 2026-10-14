@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-10-15 05:15:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">12.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248869" target="_blank" class="news-link">网络反诈，人人有责，警惕 AI 会员购买诈骗</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783586" target="_blank" class="news-link">美CPI重燃加息押注，美股低开、AI交易受挫，美银盘中跌近9%，短期美债跳水、美元拉升</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783645" target="_blank" class="news-link">黑石AirTrunk推迟15亿美元REIT IPO：收益率让到6%仍无人接盘，AI基建融资撞上5.2%美债利率</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/daily-dev?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">daily.dev for agents</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783642" target="_blank" class="news-link">ASML强劲财报也救不了！美芯片股跌势加剧，行业指数市值蒸发万亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2505088?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月15日电，巴克莱称特斯拉与SpaceX的合并或将于12月前公布。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50092664" target="_blank" class="news-link">Banks are now trying to offload the AI data center debt they just underwrote</a> [6] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3783593" target="_blank" class="news-link">2万亿美元的史诗级IPO，正在撕开AI繁荣的“不可能三角”</a> [7] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2505086?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股收盘：纳指下挫跌近2% 芯片股指数六连跌创去年5月以来最长下跌纪录</a> [7] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783586" target="_blank" class="news-link">美CPI重燃加息押注，美股低开、AI交易受挫，美银盘中跌近9%，短期美债跳水、美元拉升</a> [8] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50091788" target="_blank" class="news-link">AI agents aren&#x27;t &#x27;going rogue.&#x27; Frontier labs are skipping security basics</a> [10] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50090932" target="_blank" class="news-link">Show HN: I wrote an email app that accepts only one sender per inbox</a> [11] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2505075?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">‌苹果诉OpenAI案法官称“大概率”将作出有利于苹果的裁决‌</a> [15] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261015042555115800" target="_blank" class="news-link">巴克莱：特斯拉(TSLA.O)与SpaceX(SPCX.O)的合并可能在12月之前宣布。</a> [17] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2505065?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">英伟达CEO黄仁勋称会对开发不安全AI软件的客户断供芯片</a> [25] <font color='grey'>- 05时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
