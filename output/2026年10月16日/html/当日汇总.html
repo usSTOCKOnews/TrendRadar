@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 当日汇总</p><p>总标题数: 237</p><p>生成时间: 2026-10-16 00:15:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">33</td>
+                <td class="percentage">13.92%</td>
+                <td class="titles">[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783663" target="_blank" class="news-link">科技股抛售持续，纳指低开逾1%，芯片指数一度跌超4%，CoreWeave信用风险创新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时15分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783663" target="_blank" class="news-link">科技股抛售持续，纳指低开逾1%，芯片指数一度跌超4%，CoreWeave信用风险创新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时15分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783586" target="_blank" class="news-link">美CPI重燃加息押注，纳指跌近2%，芯片指数六连跌，CoreWeave暴跌15%，美元创18个月新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时15分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783724" target="_blank" class="news-link">CoreWeave违约概率60%！黄仁勋“灭火”：该司资本成本在下降，无需英伟达兜底</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时15分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249175" target="_blank" class="news-link">开发 AI 应用，如何降低多模型接入和维护成本？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时15分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50104654" target="_blank" class="news-link">Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时15分</font><br>[GitHub] <a href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" class="news-link">K-Dense-AI / scientific-agent-skills</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时15分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2506188?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">华工科技：3.2T/6.4T NPO产品在国内外头部AI厂商测试中</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时15分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783720" target="_blank" class="news-link">国内一半AI算力被指在造爽剧，用于研发仅15%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时15分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249171" target="_blank" class="news-link">做了半年无审查 AI 平台，记 4 个反直觉的工程坑（都有数据）</a> [6] <font color='grey'>- 00时15分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50104299" target="_blank" class="news-link">Using AI to reverse engineer hardware</a> [6] <font color='grey'>- 00时15分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783673" target="_blank" class="news-link">市场终于发现，AI最大的瓶颈不是电，不是芯片，而是钱</a> [9] <font color='grey'>- 00时15分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2506177?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月15日电，小鹏扩大与谷歌的合作，将Google Play引入其AI驱动的智能座舱。</a> [9] <font color='grey'>- 00时15分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249152" target="_blank" class="news-link">AI 太牛逼了，总想用 ai 来搞点副业，怎么办？</a> [11] <font color='grey'>- 00时15分</font><br>[靠谱新闻] <a href="https://kaopu.news/story/2026-10-15/china-generative-ai-users-surpass-700-million-7dd366?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">中国生成式AI用户规模突破7亿人</a> [11] <font color='grey'>- 00时15分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783715" target="_blank" class="news-link">银河证券张堃：AI正在拨快市场时钟，波动率将成长期投资资产</a> [11] <font color='grey'>- 00时15分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249151" target="_blank" class="news-link">各位大佬，你们 AI Coding 也这样吗？</a> [12] <font color='grey'>- 00时15分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249148" target="_blank" class="news-link">上午开了 18 个月 Google AI Pro ，晚上再用已经在此国家/地区无法使用 Gemini。Gemini 将逐步支持更多国家/地区。</a> [13] <font color='grey'>- 00时15分</font><br>[ProductHunt] <a href="https://www.producthunt.com/products/buddy?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Sandboxes by Buddy</a> [14] <font color='grey'>- 00时15分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249139" target="_blank" class="news-link">知盈 iAssets 资产管理管家更新近况：家庭共享、AI 资产分析和存款提醒 [送码]</a> [16] <font color='grey'>- 00时15分</font><br>[靠谱新闻] <a href="https://kaopu.news/story/2026-10-15/japan-police-microsoft-shut-phishing-platforms-ee83b2?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">日本警察厅与微软联手打击钓鱼服务平台</a> [16] <font color='grey'>- 00时15分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783708" target="_blank" class="news-link">当AI动能开始退潮，巴菲特式&quot;无聊投资&quot;悄然回潮</a> [17] <font color='grey'>- 00时15分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2506163?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月15日电，英伟达首席执行官黄仁勋表示，AI云服务商CoreWeave的实力每天都在提升，其资本成本实际上正在下降。</a> [18] <font color='grey'>- 00时15分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3783706" target="_blank" class="news-link">通胀鹰派但长端美债反涨：AI抛售潮的喘息还是负反馈？</a> [19] <font color='grey'>- 00时15分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2506161?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月15日电，英伟达发布1200亿参数开放智能体模型Nemotron。</a> [20] <font color='grey'>- 00时15分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783705" target="_blank" class="news-link">黄仁勋谈中国 AI 公司：算力越缺，越逼着他们把架构做到极致</a> [21] <font color='grey'>- 00时15分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2506156?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月15日电，德国政府据悉计划向AI项目投资数亿欧元。</a> [23] <font color='grey'>- 00时15分</font><br>[靠谱新闻] <a href="https://kaopu.news/story/2026-10-15/bytedance-reportedly-seeks-mediatek-custom-chips-a71386?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">字节跳动据报洽购联发科数据中心定制芯片</a> [25] <font color='grey'>- 00时15分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783700" target="_blank" class="news-link">美银：AI泡沫破裂或引发美股、美债收益率同步下跌，OpenAI收入事件已提前预演</a> [25] <font color='grey'>- 00时15分</font><br>[法布财经] <a href="https://www.fastbull.com/cn/fastshort/4324666_214_1" target="_blank" class="news-link">比特币短线升破8.2万美元，部分加密货币概念股拉升，Circle涨近7%，Strategy、Coinbase涨2%，Robinhood跌幅收窄至1%。</a> [27] <font color='grey'>- 00时15分</font><br>[靠谱新闻] <a href="https://kaopu.news/story/2026-10-15/tsmc-team-evaluates-texas-expansion-38b994?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">魏哲家证实台积电派团队赴德州评估扩产</a> [28] <font color='grey'>- 00时15分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249110" target="_blank" class="news-link">时常忘记现在有 AI，终于能在 mac 上用上 ditto 了</a> [29] <font color='grey'>- 00时15分</font><br>[靠谱新闻] <a href="https://kaopu.news/story/2026-10-15/tsmc-raises-2026-revenue-growth-forecast-44-percent-0eb3ab?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">台积电第三季度营收和净利双双创纪录</a> [29] <font color='grey'>- 00时15分</font></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
