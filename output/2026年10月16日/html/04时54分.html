@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 131</p><p>生成时间: 2026-10-16 04:54:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">18</td>
+                <td class="percentage">13.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50109272" target="_blank" class="news-link">&quot;I&#x27;m a Lawyer.&quot; Said the White House Press Secretary. Florida Would Like a Word</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783663" target="_blank" class="news-link">AI担忧刺激美股轮动，标普道指反弹，芯片指数一度跌超4%，黄仁勋力挺、CoreWeave拉升转涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783733" target="_blank" class="news-link">马斯克回应黄仁勋赞赏：英伟达团队才华横溢，Star Mind太空服务器明年量产</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1249185" target="_blank" class="news-link">第一个独立上线的 Web 站：用 3 天做了个 Rumpelstiltskin 踮脚舞 AI 视频生成器，记录一下踩过的坑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50108131" target="_blank" class="news-link">Why We&#x27;re Banning AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783728" target="_blank" class="news-link">谷歌量子计算取得突破：错误率降低40倍，攻克关键资源瓶颈</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3783729" target="_blank" class="news-link">半导体周期到头了吗？市场看到了你还没看到的东西</a> [6] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2506245?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">阿里巴巴、台积电在列 美股期权交易时段下周扩容</a> [7] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783726" target="_blank" class="news-link">Meta发布8160亿参数“美国最强开放权重模型”，联手苹果让大模型跑上Mac，最强模型仍闭源</a> [9] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783724" target="_blank" class="news-link">CoreWeave违约概率超六成！黄仁勋“灭火”：融资成本在下降，无需英伟达兜底</a> [10] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016044143591800" target="_blank" class="news-link">谷歌(GOOG.O)：安卓地震警报扩展至超过200个地区。</a> [10] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783663" target="_blank" class="news-link">AI担忧刺激美股轮动，标普道指反弹，芯片指数一度跌超4%，黄仁勋力挺、CoreWeave拉升转涨</a> [11] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016043915649800" target="_blank" class="news-link">谷歌(GOOG.O)：在美国推出通用购物车（Universal Cart）功能。</a> [11] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50104654" target="_blank" class="news-link">Simons Foundation launches $15M effort to help mathematicians navigate AI era</a> [16] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2506227?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">谷歌量子人工智能发布量子计算重大突破。</a> [21] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2506221?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月16日电，Anthropic计划发布其AI模型的风险评估结果。</a> [26] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2506220?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">Perplexity将开源AI安全软件</a> [27] <font color='grey'>- 04时54分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2506217?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月16日电，苹果与Meta合作，使MuseAI模型可在Mac电脑上运行。</a> [30] <font color='grey'>- 04时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
