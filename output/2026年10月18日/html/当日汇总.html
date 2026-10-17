@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 当日汇总</p><p>总标题数: 247</p><p>生成时间: 2026-10-18 02:08:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">46</td>
+                <td class="percentage">18.62%</td>
+                <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1249680" target="_blank" class="news-link">马斯克肯定没想到火的是 flying car ai 视频</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时08分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783778" target="_blank" class="news-link">AI交易忧虑压垮美股，纳指跌超2%、CoreWeave暴跌12%，VIX一度升破22，布油涨破110</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时08分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50132502" target="_blank" class="news-link">OpenAI discloses four more rogue incidents</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时08分</font><br>[GitHub] <a href="https://github.com/MadsLorentzen/ai-job-search" target="_blank" class="news-link">MadsLorentzen / ai-job-search</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时08分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783826" target="_blank" class="news-link">华尔街腹背受敌：AI抛售潮蔓延至债市，110美元油价再添一把火</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783838" target="_blank" class="news-link">AI融资成本攀升：Anthropic拟向黑石提供超10%收益率</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时08分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50132278" target="_blank" class="news-link">Amazon uses union-busting AI surveillance to monitor union risk in UK warehouses</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时08分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783832" target="_blank" class="news-link">美股最危险的分化：普通股票已经跌惨，AI巨头还能撑多久？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时08分</font><br>[ProductHunt] <a href="https://www.producthunt.com/products/train-with-pasta?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Train with Pasta</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时08分</font><br>[GitHub] <a href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" class="news-link">K-Dense-AI / scientific-agent-skills</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时08分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783829" target="_blank" class="news-link">特斯拉高管详解新Roadster：放弃四驱、专用4680电池，目标车重不到1.7吨</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783836" target="_blank" class="news-link">AI帮储户多赚钱，银行却慌了：花旗、美银、摩根大通集体对AI Agent设防</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时08分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249669" target="_blank" class="news-link">做了一个 Zombie Couple Video：上传两张照片，生成 13 秒的 AI 丧尸情侣重逢短视频</a> [6] <font color='grey'>- 02时08分</font><br>[GitHub] <a href="https://github.com/akitaonrails/ai-memory" target="_blank" class="news-link">akitaonrails / ai-memory</a> [6] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960045" target="_blank" class="news-link">特斯拉Roadster放弃四驱！两台后轮电机，动力竟超自家三电机旗舰</a> [6] <font color='grey'>- 02时08分</font><br>[靠谱新闻] <a href="https://kaopu.news/story/2026-10-17/japan-approves-tsmc-kumamoto-3nm-chip-plan-344568?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">日本批准台积电熊本第二工厂生产3纳米芯片计划</a> [7] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783831" target="_blank" class="news-link">Anthropic被曝秘密游说国会：AI造成超10亿美元损失，政府才能叫停？</a> [7] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3783678" target="_blank" class="news-link">AI 的借贷潮要破了吗？Coreweave大跌15%背后的警报拉响</a> [7] <font color='grey'>- 02时08分</font><br>[GitHub] <a href="https://github.com/stablyai/orca" target="_blank" class="news-link">stablyai / orca</a> [8] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783836" target="_blank" class="news-link">AI帮储户多赚钱，银行却慌了：花旗、美银、摩根大通集体对AI Agent设防</a> [8] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960044" target="_blank" class="news-link">特斯拉Roadster为啥装四台风扇？灵感来自007！</a> [8] <font color='grey'>- 02时08分</font><br>[靠谱新闻] <a href="https://kaopu.news/story/2026-10-17/china-tech-stocks-fall-ai-funding-fears-688b69?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">中国科技股下跌加剧AI企业融资担忧</a> [9] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783838" target="_blank" class="news-link">AI融资成本攀升：Anthropic拟向黑石提供超10%收益率</a> [9] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783832" target="_blank" class="news-link">美股最危险的分化：普通股票已经跌惨，AI巨头还能撑多久？</a> [9] <font color='grey'>- 02时08分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249659" target="_blank" class="news-link">分享一个自己折腾的 AI 日程规划&amp;倒数日软件</a> [10] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783819" target="_blank" class="news-link">美芯片股八连跌！2万亿美元市值蒸发，创2008年来最长跌势</a> [10] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783834" target="_blank" class="news-link">林园：现在是乌龟爬着，等牛市哪天爆发，看好AI大时代但不碰个股</a> [10] <font color='grey'>- 02时08分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261018011943669800" target="_blank" class="news-link">李强同乌兹别克斯坦总理阿里波夫会谈</a> [10] <font color='grey'>- 02时08分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2507513?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">广汽埃安Ray7启动预售 全球首搭芯片级驱制融合架构</a> [11] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783831" target="_blank" class="news-link">Anthropic被曝秘密游说国会：AI造成超10亿美元损失，政府才能叫停？</a> [12] <font color='grey'>- 02时08分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249650" target="_blank" class="news-link">做了个 AI 汽车视频工具，上传照片就能让自己的车“起飞”</a> [13] <font color='grey'>- 02时08分</font><br>[靠谱新闻] <a href="https://kaopu.news/story/2026-10-17/politico-anthropic-pitches-ai-safety-bill-4b5005?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">Politico称Anthropic推介AI安全草案</a> [13] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960043" target="_blank" class="news-link">特斯拉Roadster太疯狂！目标充电十分钟，狂飙半小时</a> [13] <font color='grey'>- 02时08分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50122431" target="_blank" class="news-link">Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console</a> [15] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783829" target="_blank" class="news-link">特斯拉高管详解新Roadster：放弃四驱、专用4680电池，目标车重不到1.7吨</a> [15] <font color='grey'>- 02时08分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249641" target="_blank" class="news-link">做了个 Flying Car AI，上传车的照片，生成 Roadster 同款空翻视频</a> [16] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3783706" target="_blank" class="news-link">通胀鹰派但长端美债反涨：AI抛售潮的喘息还是负反馈？</a> [16] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783826" target="_blank" class="news-link">华尔街腹背受敌：AI抛售潮蔓延至债市，110美元油价再添一把火</a> [18] <font color='grey'>- 02时08分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249632" target="_blank" class="news-link">AI 开发的修仙 Roguelike 微信小游戏《夺天机》上线了，求试玩</a> [19] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783823" target="_blank" class="news-link">苹果称iPhone Duo需求&quot;非同寻常&quot;，预购开放数分钟即告罄，发货延至明年1月</a> [20] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783778" target="_blank" class="news-link">AI交易忧虑压垮美股，纳指跌超2%、CoreWeave暴跌12%，VIX一度升破22，布油涨破110</a> [21] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783822" target="_blank" class="news-link">信贷恐慌击穿AI交易：CoreWeave债券收益率维持高位，纳指创6月底来最大单周跌幅</a> [22] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783819" target="_blank" class="news-link">美芯片股八连跌！2万亿美元市值蒸发，创2008年来最长跌势</a> [26] <font color='grey'>- 02时08分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783817" target="_blank" class="news-link">费城半导体连跌八个交易日，黄仁勋：“这一切终将过去”，AI变革才刚刚开始</a> [28] <font color='grey'>- 02时08分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50089577" target="_blank" class="news-link">Tell HN: Remember to migrate away from .name domain</a> [29] <font color='grey'>- 02时08分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1249607" target="_blank" class="news-link">AI 写代码的速度已经超过你的阅读速度，你会放心把 Code Review 也交给 AI 吗？</a> [30] <font color='grey'>- 02时08分</font></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
