@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 121</p><p>生成时间: 2026-10-20 07:16:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">13</td>
+                <td class="percentage">10.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2508158?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【研选•研报数据】全国首个物理AI与世界模型大会举行，加速推动物理AI落地；这家公司已基于英伟达Jetson Thor完成AI算力盒子产品研发，可应用于工业智能、通用机器人等高算力场景</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250158" target="_blank" class="news-link">[开源] 做了个本地 AI 小说写作工具，把伏笔和正文连起来</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783965" target="_blank" class="news-link">标普全球警告：美国科技巨头AI相关负债或超已知规模</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783961" target="_blank" class="news-link">英伟达支持的Nscale IPO前景获提振，报道：与Anthropic洽谈450亿美元大单</a> [7] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783957" target="_blank" class="news-link">苹果确认10月28日举行发布会，推出首款触控屏MacBook</a> [8] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2509108?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">半导体三季报业绩大面积预增 PCB与存储芯片“你追我赶”</a> [10] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50154029" target="_blank" class="news-link">Launch HN: Laminar (YC S24) – RL-trained model that finds errors in agent traces</a> [11] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783959" target="_blank" class="news-link">费城半导体八连跌后盘中一度反攻3%，高盛上调CoreWeave评级至&quot;买入&quot;</a> [11] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2509105?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周二你需要知道的隔夜全球要闻：存储、半导体反弹提振大盘 纳指涨超1%；特朗普称该换人代表乌克兰谈判；高盛数据显示对冲基金以至少十年来最快速度减持科技股</a> [12] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2509098?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月20日电，前谷歌首席执行官Eric Schmidt持有Anthropic约1%的股份。</a> [19] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261020054252174800" target="_blank" class="news-link">美国先进机器人禁令波及芯片制造，英特尔申请豁免：关键设备暂无本土替代品</a> [21] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261020053341203800" target="_blank" class="news-link">谷歌(GOOG.O)前首席执行官埃里克·施密特在Anthropic公司拥有约1%的股份。</a> [25] <font color='grey'>- 07时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2509086?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">美股收盘：存储、半导体板块反弹提振大盘 纳指涨超1%</a> [30] <font color='grey'>- 07时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
