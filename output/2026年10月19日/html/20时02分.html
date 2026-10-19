@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 224</p><p>生成时间: 2026-10-19 20:02:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">23</td>
+                <td class="percentage">10.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50150908" target="_blank" class="news-link">Show HN: I re-read the terms of 175 AI tools twice; 60% changed in 15 weeks</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50150809" target="_blank" class="news-link">Let&#x27;s Encrypt is adding two additional remote perspectives for domain validation</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261019200037775800" target="_blank" class="news-link">据华尔街日报：英伟达支持的初创公司doubleAI推出新模型，旨在降低计算成本。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/gleap?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Kai Resolve by Gleap</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783759" target="_blank" class="news-link">本周重磅日程：中国GDP、金融街论坛与APEC财长会、英伟达GTC、特斯拉Meta与宁德时代财报</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783911" target="_blank" class="news-link">AI交易暂获喘息，纳指期货反弹，英特尔盘前涨近4%，油价高位回落，美债走高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250094" target="_blank" class="news-link">复刻 Jetbrains IDE 的 Git 客户端做成 VS Code 插件</a> [7] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/headroomlabs-ai/headroom" target="_blank" class="news-link">headroomlabs-ai / headroom</a> [7]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3783869" target="_blank" class="news-link">美国、亚洲AI抛售潮：是仓位问题还是结构性担忧？</a> [8] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/walkai-talkai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">walkai-talkai</a> [9] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250085" target="_blank" class="news-link">发现用 ai 做逆向，效率提升很多。</a> [10] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250069" target="_blank" class="news-link">使用 AI 开发了两款游戏，并做成了视频解说，欢迎大家品鉴吐槽</a> [11] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250067" target="_blank" class="news-link">我做了个 TS 全栈脚手架 VibeStart：快速创建现代的 AI Native 全栈项目</a> [12] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783927" target="_blank" class="news-link">铭芯启睿完成超4亿元A轮融资，启动LPU推理芯片研发</a> [12] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250064" target="_blank" class="news-link">[开源] AI Coding 时代，也许真不用再打开 VS Code、IDEA 了</a> [13] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261019194742832800" target="_blank" class="news-link">AI景气度指标</a> [14] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2508836?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【电报解读】美光科技称正在为物理AI研发EIM存储器！机构看好数据积累已达到阶段性拐点，物理AI产业有望迎来“ChatGPT时刻”，这家公司投资的企业重点布局物理AI仿真环境构建及相关训练基础设施</a> [14] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783895" target="_blank" class="news-link">沪指低开高走收涨0.4%，工行建行创新高，机器人爆发、宇树科技大涨超16%，存储芯片调整、长鑫大跌超7%</a> [19] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250037" target="_blank" class="news-link">dtool v0.3.0 发布：面向 AI 的数据工作流，从 Excel 起步，规矩立好了，不烧心</a> [20] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783903" target="_blank" class="news-link">AI数据中心泡沫将近？英伟达支持的Nscale估值接近腰斩，微软也撤了</a> [20] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783906" target="_blank" class="news-link">Anthropic拿出5%股权成立公益基金，应对AI冲击就业市场</a> [24] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2508817?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月19日电，全球芯片LOF(501225)将于2026年10月20日开市起停牌，自2026年10月20日10:30起复牌，停牌期间赎回业务照常办理。</a> [26] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50104874" target="_blank" class="news-link">How to Train Your Robot</a> [30] <font color='grey'>- 20时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
