@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 120</p><p>生成时间: 2026-10-21 05:12:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">14</td>
+                <td class="percentage">11.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250468" target="_blank" class="news-link">你们用过苹果的轻应用吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50171771" target="_blank" class="news-link">On AI writing</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784066" target="_blank" class="news-link">SpaceX Q3 AI业务大爆发、收入暴增830%，利润碾压预期，资本支出近200亿｜财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784065" target="_blank" class="news-link">美国人工智能事务主管：负责任开发AI的建议将很快发布</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250465" target="_blank" class="news-link">做了个双人 AI 跳舞小项目：本人四肢不协调，但照片可以先出道</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50170021" target="_blank" class="news-link">Claude designed protein binders against scorpion neurotoxins</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2510418?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月21日电，AI交易概念盘后齐涨，戴尔科技涨超5%，CoreWeave、NEBIUS涨3%，美光、英伟达、SK海力士、英特尔、闪迪涨超1%。此前超微电脑第一财季净销售额初步估计为185亿至195亿美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784011" target="_blank" class="news-link">美股见顶最直接的信号：韩国芯片出口？</a> [8] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50167536" target="_blank" class="news-link">Facebook Pages require paid subscription to post more than two links per month</a> [10] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784069" target="_blank" class="news-link">奈飞营收增速连续四个季度放缓，广告收入不及预期，股价盘后跌超5%</a> [10] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2510410?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月21日电，奈飞预计四季度营收134.4亿美元，分析师预期135.1亿美元。</a> [10] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2510401?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月21日电，谷歌宣布Claude Opus 5.5与Claude Sonnet 5.5现已接入谷歌Antigravity平台。</a> [19] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2510396?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月21日电，亚马逊云服务(AWS)预计将获得价值50亿美元的英伟达GB300机架。</a> [23]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2510390?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">OpenAI收购生物医药研发平台Orchestra Bio‌</a> [28] <font color='grey'>- 05时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
