@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 226</p><p>生成时间: 2026-10-22 19:07:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">37</td>
+                <td class="percentage">16.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1251028" target="_blank" class="news-link">ARM 版黑苹果要来了？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2512550?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月22日电，瑞穗将特斯拉目标价从450美元上调至460美元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50192868" target="_blank" class="news-link">Achieving AI-style reasoning without an LLM</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784152" target="_blank" class="news-link">Meta Q3营收与Q4指引双超预期，上调AI资本开支下限，拟发行无投票权新股｜财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50191507" target="_blank" class="news-link">OpenAI CLI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784189" target="_blank" class="news-link">AI交易熄火、中东局势恶化，全球股市遭遇“黑色星期四”！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50190363" target="_blank" class="news-link">WorldTUI: I trained a 360M model to pretend to be a terminal</a> [6] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/primeforge-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PrimeForge AI</a> [6] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-22/us-earnings-fail-lift-ai-confidence-nikkei-falls-35cec1?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">美企财报未能提振AI信心 日经指数重挫</a> [6] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-22/walmart-allows-ai-agents-shopping-bdd72b?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">沃尔玛将允许顾客授权AI代理代为购物</a> [7] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784202" target="_blank" class="news-link">黄仁勋：全球对AI发展节奏的管控“荒谬可笑”，所有问题都将通过高需求得到解决</a> [7] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-pdf-converter-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI PDF Converter</a> [8] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2512542?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月22日电，英伟达首席执行官黄仁勋表示，新型云服务商对算力的需求“异常好”（off the charts）。</a> [8] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784155" target="_blank" class="news-link">特斯拉电话会：2030年目标年产约500万辆车，Optimus机器人明年底商业化，2027年Megapack几乎售罄</a> [9] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784154" target="_blank" class="news-link">Meta电话会：Muse商业化比以往更早，拆股融资支撑算力需求，明年成本效率提升十倍</a> [10] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784210" target="_blank" class="news-link">“DeepSeek才是真正的OpenAI”</a> [12] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4331867_101_1" target="_blank" class="news-link">高盛：白银陷入双重困局，三周遭抛售22亿美元，AI与光伏同步走弱。</a> [13] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1251000" target="_blank" class="news-link">花了一个月做 AI API 中转站，发现最难的根本不是技术，而是搞到便宜的上游。</a> [16] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784186" target="_blank" class="news-link">报道：特斯拉和SpaceX的合并，马斯克要赶在特朗普任期内完成</a> [16] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250999" target="_blank" class="news-link">分享一个生成 15 秒 AI 舞蹈短片的工具： A2O LITE NEON AI Dance</a> [17] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-22/new-mexico-court-fines-meta-25-billion-efa9cb?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">新墨西哥州法院判Meta赔偿250亿美元</a> [17] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2512516?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月22日电，富国银行将Meta Platforms目标价从1000美元下调至995美元。</a> [18] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/forgemcp-ai-ai-for-cad-engineering?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ForgeMCP.ai – AI for CAD &amp; Engineering</a> [19] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261022181544442800" target="_blank" class="news-link">富国银行：将Meta公司平台公司目标价从1000美元下调至995美元。</a> [20] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784189" target="_blank" class="news-link">AI交易熄火、中东局势恶化，全球股市遭遇“黑色星期四”！</a> [21] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784197" target="_blank" class="news-link">野村警告：当前AI信用风险与互联网泡沫、雷曼危机前惊人相似，一切都取决于油价</a> [22]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784204" target="_blank" class="news-link">AI的饼越画越大，特斯拉为何仍难打动华尔街？</a> [23] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784191" target="_blank" class="news-link">高盛拆解白银困局：美元终于松绑，AI与光伏交易却熄火了</a> [24] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261022181420809800" target="_blank" class="news-link">特斯拉：委员会将探讨的可能安排包括与SpaceX合并业务。</a> [24] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2512472?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">个人AI助理受追捧 Today AI完成超2亿美元融资</a> [24] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784196" target="_blank" class="news-link">摩根大通：新云厂商融资承压难撼AI基建周期，科技板块今年仍有4000亿美元盈余</a> [25] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2512504?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">高盛承诺投入5亿美元成立小企业AI研究院 联手OpenAI、谷歌等推动AI应用</a> [25] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261022181402634800" target="_blank" class="news-link">摩根士丹利：将特斯拉公司目标价从400.00美元上调至410.00美元。</a> [26] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1250949" target="_blank" class="news-link">公司接不起官方 deepseek 转头跟腾讯合作， tps 直接腰斩简直谋财害命</a> [28] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50154100" target="_blank" class="news-link">Chain of Thought for Humans</a> [28] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261022181243554800" target="_blank" class="news-link">自由现金流转负，Meta仍继续押注AI，市场为何没有选择抛售？</a> [29] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-22/meta-third-quarter-revenue-rises-26-percent-127637?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">Meta拟配发无表决权股避免扎克伯格表决权受损</a> [30] <font color='grey'>- 19时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
