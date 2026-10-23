@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 120</p><p>生成时间: 2026-10-23 08:22:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">13.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50201860" target="_blank" class="news-link">Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-22/fcc-bans-hisilicon-chip-devices-us-market-0d8ea5?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">美国FCC首次依新规禁止两款海思芯片设备入市</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784189" target="_blank" class="news-link">AI融资担忧重创科技股，纳指跌超2%，10年期美债收益率跌破5%，黄金重挫，原油大涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784256" target="_blank" class="news-link">投资者不买账？OpenAI下调估值目标至1.25万亿，拟在IPO前完成300亿美元融资</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50201414" target="_blank" class="news-link">Railpass</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261023080454286800" target="_blank" class="news-link">特斯拉澳大利亚和新西兰发言人：特斯拉(TSLA.O)已决定不推进为澳大利亚和新西兰生产Cybertruck的计划。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784232" target="_blank" class="news-link">Meta从盘后大涨到股债双杀：未来支出承诺飙至8250亿美元，信用风险指标创历史新高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784189" target="_blank" class="news-link">AI融资担忧重创科技股，纳指跌超2%，10年期美债收益率跌破5%，黄金重挫，原油大涨</a> [7] <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784246" target="_blank" class="news-link">Meta成“最后一根稻草”，纳指“终于”崩了，芯片股再现大跌，美债应声大涨</a> [9] <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784246" target="_blank" class="news-link">Meta成“最后一根稻草”，纳指“终于”崩了，芯片股再现大跌，美债应声大涨</a> [9] <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3784257" target="_blank" class="news-link">10月23日会员早报：沙特阿美总部紧急疏散 巴克莱因AI裁员5000人</a> [10] <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261023075627075800" target="_blank" class="news-link">阿里云宣布.COM域名即将全面涨价。</a> [11] <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784249" target="_blank" class="news-link">10年期美债收益率跌回5.00%，AI资本开支退潮成债市&quot;另类量化宽松&quot;</a> [14] <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2512927?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">OpenAI融资磋商进入尾声 估值目标据悉下调至1.25万亿美元</a> [15] <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2512924?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">阿里云宣布.com域名调价</a> [17] <font color='grey'>- 08时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784243" target="_blank" class="news-link">谭谈：“中国AI禁令”是怎么回事</a> [23] <font color='grey'>- 08时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
