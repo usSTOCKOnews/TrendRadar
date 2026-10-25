@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 113</p><p>生成时间: 2026-10-25 23:31:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">15</td>
+                <td class="percentage">13.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1251704" target="_blank" class="news-link">如果不锈钢不叫 stainless 改叫 rustless 哈哈哈....etc.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50230995" target="_blank" class="news-link">Imagine an AI future where being banned means you are now economically useless</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Renhuai123/ziwei-doushu" target="_blank" class="news-link">Renhuai123 / ziwei-doushu</a> [7]</div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/JetBrains/thinkrail" target="_blank" class="news-link">JetBrains / thinkrail</a> [8]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2514480?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【公告全知道】人形机器人+光模块+模拟芯片+AI眼镜！公司低电压、超低功耗产品已应用到国内头部机器人</a> [8] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784410" target="_blank" class="news-link">SemiAnalysis创始人深度解析：AI投资还能撑多久？英伟达护城河还能守住吗？内存荒何时结束？</a> [9] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2514484?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月25日电，评估人员发现，OpenAI存在众多其人工智能可加以利用的漏洞。</a> [9] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1251686" target="_blank" class="news-link">用 ONNX Runtime Web 把 AI 和弦识别放到了浏览器本地运行，做了个 Chord Finder</a> [10] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1251683" target="_blank" class="news-link">分享一个从文字或图片生成短视频的 AI 工作室</a> [11] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2514419?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【风口研报·公司】在HDI+光模块板+载板领域竞争力突出，分析师强call公司产品稀缺性显著，受益AI驱动PCB千亿美元新周期，盈利能力有望稳步提升；周策略：布局超跌反弹正当时</a> [14] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-24/ai-cuts-taiwan-election-campaign-costs-a2dcae?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">学者警告AI深伪动摇美国选举信任基础</a> [15] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2514255?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【金牌纪要库】AI服务器存储价格与产品竞争力出现分化，高速光互连交付推动测试及封装设备需求升级</a> [17] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2514454?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月25日电，全球芯片LOF(501225)将于2026年10月26日开市起停牌，自2026年10月26日10:30起复牌，停牌期间赎回业务照常办理。</a> [22] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261025222114652800" target="_blank" class="news-link">市场消息：苹果正在推广一款全新的零售工具，能够扫描未拆封的iPhone包装盒并执行诊断程序；这不仅有助于防盗，还能避免退回的产品沦为无效库存。</a> [27] <font color='grey'>- 23时31分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50169450" target="_blank" class="news-link">Social dynamics of toxic metal industry in medieval Europe</a> [29] <font color='grey'>- 23时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
