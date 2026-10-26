@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-10-27 07:32:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">19</td>
+                <td class="percentage">14.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50252159" target="_blank" class="news-link">Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784512" target="_blank" class="news-link">英特尔宣布收购以色列独角兽Classiq，CEO陈立武：将打造全栈量子计算业务</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784464" target="_blank" class="news-link">Anthropic IPO重燃AI情绪，美股指反弹，芯片指数涨近3%，美债、油价齐回落</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784514" target="_blank" class="news-link">苹果回应iPhone Duo折叠屏开裂问题：承认少量设备受影响，建议用户申请换机</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261027070916472800" target="_blank" class="news-link">AI热潮推动出口扩张 韩国第三季度经济增长1%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-26/microsoft-offers-voluntary-exit-plan-60000-workers-e58567?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">微软向约6万名员工提供自愿离职方案</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784511" target="_blank" class="news-link">四大华尔街巨头630亿美元豪掷Anthropic算力，博通为芯片残值托底</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784464" target="_blank" class="news-link">Anthropic IPO重燃AI情绪，美股指反弹，芯片指数涨近3%，美债、油价齐回落</a> [6] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2514614?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【研选•研报数据】国内公司在AI应用的推进上整体较快，分析师聚焦少数AI拓展较快、主营有望稳定向上的公司；公司传统软件主业经营恢复向好，算力业务从技术验证走向实际落地</a> [7] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2515897?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">AI能提前预测癌症对免疫疗法反应</a> [8] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4335928_204_1" target="_blank" class="news-link">AI能提前预测癌症对免疫疗法反应。</a> [8] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784479" target="_blank" class="news-link">马斯克预警：200多家AI云厂商面临清洗，Nebius、CoreWeave盘前跌超4%</a> [10] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784505" target="_blank" class="news-link">城堡证券：AI交易已无容错空间，资本开支沦为&quot;双向风险&quot;</a> [11] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261027055044639800" target="_blank" class="news-link">OpenAI宣布AI取得三项科学突破，涉及数学猜想、计算机算法及千禧年难题</a> [24] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261027054525046800" target="_blank" class="news-link">OpenAI：我们的模型推翻了长期被广泛接受的指数时间假设。</a> [26] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2515876?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月27日电，应用材料宣布，将增加对荷兰半导体封装设备商BE Semiconductor Industries（Besi）的战略投资，将其持股比例提升至约20%。</a> [26] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2515875?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月27日电，英特尔据悉将以色列量子软件公司Classiq。</a> [27] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261027053948614800" target="_blank" class="news-link">OpenAI：宣布数学、计算机科学和物理学领域的三项新发现，涉及调和分析、复杂性理论和量子场论。</a> [28] <font color='grey'>- 07时32分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2515873?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">博通与多家银行合作进行630亿美元AI融资</a> [29] <font color='grey'>- 07时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
