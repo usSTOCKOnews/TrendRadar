@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 118</p><p>生成时间: 2026-10-28 05:47:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">16</td>
+                <td class="percentage">13.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1252390" target="_blank" class="news-link">Railse：一个人同时开几个 AI 编程 agent，审批推到手机上点一下</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/elayadesign/ai-design-skills" target="_blank" class="news-link">elayadesign / ai-design-skills</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-27/former-amazon-engineer-dies-parents-sue-openai-c94e08?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">前亚马逊工程师停药后死亡 父母起诉OpenAI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50264857" target="_blank" class="news-link">Tailscale SSH: Investigation and remediation update</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50264853" target="_blank" class="news-link">Survival LLM: AI assistant and emergency library that runs on your own computer</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784609" target="_blank" class="news-link">M6芯片加持！新款苹果iMac AI性能直接翻5倍，起售价12499元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2517194?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">Anthropic携手百时美施贵宝等六家机构 启动AI药物发现并布局罕见病疗法</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50261819" target="_blank" class="news-link">Police are using AI to pull over drivers for &#x27;suspicious&#x27; behavior</a> [9] <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2517189?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">博通安排金融合作伙伴购买基于定制AI加速器的AI机架</a> [9] <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784555" target="_blank" class="news-link">张坤三季报：新易盛进入前十大重仓，加仓阿里，继续减持白酒</a> [10] <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784603" target="_blank" class="news-link">Cerebras涨超10%！甲骨文宣布首次引入Cerebras与谷歌，扩大英伟达合作至&quot;多吉瓦级别&quot;</a> [11] <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50261589" target="_blank" class="news-link">Amazon Is Gutting Its AI Division After Sustained Failure</a> [12] <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784604" target="_blank" class="news-link">谷歌推出最强世界模型Genie 4，模拟时长翻倍至2分钟、首次实现音视频同步生成，游戏股再迎AI冲击</a> [13] <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784598" target="_blank" class="news-link">芒果超媒前三季度净利下滑近八成，AIGC新故事尚待兑现</a> [15] <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2517175?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月28日电，费城半导体指数涨4%，报11527.32点。</a> [21] <font color='grey'>- 05时47分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2517171?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月28日电，甲骨文表示，计划将多云AI数据库服务扩展至美国政府。</a> [25] <font color='grey'>- 05时47分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
