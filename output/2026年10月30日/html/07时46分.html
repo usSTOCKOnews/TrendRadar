@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 129</p><p>生成时间: 2026-10-30 07:46:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">20</td>
+                <td class="percentage">15.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50297159" target="_blank" class="news-link">Open-weight AI models can exploit the patch gap</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784748" target="_blank" class="news-link">谷歌创纪录暴跌，美股指终结三连涨，云服务股普跌，盘后英特尔狂泻20%、亚马逊重挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50297089" target="_blank" class="news-link">A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784779" target="_blank" class="news-link">微软250亿美元债券发行获4.6倍认购，但30年期利差高于评级更低的宝洁，债市消化能力趋于极限</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784804" target="_blank" class="news-link">英特尔电话会：AI服务器需求持续超越供应，PC市场短期承压，2026年为投资之年</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519972?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月30日电，芯德半导体在港交所公告，在港上市拟发行1.06亿股H股，发行价介于8.6港元/股至9.6港元/股，预期11月10日开始交易。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50296486" target="_blank" class="news-link">We ran AI agent swarms in Minecraft and Mindustry</a> [6] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784707" target="_blank" class="news-link">甲骨文承诺AI押注回报早于预期，预计2028财年下半年自由现金流转正，2029财年资本支出将减少</a> [7] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784748" target="_blank" class="news-link">谷歌创纪录暴跌，美股指终结三连涨，云服务股普跌，盘后英特尔狂泻20%、亚马逊重挫</a> [8] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519967?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月30日电，据报道，英伟达正就提供数十亿美元的信贷支持进行谈判，以支持一家云服务提供商与Anthropic达成的450亿美元交易。</a> [8] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784799" target="_blank" class="news-link">AWS收入劲增39%但AI支出吓退市场，亚马逊Q3自由现金流恶化，线上销售乏力，盘后跳水｜财报见闻</a> [9] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784721" target="_blank" class="news-link">微软电话会：预计本财季Azure收入增长高达50%，资本支出受制于“第三方延迟”</a> [10] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784798" target="_blank" class="news-link">英特尔暴跌！Q4指引远逊预期，以色列工厂爆炸，PC需求疲软，AI芯片供应受限｜财报见闻</a> [11] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784801" target="_blank" class="news-link">大空头Eisman质疑Anthropic&quot;非常刻意&quot;隐瞒最新财报，AI安全叙事遭遇信任危机</a> [12] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3784800" target="_blank" class="news-link">10月30日会员早报：Alphabet遭遇上市以来最惨一日 AI投资推动美国三季度经济增速升至3.4%</a> [13] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519949?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">周五你需要知道的隔夜全球要闻：英特尔业绩展望不及预期盘后大跌20%；谷歌市值单日蒸发近5000亿美元；美军向特朗普汇报对伊朗军事选项</a> [16] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50264368" target="_blank" class="news-link">Partitioning my digital life into security domains (2011)</a> [28] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519948?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月30日电，英特尔表示明年不会有正现金流。</a> [28] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519947?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月30日电，英特尔表示，2026年资本开支将约为200亿美元，并预计2027年有所增长。</a> [29] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519946?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月30日电，英特尔首席财务官表示，自第一季度以来，英特尔18A成本已下降约40%。</a> [30] <font color='grey'>- 07时46分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
