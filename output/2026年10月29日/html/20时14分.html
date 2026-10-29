@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 224</p><p>生成时间: 2026-10-29 20:14:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">39</td>
+                <td class="percentage">17.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784779" target="_blank" class="news-link">微软时隔逾九年重返美国高评级债市，拟筹资至少250亿美元，盘前涨幅收窄至1.3%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-29/auo-sells-taichung-fab-to-tsmc-cbb3b0?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">友达董事会决定将中科厂出售给台积电</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50285319" target="_blank" class="news-link">Forging a Microsoft Edge Full Chain with Logic Bugs Only</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784718" target="_blank" class="news-link">谷歌电话会：承认AI搜索变现偏低，TPU库存拖累自由现金流转负，明年是“收获年”但资本开支也将大增</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261029200814586800" target="_blank" class="news-link">英特尔财报迎来关键考验：市场关注服务器CPU增长、毛利率与代工进展</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784713" target="_blank" class="news-link">AI投资回报向好：微软上季Azure收入超预期增48%，资本支出未“失控”，盘后跳涨｜财报见闻</a> [6] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519569?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月29日电，瑞杰金融将微软目标价从630美元上调至650美元。</a> [6] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784771" target="_blank" class="news-link">看了财报后，高盛、摩根大通双双下调谷歌目标价</a> [8] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519556?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【机构调研】这家公司半导体和电子材料收入增速持续扩大，月平均订单量处于历史高位</a> [8] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ifttt?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">IFTTT.ai</a> [9] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784749" target="_blank" class="news-link">被AI炒高的铜价，正遭遇现实供需检验</a> [9] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261029200555383800" target="_blank" class="news-link">分析：Anthropic上市或点燃AI股反弹行情，科技股空头押注激增</a> [9] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1252942" target="_blank" class="news-link">分享一下我最近观察 ai 发展引发的思考</a> [10] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261029200128544800" target="_blank" class="news-link">三星SDS拟于明年3月推出英伟达Vera Rubin GPU云服务</a> [11] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519562?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月29日电，投行Stifel将微软目标价从575美元上调至650美元。</a> [11] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4339800_212_1" target="_blank" class="news-link">微软计划通过发行美国债券筹集至少250亿美元。</a> [11] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1252923" target="_blank" class="news-link">百度突然支持 OpenSearch 规范，可以在浏览器地址栏 / 搜索栏显示建议</a> [12] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519557?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">微软启动10批次美元高等级债券发行 为2017年以来首次</a> [12] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1252921" target="_blank" class="news-link">有哪些 AI 模型比较说人话的？接近人类日常表达的</a> [14] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784474" target="_blank" class="news-link">35 岁不会写代码？这波 AI 红利，可能就轮到你了</a> [15] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-29/new-york-limits-ai-companion-use-minors-73b775?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">纽约州州长签署新法限制未成年人使用AI伴侣功能</a> [16] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/4339786_204_1" target="_blank" class="news-link">投行Stifel将微软目标价从575美元上调至650美元。</a> [16] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519541?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月29日电，Truist Securities将微软目标价从600美元上调至630美元。</a> [19] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-29/us-doj-probes-nvidia-hugging-face-deal-e075e7?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">美司法部据报调查英伟达收购Hugging Face交易</a> [20] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784748" target="_blank" class="news-link">AI投资回报存疑，美股盘前谷歌跌超10%，存储板块普跌，油价下跌，金价走软</a> [20] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519536?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">IBM用四根超导线缆实现芯片级协同 打破量子比特拥挤魔咒</a> [21] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50251200" target="_blank" class="news-link">OpenAI&#x27;s agents talked to each other through the CPU Cache</a> [22] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784754" target="_blank" class="news-link">三星电话会：存储短缺或至2028年，AI需求从HBM扩展至SSD，内存商业模式正彻底重塑</a> [22] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261029195614076800" target="_blank" class="news-link">*ST闻泰：与荷兰安世半导体管理人就谈判事项已达成保密安排</a> [23] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519529?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">上交所科创芯片ETF即将通过沪港ETF互挂实现出海</a> [23] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1252885" target="_blank" class="news-link">AI 时代的 SOP 流程和开发模板立大功</a> [24] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50244929" target="_blank" class="news-link">Nixpkgs for the Front End Impaired</a> [24] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261029195444944800" target="_blank" class="news-link">微软启动2017年来首次高等级美元债发行 拟筹集至少250亿美元</a> [24] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519532?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月29日电，德意志银行将谷歌母公司Alphabet目标价从430美元下调至390美元。</a> [24] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261029195301839800" target="_blank" class="news-link">市场消息：微软(MSFT.O)拟通过美国债券发行筹集至少250亿美元。</a> [25] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-10-29/microsoft-azure-quarterly-revenue-disclosure-d85b71?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">微软首次披露Azure单季营收达331亿美元</a> [26] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1252875" target="_blank" class="news-link">openai 和 anthropic 封禁 rea</a> [27] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1252871" target="_blank" class="news-link">JetBrains 还有在续费的吗？</a> [28] <font color='grey'>- 20时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2519524?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社10月29日电，蒙特利尔银行将微软目标价从600美元上调至610美元。</a> [30] <font color='grey'>- 20时14分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
