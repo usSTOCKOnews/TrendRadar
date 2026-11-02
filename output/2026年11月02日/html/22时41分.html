@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 226</p><p>生成时间: 2026-11-02 22:41:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">38</td>
+                <td class="percentage">16.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253961" target="_blank" class="news-link">分享一个个人开发者开发的 AI 纹身设计工具</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50336138" target="_blank" class="news-link">Last night an AI agent performed brain surgery on a mouse</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785010" target="_blank" class="news-link">美的科技月背后，AI家电的普及考题</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261102223959365800" target="_blank" class="news-link">Anthropic：已授予谷歌购买至多100亿美元N类股的期权。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253952" target="_blank" class="news-link">AI 错题本</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50335659" target="_blank" class="news-link">Never Complain, Never Explain</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/cedric?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Cedric AI for Meetings</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253950" target="_blank" class="news-link">我把自己的 Agent 从 Wails 迁到了 MyGo 原生 GUI，全程踩坑和实践分享</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785009" target="_blank" class="news-link">AI公司赴港成潮，港交所拿出自己的指数</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-11-02/researchers-ai-find-p2pshell-vulnerability-20b581?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">CNN称研究人员借助AI发现P2PShell漏洞</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2522960?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">【公告全知道】光模块+光芯片+PCB+光纤+人形机器人！公司光模块产品覆盖10G至1.6T全速率</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253930" target="_blank" class="news-link">在 MacBook 上跑了一套个人 AI 网关：本地 4B 路由 + 多渠道聚合</a> [7] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253929" target="_blank" class="news-link">开源自托管播放器 wildstring，纯 AI 协助写的前端，求反馈</a> [8] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50334038" target="_blank" class="news-link">China&#x27;s First Frontier AI Export Controls: Mofcom Announcement No. 48</a> [8] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785001" target="_blank" class="news-link">1150亿美元豪购Lumentum！Marvell打通“芯片+光学”，剑指AI互联超级帝国</a> [11] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253915" target="_blank" class="news-link">做了个专门收录 AI 视频工具的导航站，刚上线，想听听大家的建议</a> [12] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/paperclipai/paperclip" target="_blank" class="news-link">paperclipai / paperclip</a> [13]</div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253913" target="_blank" class="news-link">做了个实时 AI 语音对话网站 Moss-Live：可以随时打断，用来练口语和模拟面试</a> [14] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/linkly-ai-clipper?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Linkly AI Clipper</a> [14] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2522996?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">韩国拟明年翻倍投资AI与半导体</a> [14] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784996" target="_blank" class="news-link">“避风港”万亿市值狂飙过后，苹果能否支撑过财报考验？</a> [15] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784995" target="_blank" class="news-link">AI信仰迎来新考验，股价暴跌后Alphabet赴欧债市场融资</a> [16] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253899" target="_blank" class="news-link">为 AI 建设者打造免费工具箱 —— 能扫 SKILL 安全，能 PUA 你的 AI 员工</a> [18] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253898" target="_blank" class="news-link">[分享] 怕 AI Agent 拿账号操作网页时手滑？我让 Grok Bot 每次操作前自动「屏幕录影」</a> [19] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253889" target="_blank" class="news-link">做了三个照片生成视频的创作入口：双人说唱、Tiny Desk 乐队和 AI 图片编辑</a> [20] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784990" target="_blank" class="news-link">AI可以免疫高利率？泡沫末期，市场往往充斥着幻想</a> [20] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261102223303932800" target="_blank" class="news-link">迈威尔科技(MRVL.O)首席执行官Matt Murphy：（谈及与Lumentum的交易）此举旨在进一步加大对英伟达(NVDA.O)的支持。</a> [20] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261102223129894800" target="_blank" class="news-link">纳斯达克中国金龙指数涨1.75%、阿里巴巴(BABA.N)涨4.4%、哔哩哔哩(BILI.O)涨5.7%、小鹏汽车(XPEV.N)涨5.9%。</a> [22] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2522988?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社11月2日电，穆迪评级确认甲骨文的Baa2评级，涉及其新票据发行，展望维持负面。</a> [22] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3784547" target="_blank" class="news-link">META用950亿美元融资点燃新周期：AI融资的恐慌与焦虑</a> [23] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261102223046950800" target="_blank" class="news-link">美股开盘，道指涨0.68%、标普500指数涨0.48%、纳指涨0.68%。部分存储概念股走强，SK海力士(SKHY.O)涨2.4%、美光科技(MU.O)涨0.3%、甲骨文将发行100亿美元债券，盘初跌4.1%；迈威尔科技(MRVL.O)将收购Lumentum(LITE.O)，股价分别跌3.4%和跌6.2%。</a> [23] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2522986?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社11月2日电，英飞凌与高通在车载计算机领域展开合作。</a> [24] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253873" target="_blank" class="news-link">我感觉我是项目保安，给 AI 抬杠的</a> [25] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253868" target="_blank" class="news-link">红果上的 AI 短剧还是挺好看的</a> [26] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2522984?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社11月2日电，Lumen与微软扩大合作，共同销售企业网络解决方案。</a> [26] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253862" target="_blank" class="news-link">即兴喜剧和 AI 很像？？</a> [27] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1253851" target="_blank" class="news-link">做了一个 AI Bot 的开源项目，欢迎大家体验</a> [30] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2522978?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社11月2日电，甲骨文美股盘前跌超3.5%，公司拟发行100亿美元普通股。</a> [30] <font color='grey'>- 22时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
