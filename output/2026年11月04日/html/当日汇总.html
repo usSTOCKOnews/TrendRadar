@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 当日汇总</p><p>总标题数: 244</p><p>生成时间: 2026-11-04 04:24:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 英伟达 谷歌 meta 奈飞 英特尔 微软 苹果 百度 阿里 腾讯 亚马逊 甲骨文 高通 台积电 美股财报 美股盘前 百济神州 加密货币 芯片 半导体 Ai</td>
+                <td class="count">39</td>
+                <td class="percentage">15.98%</td>
+                <td class="titles">[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784983" target="_blank" class="news-link">芯片股拖累美股指，纳指100跌入技术调整，存储、光通信下挫，油价大跌提振黄金大反弹</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时24分</font><br>[ProductHunt] <a href="https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Teamily AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785105" target="_blank" class="news-link">AI军备竞赛推高融资成本：美国科技企业融资溢价创2003年以来最高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时24分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50355767" target="_blank" class="news-link">I use AI (Oct 2026)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时24分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2524361?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社11月4日电，Anthropic宣布推出FlashProve，该工具允许开发者验证某一响应是否由特定AI模型生成。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时24分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3785045" target="_blank" class="news-link">美国中期选举日，美股小幅反弹，半导体ETF领涨，光通信反弹，国际油价走低</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时24分</font><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3785024" target="_blank" class="news-link">苹果上季营收盈利均超预期，但内存成本高企、毛利率收窄、在华业绩逊色、服务增速放缓 | 财报见闻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785045" target="_blank" class="news-link">美国中期选举日，美股小幅反弹，半导体ETF领涨，光通信反弹，国际油价走低</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时24分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50354960" target="_blank" class="news-link">Postman silently auto-installs AI plugins and attempts to share all API data</a> [6] <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785100" target="_blank" class="news-link">AI军备竞赛烧钱不止，Meta拟发债至少200亿美元，期限最长30年</a> [6] <font color='grey'>- 04时24分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1254276" target="_blank" class="news-link">AI 时代 外包如何报价</a> [7] <font color='grey'>- 04时24分</font><br>[ProductHunt] <a href="https://www.producthunt.com/products/machinemail?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MachineMail</a> [7] <font color='grey'>- 04时24分</font><br>[GitHub] <a href="https://github.com/spotify/portal-ai-plugins" target="_blank" class="news-link">spotify / portal-ai-plugins</a> [7] <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785099" target="_blank" class="news-link">从贪婪到谨慎：华尔街AI投资者的情绪悄然生变</a> [7] <font color='grey'>- 04时24分</font><br>[GitHub] <a href="https://github.com/Usagi-org/ai-goofish-monitor" target="_blank" class="news-link">Usagi-org / ai-goofish-monitor</a> [9] <font color='grey'>- 04时24分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261104032142878800" target="_blank" class="news-link">报道：OpenAI内部代码访问权限过宽 多项安全风险长期未解决</a> [9] <font color='grey'>- 04时24分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1254270" target="_blank" class="news-link">RanklyBee：把 SEO 内容、外链、AI 可见度和获客线索放进一个平台</a> [10] <font color='grey'>- 04时24分</font><br>[靠谱新闻] <a href="https://kaopu.news/story/2026-11-03/samsung-texas-fab-amd-nvidia-hbm-base-dies-5b6328?utm_source=rss&amp;utm_medium=feed" target="_blank" class="news-link">韩媒称三星德州二厂将为超微英伟达生产HBM基础晶粒</a> [10] <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785096" target="_blank" class="news-link">下一个英特尔？华尔街对AMD的期望已高得危险，普通业绩将难逃抛售</a> [10] <font color='grey'>- 04时24分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2524353?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社11月4日电，苹果已向所有开发者开放Siri AI的预览测试权限。</a> [10] <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785093" target="_blank" class="news-link">美股AI向下，老登向上！伯克希尔又新高了</a> [11] <font color='grey'>- 04时24分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2524351?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社11月4日电，投资者对Meta美元债券发行提交的订单最高达580亿美元，此次发行规模预计至少为150亿美元。</a> [11] <font color='grey'>- 04时24分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1254265" target="_blank" class="news-link">做了个双人 AI Rap 视频工具 DuoRhyme，用两张照片生成说唱合拍</a> [12] <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785092" target="_blank" class="news-link">苹果CEO特努斯首秀：谨慎有余、魄力不足，错失提振市场信心良机</a> [12] <font color='grey'>- 04时24分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1254260" target="_blank" class="news-link">做了一个 AI 跳舞视频小站 Babydoll Dance，支持人物和宠物照片</a> [14] <font color='grey'>- 04时24分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50353192" target="_blank" class="news-link">Google will turn off search for schools that reject AI</a> [14] <font color='grey'>- 04时24分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261104030626947800" target="_blank" class="news-link">苹果(AAPL.O)向所有开发者开放Siri人工智能预览版。</a> [15] <font color='grey'>- 04时24分</font><br>[ProductHunt] <a href="https://www.producthunt.com/products/infino-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Infino AI</a> [16] <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785085" target="_blank" class="news-link">AI 圈炸了！MIT 让 GPT-6 Astra 直接改写神经网络权重，Qwen数学成绩暴涨6倍</a> [16] <font color='grey'>- 04时24分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261104030525602800" target="_blank" class="news-link">据路透：SK海力士(SKHY.O)美国纽约州450亿美元NAND芯片工厂计划受阻。</a> [17] <font color='grey'>- 04时24分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50352757" target="_blank" class="news-link">OpenAI seems to be silently re-enabling model training on Codex chats</a> [18] <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3785087" target="_blank" class="news-link">对标2000 与 2008：本轮 4.1 万亿AI 债务裂痕有多深？</a> [18] <font color='grey'>- 04时24分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1254240" target="_blank" class="news-link">给女朋友做了一个最易用且专业的 AI 长文写作 Agent： Prose</a> [20] <font color='grey'>- 04时24分</font><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3785083" target="_blank" class="news-link">Altman：一个人如何借助 AI，干完100个人的活</a> [21] <font color='grey'>- 04时24分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50339288" target="_blank" class="news-link">Jailbreaking my car&#x27;s navigation system just so I can change the time</a> [23] <font color='grey'>- 04时24分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261104024858065800" target="_blank" class="news-link">Meta美元债获高达580亿美元认购 但融资成本较4月明显上升</a> [23] <font color='grey'>- 04时24分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50336918" target="_blank" class="news-link">Fujifilm to boost tape production 5x as AI fuels archiving demand</a> [25] <font color='grey'>- 04时24分</font><br>[财联社] <a href="https://api3.cls.cn/share/article/2524333?os=web&amp;sv=7.7.5&amp;app=" target="_blank" class="news-link">财联社11月4日电，汉莎航空将收购葡萄牙航空（TAP Air Portugal）44.9%的股份。该交易有待欧盟委员会批准。汉莎航空将为该股份支付最高12亿欧元。</a> [26] <font color='grey'>- 04时24分</font><br>[HackerNews] <a href="https://news.ycombinator.com/item?id=50322603" target="_blank" class="news-link">We&#x27;re Training a Figma-Fluent Editing Model</a> [29] <font color='grey'>- 04时24分</font></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
